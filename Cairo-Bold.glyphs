@@ -528,17 +528,17 @@ name = ordn;
 },
 {
 automatic = 1;
-code = "sub dotlessbeh-ar by dotlessbeh-ar.init;\012sub beh-ar by beh-ar.init;\012sub peh-ar by peh-ar.init;\012sub teh-ar by teh-ar.init;\012sub theh-ar by theh-ar.init;\012sub tteh-ar by tteh-ar.init;\012sub jeem-ar by jeem-ar.init;\012sub tcheh-ar by tcheh-ar.init;\012sub hah-ar by hah-ar.init;\012sub khah-ar by khah-ar.init;\012sub seen-ar by seen-ar.init;\012sub sheen-ar by sheen-ar.init;\012sub sad-ar by sad-ar.init;\012sub dad-ar by dad-ar.init;\012sub tah-ar by tah-ar.init;\012sub zah-ar by zah-ar.init;\012sub ain-ar by ain-ar.init;\012sub ghain-ar by ghain-ar.init;\012sub feh-ar by feh-ar.init;\012sub veh-ar by veh-ar.init;\012sub dotlessfeh-ar by dotlessfeh-ar.init;\012sub qaf-ar by qaf-ar.init;\012sub kaf-ar by kaf-ar.init;\012sub keheh-ar by keheh-ar.init;\012sub gaf-ar by gaf-ar.init;\012sub lam-ar by lam-ar.init;\012sub meem-ar by meem-ar.init;\012";
+code = "sub dotlessbeh-ar by dotlessbeh-ar.init;\012sub beh-ar by beh-ar.init;\012sub peh-ar by peh-ar.init;\012sub teh-ar by teh-ar.init;\012sub theh-ar by theh-ar.init;\012sub tteh-ar by tteh-ar.init;\012sub jeem-ar by jeem-ar.init;\012sub tcheh-ar by tcheh-ar.init;\012sub hah-ar by hah-ar.init;\012sub khah-ar by khah-ar.init;\012sub seen-ar by seen-ar.init;\012sub sheen-ar by sheen-ar.init;\012sub sad-ar by sad-ar.init;\012sub dad-ar by dad-ar.init;\012sub tah-ar by tah-ar.init;\012sub zah-ar by zah-ar.init;\012sub ain-ar by ain-ar.init;\012sub ghain-ar by ghain-ar.init;\012sub feh-ar by feh-ar.init;\012sub veh-ar by veh-ar.init;\012sub dotlessfeh-ar by dotlessfeh-ar.init;\012sub qaf-ar by qaf-ar.init;\012sub kaf-ar by kaf-ar.init;\012sub keheh-ar by keheh-ar.init;\012sub gaf-ar by gaf-ar.init;\012sub lam-ar by lam-ar.init;\012sub meem-ar by meem-ar.init;\012sub noon-ar by noon-ar.init;\012sub heh-ar by heh-ar.init;\012";
 name = init;
 },
 {
 automatic = 1;
-code = "sub dotlessbeh-ar by dotlessbeh-ar.medi;\012sub beh-ar by beh-ar.medi;\012sub peh-ar by peh-ar.medi;\012sub teh-ar by teh-ar.medi;\012sub theh-ar by theh-ar.medi;\012sub tteh-ar by tteh-ar.medi;\012sub jeem-ar by jeem-ar.medi;\012sub tcheh-ar by tcheh-ar.medi;\012sub hah-ar by hah-ar.medi;\012sub khah-ar by khah-ar.medi;\012sub seen-ar by seen-ar.medi;\012sub sheen-ar by sheen-ar.medi;\012sub sad-ar by sad-ar.medi;\012sub dad-ar by dad-ar.medi;\012sub tah-ar by tah-ar.medi;\012sub zah-ar by zah-ar.medi;\012sub ain-ar by ain-ar.medi;\012sub ghain-ar by ghain-ar.medi;\012sub feh-ar by feh-ar.medi;\012sub veh-ar by veh-ar.medi;\012sub dotlessfeh-ar by dotlessfeh-ar.medi;\012sub qaf-ar by qaf-ar.medi;\012sub kaf-ar by kaf-ar.medi;\012sub keheh-ar by keheh-ar.medi;\012sub gaf-ar by gaf-ar.medi;\012sub lam-ar by lam-ar.medi;\012sub meem-ar by meem-ar.medi;\012";
+code = "sub dotlessbeh-ar by dotlessbeh-ar.medi;\012sub beh-ar by beh-ar.medi;\012sub peh-ar by peh-ar.medi;\012sub teh-ar by teh-ar.medi;\012sub theh-ar by theh-ar.medi;\012sub tteh-ar by tteh-ar.medi;\012sub jeem-ar by jeem-ar.medi;\012sub tcheh-ar by tcheh-ar.medi;\012sub hah-ar by hah-ar.medi;\012sub khah-ar by khah-ar.medi;\012sub seen-ar by seen-ar.medi;\012sub sheen-ar by sheen-ar.medi;\012sub sad-ar by sad-ar.medi;\012sub dad-ar by dad-ar.medi;\012sub tah-ar by tah-ar.medi;\012sub zah-ar by zah-ar.medi;\012sub ain-ar by ain-ar.medi;\012sub ghain-ar by ghain-ar.medi;\012sub feh-ar by feh-ar.medi;\012sub veh-ar by veh-ar.medi;\012sub dotlessfeh-ar by dotlessfeh-ar.medi;\012sub qaf-ar by qaf-ar.medi;\012sub kaf-ar by kaf-ar.medi;\012sub keheh-ar by keheh-ar.medi;\012sub gaf-ar by gaf-ar.medi;\012sub lam-ar by lam-ar.medi;\012sub meem-ar by meem-ar.medi;\012sub noon-ar by noon-ar.medi;\012sub heh-ar by heh-ar.medi;\012";
 name = medi;
 },
 {
 automatic = 1;
-code = "sub alef-ar by alef-ar.fina;\012sub alefHamzaabove-ar by alefHamzaabove-ar.fina;\012sub alefHamzabelow-ar by alefHamzabelow-ar.fina;\012sub alefMadda-ar by alefMadda-ar.fina;\012sub alefWasla-ar by alefWasla-ar.fina;\012sub dotlessbeh-ar by dotlessbeh-ar.fina;\012sub beh-ar by beh-ar.fina;\012sub peh-ar by peh-ar.fina;\012sub teh-ar by teh-ar.fina;\012sub theh-ar by theh-ar.fina;\012sub tteh-ar by tteh-ar.fina;\012sub jeem-ar by jeem-ar.fina;\012sub tcheh-ar by tcheh-ar.fina;\012sub hah-ar by hah-ar.fina;\012sub khah-ar by khah-ar.fina;\012sub dal-ar by dal-ar.fina;\012sub thal-ar by thal-ar.fina;\012sub ddal-ar by ddal-ar.fina;\012sub reh-ar by reh-ar.fina;\012sub zain-ar by zain-ar.fina;\012sub rreh-ar by rreh-ar.fina;\012sub jeh-ar by jeh-ar.fina;\012sub seen-ar by seen-ar.fina;\012sub sheen-ar by sheen-ar.fina;\012sub sad-ar by sad-ar.fina;\012sub dad-ar by dad-ar.fina;\012sub tah-ar by tah-ar.fina;\012sub zah-ar by zah-ar.fina;\012sub ain-ar by ain-ar.fina;\012sub ghain-ar by ghain-ar.fina;\012sub feh-ar by feh-ar.fina;\012sub veh-ar by veh-ar.fina;\012sub dotlessfeh-ar by dotlessfeh-ar.fina;\012sub dotlessqaf-ar by dotlessqaf-ar.fina;\012sub qaf-ar by qaf-ar.fina;\012sub kaf-ar by kaf-ar.fina;\012sub keheh-ar by keheh-ar.fina;\012sub gaf-ar by gaf-ar.fina;\012sub lam-ar by lam-ar.fina;\012sub meem-ar by meem-ar.fina;\012";
+code = "sub alef-ar by alef-ar.fina;\012sub alefHamzaabove-ar by alefHamzaabove-ar.fina;\012sub alefHamzabelow-ar by alefHamzabelow-ar.fina;\012sub alefMadda-ar by alefMadda-ar.fina;\012sub alefWasla-ar by alefWasla-ar.fina;\012sub dotlessbeh-ar by dotlessbeh-ar.fina;\012sub beh-ar by beh-ar.fina;\012sub peh-ar by peh-ar.fina;\012sub teh-ar by teh-ar.fina;\012sub theh-ar by theh-ar.fina;\012sub tteh-ar by tteh-ar.fina;\012sub jeem-ar by jeem-ar.fina;\012sub tcheh-ar by tcheh-ar.fina;\012sub hah-ar by hah-ar.fina;\012sub khah-ar by khah-ar.fina;\012sub dal-ar by dal-ar.fina;\012sub thal-ar by thal-ar.fina;\012sub ddal-ar by ddal-ar.fina;\012sub reh-ar by reh-ar.fina;\012sub zain-ar by zain-ar.fina;\012sub rreh-ar by rreh-ar.fina;\012sub jeh-ar by jeh-ar.fina;\012sub seen-ar by seen-ar.fina;\012sub sheen-ar by sheen-ar.fina;\012sub sad-ar by sad-ar.fina;\012sub dad-ar by dad-ar.fina;\012sub tah-ar by tah-ar.fina;\012sub zah-ar by zah-ar.fina;\012sub ain-ar by ain-ar.fina;\012sub ghain-ar by ghain-ar.fina;\012sub feh-ar by feh-ar.fina;\012sub veh-ar by veh-ar.fina;\012sub dotlessfeh-ar by dotlessfeh-ar.fina;\012sub dotlessqaf-ar by dotlessqaf-ar.fina;\012sub qaf-ar by qaf-ar.fina;\012sub kaf-ar by kaf-ar.fina;\012sub keheh-ar by keheh-ar.fina;\012sub gaf-ar by gaf-ar.fina;\012sub lam-ar by lam-ar.fina;\012sub meem-ar by meem-ar.fina;\012sub noon-ar by noon-ar.fina;\012sub noonghunna-ar by noonghunna-ar.fina;\012sub heh-ar by heh-ar.fina;\012sub tehMarbuta-ar by tehMarbuta-ar.fina;\012";
 name = fina;
 }
 );
@@ -25589,7 +25589,7 @@ unicode = FEA4;
 },
 {
 glyphname = "hah-ar.init";
-lastChange = "2015-07-07 00:18:56 +0000";
+lastChange = "2015-07-08 01:42:33 +0000";
 layers = (
 {
 anchors = (
@@ -30015,6 +30015,596 @@ width = 659;
 unicode = FEE3;
 },
 {
+glyphname = "noon-ar";
+lastChange = "2015-07-08 01:16:14 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{334, -330}";
+},
+{
+name = top;
+position = "{334, 690}";
+}
+);
+components = (
+{
+name = "noonghunna-ar";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 242, -84}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+width = 668;
+}
+);
+unicode = 0646;
+},
+{
+glyphname = "noon-ar.fina";
+lastChange = "2015-07-08 01:21:05 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{334, -330}";
+},
+{
+name = entry;
+position = "{692, 61}";
+},
+{
+name = top;
+position = "{334, 690}";
+}
+);
+components = (
+{
+name = "noonghunna-ar.fina";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 242, -84}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+width = 696;
+}
+);
+unicode = FEE6;
+},
+{
+glyphname = "noon-ar.medi";
+lastChange = "2015-07-08 01:17:19 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{173, -60}";
+},
+{
+name = entry;
+position = "{327, 61}";
+},
+{
+name = exit;
+position = "{0, 61}";
+},
+{
+name = top;
+position = "{173, 765}";
+}
+);
+components = (
+{
+name = "dotlessbeh-ar.medi";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 81, 9}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+width = 327;
+}
+);
+unicode = FEE8;
+},
+{
+glyphname = "noon-ar.init";
+lastChange = "2015-07-08 01:17:42 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{177, -60}";
+},
+{
+name = exit;
+position = "{0, 61}";
+},
+{
+name = top;
+position = "{177, 765}";
+}
+);
+components = (
+{
+name = "dotlessbeh-ar.init";
+},
+{
+name = "dotabove-ar";
+transform = "{1, 0, 0, 1, 85, 9}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+width = 312;
+}
+);
+unicode = FEE7;
+},
+{
+glyphname = "noonghunna-ar";
+lastChange = "2015-07-08 01:20:28 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{334, -330}";
+},
+{
+name = top;
+position = "{334, 480}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"218 -248 OFFCURVE",
+"40 -183 OFFCURVE",
+"40 -18 CURVE SMOOTH",
+"40 56 OFFCURVE",
+"76 276 OFFCURVE",
+"76 276 CURVE",
+"203 269 LINE",
+"203 269 OFFCURVE",
+"170 55 OFFCURVE",
+"170 5 CURVE SMOOTH",
+"170 -65 OFFCURVE",
+"234 -126 OFFCURVE",
+"326 -126 CURVE SMOOTH",
+"418 -126 OFFCURVE",
+"478 -65 OFFCURVE",
+"478 -3 CURVE SMOOTH",
+"478 500 LINE",
+"612 500 LINE",
+"612 -14 LINE SMOOTH",
+"612 -212 OFFCURVE",
+"413 -248 OFFCURVE",
+"330 -248 CURVE SMOOTH"
+);
+}
+);
+width = 668;
+}
+);
+unicode = 06BA;
+},
+{
+glyphname = "noonghunna-ar.fina";
+lastChange = "2015-07-08 01:20:58 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{334, -330}";
+},
+{
+name = entry;
+position = "{692, 61}";
+},
+{
+name = top;
+position = "{334, 480}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"218 -248 OFFCURVE",
+"40 -183 OFFCURVE",
+"40 -18 CURVE SMOOTH",
+"40 56 OFFCURVE",
+"76 276 OFFCURVE",
+"76 276 CURVE",
+"203 269 LINE",
+"203 269 OFFCURVE",
+"170 55 OFFCURVE",
+"170 5 CURVE SMOOTH",
+"170 -65 OFFCURVE",
+"234 -126 OFFCURVE",
+"326 -126 CURVE SMOOTH",
+"418 -126 OFFCURVE",
+"478 -65 OFFCURVE",
+"478 -3 CURVE SMOOTH",
+"478 500 LINE",
+"612 500 LINE",
+"612 122 LINE",
+"716 122 LINE",
+"716 0 LINE",
+"612 0 LINE",
+"612 -14 LINE SMOOTH",
+"612 -212 OFFCURVE",
+"413 -248 OFFCURVE",
+"330 -248 CURVE SMOOTH"
+);
+}
+);
+width = 696;
+}
+);
+unicode = FB9F;
+},
+{
+glyphname = "heh-ar";
+lastChange = "2015-07-08 01:29:49 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{325, -60}";
+},
+{
+name = top;
+position = "{325, 573}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"308 0 LINE SMOOTH",
+"121 0 OFFCURVE",
+"40 45 OFFCURVE",
+"40 259 CURVE SMOOTH",
+"40 460 OFFCURVE",
+"112 510 OFFCURVE",
+"313 510 CURVE SMOOTH",
+"353 510 OFFCURVE",
+"461 508 OFFCURVE",
+"505 503 CURVE SMOOTH",
+"557 497 LINE",
+"557 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"423 122 LINE",
+"423 387 LINE",
+"380 390 OFFCURVE",
+"325 391 OFFCURVE",
+"304 391 CURVE SMOOTH",
+"186 391 OFFCURVE",
+"174 361 OFFCURVE",
+"174 252 CURVE SMOOTH",
+"174 197 OFFCURVE",
+"177 122 OFFCURVE",
+"270 122 CURVE SMOOTH"
+);
+}
+);
+width = 607;
+}
+);
+unicode = 0647;
+},
+{
+glyphname = "heh-ar.fina";
+lastChange = "2015-07-08 01:30:46 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{325, -60}";
+},
+{
+name = entry;
+position = "{641, 61}";
+},
+{
+name = top;
+position = "{325, 573}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"557 497 LINE",
+"505 503 LINE SMOOTH",
+"461 508 OFFCURVE",
+"353 510 OFFCURVE",
+"313 510 CURVE SMOOTH",
+"112 510 OFFCURVE",
+"40 460 OFFCURVE",
+"40 259 CURVE SMOOTH",
+"40 45 OFFCURVE",
+"121 0 OFFCURVE",
+"308 0 CURVE SMOOTH",
+"661 0 LINE",
+"661 122 LINE",
+"557 122 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"177 122 OFFCURVE",
+"174 197 OFFCURVE",
+"174 252 CURVE SMOOTH",
+"174 361 OFFCURVE",
+"186 391 OFFCURVE",
+"304 391 CURVE SMOOTH",
+"325 391 OFFCURVE",
+"380 390 OFFCURVE",
+"423 387 CURVE",
+"423 122 LINE",
+"270 122 LINE SMOOTH"
+);
+}
+);
+width = 641;
+}
+);
+unicode = FEEA;
+},
+{
+glyphname = "heh-ar.medi";
+lastChange = "2015-07-08 01:47:52 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{398, -60}";
+},
+{
+name = entry;
+position = "{796, 61}";
+},
+{
+name = exit;
+position = "{0, 61}";
+},
+{
+name = top;
+position = "{398, 600}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"727 160 LINE SMOOTH",
+"727 371 OFFCURVE",
+"578 521 OFFCURVE",
+"383 521 CURVE SMOOTH",
+"279 521 OFFCURVE",
+"110 478 OFFCURVE",
+"110 478 CURVE",
+"121 370 LINE",
+"121 370 OFFCURVE",
+"288 399 OFFCURVE",
+"353 399 CURVE SMOOTH",
+"426 399 OFFCURVE",
+"593 363 OFFCURVE",
+"593 159 CURVE SMOOTH",
+"593 122 LINE",
+"499 122 LINE",
+"499 142 LINE SMOOTH",
+"499 246 OFFCURVE",
+"416 349 OFFCURVE",
+"293 349 CURVE SMOOTH",
+"170 349 OFFCURVE",
+"85 246 OFFCURVE",
+"85 141 CURVE SMOOTH",
+"85 122 LINE",
+"-20 122 LINE",
+"-20 0 LINE",
+"816 0 LINE",
+"816 122 LINE",
+"727 122 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"219 122 LINE",
+"219 141 LINE SMOOTH",
+"219 189 OFFCURVE",
+"250 226 OFFCURVE",
+"292 226 CURVE SMOOTH",
+"334 226 OFFCURVE",
+"366 189 OFFCURVE",
+"366 142 CURVE SMOOTH",
+"366 122 LINE"
+);
+}
+);
+width = 796;
+}
+);
+unicode = FEEC;
+},
+{
+glyphname = "heh-ar.init";
+lastChange = "2015-07-08 01:48:22 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{398, -60}";
+},
+{
+name = exit;
+position = "{0, 61}";
+},
+{
+name = top;
+position = "{398, 600}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"-20 0 LINE",
+"-20 122 LINE",
+"85 122 LINE",
+"85 141 LINE SMOOTH",
+"85 246 OFFCURVE",
+"170 349 OFFCURVE",
+"293 349 CURVE SMOOTH",
+"416 349 OFFCURVE",
+"499 246 OFFCURVE",
+"499 142 CURVE SMOOTH",
+"499 122 LINE",
+"593 122 LINE",
+"593 159 LINE SMOOTH",
+"593 363 OFFCURVE",
+"426 399 OFFCURVE",
+"353 399 CURVE SMOOTH",
+"288 399 OFFCURVE",
+"121 370 OFFCURVE",
+"121 370 CURVE",
+"110 478 LINE",
+"110 478 OFFCURVE",
+"279 521 OFFCURVE",
+"383 521 CURVE SMOOTH",
+"578 521 OFFCURVE",
+"727 371 OFFCURVE",
+"727 160 CURVE SMOOTH",
+"727 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"366 122 LINE",
+"366 142 LINE SMOOTH",
+"366 189 OFFCURVE",
+"334 226 OFFCURVE",
+"292 226 CURVE SMOOTH",
+"250 226 OFFCURVE",
+"219 189 OFFCURVE",
+"219 141 CURVE SMOOTH",
+"219 122 LINE"
+);
+}
+);
+width = 777;
+}
+);
+unicode = FEEB;
+},
+{
+glyphname = "tehMarbuta-ar";
+lastChange = "2015-07-08 01:32:18 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{325, -60}";
+},
+{
+name = top;
+position = "{325, 765}";
+}
+);
+components = (
+{
+name = "heh-ar";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 157, 9}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+width = 607;
+}
+);
+unicode = 0629;
+},
+{
+glyphname = "tehMarbuta-ar.fina";
+lastChange = "2015-07-08 01:32:06 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{325, -60}";
+},
+{
+name = entry;
+position = "{641, 61}";
+},
+{
+name = top;
+position = "{325, 765}";
+}
+);
+components = (
+{
+name = "heh-ar.fina";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 157, 9}";
+}
+);
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+width = 641;
+}
+);
+unicode = FE94;
+},
+{
 glyphname = "tahabove-ar";
 lastChange = "2015-07-06 22:26:58 +0000";
 layers = (
@@ -30749,6 +31339,44 @@ width = 0;
 }
 );
 unicode = 0655;
+},
+{
+glyphname = "hamzacenter-ar";
+lastChange = "2015-07-08 01:18:27 +0000";
+layers = (
+{
+layerId = "E174F030-6324-451A-8951-EA6336064495";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"3 531 LINE",
+"-23 570 OFFCURVE",
+"-21 634 OFFCURVE",
+"29 627 CURVE SMOOTH",
+"48 624 OFFCURVE",
+"66 615 OFFCURVE",
+"79 610 CURVE",
+"79 610 OFFCURVE",
+"90 660 OFFCURVE",
+"93 674 CURVE",
+"82 683 OFFCURVE",
+"53 698 OFFCURVE",
+"20 698 CURVE SMOOTH",
+"-68 698 OFFCURVE",
+"-133 591 OFFCURVE",
+"-50 518 CURVE",
+"-97 504 LINE",
+"-86 457 LINE",
+"133 500 LINE",
+"119 561 LINE"
+);
+}
+);
+width = 0;
+}
+);
 },
 {
 glyphname = "hamzaaboveDamma-ar";
