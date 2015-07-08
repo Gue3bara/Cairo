@@ -1,4 +1,7 @@
 {
+DisplayStrings = (
+"/alefMaksura-ar"
+);
 copyright = "Copyright 2015 Mohamed Gaber (gaber@gaberism.net)Copyright 2015 Mohamed Gaber (gaber@gaberism.net)";
 customParameters = (
 {
@@ -31039,7 +31042,7 @@ unicode = FE86;
 },
 {
 glyphname = "alefMaksura-ar";
-lastChange = "2015-07-08 02:16:26 +0000";
+lastChange = "2015-07-08 18:55:34 +0000";
 layers = (
 {
 anchors = (
@@ -31085,9 +31088,9 @@ nodes = (
 "464 124 OFFCURVE",
 "580 92 CURVE SMOOTH",
 "675 65 OFFCURVE",
-"710 54 OFFCURVE",
+"710 27 OFFCURVE",
 "710 -28 CURVE",
-"704 -119 OFFCURVE",
+"710 -115 OFFCURVE",
 "623 -179 OFFCURVE",
 "529 -179 CURVE SMOOTH",
 "298 -179 LINE SMOOTH",
