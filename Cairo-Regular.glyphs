@@ -34558,9 +34558,19 @@ unicode = 064E;
 },
 {
 glyphname = "damma-ar";
-lastChange = "2015-07-08 02:16:27 +0000";
+lastChange = "2015-07-09 23:34:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{-6, 672}";
+},
+{
+name = top;
+position = "{-6, 960}";
+}
+);
 layerId = "7BE58B69-D6A5-4645-9194-9194354D517E";
 name = Regular;
 paths = (
@@ -34829,7 +34839,7 @@ width = 0;
 },
 {
 glyphname = "shaddaDamma-ar";
-lastChange = "2015-07-04 18:31:33 +0000";
+lastChange = "2015-07-09 23:34:50 +0000";
 layers = (
 {
 components = (
