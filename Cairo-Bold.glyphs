@@ -2,6 +2,10 @@
 copyright = "Copyright 2015 Mohamed Gaber (gaber@gaberism.net)Copyright 2015 Mohamed Gaber (gaber@gaberism.net)";
 customParameters = (
 {
+name = description;
+value = "Cairo is the matching arabic typeface to the Latin typeface Titilliumweb, compining Kufi & Naskh structures.\012Cairo supports Arabic, Persian, Urdu & available now in Regular & Bold weights but more weights might be added in the future.\012Font is still in a beta phase & still under testing.";
+},
+{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
