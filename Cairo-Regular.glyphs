@@ -32281,9 +32281,15 @@ rightMetricsKey = "alefWasla-ar.fina";
 },
 {
 glyphname = "allah-ar";
-lastChange = "2015-08-17 02:40:42 +0000";
+lastChange = "2015-08-17 03:23:48 +0000";
 layers = (
 {
+components = (
+{
+name = "shaddaAlefabove-ar";
+transform = "{1, 0, 0, 1, 728, -52}";
+}
+);
 layerId = "7BE58B69-D6A5-4645-9194-9194354D517E";
 name = Regular;
 paths = (
@@ -32331,60 +32337,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"716 653 OFFCURVE",
-"728 674 OFFCURVE",
-"734 695 CURVE",
-"744 680 OFFCURVE",
-"762 679 OFFCURVE",
-"785 689 CURVE SMOOTH",
-"850 718 LINE",
-"850 791 LINE SMOOTH",
-"850 810 OFFCURVE",
-"849 832 OFFCURVE",
-"844 856 CURVE",
-"806 839 LINE",
-"806 741 LINE",
-"806 741 OFFCURVE",
-"790 734 OFFCURVE",
-"782 730 CURVE",
-"764 722 OFFCURVE",
-"749 732 OFFCURVE",
-"749 746 CURVE SMOOTH",
-"749 795 LINE",
-"710 778 LINE",
-"710 734 LINE SMOOTH",
-"710 712 OFFCURVE",
-"699 691 OFFCURVE",
-"679 683 CURVE SMOOTH",
-"657 674 OFFCURVE",
-"649 691 OFFCURVE",
-"649 711 CURVE SMOOTH",
-"649 768 LINE",
-"608 749 LINE",
-"606 728 OFFCURVE",
-"606 709 OFFCURVE",
-"606 692 CURVE SMOOTH",
-"606 638 OFFCURVE",
-"630 624 OFFCURVE",
-"677 640 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "1305 0 LINE",
 "1305 718 LINE",
 "1228 718 LINE",
 "1228 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"744 861 LINE",
-"744 1002 LINE",
-"704 984 LINE",
-"704 843 LINE"
 );
 }
 );
