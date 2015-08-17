@@ -1,4 +1,7 @@
 {
+DisplayStrings = (
+"/hamza-ar"
+);
 copyright = "Copyright 2015 Mohamed Gaber (gaber@gaberism.net)Copyright 2015 Mohamed Gaber (gaber@gaberism.net)";
 customParameters = (
 {
@@ -23326,7 +23329,7 @@ rightKerningGroup = endash.cap;
 },
 {
 glyphname = "hamza-ar";
-lastChange = "2015-08-17 02:40:42 +0000";
+lastChange = "2015-08-17 03:45:42 +0000";
 layers = (
 {
 anchors = (
@@ -23336,7 +23339,7 @@ position = "{229, -60}";
 },
 {
 name = top;
-position = "{229, 443}";
+position = "{228, 443}";
 }
 );
 layerId = "7BE58B69-D6A5-4645-9194-9194354D517E";

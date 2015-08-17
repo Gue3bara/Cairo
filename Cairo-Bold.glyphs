@@ -1,4 +1,8 @@
 {
+DisplayStrings = (
+"/hehgoal-ar.init",
+"/hamza-ar"
+);
 copyright = "Copyright 2015 Mohamed Gaber (gaber@gaberism.net)Copyright 2015 Mohamed Gaber (gaber@gaberism.net)";
 customParameters = (
 {
@@ -24107,9 +24111,19 @@ rightKerningGroup = endash.cap;
 },
 {
 glyphname = "hamza-ar";
-lastChange = "2015-08-17 02:41:04 +0000";
+lastChange = "2015-08-17 03:44:49 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{259, -120}";
+},
+{
+name = top;
+position = "{259, 475}";
+}
+);
 layerId = "E174F030-6324-451A-8951-EA6336064495";
 name = Bold;
 paths = (
