@@ -475,7 +475,9 @@ value = (
 );
 }
 );
-date = "2015-08-17 03:02:09 +0000";
+date = "2015-09-05 21:41:47 +0000";
+designer = "Mohamed Gaber";
+designerURL = "http://gaberism.net/";
 familyName = "Cairo";
 featurePrefixes = (
 {
@@ -43825,7 +43827,9 @@ quotesingle = -17;
 };
 };
 };
+manufacturer = "Kief Type Foundry";
+manufacturerURL = "http://kieftype.com/";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
