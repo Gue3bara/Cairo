@@ -554,7 +554,7 @@ name = rlig;
 },
 {
 automatic = 1;
-code = "lookup dlig_RTL {\012lookupflag IgnoreMarks RightToLeft;\012\011sub beh-ar.medi reh-ar.fina by beh_reh-ar.fina;\012\011sub beh-ar.medi zain-ar.fina by beh_zain-ar.fina;\012\011sub beh-ar.medi noon-ar.fina by beh_noon-ar.fina;\012\011sub peh-ar.medi reh-ar.fina by peh_reh-ar.fina;\012\011sub peh-ar.medi zain-ar.fina by peh_zain-ar.fina;\012\011sub peh-ar.medi noon-ar.fina by peh_noon-ar.fina;\012\011sub teh-ar.medi reh-ar.fina by teh_reh-ar.fina;\012\011sub teh-ar.medi zain-ar.fina by teh_zain-ar.fina;\012\011sub teh-ar.medi noon-ar.fina by teh_noon-ar.fina;\012\011sub theh-ar.medi reh-ar.fina by theh_reh-ar.fina;\012\011sub theh-ar.medi zain-ar.fina by theh_zain-ar.fina;\012\011sub theh-ar.medi noon-ar.fina by theh_noon-ar.fina;\012\011sub seen-ar.init reh-ar.fina by seen_reh-ar;\012\011sub seen-ar.medi reh-ar.fina by seen_reh-ar.fina;\012\011sub seen-ar.init zain-ar.fina by seen_zain-ar;\012\011sub seen-ar.medi zain-ar.fina by seen_zain-ar.fina;\012\011sub sheen-ar.init reh-ar.fina by sheen_reh-ar;\012\011sub sheen-ar.medi reh-ar.fina by sheen_reh-ar.fina;\012\011sub sheen-ar.init zain-ar.fina by sheen_zain-ar;\012\011sub sheen-ar.medi zain-ar.fina by sheen_zain-ar.fina;\012\011sub sad-ar.init reh-ar.fina by sad_reh-ar;\012\011sub sad-ar.medi reh-ar.fina by sad_reh-ar.fina;\012\011sub sad-ar.init zain-ar.fina by sad_zain-ar;\012\011sub sad-ar.medi zain-ar.fina by sad_zain-ar.fina;\012\011sub dad-ar.init reh-ar.fina by dad_reh-ar;\012\011sub dad-ar.medi reh-ar.fina by dad_reh-ar.fina;\012\011sub dad-ar.init zain-ar.fina by dad_zain-ar;\012\011sub dad-ar.medi zain-ar.fina by dad_zain-ar.fina;\012\011sub meem-ar.medi reh-ar.fina by meem_reh-ar.fina;\012\011sub meem-ar.medi zain-ar.fina by meem_zain-ar.fina;\012\011sub noon-ar.medi reh-ar.fina by noon_reh-ar.fina;\012\011sub noon-ar.medi zain-ar.fina by noon_zain-ar.fina;\012\011sub noon-ar.medi noon-ar.fina by noon_noon-ar.fina;\012\011sub alefMaksura-ar reh-ar.fina by alefMaksura_reh-ar.fina;\012\011sub alefMaksura-ar zain-ar.fina by alefMaksura_zain-ar.fina;\012\011sub alefMaksura-ar meem-ar.medi by alefMaksura_meem-ar.init;\012\011sub yeh-ar.medi reh-ar.fina by yeh_reh-ar.fina;\012\011sub yeh-ar.medi zain-ar.fina by yeh_zain-ar.fina;\012\011sub yeh-ar.medi noon-ar.fina by yeh_noon-ar.fina;\012\011sub yehHamzaabove-ar.medi reh-ar.fina by yehHamzaabove_reh-ar.fina;\012\011sub yehHamzaabove-ar.medi zain-ar.fina by yehHamzaabove_zain-ar.fina;\012\011sub yehHamzaabove-ar.medi noon-ar.fina by yehHamzaabove_noon-ar.fina;\012\011sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;\012} dlig_RTL;\012";
+code = "lookup dlig_RTL {\012lookupflag IgnoreMarks RightToLeft;\012\011sub beh-ar.medi reh-ar.fina by beh_reh-ar.fina;\012\011sub beh-ar.medi zain-ar.fina by beh_zain-ar.fina;\012\011sub beh-ar.medi noon-ar.fina by beh_noon-ar.fina;\012\011sub peh-ar.medi reh-ar.fina by peh_reh-ar.fina;\012\011sub peh-ar.medi zain-ar.fina by peh_zain-ar.fina;\012\011sub peh-ar.medi noon-ar.fina by peh_noon-ar.fina;\012\011sub teh-ar.medi reh-ar.fina by teh_reh-ar.fina;\012\011sub teh-ar.medi zain-ar.fina by teh_zain-ar.fina;\012\011sub teh-ar.medi noon-ar.fina by teh_noon-ar.fina;\012\011sub theh-ar.medi reh-ar.fina by theh_reh-ar.fina;\012\011sub theh-ar.medi zain-ar.fina by theh_zain-ar.fina;\012\011sub theh-ar.medi noon-ar.fina by theh_noon-ar.fina;\012\011sub seen-ar.init reh-ar.fina by seen_reh-ar;\012\011sub seen-ar.medi reh-ar.fina by seen_reh-ar.fina;\012\011sub seen-ar.init zain-ar.fina by seen_zain-ar;\012\011sub seen-ar.medi zain-ar.fina by seen_zain-ar.fina;\012\011sub sheen-ar.init reh-ar.fina by sheen_reh-ar;\012\011sub sheen-ar.medi reh-ar.fina by sheen_reh-ar.fina;\012\011sub sheen-ar.init zain-ar.fina by sheen_zain-ar;\012\011sub sheen-ar.medi zain-ar.fina by sheen_zain-ar.fina;\012\011sub sad-ar.init reh-ar.fina by sad_reh-ar;\012\011sub sad-ar.medi reh-ar.fina by sad_reh-ar.fina;\012\011sub sad-ar.init zain-ar.fina by sad_zain-ar;\012\011sub sad-ar.medi zain-ar.fina by sad_zain-ar.fina;\012\011sub dad-ar.init reh-ar.fina by dad_reh-ar;\012\011sub dad-ar.medi reh-ar.fina by dad_reh-ar.fina;\012\011sub dad-ar.init zain-ar.fina by dad_zain-ar;\012\011sub dad-ar.medi zain-ar.fina by dad_zain-ar.fina;\012\011sub meem-ar.medi reh-ar.fina by meem_reh-ar.fina;\012\011sub meem-ar.medi zain-ar.fina by meem_zain-ar.fina;\012\011sub noon-ar.medi reh-ar.fina by noon_reh-ar.fina;\012\011sub noon-ar.medi zain-ar.fina by noon_zain-ar.fina;\012\011sub noon-ar.medi noon-ar.fina by noon_noon-ar.fina;\012\011sub alefMaksura-ar reh-ar.fina by alefMaksura_reh-ar.fina;\012\011sub alefMaksura-ar zain-ar.fina by alefMaksura_zain-ar.fina;\012\011sub alefMaksura-ar noon-ar.fina by alefMaksura_noon-ar.fina;\012\011sub yeh-ar.medi reh-ar.fina by yeh_reh-ar.fina;\012\011sub yeh-ar.medi zain-ar.fina by yeh_zain-ar.fina;\012\011sub yeh-ar.medi noon-ar.fina by yeh_noon-ar.fina;\012\011sub yehHamzaabove-ar.medi reh-ar.fina by yehHamzaabove_reh-ar.fina;\012\011sub yehHamzaabove-ar.medi zain-ar.fina by yehHamzaabove_zain-ar.fina;\012\011sub yehHamzaabove-ar.medi noon-ar.fina by yehHamzaabove_noon-ar.fina;\012\011sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;\012} dlig_RTL;\012";
 name = dlig;
 }
 );
@@ -31546,7 +31546,7 @@ unicode = 0649;
 },
 {
 glyphname = "alefMaksura-ar.fina";
-lastChange = "2015-09-05 21:42:35 +0000";
+lastChange = "2015-09-05 21:45:29 +0000";
 layers = (
 {
 anchors = (
@@ -32822,7 +32822,7 @@ unicode = FC6B;
 },
 {
 glyphname = "beh_noon-ar.fina";
-lastChange = "2015-09-05 20:45:55 +0000";
+lastChange = "2015-09-05 22:01:07 +0000";
 layers = (
 {
 anchors = (
@@ -32853,7 +32853,7 @@ position = "{305, 660}";
 );
 components = (
 {
-name = "alefMaksura_meem-ar.init";
+name = "alefMaksura_noon-ar.fina";
 },
 {
 anchor = bottom_1;
@@ -32969,7 +32969,7 @@ rightMetricsKey = "zain-ar.fina";
 },
 {
 glyphname = "peh_noon-ar.fina";
-lastChange = "2015-09-05 20:45:39 +0000";
+lastChange = "2015-09-05 22:01:40 +0000";
 layers = (
 {
 anchors = (
@@ -33000,7 +33000,7 @@ position = "{305, 660}";
 );
 components = (
 {
-name = "alefMaksura_meem-ar.init";
+name = "alefMaksura_noon-ar.fina";
 },
 {
 anchor = bottom_1;
@@ -33068,7 +33068,7 @@ unicode = FC70;
 },
 {
 glyphname = "teh_zain-ar.fina";
-lastChange = "2015-09-05 20:32:55 +0000";
+lastChange = "2015-09-05 22:05:15 +0000";
 layers = (
 {
 anchors = (
@@ -33102,8 +33102,9 @@ components = (
 name = "teh_reh-ar.fina";
 },
 {
+anchor = top_2;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 474, 113}";
+transform = "{1, 0, 0, 1, 146, 9}";
 }
 );
 layerId = "7BE58B69-D6A5-4645-9194-9194354D517E";
@@ -33117,7 +33118,7 @@ unicode = FC71;
 },
 {
 glyphname = "teh_noon-ar.fina";
-lastChange = "2015-09-05 20:45:27 +0000";
+lastChange = "2015-09-05 22:01:56 +0000";
 layers = (
 {
 anchors = (
@@ -33148,7 +33149,7 @@ position = "{305, 660}";
 );
 components = (
 {
-name = "alefMaksura_meem-ar.init";
+name = "alefMaksura_noon-ar.fina";
 },
 {
 anchor = top_1;
@@ -33267,7 +33268,7 @@ unicode = FC77;
 },
 {
 glyphname = "theh_noon-ar.fina";
-lastChange = "2015-09-05 20:44:55 +0000";
+lastChange = "2015-09-05 22:01:23 +0000";
 layers = (
 {
 anchors = (
@@ -33298,7 +33299,7 @@ position = "{305, 660}";
 );
 components = (
 {
-name = "alefMaksura_meem-ar.init";
+name = "alefMaksura_noon-ar.fina";
 },
 {
 anchor = top_1;
@@ -34497,7 +34498,7 @@ unicode = FC8B;
 },
 {
 glyphname = "noon_noon-ar.fina";
-lastChange = "2015-09-05 20:44:22 +0000";
+lastChange = "2015-09-05 22:02:24 +0000";
 layers = (
 {
 anchors = (
@@ -34528,7 +34529,7 @@ position = "{305, 660}";
 );
 components = (
 {
-name = "alefMaksura_meem-ar.init";
+name = "alefMaksura_noon-ar.fina";
 },
 {
 anchor = top_1;
@@ -34666,8 +34667,8 @@ leftMetricsKey = "alefMaksura-ar.init";
 rightMetricsKey = "zain-ar.fina";
 },
 {
-glyphname = "alefMaksura_meem-ar.init";
-lastChange = "2015-09-05 21:42:36 +0000";
+glyphname = "alefMaksura_noon-ar.fina";
+lastChange = "2015-09-05 21:59:51 +0000";
 layers = (
 {
 anchors = (
@@ -34750,7 +34751,6 @@ width = 965;
 }
 );
 leftMetricsKey = "alefMaksura-ar.init";
-rightMetricsKey = "meem-ar.fina";
 },
 {
 glyphname = "yeh_reh-ar.fina";
@@ -34853,7 +34853,7 @@ unicode = FC92;
 },
 {
 glyphname = "yeh_noon-ar.fina";
-lastChange = "2015-09-05 20:43:49 +0000";
+lastChange = "2015-09-05 22:02:44 +0000";
 layers = (
 {
 anchors = (
@@ -34884,7 +34884,7 @@ position = "{305, 660}";
 );
 components = (
 {
-name = "alefMaksura_meem-ar.init";
+name = "alefMaksura_noon-ar.fina";
 },
 {
 anchor = bottom_1;
@@ -35003,7 +35003,7 @@ unicode = FC65;
 },
 {
 glyphname = "yehHamzaabove_noon-ar.fina";
-lastChange = "2015-09-05 20:44:05 +0000";
+lastChange = "2015-09-05 22:03:02 +0000";
 layers = (
 {
 anchors = (
@@ -35034,7 +35034,7 @@ position = "{305, 660}";
 );
 components = (
 {
-name = "alefMaksura_meem-ar.init";
+name = "alefMaksura_noon-ar.fina";
 },
 {
 anchor = top_1;
