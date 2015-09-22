@@ -28272,7 +28272,7 @@ rightMetricsKey = "yehHamzaabove-ar.fina";
 },
 {
 glyphname = "meem_reh-ar.fina";
-lastChange = "2015-09-16 23:30:13 +0000";
+lastChange = "2015-09-22 03:34:34 +0000";
 layers = (
 {
 anchors = (
@@ -28287,6 +28287,10 @@ position = "{221, -350}";
 {
 name = caret_1;
 position = "{540.5, 0}";
+},
+{
+name = entry;
+position = "{1105, 61}";
 },
 {
 name = top_1;
@@ -28303,29 +28307,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"306 -248 OFFCURVE",
-"318 -67 OFFCURVE",
-"318 88 CURVE SMOOTH",
-"318 355 LINE",
-"369 362 OFFCURVE",
-"456 371 OFFCURVE",
-"558 375 CURVE",
-"551 333 OFFCURVE",
-"544 293 OFFCURVE",
-"544 251 CURVE SMOOTH",
-"544 152 OFFCURVE",
-"580 24 OFFCURVE",
-"580 24 CURVE SMOOTH",
-"580 24 OFFCURVE",
-"650 -9 OFFCURVE",
-"777 -9 CURVE SMOOTH",
-"994 -9 OFFCURVE",
-"1031 87 OFFCURVE",
-"1031 250 CURVE SMOOTH",
+"1056 122 OFFCURVE",
+"1031 135 OFFCURVE",
+"1031 170 CURVE SMOOTH",
 "1031 500 LINE",
 "687 500 LINE SMOOTH",
-"403 499 OFFCURVE",
-"236 466 OFFCURVE",
+"419 500 OFFCURVE",
+"232 466 OFFCURVE",
 "184 452 CURVE",
 "184 87 LINE SMOOTH",
 "184 0 OFFCURVE",
@@ -28337,13 +28325,41 @@ nodes = (
 "-20 -235 LINE",
 "-20 -235 OFFCURVE",
 "108 -248 OFFCURVE",
-"150 -248 CURVE SMOOTH"
+"150 -248 CURVE SMOOTH",
+"306 -248 OFFCURVE",
+"318 -67 OFFCURVE",
+"318 88 CURVE SMOOTH",
+"318 355 LINE",
+"369 362 OFFCURVE",
+"456 371 OFFCURVE",
+"558 375 CURVE",
+"551 333 OFFCURVE",
+"544 293 OFFCURVE",
+"544 250 CURVE SMOOTH",
+"544 152 OFFCURVE",
+"580 24 OFFCURVE",
+"580 24 CURVE SMOOTH",
+"580 24 OFFCURVE",
+"650 -9 OFFCURVE",
+"777 -9 CURVE SMOOTH",
+"876 -9 OFFCURVE",
+"938 11 OFFCURVE",
+"975 48 CURVE",
+"983 32 OFFCURVE",
+"1010 0 OFFCURVE",
+"1089 0 CURVE SMOOTH",
+"1125 0 LINE",
+"1125 122 LINE",
+"1089 122 LINE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"728 114 OFFCURVE",
+"897 156 OFFCURVE",
+"896 103 OFFCURVE",
+"758 112 CURVE SMOOTH",
+"729 114 OFFCURVE",
 "686 119 OFFCURVE",
 "686 119 CURVE",
 "684 132 OFFCURVE",
@@ -28353,21 +28369,18 @@ nodes = (
 "681 351 OFFCURVE",
 "685 378 CURVE",
 "897 378 LINE",
-"897 252 LINE SMOOTH",
-"897 156 OFFCURVE",
-"896 103 OFFCURVE",
-"758 112 CURVE SMOOTH"
+"897 252 LINE SMOOTH"
 );
 }
 );
-width = 1081;
+width = 1105;
 }
 );
 leftMetricsKey = "meem-ar.init";
 },
 {
 glyphname = "meem_zain-ar.fina";
-lastChange = "2015-09-21 00:10:53 +0000";
+lastChange = "2015-09-22 03:34:05 +0000";
 layers = (
 {
 anchors = (
@@ -28382,6 +28395,10 @@ position = "{221, -350}";
 {
 name = caret_1;
 position = "{540.5, 0}";
+},
+{
+name = entry;
+position = "{1105, 61}";
 },
 {
 name = top_1;
@@ -28404,7 +28421,7 @@ transform = "{1, 0, 0, 1, 159, 19}";
 );
 layerId = "E174F030-6324-451A-8951-EA6336064495";
 name = Bold;
-width = 1081;
+width = 1105;
 }
 );
 leftMetricsKey = "meem-ar.init";
