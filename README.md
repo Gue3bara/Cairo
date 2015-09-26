@@ -2,7 +2,7 @@
 
 ![Sample][sample]
 
-Cairo is the matching arabic typeface to the Latin typeface [Titilliumweb][titilliumweb], compining Kufi & Naskh structures.
+Cairo is the matching Arabic typeface to the Latin typeface [Titillium][titilliumweb], combining Kufi & Naskh structures.
 
 Cairo supports Arabic, Persian, Urdu & available now in Regular & Bold weights but more weights might be added in the future.
 
