@@ -473,6 +473,10 @@ value = (
     "nine.dnom",
     "hyphen.cap"
 );
+},
+{
+name = vendorID;
+value = "1KTF";
 }
 );
 date = "2015-09-26 19:05:18 +0000";
