@@ -56074,6 +56074,40 @@ width = 1105;
 disablesNiceNames = 1;
 instances = (
 {
+customParameters = (
+{
+name = typoAscender;
+value = 1303;
+},
+{
+name = typoDescender;
+value = -571;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1303;
+},
+{
+name = winDescent;
+value = 571;
+},
+{
+name = hheaAscender;
+value = 1303;
+},
+{
+name = hheaDescender;
+value = -571;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 interpolationWeight = 200;
 instanceInterpolations = {
 "E174F030-6324-451A-8951-EA6336064495" = -0.666667;
@@ -56083,6 +56117,40 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
+customParameters = (
+{
+name = typoAscender;
+value = 1303;
+},
+{
+name = typoDescender;
+value = -571;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1303;
+},
+{
+name = winDescent;
+value = 571;
+},
+{
+name = hheaAscender;
+value = 1303;
+},
+{
+name = hheaDescender;
+value = -571;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 interpolationWeight = 270;
 instanceInterpolations = {
 "E174F030-6324-451A-8951-EA6336064495" = -0.433333;
@@ -56092,6 +56160,40 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = typoAscender;
+value = 1303;
+},
+{
+name = typoDescender;
+value = -571;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1303;
+},
+{
+name = winDescent;
+value = 571;
+},
+{
+name = hheaAscender;
+value = 1303;
+},
+{
+name = hheaDescender;
+value = -571;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 interpolationWeight = 400;
 instanceInterpolations = {
 "7BE58B69-D6A5-4645-9194-9194354D517E" = 1;
@@ -56099,6 +56201,40 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = typoAscender;
+value = 1303;
+},
+{
+name = typoDescender;
+value = -571;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1303;
+},
+{
+name = winDescent;
+value = 571;
+},
+{
+name = hheaAscender;
+value = 1303;
+},
+{
+name = hheaDescender;
+value = -571;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 interpolationWeight = 493;
 instanceInterpolations = {
 "E174F030-6324-451A-8951-EA6336064495" = 0.31;
@@ -56108,6 +56244,40 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+customParameters = (
+{
+name = typoAscender;
+value = 1303;
+},
+{
+name = typoDescender;
+value = -571;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1303;
+},
+{
+name = winDescent;
+value = 571;
+},
+{
+name = hheaAscender;
+value = 1303;
+},
+{
+name = hheaDescender;
+value = -571;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 interpolationWeight = 700;
 instanceInterpolations = {
 "E174F030-6324-451A-8951-EA6336064495" = 1;
@@ -56118,6 +56288,40 @@ name = Bold;
 weightClass = Bold;
 },
 {
+customParameters = (
+{
+name = typoAscender;
+value = 1303;
+},
+{
+name = typoDescender;
+value = -571;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1303;
+},
+{
+name = winDescent;
+value = 571;
+},
+{
+name = hheaAscender;
+value = 1303;
+},
+{
+name = hheaDescender;
+value = -571;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 interpolationWeight = 900;
 instanceInterpolations = {
 "E174F030-6324-451A-8951-EA6336064495" = 1.66667;
