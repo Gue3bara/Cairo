@@ -1,9 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/alefMaksura-ar.fina/twodotshorizontalbelow-ar/yeh-ar.fina",
-"/waw-ar",
-"/reh-ar"
+"/waw-ar"
 );
 copyright = "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)";
 customParameters = (
@@ -490,7 +488,7 @@ name = "Disable Last Change";
 value = 1;
 }
 );
-date = "2016-06-12 00:53:04 +0000";
+date = "2016-07-01 21:20:24 +0000";
 designer = "Mohamed Gaber";
 designerURL = "http://gaberism.net/";
 familyName = Cairo;
@@ -579,6 +577,7 @@ ascender = 1133;
 capHeight = 692;
 descender = -388;
 id = "7BE58B69-D6A5-4645-9194-9194354D517E";
+visible = 1;
 weightValue = 400;
 xHeight = 500;
 },
@@ -587,6 +586,7 @@ ascender = 1133;
 capHeight = 680;
 descender = -388;
 id = "E174F030-6324-451A-8951-EA6336064495";
+visible = 1;
 weight = Bold;
 weightValue = 700;
 xHeight = 500;
@@ -26434,8 +26434,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"312 0 LINE",
-"312 122 LINE",
+"322 0 LINE",
+"332 61 LINE",
+"322 122 LINE",
 "206 122 LINE",
 "206 0 LINE"
 );
@@ -26468,8 +26469,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"261 0 LINE",
-"261 69 LINE",
+"271 0 LINE",
+"281 35 LINE",
+"271 69 LINE",
 "160 69 LINE",
 "160 0 LINE"
 );
@@ -26563,8 +26565,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"312 0 LINE",
-"312 122 LINE",
+"322 0 LINE",
+"332 61 LINE",
+"322 122 LINE",
 "202 122 LINE",
 "202 0 LINE"
 );
@@ -26597,8 +26600,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"261 0 LINE",
-"261 69 LINE",
+"271 0 LINE",
+"281 35 LINE",
+"271 69 LINE",
 "161 69 LINE",
 "161 0 LINE"
 );
@@ -26670,10 +26674,6 @@ name = bottom;
 position = "{156, -120}";
 },
 {
-name = entry;
-position = "{312, 61}";
-},
-{
 name = top;
 position = "{147, 980}";
 }
@@ -26695,10 +26695,6 @@ anchors = (
 {
 name = bottom;
 position = "{129, -60}";
-},
-{
-name = entry;
-position = "{261, 35}";
 },
 {
 name = top;
@@ -26782,10 +26778,6 @@ name = bottom;
 position = "{156, -342}";
 },
 {
-name = entry;
-position = "{312, 61}";
-},
-{
 name = top;
 position = "{147, 762}";
 }
@@ -26807,10 +26799,6 @@ anchors = (
 {
 name = bottom;
 position = "{146, -300}";
-},
-{
-name = entry;
-position = "{261, 35}";
 },
 {
 name = top;
@@ -26894,10 +26882,6 @@ name = bottom;
 position = "{156, -120}";
 },
 {
-name = entry;
-position = "{312, 61}";
-},
-{
 name = top;
 position = "{152, 855}";
 }
@@ -26919,10 +26903,6 @@ anchors = (
 {
 name = bottom;
 position = "{129, -60}";
-},
-{
-name = entry;
-position = "{261, 35}";
 },
 {
 name = top;
@@ -27006,10 +26986,6 @@ name = bottom;
 position = "{147, -120}";
 },
 {
-name = entry;
-position = "{312, 61}";
-},
-{
 name = top;
 position = "{168, 930}";
 }
@@ -27031,10 +27007,6 @@ anchors = (
 {
 name = bottom;
 position = "{129, -60}";
-},
-{
-name = entry;
-position = "{261, 35}";
 },
 {
 name = top;
@@ -27170,8 +27142,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"921 0 LINE",
-"921 122 LINE",
+"931 0 LINE",
+"941 61 LINE",
+"931 122 LINE",
 "759 122 LINE",
 "759 0 LINE"
 );
@@ -27204,8 +27177,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"831 0 LINE",
-"831 69 LINE",
+"841 0 LINE",
+"851 35 LINE",
+"841 69 LINE",
 "675 69 LINE",
 "675 0 LINE"
 );
@@ -27229,10 +27203,6 @@ name = entry;
 position = "{433, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{215, 573}";
 }
@@ -27247,8 +27217,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"433 0 LINE",
-"433 122 LINE",
+"443 0 LINE",
+"453 61 LINE",
+"443 122 LINE",
 "273 122 LINE",
 "273 0 LINE"
 );
@@ -27267,10 +27238,6 @@ name = entry;
 position = "{375, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{187, 573}";
 }
@@ -27285,8 +27252,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"375 0 LINE",
-"375 69 LINE",
+"385 0 LINE",
+"395 35 LINE",
+"385 69 LINE",
 "216 69 LINE",
 "216 0 LINE"
 );
@@ -27324,8 +27292,9 @@ nodes = (
 "149 500 LINE",
 "149 77 LINE",
 "194 122 LINE",
-"0 122 LINE",
-"0 0 LINE"
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -27356,8 +27325,9 @@ nodes = (
 "149 500 LINE",
 "149 34 LINE",
 "182 69 LINE",
-"0 69 LINE",
-"0 0 LINE"
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -27427,10 +27397,6 @@ name = bottom;
 position = "{418, -300}";
 },
 {
-name = entry;
-position = "{921, 61}";
-},
-{
 name = top;
 position = "{418, 510}";
 }
@@ -27452,10 +27418,6 @@ anchors = (
 {
 name = bottom;
 position = "{389, -280}";
-},
-{
-name = entry;
-position = "{831, 35}";
 },
 {
 name = top;
@@ -27487,14 +27449,6 @@ name = bottom;
 position = "{220, -300}";
 },
 {
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{220, 603}";
 }
@@ -27516,14 +27470,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -280}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -27555,10 +27501,6 @@ name = bottom;
 position = "{218, -300}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 603}";
 }
@@ -27580,10 +27522,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -280}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -27667,10 +27605,6 @@ name = bottom;
 position = "{418, -430}";
 },
 {
-name = entry;
-position = "{921, 61}";
-},
-{
 name = top;
 position = "{418, 510}";
 }
@@ -27692,10 +27626,6 @@ anchors = (
 {
 name = bottom;
 position = "{389, -400}";
-},
-{
-name = entry;
-position = "{831, 35}";
 },
 {
 name = top;
@@ -27727,14 +27657,6 @@ name = bottom;
 position = "{216, -430}";
 },
 {
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{220, 603}";
 }
@@ -27756,14 +27678,6 @@ anchors = (
 {
 name = bottom;
 position = "{172, -400}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -27795,10 +27709,6 @@ name = bottom;
 position = "{218, -430}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 603}";
 }
@@ -27820,10 +27730,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -400}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -27855,14 +27761,6 @@ name = bottom;
 position = "{220, -60}";
 },
 {
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{220, 573}";
 }
@@ -27880,14 +27778,6 @@ anchors = (
 {
 name = bottom;
 position = "{172, -60}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -27915,10 +27805,6 @@ name = bottom;
 position = "{218, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 573}";
 }
@@ -27936,10 +27822,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -28019,10 +27901,6 @@ name = bottom;
 position = "{418, -120}";
 },
 {
-name = entry;
-position = "{921, 61}";
-},
-{
 name = top;
 position = "{418, 670}";
 }
@@ -28044,10 +27922,6 @@ anchors = (
 {
 name = bottom;
 position = "{389, -120}";
-},
-{
-name = entry;
-position = "{831, 35}";
 },
 {
 name = top;
@@ -28079,14 +27953,6 @@ name = bottom;
 position = "{217, -120}";
 },
 {
-name = entry;
-position = "{432, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{217, 785}";
 }
@@ -28108,14 +27974,6 @@ anchors = (
 {
 name = bottom;
 position = "{172, -120}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -28147,10 +28005,6 @@ name = bottom;
 position = "{218, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 785}";
 }
@@ -28172,10 +28026,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -28259,10 +28109,6 @@ name = bottom;
 position = "{418, -120}";
 },
 {
-name = entry;
-position = "{921, 61}";
-},
-{
 name = top;
 position = "{418, 830}";
 }
@@ -28284,10 +28130,6 @@ anchors = (
 {
 name = bottom;
 position = "{389, -120}";
-},
-{
-name = entry;
-position = "{831, 35}";
 },
 {
 name = top;
@@ -28319,14 +28161,6 @@ name = bottom;
 position = "{213, -120}";
 },
 {
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{213, 930}";
 }
@@ -28348,14 +28182,6 @@ anchors = (
 {
 name = bottom;
 position = "{172, -120}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -28387,10 +28213,6 @@ name = bottom;
 position = "{218, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 930}";
 }
@@ -28412,10 +28234,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -28499,10 +28317,6 @@ name = bottom;
 position = "{418, -120}";
 },
 {
-name = entry;
-position = "{921, 61}";
-},
-{
 name = top;
 position = "{418, 820}";
 }
@@ -28524,10 +28338,6 @@ anchors = (
 {
 name = bottom;
 position = "{389, -120}";
-},
-{
-name = entry;
-position = "{831, 35}";
 },
 {
 name = top;
@@ -28559,14 +28369,6 @@ name = bottom;
 position = "{215, -120}";
 },
 {
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{215, 905}";
 }
@@ -28588,14 +28390,6 @@ anchors = (
 {
 name = bottom;
 position = "{172, -120}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -28627,10 +28421,6 @@ name = bottom;
 position = "{218, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 940}";
 }
@@ -28652,10 +28442,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -28806,10 +28592,6 @@ name = bottom;
 position = "{306, -400}";
 },
 {
-name = entry;
-position = "{637, 61}";
-},
-{
 name = top;
 position = "{306, 603}";
 }
@@ -28831,10 +28613,6 @@ anchors = (
 {
 name = bottom;
 position = "{277, -400}";
-},
-{
-name = entry;
-position = "{607, 35}";
 },
 {
 name = top;
@@ -28890,8 +28668,9 @@ nodes = (
 "314 7 OFFCURVE",
 "358 4 OFFCURVE",
 "388 0 CURVE",
-"657 0 LINE",
-"657 157 LINE",
+"667 0 LINE",
+"677 78 LINE",
+"667 157 LINE",
 "560 157 LINE",
 "560 349 LINE",
 "558 448 OFFCURVE",
@@ -28939,14 +28718,6 @@ name = bottom;
 position = "{289, -300}";
 },
 {
-name = entry;
-position = "{614, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{289, 603}";
 }
@@ -28968,14 +28739,6 @@ anchors = (
 {
 name = bottom;
 position = "{276, -280}";
-},
-{
-name = entry;
-position = "{592, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -29007,10 +28770,6 @@ name = bottom;
 position = "{283, -300}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{289, 603}";
 }
@@ -29032,10 +28791,6 @@ anchors = (
 {
 name = bottom;
 position = "{259, -280}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -29300,8 +29055,9 @@ nodes = (
 "307 20 OFFCURVE",
 "359 9 OFFCURVE",
 "389 0 CURVE",
-"631 0 LINE",
-"631 122 LINE",
+"641 0 LINE",
+"651 61 LINE",
+"641 122 LINE",
 "523 122 LINE",
 "523 345 LINE",
 "522 460 OFFCURVE",
@@ -29392,8 +29148,9 @@ nodes = (
 "321 40 OFFCURVE",
 "385 17 OFFCURVE",
 "416 0 CURVE",
-"607 0 LINE",
-"607 69 LINE",
+"617 0 LINE",
+"627 35 LINE",
+"617 69 LINE",
 "493 69 LINE",
 "493 339 LINE",
 "493 478 OFFCURVE",
@@ -29437,14 +29194,6 @@ name = bottom;
 position = "{289, -430}";
 },
 {
-name = entry;
-position = "{614, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{289, 603}";
 }
@@ -29466,14 +29215,6 @@ anchors = (
 {
 name = bottom;
 position = "{276, -400}";
-},
-{
-name = entry;
-position = "{592, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -29505,10 +29246,6 @@ name = bottom;
 position = "{283, -430}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{289, 603}";
 }
@@ -29530,10 +29267,6 @@ anchors = (
 {
 name = bottom;
 position = "{259, -400}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -29727,8 +29460,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"637 0 LINE",
-"637 122 LINE",
+"647 0 LINE",
+"657 61 LINE",
+"647 122 LINE",
 "528 122 LINE",
 "528 0 LINE"
 );
@@ -29765,8 +29499,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"607 0 LINE",
-"607 69 LINE",
+"617 0 LINE",
+"627 35 LINE",
+"617 69 LINE",
 "490 69 LINE",
 "490 0 LINE"
 );
@@ -29791,10 +29526,6 @@ name = entry;
 position = "{614, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{309, 573}";
 }
@@ -29809,8 +29540,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"614 0 LINE",
-"614 122 LINE",
+"624 0 LINE",
+"634 61 LINE",
+"624 122 LINE",
 "507 122 LINE",
 "507 0 LINE"
 );
@@ -29829,10 +29561,6 @@ name = entry;
 position = "{592, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{296, 573}";
 }
@@ -29847,8 +29575,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"592 0 LINE",
-"592 69 LINE",
+"602 0 LINE",
+"612 35 LINE",
+"602 69 LINE",
 "475 69 LINE",
 "475 0 LINE"
 );
@@ -29899,8 +29628,9 @@ nodes = (
 "377 310 CURVE",
 "377 77 LINE",
 "422 122 LINE",
-"0 122 LINE",
-"0 0 LINE"
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -29943,8 +29673,9 @@ nodes = (
 "401 340 CURVE",
 "401 39 LINE",
 "430 69 LINE",
-"0 69 LINE",
-"0 0 LINE"
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -30015,10 +29746,6 @@ name = bottom;
 position = "{306, -400}";
 },
 {
-name = entry;
-position = "{637, 61}";
-},
-{
 name = top;
 position = "{306, 790}";
 }
@@ -30040,10 +29767,6 @@ anchors = (
 {
 name = bottom;
 position = "{294, -400}";
-},
-{
-name = entry;
-position = "{607, 35}";
 },
 {
 name = top;
@@ -30075,14 +29798,6 @@ name = bottom;
 position = "{289, -120}";
 },
 {
-name = entry;
-position = "{614, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{289, 790}";
 }
@@ -30104,14 +29819,6 @@ anchors = (
 {
 name = bottom;
 position = "{276, -120}";
-},
-{
-name = entry;
-position = "{592, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -30143,10 +29850,6 @@ name = bottom;
 position = "{283, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{283, 790}";
 }
@@ -30168,10 +29871,6 @@ anchors = (
 {
 name = bottom;
 position = "{259, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -30307,8 +30006,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"599 0 LINE",
-"599 122 LINE",
+"609 0 LINE",
+"619 61 LINE",
+"609 122 LINE",
 "471 122 LINE",
 "471 0 LINE"
 );
@@ -30341,8 +30041,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"536 0 LINE",
-"536 69 LINE",
+"546 0 LINE",
+"556 35 LINE",
+"546 69 LINE",
 "414 69 LINE",
 "414 0 LINE"
 );
@@ -30415,10 +30116,6 @@ name = bottom;
 position = "{270, -120}";
 },
 {
-name = entry;
-position = "{599, 61}";
-},
-{
 name = top;
 position = "{150, 820}";
 }
@@ -30440,10 +30137,6 @@ anchors = (
 {
 name = bottom;
 position = "{248, -120}";
-},
-{
-name = entry;
-position = "{536, 35}";
 },
 {
 name = top;
@@ -30527,10 +30220,6 @@ name = bottom;
 position = "{270, -120}";
 },
 {
-name = entry;
-position = "{599, 61}";
-},
-{
 name = top;
 position = "{150, 950}";
 }
@@ -30552,10 +30241,6 @@ anchors = (
 {
 name = bottom;
 position = "{248, -120}";
-},
-{
-name = entry;
-position = "{536, 35}";
 },
 {
 name = top;
@@ -30693,8 +30378,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"445 0 LINE",
-"445 122 LINE",
+"455 0 LINE",
+"465 61 LINE",
+"455 122 LINE",
 "258 122 LINE",
 "258 0 LINE"
 );
@@ -30727,8 +30413,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"404 0 LINE",
-"404 69 LINE",
+"414 0 LINE",
+"424 35 LINE",
+"414 69 LINE",
 "257 69 LINE",
 "257 0 LINE"
 );
@@ -30801,10 +30488,6 @@ name = bottom;
 position = "{161, -350}";
 },
 {
-name = entry;
-position = "{445, 61}";
-},
-{
 name = top;
 position = "{212, 785}";
 }
@@ -30826,10 +30509,6 @@ anchors = (
 {
 name = bottom;
 position = "{186, -350}";
-},
-{
-name = entry;
-position = "{404, 35}";
 },
 {
 name = top;
@@ -30913,10 +30592,6 @@ name = bottom;
 position = "{161, -350}";
 },
 {
-name = entry;
-position = "{445, 61}";
-},
-{
 name = top;
 position = "{213, 930}";
 }
@@ -30938,10 +30613,6 @@ anchors = (
 {
 name = bottom;
 position = "{186, -350}";
-},
-{
-name = entry;
-position = "{404, 35}";
 },
 {
 name = top;
@@ -31025,10 +30696,6 @@ name = bottom;
 position = "{161, -350}";
 },
 {
-name = entry;
-position = "{445, 61}";
-},
-{
 name = top;
 position = "{213, 930}";
 }
@@ -31050,10 +30717,6 @@ anchors = (
 {
 name = bottom;
 position = "{186, -350}";
-},
-{
-name = entry;
-position = "{404, 35}";
 },
 {
 name = top;
@@ -31271,8 +30934,9 @@ closed = 1;
 nodes = (
 "1096 122 LINE",
 "1096 0 LINE",
-"1227 0 LINE",
-"1227 122 LINE"
+"1237 0 LINE",
+"1247 61 LINE",
+"1237 122 LINE"
 );
 }
 );
@@ -31305,8 +30969,9 @@ closed = 1;
 nodes = (
 "1053 69 LINE",
 "1053 0 LINE",
-"1184 0 LINE",
-"1184 69 LINE"
+"1194 0 LINE",
+"1204 35 LINE",
+"1194 69 LINE"
 );
 }
 );
@@ -31329,10 +30994,6 @@ name = entry;
 position = "{882, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{461, 573}";
 }
@@ -31347,8 +31008,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"882 0 LINE",
-"882 122 LINE",
+"892 0 LINE",
+"902 61 LINE",
+"892 122 LINE",
 "763 122 LINE",
 "763 0 LINE"
 );
@@ -31367,10 +31029,6 @@ name = entry;
 position = "{848, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{443, 573}";
 }
@@ -31385,8 +31043,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"848 0 LINE",
-"848 69 LINE",
+"858 0 LINE",
+"868 35 LINE",
+"858 69 LINE",
 "722 69 LINE",
 "722 0 LINE"
 );
@@ -31436,8 +31095,9 @@ nodes = (
 "153 450 LINE",
 "153 77 LINE",
 "198 122 LINE",
-"0 122 LINE",
-"0 0 LINE"
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -31502,8 +31162,9 @@ nodes = (
 "162 450 LINE",
 "162 39 LINE",
 "207 69 LINE",
-"0 69 LINE",
-"0 0 LINE"
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -31597,10 +31258,6 @@ name = bottom;
 position = "{796, -170}";
 },
 {
-name = entry;
-position = "{1227, 61}";
-},
-{
 name = top;
 position = "{796, 930}";
 }
@@ -31622,10 +31279,6 @@ anchors = (
 {
 name = bottom;
 position = "{779, -170}";
-},
-{
-name = entry;
-position = "{1184, 35}";
 },
 {
 name = top;
@@ -31657,14 +31310,6 @@ name = bottom;
 position = "{461, -120}";
 },
 {
-name = entry;
-position = "{882, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{461, 930}";
 }
@@ -31686,14 +31331,6 @@ anchors = (
 {
 name = bottom;
 position = "{441, -120}";
-},
-{
-name = entry;
-position = "{848, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -31725,10 +31362,6 @@ name = bottom;
 position = "{461, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{461, 930}";
 }
@@ -31750,10 +31383,6 @@ anchors = (
 {
 name = bottom;
 position = "{441, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -31951,8 +31580,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1227 0 LINE",
-"1227 122 LINE",
+"1237 0 LINE",
+"1247 61 LINE",
+"1237 122 LINE",
 "1054 122 LINE",
 "1054 0 LINE"
 );
@@ -31985,8 +31615,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1184 0 LINE",
-"1184 69 LINE",
+"1194 0 LINE",
+"1204 35 LINE",
+"1194 69 LINE",
 "1035 69 LINE",
 "1035 0 LINE"
 );
@@ -32011,10 +31642,6 @@ name = entry;
 position = "{861, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{476, 573}";
 }
@@ -32029,8 +31656,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"861 0 LINE",
-"861 122 LINE",
+"871 0 LINE",
+"881 61 LINE",
+"871 122 LINE",
 "735 122 LINE",
 "735 0 LINE"
 );
@@ -32049,10 +31677,6 @@ name = entry;
 position = "{828, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{443, 573}";
 }
@@ -32067,8 +31691,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"828 0 LINE",
-"828 69 LINE",
+"838 0 LINE",
+"848 35 LINE",
+"838 69 LINE",
 "696 69 LINE",
 "696 0 LINE"
 );
@@ -32115,8 +31740,9 @@ nodes = (
 "132 500 LINE",
 "132 77 LINE",
 "177 122 LINE",
-"0 122 LINE",
-"0 0 LINE"
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -32172,8 +31798,9 @@ nodes = (
 "146 500 LINE",
 "146 41 LINE",
 "191 69 LINE",
-"0 69 LINE",
-"0 0 LINE"
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -32261,10 +31888,6 @@ name = bottom;
 position = "{811, -170}";
 },
 {
-name = entry;
-position = "{1227, 61}";
-},
-{
 name = top;
 position = "{811, 795}";
 }
@@ -32286,10 +31909,6 @@ anchors = (
 {
 name = bottom;
 position = "{779, -170}";
-},
-{
-name = entry;
-position = "{1184, 35}";
 },
 {
 name = top;
@@ -32321,14 +31940,6 @@ name = bottom;
 position = "{476, -120}";
 },
 {
-name = entry;
-position = "{861, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{476, 795}";
 }
@@ -32350,14 +31961,6 @@ anchors = (
 {
 name = bottom;
 position = "{443, -120}";
-},
-{
-name = entry;
-position = "{828, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -32389,10 +31992,6 @@ name = bottom;
 position = "{476, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{476, 795}";
 }
@@ -32414,10 +32013,6 @@ anchors = (
 {
 name = bottom;
 position = "{443, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -32579,8 +32174,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"813 0 LINE",
-"813 122 LINE",
+"823 0 LINE",
+"833 61 LINE",
+"823 122 LINE",
 "684 122 LINE",
 "684 0 LINE"
 );
@@ -32613,8 +32209,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"780 0 LINE",
-"780 69 LINE",
+"790 0 LINE",
+"800 35 LINE",
+"790 69 LINE",
 "650 69 LINE",
 "650 0 LINE"
 );
@@ -32639,10 +32236,6 @@ name = entry;
 position = "{813, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{380, 573}";
 }
@@ -32657,8 +32250,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"813 0 LINE",
-"813 122 LINE",
+"823 0 LINE",
+"833 61 LINE",
+"823 122 LINE",
 "689 122 LINE",
 "689 0 LINE"
 );
@@ -32677,10 +32271,6 @@ name = entry;
 position = "{780, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{380, 573}";
 }
@@ -32695,8 +32285,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"780 0 LINE",
-"780 69 LINE",
+"791 0 LINE",
+"800 35 LINE",
+"791 69 LINE",
 "645 69 LINE",
 "645 0 LINE"
 );
@@ -32743,8 +32334,9 @@ nodes = (
 "84 700 LINE",
 "84 77 LINE",
 "129 122 LINE",
-"0 122 LINE",
-"0 0 LINE"
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -32799,8 +32391,9 @@ nodes = (
 "94 718 LINE",
 "94 35 LINE",
 "116 69 LINE",
-"0 69 LINE",
-"0 0 LINE"
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -32887,10 +32480,6 @@ name = bottom;
 position = "{380, -120}";
 },
 {
-name = entry;
-position = "{813, 61}";
-},
-{
 name = top;
 position = "{380, 795}";
 }
@@ -32912,10 +32501,6 @@ anchors = (
 {
 name = bottom;
 position = "{380, -120}";
-},
-{
-name = entry;
-position = "{780, 35}";
 },
 {
 name = top;
@@ -32947,14 +32532,6 @@ name = bottom;
 position = "{380, -120}";
 },
 {
-name = entry;
-position = "{813, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{380, 795}";
 }
@@ -32976,14 +32553,6 @@ anchors = (
 {
 name = bottom;
 position = "{380, -120}";
-},
-{
-name = entry;
-position = "{780, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -33015,10 +32584,6 @@ name = bottom;
 position = "{380, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{380, 795}";
 }
@@ -33040,10 +32605,6 @@ anchors = (
 {
 name = bottom;
 position = "{363, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -33257,8 +32818,9 @@ nodes = (
 "352 21 OFFCURVE",
 "434 0 OFFCURVE",
 "511 0 CURVE SMOOTH",
-"642 0 LINE",
-"642 122 LINE",
+"652 0 LINE",
+"662 61 LINE",
+"652 122 LINE",
 "510 122 LINE SMOOTH",
 "477 122 OFFCURVE",
 "444 128 OFFCURVE",
@@ -33349,8 +32911,9 @@ nodes = (
 "323 22 OFFCURVE",
 "409 0 OFFCURVE",
 "484 0 CURVE SMOOTH",
-"590 0 LINE",
-"590 69 LINE",
+"600 0 LINE",
+"610 35 LINE",
+"600 69 LINE",
 "484 69 LINE SMOOTH",
 "433 69 OFFCURVE",
 "382 81 OFFCURVE",
@@ -33440,8 +33003,9 @@ nodes = (
 "376 21 OFFCURVE",
 "458 0 OFFCURVE",
 "535 0 CURVE SMOOTH",
-"666 0 LINE",
-"666 122 LINE",
+"676 0 LINE",
+"686 61 LINE",
+"676 122 LINE",
 "534 122 LINE SMOOTH",
 "501 122 OFFCURVE",
 "468 128 OFFCURVE",
@@ -33465,8 +33029,9 @@ nodes = (
 "208 128 OFFCURVE",
 "174 122 OFFCURVE",
 "142 122 CURVE SMOOTH",
-"0 122 LINE",
-"0 0 LINE"
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -33524,8 +33089,9 @@ nodes = (
 "347 22 OFFCURVE",
 "432 0 OFFCURVE",
 "508 0 CURVE SMOOTH",
-"613 0 LINE",
-"613 69 LINE",
+"623 0 LINE",
+"633 35 LINE",
+"623 69 LINE",
 "507 69 LINE SMOOTH",
 "457 69 OFFCURVE",
 "405 81 OFFCURVE",
@@ -33549,8 +33115,9 @@ nodes = (
 "217 81 OFFCURVE",
 "166 69 OFFCURVE",
 "115 69 CURVE SMOOTH",
-"0 69 LINE",
-"0 0 LINE"
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -33629,8 +33196,9 @@ closed = 1;
 nodes = (
 "547 0 LINE",
 "547 122 LINE",
-"0 122 LINE",
-"0 0 LINE"
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -33683,8 +33251,9 @@ closed = 1;
 nodes = (
 "527 0 LINE",
 "527 69 LINE",
-"0 69 LINE",
-"0 0 LINE"
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -33755,10 +33324,6 @@ name = bottom;
 position = "{311, -400}";
 },
 {
-name = entry;
-position = "{642, 61}";
-},
-{
 name = top;
 position = "{311, 795}";
 }
@@ -33780,10 +33345,6 @@ anchors = (
 {
 name = bottom;
 position = "{285, -400}";
-},
-{
-name = entry;
-position = "{590, 35}";
 },
 {
 name = top;
@@ -33815,14 +33376,6 @@ name = bottom;
 position = "{313, -120}";
 },
 {
-name = entry;
-position = "{666, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{313, 795}";
 }
@@ -33844,14 +33397,6 @@ anchors = (
 {
 name = bottom;
 position = "{287, -120}";
-},
-{
-name = entry;
-position = "{613, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -33883,10 +33428,6 @@ name = bottom;
 position = "{279, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{330, 795}";
 }
@@ -33908,10 +33449,6 @@ anchors = (
 {
 name = bottom;
 position = "{300, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -33995,10 +33532,6 @@ name = bottom;
 position = "{504, -120}";
 },
 {
-name = entry;
-position = "{1053, 61}";
-},
-{
 name = top;
 position = "{773, 795}";
 }
@@ -34020,10 +33553,6 @@ anchors = (
 {
 name = bottom;
 position = "{480, -120}";
-},
-{
-name = entry;
-position = "{988, 35}";
 },
 {
 name = top;
@@ -34055,14 +33584,6 @@ name = bottom;
 position = "{290, -120}";
 },
 {
-name = entry;
-position = "{654, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{354, 795}";
 }
@@ -34084,14 +33605,6 @@ anchors = (
 {
 name = bottom;
 position = "{315, -120}";
-},
-{
-name = entry;
-position = "{606, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -34123,10 +33636,6 @@ name = bottom;
 position = "{334, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{334, 795}";
 }
@@ -34148,10 +33657,6 @@ anchors = (
 {
 name = bottom;
 position = "{341, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -34235,10 +33740,6 @@ name = bottom;
 position = "{504, -120}";
 },
 {
-name = entry;
-position = "{1053, 61}";
-},
-{
 name = top;
 position = "{773, 930}";
 }
@@ -34260,10 +33761,6 @@ anchors = (
 {
 name = bottom;
 position = "{480, -120}";
-},
-{
-name = entry;
-position = "{988, 35}";
 },
 {
 name = top;
@@ -34295,14 +33792,6 @@ name = bottom;
 position = "{290, -120}";
 },
 {
-name = entry;
-position = "{654, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{354, 930}";
 }
@@ -34324,14 +33813,6 @@ anchors = (
 {
 name = bottom;
 position = "{315, -120}";
-},
-{
-name = entry;
-position = "{606, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -34363,10 +33844,6 @@ name = bottom;
 position = "{274, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{315, 930}";
 }
@@ -34388,10 +33865,6 @@ anchors = (
 {
 name = bottom;
 position = "{341, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -34567,8 +34040,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1053 0 LINE",
-"1053 122 LINE",
+"1063 0 LINE",
+"1073 61 LINE",
+"1063 122 LINE",
 "942 122 LINE",
 "942 0 LINE"
 );
@@ -34601,8 +34075,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"988 0 LINE",
-"988 69 LINE",
+"998 0 LINE",
+"1008 35 LINE",
+"998 69 LINE",
 "889 69 LINE",
 "889 0 LINE"
 );
@@ -34626,10 +34101,6 @@ name = entry;
 position = "{654, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{354, 573}";
 }
@@ -34644,8 +34115,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"654 0 LINE",
-"654 122 LINE",
+"664 0 LINE",
+"674 61 LINE",
+"664 122 LINE",
 "536 122 LINE",
 "536 0 LINE"
 );
@@ -34664,10 +34136,6 @@ name = entry;
 position = "{606, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{315, 573}";
 }
@@ -34682,8 +34150,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"606 0 LINE",
-"606 69 LINE",
+"616 0 LINE",
+"626 35 LINE",
+"616 69 LINE",
 "503 69 LINE",
 "503 0 LINE"
 );
@@ -34728,8 +34197,9 @@ nodes = (
 "423 422 LINE",
 "423 77 LINE",
 "468 122 LINE",
-"0 122 LINE",
-"0 0 LINE",
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE",
 "557 0 LINE",
 "557 486 LINE",
 "505 492 LINE SMOOTH",
@@ -34780,8 +34250,9 @@ nodes = (
 "441 451 LINE",
 "441 42 LINE",
 "466 69 LINE",
-"0 69 LINE",
-"0 0 LINE",
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE",
 "518 0 LINE",
 "518 489 LINE",
 "490 492 LINE SMOOTH",
@@ -34834,8 +34305,9 @@ nodes = (
 "110 205 OFFCURVE",
 "126 151 OFFCURVE",
 "120 157 CURVE",
-"0 157 LINE",
-"0 0 LINE"
+"-10 157 LINE",
+"-20 78 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -35023,10 +34495,6 @@ name = bottom;
 position = "{341, -120}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{341, 573}";
 }
@@ -35044,10 +34512,6 @@ anchors = (
 {
 name = bottom;
 position = "{274, -120}";
-},
-{
-name = exit;
-position = "{0, 61}";
 },
 {
 name = top;
@@ -35074,14 +34538,6 @@ name = bottom;
 position = "{290, -120}";
 },
 {
-name = entry;
-position = "{654, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{354, 573}";
 }
@@ -35099,14 +34555,6 @@ anchors = (
 {
 name = bottom;
 position = "{315, -120}";
-},
-{
-name = entry;
-position = "{606, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -35151,8 +34599,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"967 0 LINE",
-"967 122 LINE",
+"977 0 LINE",
+"987 61 LINE",
+"977 122 LINE",
 "833 122 LINE",
 "833 0 LINE"
 );
@@ -35185,8 +34634,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"900 0 LINE",
-"900 69 LINE",
+"910 0 LINE",
+"920 35 LINE",
+"910 69 LINE",
 "778 69 LINE",
 "778 0 LINE"
 );
@@ -35258,10 +34708,6 @@ name = bottom;
 position = "{452, -380}";
 },
 {
-name = entry;
-position = "{967, 61}";
-},
-{
 name = top;
 position = "{662, 795}";
 }
@@ -35283,10 +34729,6 @@ anchors = (
 {
 name = bottom;
 position = "{440, -350}";
-},
-{
-name = entry;
-position = "{900, 35}";
 },
 {
 name = top;
@@ -35318,14 +34760,6 @@ name = bottom;
 position = "{290, -120}";
 },
 {
-name = entry;
-position = "{654, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{354, 795}";
 }
@@ -35347,14 +34781,6 @@ anchors = (
 {
 name = bottom;
 position = "{315, -120}";
-},
-{
-name = entry;
-position = "{606, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -35386,10 +34812,6 @@ name = bottom;
 position = "{334, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{334, 795}";
 }
@@ -35411,10 +34833,6 @@ anchors = (
 {
 name = bottom;
 position = "{341, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -35549,8 +34967,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"872 0 LINE",
-"872 122 LINE",
+"882 0 LINE",
+"892 61 LINE",
+"882 122 LINE",
 "700 122 LINE",
 "701 0 LINE"
 );
@@ -35583,8 +35002,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"820 0 LINE",
-"820 69 LINE",
+"830 0 LINE",
+"840 35 LINE",
+"830 69 LINE",
 "658 69 LINE",
 "658 0 LINE"
 );
@@ -35656,10 +35076,6 @@ name = bottom;
 position = "{382, -120}";
 },
 {
-name = entry;
-position = "{872, 61}";
-},
-{
 name = top;
 position = "{382, 660}";
 }
@@ -35681,10 +35097,6 @@ anchors = (
 {
 name = bottom;
 position = "{357, -120}";
-},
-{
-name = entry;
-position = "{820, 35}";
 },
 {
 name = top;
@@ -35720,10 +35132,6 @@ name = entry;
 position = "{712, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{136, 800}";
 }
@@ -35738,8 +35146,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"712 0 LINE",
-"712 122 LINE",
+"722 0 LINE",
+"732 61 LINE",
+"722 122 LINE",
 "558 122 LINE",
 "558 0 LINE"
 );
@@ -35758,10 +35167,6 @@ name = entry;
 position = "{669, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{117, 770}";
 }
@@ -35776,8 +35181,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"669 0 LINE",
-"669 69 LINE",
+"679 0 LINE",
+"689 35 LINE",
+"679 69 LINE",
 "503 69 LINE",
 "503 0 LINE"
 );
@@ -35834,8 +35240,9 @@ nodes = (
 "445 245 CURVE SMOOTH",
 "445 77 LINE",
 "490 122 LINE",
-"0 122 LINE",
-"0 0 LINE"
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -35884,8 +35291,9 @@ nodes = (
 "449 214 CURVE SMOOTH",
 "449 40 LINE",
 "476 69 LINE",
-"0 69 LINE",
-"0 0 LINE"
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -36044,8 +35452,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"950 0 LINE",
-"950 122 LINE",
+"960 0 LINE",
+"970 61 LINE",
+"960 122 LINE",
 "823 122 LINE",
 "824 0 LINE"
 );
@@ -36078,8 +35487,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"851 0 LINE",
-"851 69 LINE",
+"861 0 LINE",
+"871 35 LINE",
+"861 69 LINE",
 "725 69 LINE",
 "726 0 LINE"
 );
@@ -36100,14 +35510,6 @@ name = bottom;
 position = "{310, -120}";
 },
 {
-name = entry;
-position = "{712, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{136, 800}";
 }
@@ -36125,14 +35527,6 @@ anchors = (
 {
 name = bottom;
 position = "{325, -120}";
-},
-{
-name = entry;
-position = "{669, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -36160,10 +35554,6 @@ name = bottom;
 position = "{310, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{136, 800}";
 }
@@ -36181,10 +35571,6 @@ anchors = (
 {
 name = bottom;
 position = "{283, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -36264,10 +35650,6 @@ name = bottom;
 position = "{438, -120}";
 },
 {
-name = entry;
-position = "{950, 61}";
-},
-{
 name = top;
 position = "{428, 900}";
 }
@@ -36289,10 +35671,6 @@ anchors = (
 {
 name = bottom;
 position = "{416, -120}";
-},
-{
-name = entry;
-position = "{851, 35}";
 },
 {
 name = top;
@@ -36324,14 +35702,6 @@ name = bottom;
 position = "{310, -120}";
 },
 {
-name = entry;
-position = "{712, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{136, 900}";
 }
@@ -36353,14 +35723,6 @@ anchors = (
 {
 name = bottom;
 position = "{325, -120}";
-},
-{
-name = entry;
-position = "{669, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -36392,10 +35754,6 @@ name = bottom;
 position = "{310, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{136, 900}";
 }
@@ -36417,10 +35775,6 @@ anchors = (
 {
 name = bottom;
 position = "{283, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -36564,8 +35918,9 @@ paths = (
 closed = 1;
 nodes = (
 "599 0 LINE",
-"733 0 LINE",
-"733 122 LINE",
+"743 0 LINE",
+"753 61 LINE",
+"743 122 LINE",
 "599 122 LINE"
 );
 }
@@ -36598,8 +35953,9 @@ paths = (
 closed = 1;
 nodes = (
 "543 0 LINE",
-"670 0 LINE",
-"670 69 LINE",
+"680 0 LINE",
+"690 35 LINE",
+"680 69 LINE",
 "543 69 LINE"
 );
 }
@@ -36623,10 +35979,6 @@ name = entry;
 position = "{362, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{181, 767}";
 }
@@ -36641,8 +35993,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"362 0 LINE",
-"362 122 LINE",
+"372 0 LINE",
+"382 61 LINE",
+"372 122 LINE",
 "240 122 LINE",
 "240 0 LINE"
 );
@@ -36661,10 +36014,6 @@ name = entry;
 position = "{327, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{157, 800}";
 }
@@ -36679,8 +36028,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"327 0 LINE",
-"327 69 LINE",
+"337 0 LINE",
+"347 35 LINE",
+"337 69 LINE",
 "181 69 LINE",
 "181 0 LINE"
 );
@@ -36719,8 +36069,9 @@ nodes = (
 "123 700 LINE",
 "123 32 LINE",
 "209 122 LINE",
-"0 122 LINE",
-"0 0 LINE"
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -36751,8 +36102,9 @@ nodes = (
 "123 718 LINE",
 "123 24 LINE",
 "168 69 LINE",
-"0 69 LINE",
-"0 0 LINE"
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -36937,8 +36289,9 @@ nodes = (
 "603 23 OFFCURVE",
 "628 0 OFFCURVE",
 "654 0 CURVE SMOOTH",
-"709 0 LINE",
-"709 122 LINE",
+"719 0 LINE",
+"729 61 LINE",
+"719 122 LINE",
 "654 122 LINE SMOOTH",
 "629 122 OFFCURVE",
 "603 144 OFFCURVE",
@@ -36977,8 +36330,9 @@ nodes = (
 "565 17 OFFCURVE",
 "598 0 OFFCURVE",
 "624 0 CURVE SMOOTH",
-"656 0 LINE",
-"656 69 LINE",
+"666 0 LINE",
+"676 35 LINE",
+"666 69 LINE",
 "624 69 LINE SMOOTH",
 "584 69 OFFCURVE",
 "557 90 OFFCURVE",
@@ -37005,10 +36359,6 @@ name = entry;
 position = "{738, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{342, 630}";
 }
@@ -37027,8 +36377,9 @@ nodes = (
 "632 23 OFFCURVE",
 "657 0 OFFCURVE",
 "683 0 CURVE SMOOTH",
-"738 0 LINE",
-"738 122 LINE",
+"748 0 LINE",
+"758 61 LINE",
+"748 122 LINE",
 "683 122 LINE SMOOTH",
 "658 122 OFFCURVE",
 "632 144 OFFCURVE",
@@ -37049,10 +36400,6 @@ name = entry;
 position = "{694, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{323, 600}";
 }
@@ -37071,8 +36418,9 @@ nodes = (
 "603 17 OFFCURVE",
 "636 0 OFFCURVE",
 "662 0 CURVE SMOOTH",
-"694 0 LINE",
-"694 69 LINE",
+"704 0 LINE",
+"714 35 LINE",
+"704 69 LINE",
 "662 69 LINE SMOOTH",
 "622 69 OFFCURVE",
 "595 90 OFFCURVE",
@@ -37108,7 +36456,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"59 0 OFFCURVE",
+"49 0 OFFCURVE",
 "393 0 OFFCURVE",
 "629 0 CURVE",
 "629 250 LINE SMOOTH",
@@ -37141,9 +36489,10 @@ nodes = (
 "495 47 LINE",
 "579 122 LINE",
 "368 122 OFFCURVE",
-"65 122 OFFCURVE",
-"0 122 CURVE",
-"0 0 LINE"
+"55 122 OFFCURVE",
+"-10 122 CURVE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -37169,7 +36518,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"72 0 OFFCURVE",
+"62 0 OFFCURVE",
 "374 0 OFFCURVE",
 "582 0 CURVE",
 "582 250 LINE SMOOTH",
@@ -37202,9 +36551,10 @@ nodes = (
 "505 24 LINE",
 "550 69 LINE",
 "357 69 OFFCURVE",
-"73 69 OFFCURVE",
-"0 69 CURVE",
-"0 0 LINE"
+"63 69 OFFCURVE",
+"-10 69 CURVE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -37275,10 +36625,6 @@ name = bottom;
 position = "{334, -380}";
 },
 {
-name = entry;
-position = "{716, 61}";
-},
-{
 name = top;
 position = "{334, 710}";
 }
@@ -37300,10 +36646,6 @@ anchors = (
 {
 name = bottom;
 position = "{305, -350}";
-},
-{
-name = entry;
-position = "{669, 35}";
 },
 {
 name = top;
@@ -37335,14 +36677,6 @@ name = bottom;
 position = "{215, -120}";
 },
 {
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{215, 795}";
 }
@@ -37364,14 +36698,6 @@ anchors = (
 {
 name = bottom;
 position = "{173, -120}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -37403,10 +36729,6 @@ name = bottom;
 position = "{218, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 795}";
 }
@@ -37428,10 +36750,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -37555,10 +36873,6 @@ name = bottom;
 position = "{187, -120}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{187, 573}";
 }
@@ -37576,10 +36890,6 @@ anchors = (
 {
 name = bottom;
 position = "{218, -60}";
-},
-{
-name = exit;
-position = "{0, 61}";
 },
 {
 name = top;
@@ -37606,14 +36916,6 @@ name = bottom;
 position = "{187, -60}";
 },
 {
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{187, 603}";
 }
@@ -37631,14 +36933,6 @@ anchors = (
 {
 name = bottom;
 position = "{217, -60}";
-},
-{
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
 },
 {
 name = top;
@@ -37684,8 +36978,9 @@ paths = (
 closed = 1;
 nodes = (
 "608 0 LINE",
-"716 0 LINE",
-"716 122 LINE",
+"726 0 LINE",
+"736 61 LINE",
+"726 122 LINE",
 "608 122 LINE"
 );
 }
@@ -37718,8 +37013,9 @@ paths = (
 closed = 1;
 nodes = (
 "550 0 LINE",
-"669 0 LINE",
-"669 69 LINE",
+"679 0 LINE",
+"689 35 LINE",
+"679 69 LINE",
 "550 69 LINE"
 );
 }
@@ -37863,8 +37159,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"661 0 LINE",
-"661 122 LINE",
+"671 0 LINE",
+"681 61 LINE",
+"671 122 LINE",
 "549 122 LINE",
 "549 0 LINE"
 );
@@ -37897,8 +37194,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"609 0 LINE",
-"609 69 LINE",
+"619 0 LINE",
+"629 35 LINE",
+"619 69 LINE",
 "486 69 LINE",
 "486 0 LINE"
 );
@@ -37923,10 +37221,6 @@ name = entry;
 position = "{836, 61}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{403, 700}";
 }
@@ -37941,8 +37235,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"836 0 LINE",
-"836 122 LINE",
+"846 0 LINE",
+"856 61 LINE",
+"846 122 LINE",
 "734 122 LINE",
 "734 0 LINE"
 );
@@ -37961,10 +37256,6 @@ name = entry;
 position = "{799, 35}";
 },
 {
-name = exit;
-position = "{0, 35}";
-},
-{
 name = top;
 position = "{380, 630}";
 }
@@ -37979,8 +37270,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"799 0 LINE",
-"799 69 LINE",
+"809 0 LINE",
+"819 35 LINE",
+"809 69 LINE",
 "691 69 LINE",
 "691 0 LINE"
 );
@@ -38014,8 +37306,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"861 0 LINE",
-"861 157 LINE",
+"871 0 LINE",
+"881 78 LINE",
+"871 157 LINE",
 "763 157 LINE",
 "763 0 LINE"
 );
@@ -38023,7 +37316,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"0 0 LINE",
+"-20 77 LINE",
+"-10 0 LINE",
 "778 0 LINE",
 "778 272 LINE",
 "778 453 OFFCURVE",
@@ -38040,7 +37334,7 @@ nodes = (
 "606 468 OFFCURVE",
 "606 272 CURVE",
 "606 157 LINE",
-"0 157 LINE"
+"-10 157 LINE"
 );
 },
 {
@@ -38099,7 +37393,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"0 0 LINE",
+"-20 61 LINE",
+"-10 0 LINE",
 "747 0 LINE",
 "747 217 LINE",
 "747 428 OFFCURVE",
@@ -38116,7 +37411,7 @@ nodes = (
 "613 421 OFFCURVE",
 "613 217 CURVE",
 "613 122 LINE",
-"0 122 LINE"
+"-10 122 LINE"
 );
 },
 {
@@ -38169,7 +37464,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"0 0 LINE",
+"-20 35 LINE",
+"-10 0 LINE",
 "700 0 LINE",
 "700 209 LINE",
 "700 465 OFFCURVE",
@@ -38186,7 +37482,7 @@ nodes = (
 "623 423 OFFCURVE",
 "623 207 CURVE",
 "623 69 LINE",
-"0 69 LINE"
+"-10 69 LINE"
 );
 },
 {
@@ -38241,7 +37537,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"0 0 LINE",
+"-20 78 LINE",
+"-10 0 LINE",
 "778 0 LINE",
 "778 272 LINE",
 "778 453 OFFCURVE",
@@ -38258,7 +37555,7 @@ nodes = (
 "606 468 OFFCURVE",
 "606 272 CURVE",
 "606 157 LINE",
-"0 157 LINE"
+"-10 157 LINE"
 );
 },
 {
@@ -38371,8 +37668,9 @@ nodes = (
 "465 384 CURVE",
 "422 431 LINE",
 "422 0 LINE",
-"656 0 LINE",
-"656 122 LINE",
+"666 0 LINE",
+"676 61 LINE",
+"666 122 LINE",
 "483 122 LINE",
 "556 32 LINE",
 "556 496 LINE",
@@ -38419,8 +37717,9 @@ nodes = (
 "440 434 CURVE",
 "418 481 LINE",
 "418 0 LINE",
-"609 0 LINE",
-"609 69 LINE",
+"619 0 LINE",
+"629 35 LINE",
+"619 69 LINE",
 "450 69 LINE",
 "495 24 LINE",
 "495 499 LINE",
@@ -38473,8 +37772,9 @@ nodes = (
 "476 -307 LINE",
 "476 73 LINE",
 "403 0 LINE",
-"576 0 LINE",
-"576 122 LINE",
+"586 0 LINE",
+"596 61 LINE",
+"586 122 LINE",
 "342 122 LINE",
 "342 -274 LINE",
 "376 -191 LINE",
@@ -38482,8 +37782,9 @@ nodes = (
 "233 -87 OFFCURVE",
 "233 54 CURVE SMOOTH",
 "233 122 LINE",
-"0 122 LINE",
-"0 0 LINE",
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE",
 "182 0 LINE",
 "105 42 LINE",
 "110 -197 OFFCURVE",
@@ -38524,8 +37825,9 @@ nodes = (
 "429 -310 LINE",
 "429 45 LINE",
 "384 0 LINE",
-"543 0 LINE",
-"543 69 LINE",
+"553 0 LINE",
+"563 35 LINE",
+"553 69 LINE",
 "352 69 LINE",
 "352 -294 LINE",
 "384 -248 LINE",
@@ -38533,8 +37835,9 @@ nodes = (
 "190 -220 OFFCURVE",
 "190 27 CURVE SMOOTH",
 "190 69 LINE",
-"0 69 LINE",
-"0 0 LINE",
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE",
 "160 0 LINE",
 "115 27 LINE",
 "117 -254 OFFCURVE",
@@ -38558,10 +37861,6 @@ name = bottom;
 position = "{218, -388}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 573}";
 }
@@ -38583,10 +37882,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -388}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -38670,10 +37965,6 @@ name = bottom;
 position = "{325, -120}";
 },
 {
-name = entry;
-position = "{661, 61}";
-},
-{
 name = top;
 position = "{325, 930}";
 }
@@ -38695,10 +37986,6 @@ anchors = (
 {
 name = bottom;
 position = "{295, -120}";
-},
-{
-name = entry;
-position = "{609, 35}";
 },
 {
 name = top;
@@ -38729,10 +38016,6 @@ name = bottom;
 position = "{197, -388}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{197, 931}";
 }
@@ -38754,10 +38037,6 @@ anchors = (
 {
 name = bottom;
 position = "{167, -388}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -38788,14 +38067,6 @@ name = bottom;
 position = "{268, -400}";
 },
 {
-name = entry;
-position = "{576, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{268, 653}";
 }
@@ -38817,14 +38088,6 @@ anchors = (
 {
 name = bottom;
 position = "{252, -407}";
-},
-{
-name = entry;
-position = "{503, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -39079,8 +38342,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"818 0 LINE",
-"818 122 LINE",
+"828 0 LINE",
+"838 61 LINE",
+"828 122 LINE",
 "716 122 LINE",
 "716 0 LINE"
 );
@@ -39113,8 +38377,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"779 0 LINE",
-"779 69 LINE",
+"789 0 LINE",
+"799 35 LINE",
+"789 69 LINE",
 "671 69 LINE",
 "671 0 LINE"
 );
@@ -39144,8 +38409,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"844 0 LINE",
-"844 157 LINE",
+"854 0 LINE",
+"864 78 LINE",
+"854 157 LINE",
 "746 157 LINE",
 "746 0 LINE"
 );
@@ -39216,14 +38482,6 @@ name = bottom;
 position = "{403, -120}";
 },
 {
-name = entry;
-position = "{836, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{403, 700}";
 }
@@ -39241,14 +38499,6 @@ anchors = (
 {
 name = bottom;
 position = "{380, -120}";
-},
-{
-name = entry;
-position = "{799, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -39289,8 +38539,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"861 0 LINE",
-"861 157 LINE",
+"871 0 LINE",
+"881 78 LINE",
+"871 157 LINE",
 "763 157 LINE",
 "763 0 LINE"
 );
@@ -39361,10 +38612,6 @@ name = bottom;
 position = "{403, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{403, 700}";
 }
@@ -39382,10 +38629,6 @@ anchors = (
 {
 name = bottom;
 position = "{370, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -39438,8 +38681,9 @@ nodes = (
 "606 468 OFFCURVE",
 "606 272 CURVE",
 "606 157 LINE",
-"0 157 LINE",
-"0 0 LINE"
+"-10 157 LINE",
+"-20 78 LINE",
+"-10 0 LINE"
 );
 },
 {
@@ -39537,10 +38781,6 @@ name = bottom;
 position = "{325, -120}";
 },
 {
-name = entry;
-position = "{661, 61}";
-},
-{
 name = top;
 position = "{325, 795}";
 }
@@ -39562,10 +38802,6 @@ anchors = (
 {
 name = bottom;
 position = "{295, -120}";
-},
-{
-name = entry;
-position = "{609, 35}";
 },
 {
 name = top;
@@ -39649,10 +38885,6 @@ name = bottom;
 position = "{318, -120}";
 },
 {
-name = entry;
-position = "{656, 61}";
-},
-{
 name = top;
 position = "{319, 795}";
 }
@@ -39674,10 +38906,6 @@ anchors = (
 {
 name = bottom;
 position = "{295, -120}";
-},
-{
-name = entry;
-position = "{609, 35}";
 },
 {
 name = top;
@@ -39926,8 +39154,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"625 0 LINE",
-"625 122 LINE",
+"635 0 LINE",
+"645 61 LINE",
+"635 122 LINE",
 "482 122 LINE",
 "482 0 LINE"
 );
@@ -39960,8 +39189,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"567 0 LINE",
-"567 69 LINE",
+"577 0 LINE",
+"587 35 LINE",
+"577 69 LINE",
 "408 69 LINE",
 "408 0 LINE"
 );
@@ -39991,8 +39221,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"692 0 LINE",
-"692 157 LINE",
+"702 0 LINE",
+"712 78 LINE",
+"702 157 LINE",
 "529 157 LINE",
 "529 0 LINE"
 );
@@ -40113,10 +39344,6 @@ name = bottom;
 position = "{293, -350}";
 },
 {
-name = entry;
-position = "{625, 61}";
-},
-{
 name = top;
 position = "{293, 930}";
 }
@@ -40138,10 +39365,6 @@ anchors = (
 {
 name = bottom;
 position = "{269, -350}";
-},
-{
-name = entry;
-position = "{567, 35}";
 },
 {
 name = top;
@@ -40326,8 +39549,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"942 0 LINE",
-"942 122 LINE",
+"952 0 LINE",
+"962 61 LINE",
+"952 122 LINE",
 "718 122 LINE",
 "674 122 OFFCURVE",
 "648 120 OFFCURVE",
@@ -40394,8 +39618,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"913 0 LINE",
-"913 69 LINE",
+"923 0 LINE",
+"933 35 LINE",
+"923 69 LINE",
 "692 69 LINE SMOOTH",
 "649 69 OFFCURVE",
 "620 69 OFFCURVE",
@@ -40507,10 +39732,6 @@ name = bottom;
 position = "{454, -530}";
 },
 {
-name = entry;
-position = "{942, 61}";
-},
-{
 name = top;
 position = "{175, 241}";
 }
@@ -40532,10 +39753,6 @@ anchors = (
 {
 name = bottom;
 position = "{427, -500}";
-},
-{
-name = entry;
-position = "{914, 35}";
 },
 {
 name = top;
@@ -40567,14 +39784,6 @@ name = bottom;
 position = "{212, -300}";
 },
 {
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{212, 603}";
 }
@@ -40596,14 +39805,6 @@ anchors = (
 {
 name = bottom;
 position = "{172, -280}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -40635,10 +39836,6 @@ name = bottom;
 position = "{218, -300}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 603}";
 }
@@ -40660,10 +39857,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -280}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -40747,10 +39940,6 @@ name = bottom;
 position = "{454, -350}";
 },
 {
-name = entry;
-position = "{942, 61}";
-},
-{
 name = top;
 position = "{175, 573}";
 }
@@ -40765,17 +39954,13 @@ transform = "{1, 0, 0, 1, 152, -445}";
 }
 );
 layerId = "E174F030-6324-451A-8951-EA6336064495";
-width = 962;
+width = 942;
 },
 {
 anchors = (
 {
 name = bottom;
 position = "{427, -350}";
-},
-{
-name = entry;
-position = "{894, 35}";
 },
 {
 name = top;
@@ -40807,14 +39992,6 @@ name = bottom;
 position = "{193, -120}";
 },
 {
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{193, 925}";
 }
@@ -40836,14 +40013,6 @@ anchors = (
 {
 name = bottom;
 position = "{172, -120}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -40875,10 +40044,6 @@ name = bottom;
 position = "{218, -120}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 950}";
 }
@@ -40900,10 +40065,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -120}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -40979,10 +40140,6 @@ name = bottom;
 position = "{454, -350}";
 },
 {
-name = entry;
-position = "{942, 61}";
-},
-{
 name = top;
 position = "{175, 241}";
 }
@@ -40993,17 +40150,13 @@ name = "alefMaksura-ar.fina";
 }
 );
 layerId = "E174F030-6324-451A-8951-EA6336064495";
-width = 962;
+width = 942;
 },
 {
 anchors = (
 {
 name = bottom;
 position = "{427, -380}";
-},
-{
-name = entry;
-position = "{914, 35}";
 },
 {
 name = top;
@@ -41031,14 +40184,6 @@ name = bottom;
 position = "{213, -300}";
 },
 {
-name = entry;
-position = "{433, 61}";
-},
-{
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{213, 603}";
 }
@@ -41060,14 +40205,6 @@ anchors = (
 {
 name = bottom;
 position = "{172, -280}";
-},
-{
-name = entry;
-position = "{375, 35}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -41099,10 +40236,6 @@ name = bottom;
 position = "{218, -300}";
 },
 {
-name = exit;
-position = "{0, 61}";
-},
-{
 name = top;
 position = "{218, 603}";
 }
@@ -41124,10 +40257,6 @@ anchors = (
 {
 name = bottom;
 position = "{187, -280}";
-},
-{
-name = exit;
-position = "{0, 35}";
 },
 {
 name = top;
@@ -41284,8 +40413,9 @@ nodes = (
 "175 15 OFFCURVE",
 "174 13 CURVE",
 "127 0 LINE",
-"710 0 LINE",
-"710 122 LINE",
+"720 0 LINE",
+"730 61 LINE",
+"720 122 LINE",
 "67 122 LINE",
 "55 94 OFFCURVE",
 "38 32 OFFCURVE",
@@ -41328,8 +40458,9 @@ nodes = (
 "124 7 OFFCURVE",
 "128 11 CURVE",
 "78 0 LINE",
-"710 0 LINE",
-"710 69 LINE",
+"720 0 LINE",
+"730 35 LINE",
+"720 69 LINE",
 "62 69 LINE",
 "53 49 OFFCURVE",
 "40 3 OFFCURVE",
@@ -41407,10 +40538,6 @@ name = bottom;
 position = "{300, -370}";
 },
 {
-name = entry;
-position = "{710, 61}";
-},
-{
 name = top;
 position = "{172, 550}";
 }
@@ -41432,10 +40559,6 @@ anchors = (
 {
 name = bottom;
 position = "{209, -370}";
-},
-{
-name = entry;
-position = "{710, 35}";
 },
 {
 name = top;
@@ -41484,10 +40607,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"250 0 LINE",
-"250 122 LINE",
-"0 122 LINE",
-"0 0 LINE"
+"260 0 LINE",
+"270 61 LINE",
+"260 122 LINE",
+"-10 122 LINE",
+"-20 61 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -41517,10 +40642,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"250 0 LINE",
-"250 69 LINE",
-"0 69 LINE",
-"0 0 LINE"
+"260 0 LINE",
+"270 35 LINE",
+"260 69 LINE",
+"-10 69 LINE",
+"-20 35 LINE",
+"-10 0 LINE"
 );
 }
 );
@@ -41667,8 +40794,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"648 0 LINE",
-"648 122 LINE",
+"658 0 LINE",
+"668 61 LINE",
+"658 122 LINE",
 "553 122 LINE",
 "553 0 LINE"
 );
@@ -41713,8 +40841,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"602 0 LINE",
-"602 69 LINE",
+"612 0 LINE",
+"622 35 LINE",
+"612 69 LINE",
 "498 69 LINE",
 "498 0 LINE"
 );
@@ -41823,10 +40952,6 @@ name = caret_1;
 position = "{318, 0}";
 },
 {
-name = entry;
-position = "{648, 61}";
-},
-{
 name = top_1;
 position = "{520, 762}";
 },
@@ -41861,10 +40986,6 @@ position = "{192, -120}";
 {
 name = caret_1;
 position = "{291, -60}";
-},
-{
-name = entry;
-position = "{602, 35}";
 },
 {
 name = top_1;
@@ -41991,10 +41112,6 @@ name = caret_1;
 position = "{318, 0}";
 },
 {
-name = entry;
-position = "{648, 61}";
-},
-{
 name = top_1;
 position = "{520, 762}";
 },
@@ -42029,10 +41146,6 @@ position = "{192, -300}";
 {
 name = caret_1;
 position = "{291, 0}";
-},
-{
-name = entry;
-position = "{602, 35}";
 },
 {
 name = top_1;
@@ -42159,10 +41272,6 @@ name = caret_1;
 position = "{318, 0}";
 },
 {
-name = entry;
-position = "{648, 61}";
-},
-{
 name = top_1;
 position = "{520, 763}";
 },
@@ -42197,10 +41306,6 @@ position = "{192, -120}";
 {
 name = caret_1;
 position = "{291, -60}";
-},
-{
-name = entry;
-position = "{602, 35}";
 },
 {
 name = top_1;
@@ -42326,10 +41431,6 @@ name = caret_1;
 position = "{318, 0}";
 },
 {
-name = entry;
-position = "{648, 61}";
-},
-{
 name = top_1;
 position = "{520, 763}";
 },
@@ -42364,10 +41465,6 @@ position = "{192, -120}";
 {
 name = caret_1;
 position = "{291, -60}";
-},
-{
-name = entry;
-position = "{602, 35}";
 },
 {
 name = top_1;
@@ -42413,10 +41510,6 @@ name = caret_1;
 position = "{352, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{587, 603}";
 },
@@ -42451,10 +41544,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -42501,10 +41590,6 @@ name = caret_1;
 position = "{351, 0}";
 },
 {
-name = entry;
-position = "{760, 61}";
-},
-{
 name = top_1;
 position = "{587, 603}";
 },
@@ -42544,10 +41629,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -42599,10 +41680,6 @@ name = caret_1;
 position = "{526.5, 0}";
 },
 {
-name = entry;
-position = "{1074, 61}";
-},
-{
 name = top_1;
 position = "{899, 603}";
 },
@@ -42637,10 +41714,6 @@ position = "{305, -350}";
 {
 name = caret_1;
 position = "{482.5, 0}";
-},
-{
-name = entry;
-position = "{985, 35}";
 },
 {
 name = top_1;
@@ -42687,10 +41760,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 603}";
 },
@@ -42725,10 +41794,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -42775,10 +41840,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 603}";
 },
@@ -42818,10 +41879,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -42873,10 +41930,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 603}";
 },
@@ -42907,46 +41960,43 @@ width = 1214;
 anchors = (
 {
 name = bottom_1;
-position = "{940, -280}";
+position = "{951, -280}";
 },
 {
 name = bottom_2;
-position = "{413, -300}";
+position = "{424, -300}";
 },
 {
 name = caret_1;
-position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
+position = "{793, 0}";
 },
 {
 name = top_1;
-position = "{940, 603}";
+position = "{951, 603}";
 },
 {
 name = top_2;
-position = "{139, 567}";
+position = "{150, 567}";
 }
 );
 components = (
 {
 name = "dotlessbeh-yehmaksura";
+transform = "{1, 0, 0, 1, 11, 0}";
 },
 {
 anchor = bottom_1;
 name = "dotbelow-ar";
-transform = "{1, 0, 0, 1, 859, 0}";
+transform = "{1, 0, 0, 1, 870, 0}";
 },
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 127, -482}";
+transform = "{1, 0, 0, 1, 138, -482}";
 }
 );
 layerId = "7BE58B69-D6A5-4645-9194-9194354D517E";
-width = 1105;
+width = 1116;
 }
 );
 leftMetricsKey = "dotlessbeh-yehmaksura";
@@ -42968,10 +42018,6 @@ position = "{213, -350}";
 {
 name = caret_1;
 position = "{352, 0}";
-},
-{
-name = entry;
-position = "{761, 61}";
 },
 {
 name = top_1;
@@ -43008,10 +42054,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -43055,10 +42097,6 @@ name = caret_1;
 position = "{352, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{587, 603}";
 },
@@ -43098,10 +42136,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -43152,10 +42186,6 @@ name = caret_1;
 position = "{526.5, 0}";
 },
 {
-name = entry;
-position = "{1074, 61}";
-},
-{
 name = top_1;
 position = "{899, 603}";
 },
@@ -43190,10 +42220,6 @@ position = "{305, -350}";
 {
 name = caret_1;
 position = "{482.5, 0}";
-},
-{
-name = entry;
-position = "{985, 35}";
 },
 {
 name = top_1;
@@ -43239,10 +42265,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 603}";
 },
@@ -43277,10 +42299,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -43326,10 +42344,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 603}";
 },
@@ -43369,10 +42383,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -43423,10 +42433,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 603}";
 },
@@ -43457,46 +42463,43 @@ width = 1214;
 anchors = (
 {
 name = bottom_1;
-position = "{940, -400}";
+position = "{951, -400}";
 },
 {
 name = bottom_2;
-position = "{413, -300}";
+position = "{424, -300}";
 },
 {
 name = caret_1;
-position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
+position = "{793, 0}";
 },
 {
 name = top_1;
-position = "{940, 603}";
+position = "{951, 603}";
 },
 {
 name = top_2;
-position = "{139, 567}";
+position = "{150, 567}";
 }
 );
 components = (
 {
 name = "dotlessbeh-yehmaksura";
+transform = "{1, 0, 0, 1, 11, 0}";
 },
 {
 anchor = bottom_1;
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 793, -50}";
+transform = "{1, 0, 0, 1, 804, -50}";
 },
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 127, -482}";
+transform = "{1, 0, 0, 1, 138, -482}";
 }
 );
 layerId = "7BE58B69-D6A5-4645-9194-9194354D517E";
-width = 1105;
+width = 1116;
 }
 );
 leftMetricsKey = "dotlessbeh-yehmaksura";
@@ -43518,10 +42521,6 @@ position = "{213, -350}";
 {
 name = caret_1;
 position = "{351, 0}";
-},
-{
-name = entry;
-position = "{761, 61}";
 },
 {
 name = top_1;
@@ -43558,10 +42557,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -43608,10 +42603,6 @@ name = caret_1;
 position = "{351, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{587, 795}";
 },
@@ -43651,10 +42642,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -43706,10 +42693,6 @@ name = caret_1;
 position = "{526.5, 0}";
 },
 {
-name = entry;
-position = "{1074, 61}";
-},
-{
 name = top_1;
 position = "{899, 785}";
 },
@@ -43744,10 +42727,6 @@ position = "{305, -350}";
 {
 name = caret_1;
 position = "{482.5, 0}";
-},
-{
-name = entry;
-position = "{985, 35}";
 },
 {
 name = top_1;
@@ -43794,10 +42773,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 795}";
 },
@@ -43832,10 +42807,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -43882,10 +42853,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 795}";
 },
@@ -43925,10 +42892,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -43980,10 +42943,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 795}";
 },
@@ -44023,10 +42982,6 @@ position = "{424, -300}";
 {
 name = caret_1;
 position = "{793, 0}";
-},
-{
-name = entry;
-position = "{1116, 35}";
 },
 {
 name = top_1;
@@ -44078,10 +43033,6 @@ name = caret_1;
 position = "{352, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{587, 930}";
 },
@@ -44116,10 +43067,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -44166,10 +43113,6 @@ name = caret_1;
 position = "{352, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{587, 930}";
 },
@@ -44209,10 +43152,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -44264,10 +43203,6 @@ name = caret_1;
 position = "{526.5, 0}";
 },
 {
-name = entry;
-position = "{1074, 61}";
-},
-{
 name = top_1;
 position = "{899, 930}";
 },
@@ -44302,10 +43237,6 @@ position = "{305, -350}";
 {
 name = caret_1;
 position = "{482.5, 0}";
-},
-{
-name = entry;
-position = "{985, 35}";
 },
 {
 name = top_1;
@@ -44352,10 +43283,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 930}";
 },
@@ -44390,10 +43317,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -44440,10 +43363,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 930}";
 },
@@ -44483,10 +43402,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -44538,10 +43453,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 930}";
 },
@@ -44572,46 +43483,43 @@ width = 1214;
 anchors = (
 {
 name = bottom_1;
-position = "{940, -120}";
+position = "{951, -120}";
 },
 {
 name = bottom_2;
-position = "{413, -300}";
+position = "{424, -300}";
 },
 {
 name = caret_1;
-position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
+position = "{793, 0}";
 },
 {
 name = top_1;
-position = "{940, 932}";
+position = "{951, 932}";
 },
 {
 name = top_2;
-position = "{139, 575}";
+position = "{150, 575}";
 }
 );
 components = (
 {
 name = "dotlessbeh-yehmaksura";
+transform = "{1, 0, 0, 1, 11, 0}";
 },
 {
 anchor = top_1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 793, 70}";
+transform = "{1, 0, 0, 1, 804, 70}";
 },
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 127, -482}";
+transform = "{1, 0, 0, 1, 138, -482}";
 }
 );
 layerId = "7BE58B69-D6A5-4645-9194-9194354D517E";
-width = 1105;
+width = 1116;
 }
 );
 leftMetricsKey = "dotlessbeh-yehmaksura";
@@ -44890,8 +43798,9 @@ paths = (
 closed = 1;
 nodes = (
 "1112 0 LINE",
-"1310 0 LINE",
-"1310 122 LINE",
+"1320 0 LINE",
+"1330 61 LINE",
+"1320 122 LINE",
 "1112 122 LINE"
 );
 }
@@ -44936,8 +43845,9 @@ paths = (
 closed = 1;
 nodes = (
 "1100 0 LINE",
-"1230 0 LINE",
-"1230 69 LINE",
+"1240 0 LINE",
+"1250 35 LINE",
+"1240 69 LINE",
 "1099 69 LINE"
 );
 }
@@ -45248,8 +44158,9 @@ paths = (
 closed = 1;
 nodes = (
 "1596 0 LINE",
-"1718 0 LINE",
-"1718 122 LINE",
+"1728 0 LINE",
+"1738 61 LINE",
+"1728 122 LINE",
 "1596 122 LINE"
 );
 }
@@ -45294,8 +44205,9 @@ paths = (
 closed = 1;
 nodes = (
 "1481 0 LINE",
-"1608 0 LINE",
-"1608 69 LINE",
+"1618 0 LINE",
+"1628 35 LINE",
+"1618 69 LINE",
 "1481 69 LINE"
 );
 }
@@ -45403,10 +44315,6 @@ name = caret_1;
 position = "{849, 0}";
 },
 {
-name = entry;
-position = "{1718, 61}";
-},
-{
 name = top_1;
 position = "{1291, 603}";
 },
@@ -45441,10 +44349,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1608, 35}";
 },
 {
 name = top_1;
@@ -45570,10 +44474,6 @@ name = caret_1;
 position = "{592, 0}";
 },
 {
-name = entry;
-position = "{1310, 61}";
-},
-{
 name = top_1;
 position = "{845, 603}";
 },
@@ -45608,10 +44508,6 @@ position = "{196, -350}";
 {
 name = caret_1;
 position = "{593, 0}";
-},
-{
-name = entry;
-position = "{1230, 35}";
 },
 {
 name = top_1;
@@ -45736,10 +44632,6 @@ name = caret_1;
 position = "{849, 0}";
 },
 {
-name = entry;
-position = "{1718, 61}";
-},
-{
 name = top_1;
 position = "{1291, 603}";
 },
@@ -45774,10 +44666,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1608, 35}";
 },
 {
 name = top_1;
@@ -45903,10 +44791,6 @@ name = caret_1;
 position = "{592, 0}";
 },
 {
-name = entry;
-position = "{1310, 61}";
-},
-{
 name = top_1;
 position = "{845, 930}";
 },
@@ -45941,10 +44825,6 @@ position = "{196, -350}";
 {
 name = caret_1;
 position = "{593, 0}";
-},
-{
-name = entry;
-position = "{1230, 35}";
 },
 {
 name = top_1;
@@ -46080,10 +44960,6 @@ name = caret_1;
 position = "{592, 0}";
 },
 {
-name = entry;
-position = "{1310, 61}";
-},
-{
 name = top_1;
 position = "{845, 930}";
 },
@@ -46123,10 +44999,6 @@ position = "{196, -350}";
 {
 name = caret_1;
 position = "{593, 0}";
-},
-{
-name = entry;
-position = "{1230, 35}";
 },
 {
 name = top_1;
@@ -46257,10 +45129,6 @@ name = caret_1;
 position = "{849, 0}";
 },
 {
-name = entry;
-position = "{1718, 61}";
-},
-{
 name = top_1;
 position = "{1291, 930}";
 },
@@ -46295,10 +45163,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1608, 35}";
 },
 {
 name = top_1;
@@ -46435,10 +45299,6 @@ name = caret_1;
 position = "{849, 0}";
 },
 {
-name = entry;
-position = "{1718, 61}";
-},
-{
 name = top_1;
 position = "{1291, 930}";
 },
@@ -46478,10 +45338,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1608, 35}";
 },
 {
 name = top_1;
@@ -46622,10 +45478,6 @@ name = caret_1;
 position = "{849, 0}";
 },
 {
-name = entry;
-position = "{1718, 61}";
-},
-{
 name = top_1;
 position = "{1291, 930}";
 },
@@ -46665,10 +45517,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1608, 35}";
 },
 {
 name = top_1;
@@ -46954,8 +45802,9 @@ paths = (
 closed = 1;
 nodes = (
 "1123 0 LINE",
-"1240 0 LINE",
-"1240 122 LINE",
+"1250 0 LINE",
+"1260 61 LINE",
+"1250 122 LINE",
 "1123 122 LINE"
 );
 }
@@ -47000,8 +45849,9 @@ paths = (
 closed = 1;
 nodes = (
 "1085 0 LINE",
-"1212 0 LINE",
-"1212 69 LINE",
+"1222 0 LINE",
+"1232 35 LINE",
+"1222 69 LINE",
 "1085 69 LINE"
 );
 }
@@ -47108,10 +45958,6 @@ name = caret_1;
 position = "{582, 0}";
 },
 {
-name = entry;
-position = "{1240, 61}";
-},
-{
 name = top_1;
 position = "{860, 603}";
 },
@@ -47146,10 +45992,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{595, 0}";
-},
-{
-name = entry;
-position = "{1212, 35}";
 },
 {
 name = top_1;
@@ -47458,8 +46300,9 @@ paths = (
 closed = 1;
 nodes = (
 "1587 0 LINE",
-"1712 0 LINE",
-"1712 122 LINE",
+"1722 0 LINE",
+"1732 61 LINE",
+"1722 122 LINE",
 "1587 122 LINE"
 );
 }
@@ -47504,8 +46347,9 @@ paths = (
 closed = 1;
 nodes = (
 "1483 0 LINE",
-"1609 0 LINE",
-"1609 69 LINE",
+"1619 0 LINE",
+"1629 35 LINE",
+"1619 69 LINE",
 "1484 69 LINE"
 );
 }
@@ -47613,10 +46457,6 @@ name = caret_1;
 position = "{834, 0}";
 },
 {
-name = entry;
-position = "{1712, 61}";
-},
-{
 name = top_1;
 position = "{1327, 603}";
 },
@@ -47651,10 +46491,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1609, 35}";
 },
 {
 name = top_1;
@@ -47780,10 +46616,6 @@ name = caret_1;
 position = "{834, 0}";
 },
 {
-name = entry;
-position = "{1712, 61}";
-},
-{
 name = top_1;
 position = "{1327, 603}";
 },
@@ -47818,10 +46650,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1609, 35}";
 },
 {
 name = top_1;
@@ -47947,10 +46775,6 @@ name = caret_1;
 position = "{582, 0}";
 },
 {
-name = entry;
-position = "{1240, 61}";
-},
-{
 name = top_1;
 position = "{860, 795}";
 },
@@ -47985,10 +46809,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{595, 0}";
-},
-{
-name = entry;
-position = "{1212, 35}";
 },
 {
 name = top_1;
@@ -48124,10 +46944,6 @@ name = caret_1;
 position = "{582, 0}";
 },
 {
-name = entry;
-position = "{1240, 61}";
-},
-{
 name = top_1;
 position = "{860, 795}";
 },
@@ -48167,10 +46983,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{595, 0}";
-},
-{
-name = entry;
-position = "{1212, 35}";
 },
 {
 name = top_1;
@@ -48301,10 +47113,6 @@ name = caret_1;
 position = "{834, 0}";
 },
 {
-name = entry;
-position = "{1712, 61}";
-},
-{
 name = top_1;
 position = "{1327, 795}";
 },
@@ -48339,10 +47147,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1609, 35}";
 },
 {
 name = top_1;
@@ -48479,10 +47283,6 @@ name = caret_1;
 position = "{834, 0}";
 },
 {
-name = entry;
-position = "{1712, 61}";
-},
-{
 name = top_1;
 position = "{1327, 795}";
 },
@@ -48522,10 +47322,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1609, 35}";
 },
 {
 name = top_1;
@@ -48666,10 +47462,6 @@ name = caret_1;
 position = "{834, 0}";
 },
 {
-name = entry;
-position = "{1712, 61}";
-},
-{
 name = top_1;
 position = "{1327, 795}";
 },
@@ -48709,10 +47501,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1609, 35}";
 },
 {
 name = top_1;
@@ -48835,8 +47623,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1091 0 LINE",
-"1091 122 LINE",
+"1101 0 LINE",
+"1111 61 LINE",
+"1101 122 LINE",
 "1055 122 LINE",
 "1022 122 OFFCURVE",
 "997 135 OFFCURVE",
@@ -48963,8 +47752,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1050 0 LINE",
-"1050 69 LINE",
+"1060 0 LINE",
+"1070 35 LINE",
+"1060 69 LINE",
 "1014 69 LINE",
 "981 69 OFFCURVE",
 "956 102 OFFCURVE",
@@ -49024,10 +47814,6 @@ name = caret_1;
 position = "{503, 0}";
 },
 {
-name = entry;
-position = "{1091, 61}";
-},
-{
 name = top_1;
 position = "{714, 603}";
 },
@@ -49062,10 +47848,6 @@ position = "{207, -350}";
 {
 name = caret_1;
 position = "{513, 0}";
-},
-{
-name = entry;
-position = "{1050, 35}";
 },
 {
 name = top_1;
@@ -49111,10 +47893,6 @@ name = caret_1;
 position = "{351, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{587, 795}";
 },
@@ -49149,10 +47927,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -49199,10 +47973,6 @@ name = caret_1;
 position = "{351, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{587, 795}";
 },
@@ -49242,10 +48012,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -49297,10 +48063,6 @@ name = caret_1;
 position = "{526.5, 0}";
 },
 {
-name = entry;
-position = "{1074, 61}";
-},
-{
 name = top_1;
 position = "{899, 795}";
 },
@@ -49335,10 +48097,6 @@ position = "{305, -350}";
 {
 name = caret_1;
 position = "{482.5, 0}";
-},
-{
-name = entry;
-position = "{985, 35}";
 },
 {
 name = top_1;
@@ -49385,10 +48143,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 795}";
 },
@@ -49423,10 +48177,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -49473,10 +48223,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 795}";
 },
@@ -49516,10 +48262,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -49571,10 +48313,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 795}";
 },
@@ -49605,46 +48343,43 @@ width = 1214;
 anchors = (
 {
 name = bottom_1;
-position = "{940, -120}";
+position = "{951, -120}";
 },
 {
 name = bottom_2;
-position = "{413, -300}";
+position = "{424, -300}";
 },
 {
 name = caret_1;
-position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
+position = "{793, 0}";
 },
 {
 name = top_1;
-position = "{940, 735}";
+position = "{951, 735}";
 },
 {
 name = top_2;
-position = "{180, 537}";
+position = "{191, 537}";
 }
 );
 components = (
 {
 name = "dotlessbeh-yehmaksura";
+transform = "{1, 0, 0, 1, 11, 0}";
 },
 {
 anchor = top_1;
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 859, 9}";
+transform = "{1, 0, 0, 1, 870, 9}";
 },
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 127, -482}";
+transform = "{1, 0, 0, 1, 138, -482}";
 }
 );
 layerId = "7BE58B69-D6A5-4645-9194-9194354D517E";
-width = 1105;
+width = 1116;
 }
 );
 leftMetricsKey = "dotlessbeh-yehmaksura";
@@ -49691,8 +48426,9 @@ nodes = (
 "575 376 CURVE",
 "510 449 LINE",
 "510 0 LINE",
-"761 0 LINE",
-"761 122 LINE",
+"771 0 LINE",
+"781 61 LINE",
+"771 122 LINE",
 "570 122 LINE",
 "644 50 LINE",
 "644 500 LINE",
@@ -49767,8 +48503,9 @@ nodes = (
 "568 432 CURVE",
 "527 476 LINE",
 "527 0 LINE",
-"730 0 LINE",
-"730 69 LINE",
+"740 0 LINE",
+"750 35 LINE",
+"740 69 LINE",
 "559 69 LINE",
 "604 24 LINE",
 "604 500 LINE",
@@ -49825,10 +48562,6 @@ name = caret_1;
 position = "{337, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{587, 603}";
 },
@@ -49863,10 +48596,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -49940,8 +48669,9 @@ nodes = (
 "869 376 CURVE",
 "823 465 LINE",
 "823 0 LINE",
-"1074 0 LINE",
-"1074 122 LINE",
+"1084 0 LINE",
+"1094 61 LINE",
+"1084 122 LINE",
 "886 122 LINE",
 "957 39 LINE",
 "957 500 LINE",
@@ -50024,8 +48754,9 @@ nodes = (
 "821 432 CURVE",
 "782 476 LINE",
 "782 0 LINE",
-"985 0 LINE",
-"985 69 LINE",
+"995 0 LINE",
+"1005 35 LINE",
+"995 69 LINE",
 "814 69 LINE",
 "859 24 LINE",
 "859 500 LINE",
@@ -50084,10 +48815,6 @@ name = caret_1;
 position = "{337, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{572, 603}";
 },
@@ -50122,10 +48849,6 @@ position = "{209, -350}";
 {
 name = caret_1;
 position = "{362, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -50172,10 +48895,6 @@ name = caret_1;
 position = "{346, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{581, 603}";
 },
@@ -50215,10 +48934,6 @@ position = "{208, -350}";
 {
 name = caret_1;
 position = "{361, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -50270,10 +48985,6 @@ name = caret_1;
 position = "{526.5, 0}";
 },
 {
-name = entry;
-position = "{1074, 61}";
-},
-{
 name = top_1;
 position = "{899, 603}";
 },
@@ -50308,10 +49019,6 @@ position = "{305, -350}";
 {
 name = caret_1;
 position = "{482.5, 0}";
-},
-{
-name = entry;
-position = "{985, 35}";
 },
 {
 name = top_1;
@@ -50358,10 +49065,6 @@ name = caret_1;
 position = "{337, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{572, 930}";
 },
@@ -50396,10 +49099,6 @@ position = "{214, -350}";
 {
 name = caret_1;
 position = "{367, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -50446,10 +49145,6 @@ name = caret_1;
 position = "{336, 0}";
 },
 {
-name = entry;
-position = "{761, 61}";
-},
-{
 name = top_1;
 position = "{572, 930}";
 },
@@ -50489,10 +49184,6 @@ position = "{207, -350}";
 {
 name = caret_1;
 position = "{360, 0}";
-},
-{
-name = entry;
-position = "{730, 35}";
 },
 {
 name = top_1;
@@ -50544,10 +49235,6 @@ name = caret_1;
 position = "{526.5, 0}";
 },
 {
-name = entry;
-position = "{1074, 61}";
-},
-{
 name = top_1;
 position = "{899, 930}";
 },
@@ -50582,10 +49269,6 @@ position = "{305, -350}";
 {
 name = caret_1;
 position = "{482.5, 0}";
-},
-{
-name = entry;
-position = "{985, 35}";
 },
 {
 name = top_1;
@@ -50632,10 +49315,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 930}";
 },
@@ -50670,10 +49349,6 @@ position = "{413, -300}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -50720,10 +49395,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 930}";
 },
@@ -50763,10 +49434,6 @@ position = "{413, -500}";
 {
 name = caret_1;
 position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
 },
 {
 name = top_1;
@@ -50818,10 +49485,6 @@ name = caret_1;
 position = "{753, 0}";
 },
 {
-name = entry;
-position = "{1214, 61}";
-},
-{
 name = top_1;
 position = "{1040, 930}";
 },
@@ -50852,46 +49515,43 @@ width = 1214;
 anchors = (
 {
 name = bottom_1;
-position = "{940, -120}";
+position = "{951, -120}";
 },
 {
 name = bottom_2;
-position = "{413, -300}";
+position = "{424, -300}";
 },
 {
 name = caret_1;
-position = "{782, 0}";
-},
-{
-name = entry;
-position = "{1105, 35}";
+position = "{793, 0}";
 },
 {
 name = top_1;
-position = "{940, 861}";
+position = "{951, 861}";
 },
 {
 name = top_2;
-position = "{139, 560}";
+position = "{150, 560}";
 }
 );
 components = (
 {
 name = "dotlessbeh-yehmaksura";
+transform = "{1, 0, 0, 1, 11, 0}";
 },
 {
 anchor = top_1;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 928, -150}";
+transform = "{1, 0, 0, 1, 939, -150}";
 },
 {
 anchor = top_2;
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 127, -482}";
+transform = "{1, 0, 0, 1, 138, -482}";
 }
 );
 layerId = "7BE58B69-D6A5-4645-9194-9194354D517E";
-width = 1105;
+width = 1116;
 }
 );
 leftMetricsKey = "dotlessbeh-yehmaksura";
@@ -56013,8 +54673,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1214 0 LINE",
-"1214 122 LINE",
+"1224 0 LINE",
+"1234 61 LINE",
+"1224 122 LINE",
 "1017 122 LINE",
 "1097 39 LINE",
 "1097 500 LINE",
@@ -56106,8 +54767,9 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1105 0 LINE",
-"1105 69 LINE",
+"1115 0 LINE",
+"1125 35 LINE",
+"1115 69 LINE",
 "934 69 LINE",
 "979 24 LINE",
 "979 500 LINE",
@@ -68531,6 +67193,16 @@ quotesingle = -17;
 manufacturer = "Kief Type Foundry";
 manufacturerURL = "http://kieftype.com/";
 unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"7BE58B69-D6A5-4645-9194-9194354D517E" = {
+arAlef = "77";
+arBar = "69";
+arRoundThick = "79";
+arRoundThin = "79";
+};
+};
+};
 versionMajor = 2;
-versionMinor = 10;
+versionMinor = 11;
 }
