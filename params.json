@@ -1,0 +1,6 @@
+{
+  "name": "Cairo",
+  "tagline": "Arabic Font Family based in typographic match making with Titillium Web",
+  "body": "# Cairo\r\n\r\n![Sample](documentation/sample.png)\r\n\r\nCairo is a contemporary Arabic and Latin typeface family. \r\nMohamed Gaber extended the famous Latin typeface family [Titillum Web](https://www.google.com/fonts/specimen/Titillium+Web) to support the Arabic script, with a design that is based on the Kufi calligraphic style. \r\n\r\nCairo balances classic and contemporary tastes with wide open counters and short ascenders and descenders that minimize length while maintaining easy readability. \r\nThe lighter weights can be used for body text while the heavier weights are perfect for headlines and display typography. \r\nEach font includes stylistic ligatures and the Arabic component has a wide glyph set that supports the Arabic, Farsi and Urdu languages.\r\n\r\nThe Cairo project is led by Mohamed Gaber, a type designer based in Cairo, Egypt. \r\nTo contribute, see [github.com/Gue3bara/Cairo](https://github.com/Gue3bara/Cairo)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
