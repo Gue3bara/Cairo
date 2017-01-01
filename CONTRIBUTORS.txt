@@ -10,4 +10,3 @@
 # Name <email address>
 
 Mohamed Gaber <gaber@gaberism.net> 
-Eduardo Rodríguez Tunni <edu@tipo.net.ar>
