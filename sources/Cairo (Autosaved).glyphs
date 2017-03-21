@@ -1,8 +1,5 @@
 {
-.appVersion = "986";
-DisplayStrings = (
-"/jeem-ar"
-);
+.appVersion = "991";
 copyright = "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)";
 customParameters = (
 {
@@ -29455,7 +29452,7 @@ name = "hah-ar.medi";
 },
 {
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 135, -61}";
+transform = "{1, 0, 0, 1, 78, -61}";
 }
 );
 layerId = "E174F030-6324-451A-8951-EA6336064495";
@@ -29486,6 +29483,7 @@ width = 592;
 }
 );
 unicode = FB7D;
+changeCount = 1;
 },
 {
 glyphname = "tcheh-ar.init";
@@ -30670,11 +30668,11 @@ name = "hah-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 212, 19}";
+transform = "{1, 0, 0, 1, 242, 19}";
 }
 );
 layerId = "E174F030-6324-451A-8951-EA6336064495";
-width = 593;
+width = 659;
 },
 {
 anchors = (
@@ -30701,6 +30699,7 @@ width = 606;
 }
 );
 unicode = 062E;
+changeCount = 2;
 },
 {
 glyphname = "khah-ar.fina";
@@ -30722,7 +30721,7 @@ name = "hah-ar.fina";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 242, 46}";
+transform = "{1, 0, 0, 1, 242, 19}";
 }
 );
 layerId = "E174F030-6324-451A-8951-EA6336064495";
@@ -30753,6 +30752,7 @@ width = 607;
 }
 );
 unicode = FEA6;
+changeCount = 1;
 },
 {
 glyphname = "khah-ar.medi";
@@ -30774,7 +30774,7 @@ name = "hah-ar.medi";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 211, 19}";
+transform = "{1, 0, 0, 1, 154, 19}";
 }
 );
 layerId = "E174F030-6324-451A-8951-EA6336064495";
@@ -30805,6 +30805,7 @@ width = 592;
 }
 );
 unicode = FEA8;
+changeCount = 1;
 },
 {
 glyphname = "khah-ar.init";
