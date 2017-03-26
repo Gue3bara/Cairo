@@ -1,5 +1,8 @@
 {
-.appVersion = "991";
+.appVersion = "996";
+DisplayStrings = (
+a
+);
 copyright = "Copyright 2009 The Cairo Project Authors (gaber@gaberism.net)";
 customParameters = (
 {
