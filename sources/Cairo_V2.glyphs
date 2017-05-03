@@ -1,5 +1,9 @@
 {
 .appVersion = "1017";
+DisplayStrings = (
+C/Cacute,
+i
+);
 classes = (
 {
 automatic = 1;
@@ -12441,7 +12445,7 @@ unicode = 0125;
 },
 {
 glyphname = i;
-lastChange = "2017-03-26 17:07:45 +0000";
+lastChange = "2017-05-03 14:31:00 +0000";
 layers = (
 {
 anchors = (
@@ -12531,7 +12535,7 @@ position = "{140, -1}";
 },
 {
 name = top;
-position = "{129, 715}";
+position = "{129, 735}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
@@ -12548,10 +12552,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"196 564 LINE",
-"196 700 LINE",
-"62 700 LINE",
-"62 564 LINE"
+"196 584 LINE",
+"196 720 LINE",
+"62 720 LINE",
+"62 584 LINE"
 );
 }
 );
