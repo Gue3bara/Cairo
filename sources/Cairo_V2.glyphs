@@ -1,5 +1,8 @@
 {
 .appVersion = "1017";
+DisplayStrings = (
+"/theh_meem-ar"
+);
 classes = (
 {
 automatic = 1;
@@ -50187,7 +50190,7 @@ unicode = FC77;
 },
 {
 glyphname = "theh_meem-ar";
-lastChange = "2017-05-17 23:48:24 +0000";
+lastChange = "2017-05-17 23:55:53 +0000";
 layers = (
 {
 components = (
@@ -50195,9 +50198,10 @@ components = (
 name = "alefMaksura_meem-ar";
 },
 {
+alignment = -1;
 anchor = top_1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 660, -37}";
+transform = "{1, 0, 0, 1, 613, -37}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
@@ -50209,9 +50213,10 @@ components = (
 name = "alefMaksura_meem-ar";
 },
 {
+alignment = -1;
 anchor = top_1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 665, -36}";
+transform = "{1, 0, 0, 1, 604, -36}";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
@@ -50223,17 +50228,16 @@ components = (
 name = "alefMaksura_meem-ar";
 },
 {
+alignment = -1;
 anchor = top_1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 720, 16}";
+transform = "{1, 0, 0, 1, 658, 16}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
 width = 1015;
 }
 );
-leftMetricsKey = "theh-ar.init";
-rightMetricsKey = "meem-ar.fina";
 unicode = FC12;
 },
 {
