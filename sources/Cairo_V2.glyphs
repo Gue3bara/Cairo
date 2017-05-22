@@ -1,5 +1,8 @@
 {
 .appVersion = "1021";
+DisplayStrings = (
+"/yeh_alefMaksura-ar"
+);
 classes = (
 {
 automatic = 1;
@@ -117,7 +120,7 @@ name = vendorID;
 value = "1KTF";
 }
 );
-date = "2017-05-20 23:25:18 +0000";
+date = "2017-05-22 20:38:26 +0000";
 designer = "Mohamed Gaber";
 designerURL = "http://gaber.design/";
 disablesNiceNames = 1;
@@ -166,7 +169,7 @@ code = "sub alef-ar by alef-ar.fina;\012sub alefHamzaabove-ar by alefHamzaabove-
 name = fina;
 },
 {
-code = "lookupflag IgnoreMarks RightToLeft;\012sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;\012	sub lam-ar.init alef-ar.fina by lam_alef-ar;\012	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;\012	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;\012	sub lam-ar.medi alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;\012	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;\012	sub lam-ar.medi alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;\012	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar;\012	sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;\012	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar;\012	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;\012	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;\012	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;\012	sub beh-ar.medi reh-ar.fina by beh_reh-ar.fina;\012	sub beh-ar.medi zain-ar.fina by beh_zain-ar.fina;\012	sub beh-ar.init meem-ar.fina by beh_meem-ar;\012	sub beh-ar.medi meem-ar.fina by beh_meem-ar.fina;\012	sub beh-ar.medi meem-ar.medi by beh_meem-ar.medi;\012	sub beh-ar.init meem-ar.medi by beh_meem-ar.init;\012	sub beh-ar.medi noon-ar.fina by beh_noon-ar.fina;\012	sub beh-ar.medi alefMaksura-ar.fina by beh_alefMaksura-ar.fina;\012	sub beh-ar.medi yeh-ar.fina by beh_yeh-ar.fina;\012	sub beh-ar.medi yehHamzaabove-ar.fina by beh_yehHamzaabove-ar.fina;\012	sub peh-ar.medi reh-ar.fina by peh_reh-ar.fina;\012	sub peh-ar.medi zain-ar.fina by peh_zain-ar.fina;\012	sub peh-ar.init meem-ar.fina by peh_meem-ar;\012	sub peh-ar.medi meem-ar.fina by peh_meem-ar.fina;\012	sub peh-ar.medi meem-ar.medi by peh_meem-ar.medi;\012	sub peh-ar.init meem-ar.medi by peh_meem-ar.init;\012	sub peh-ar.medi noon-ar.fina by peh_noon-ar.fina;\012	sub peh-ar.medi alefMaksura-ar.fina by peh_alefMaksura-ar.fina;\012	sub peh-ar.medi yeh-ar.fina by peh_yeh-ar.fina;\012	sub peh-ar.medi yehHamzaabove-ar.fina by peh_yehHamzaabove-ar.fina;\012	sub teh-ar.medi reh-ar.fina by teh_reh-ar.fina;\012	sub teh-ar.medi zain-ar.fina by teh_zain-ar.fina;\012	sub teh-ar.init meem-ar.fina by teh_meem-ar;\012	sub teh-ar.medi meem-ar.fina by teh_meem-ar.fina;\012	sub teh-ar.medi meem-ar.medi by teh_meem-ar.medi;\012	sub teh-ar.init meem-ar.medi by teh_meem-ar.init;\012	sub teh-ar.medi noon-ar.fina by teh_noon-ar.fina;\012	sub teh-ar.init alefMaksura-ar.fina by teh_alefMaksura-ar;\012	sub teh-ar.medi alefMaksura-ar.fina by teh_alefMaksura-ar.fina;\012	sub teh-ar.init yeh-ar.fina by teh_yeh-ar;\012	sub teh-ar.medi yeh-ar.fina by teh_yeh-ar.fina;\012	sub teh-ar.init yehHamzaabove-ar.fina by teh_yehHamzaabove-ar;\012	sub teh-ar.medi yehHamzaabove-ar.fina by teh_yehHamzaabove-ar.fina;\012	sub theh-ar.medi reh-ar.fina by theh_reh-ar.fina;\012	sub theh-ar.medi zain-ar.fina by theh_zain-ar.fina;\012	sub theh-ar.init meem-ar.fina by theh_meem-ar;\012	sub theh-ar.medi meem-ar.fina by theh_meem-ar.fina;\012	sub theh-ar.medi meem-ar.medi by theh_meem-ar.medi;\012	sub theh-ar.init meem-ar.medi by theh_meem-ar.init;\012	sub theh-ar.medi noon-ar.fina by theh_noon-ar.fina;\012	sub theh-ar.init alefMaksura-ar.fina by theh_alefMaksura-ar;\012	sub theh-ar.medi alefMaksura-ar.fina by theh_alefMaksura-ar.fina;\012	sub theh-ar.init yeh-ar.fina by theh_yeh-ar;\012	sub theh-ar.medi yeh-ar.fina by theh_yeh-ar.fina;\012	sub theh-ar.init yehHamzaabove-ar.fina by theh_yehHamzaabove-ar;\012	sub theh-ar.medi yehHamzaabove-ar.fina by theh_yehHamzaabove-ar.fina;\012	sub seen-ar.init reh-ar.fina by seen_reh-ar;\012	sub seen-ar.medi reh-ar.fina by seen_reh-ar.fina;\012	sub seen-ar.init meem-ar.fina by seen_meem-ar;\012	sub seen-ar.medi meem-ar.fina by seen_meem-ar.fina;\012	sub seen-ar.medi meem-ar.medi by seen_meem-ar.medi;\012	sub seen-ar.init meem-ar.medi by seen_meem-ar.init;\012	sub seen-ar.init alefMaksura-ar.fina by seen_alefMaksura-ar;\012	sub seen-ar.medi alefMaksura-ar.fina by seen_alefMaksura-ar.fina;\012	sub seen-ar.init yeh-ar.fina by seen_yeh-ar;\012	sub seen-ar.medi yeh-ar.fina by seen_yeh-ar.fina;\012	sub seen-ar.init zain-ar.fina by seen_zain-ar;\012	sub seen-ar.medi zain-ar.fina by seen_zain-ar.fina;\012	sub seen-ar.init yehHamzaabove-ar.fina by seen_yehHamzaabove-ar;\012	sub seen-ar.medi yehHamzaabove-ar.fina by seen_yehHamzaabove-ar.fina;\012	sub sheen-ar.init reh-ar.fina by sheen_reh-ar;\012	sub sheen-ar.medi reh-ar.fina by sheen_reh-ar.fina;\012	sub sheen-ar.init zain-ar.fina by sheen_zain-ar;\012	sub sheen-ar.medi zain-ar.fina by sheen_zain-ar.fina;\012	sub sheen-ar.init meem-ar.fina by sheen_meem-ar;\012	sub sheen-ar.medi meem-ar.fina by sheen_meem-ar.fina;\012	sub sheen-ar.medi meem-ar.medi by sheen_meem-ar.medi;\012	sub sheen-ar.init meem-ar.medi by sheen_meem-ar.init;\012	sub sheen-ar.init alefMaksura-ar.fina by sheen_alefMaksura-ar;\012	sub sheen-ar.medi alefMaksura-ar.fina by sheen_alefMaksura-ar.fina;\012	sub sheen-ar.init yeh-ar.fina by sheen_yeh-ar;\012	sub sheen-ar.medi yeh-ar.fina by sheen_yeh-ar.fina;\012	sub sheen-ar.init yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar;\012	sub sheen-ar.medi yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar.fina;\012	sub sad-ar.init reh-ar.fina by sad_reh-ar;\012	sub sad-ar.medi reh-ar.fina by sad_reh-ar.fina;\012	sub sad-ar.init zain-ar.fina by sad_zain-ar;\012	sub sad-ar.medi zain-ar.fina by sad_zain-ar.fina;\012	sub sad-ar.init meem-ar.fina by sad_meem-ar;\012	sub sad-ar.medi meem-ar.fina by sad_meem-ar.fina;\012	sub sad-ar.medi meem-ar.medi by sad_meem-ar.medi;\012	sub sad-ar.init meem-ar.medi by sad_meem-ar.init;\012	sub sad-ar.init alefMaksura-ar.fina by sad_alefMaksura-ar;\012	sub sad-ar.medi alefMaksura-ar.fina by sad_alefMaksura-ar.fina;\012	sub sad-ar.init yeh-ar.fina by sad_yeh-ar;\012	sub sad-ar.medi yeh-ar.fina by sad_yeh-ar.fina;\012	sub sad-ar.init yehHamzaabove-ar.fina by sad_yehHamzaabove-ar;\012	sub sad-ar.medi yehHamzaabove-ar.fina by sad_yehHamzaabove-ar.fina;\012	sub dad-ar.init reh-ar.fina by dad_reh-ar;\012	sub dad-ar.medi reh-ar.fina by dad_reh-ar.fina;\012	sub dad-ar.init zain-ar.fina by dad_zain-ar;\012	sub dad-ar.medi zain-ar.fina by dad_zain-ar.fina;\012	sub dad-ar.init meem-ar.fina by dad_meem-ar;\012	sub dad-ar.medi meem-ar.fina by dad_meem-ar.fina;\012	sub dad-ar.medi meem-ar.medi by dad_meem-ar.medi;\012	sub dad-ar.init meem-ar.medi by dad_meem-ar.init;\012	sub dad-ar.init alefMaksura-ar.fina by dad_alefMaksura-ar;\012	sub dad-ar.medi alefMaksura-ar.fina by dad_alefMaksura-ar.fina;\012	sub dad-ar.init yeh-ar.fina by dad_yeh-ar;\012	sub dad-ar.medi yeh-ar.fina by dad_yeh-ar.fina;\012	sub dad-ar.init yehHamzaabove-ar.fina by dad_yehHamzaabove-ar;\012	sub dad-ar.medi yehHamzaabove-ar.fina by dad_yehHamzaabove-ar.fina;\012	sub feh-ar.init alefMaksura-ar.fina by feh_alefMaksura-ar;\012	sub feh-ar.init yeh-ar.fina by feh_yeh-ar;\012	sub feh-ar.init yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;\012	sub qaf-ar.init alefMaksura-ar.fina by qaf_alefMaksura-ar;\012	sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;\012	sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;\012	sub lam-ar.init meem-ar.medi by lam_meem-ar.init;\012	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;\012	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;\012	sub lam-ar.init yeh-ar.fina by lam_yeh-ar;\012	sub lam-ar.medi yeh-ar.fina by lam_yeh-ar.fina;\012	sub lam-ar.init yehHamzaabove-ar.fina by lam_yehHamzaabove-ar;\012	sub lam-ar.medi yehHamzaabove-ar.fina by lam_yehHamzaabove-ar.fina;\012	sub meem-ar.medi reh-ar.fina by meem_reh-ar.fina;\012	sub meem-ar.medi zain-ar.fina by meem_zain-ar.fina;\012	sub noon-ar.medi reh-ar.fina by noon_reh-ar.fina;\012	sub noon-ar.medi zain-ar.fina by noon_zain-ar.fina;\012	sub noon-ar.init meem-ar.fina by noon_meem-ar;\012	sub noon-ar.medi meem-ar.fina by noon_meem-ar.fina;\012	sub noon-ar.medi meem-ar.medi by noon_meem-ar.medi;\012	sub noon-ar.init meem-ar.medi by noon_meem-ar.init;\012	sub noon-ar.medi noon-ar.fina by noon_noon-ar.fina;\012	sub noon-ar.init alefMaksura-ar.fina by noon_alefMaksura-ar;\012	sub noon-ar.medi alefMaksura-ar.fina by noon_alefMaksura-ar.fina;\012	sub noon-ar.init yeh-ar.fina by noon_yeh-ar;\012	sub noon-ar.medi yeh-ar.fina by noon_yeh-ar.fina;\012	sub noon-ar.init yehHamzaabove-ar.fina by noon_yehHamzaabove-ar;\012	sub noon-ar.medi yehHamzaabove-ar.fina by noon_yehHamzaabove-ar.fina;\012	sub alefMaksura-ar.medi reh-ar.fina by alefMaksura_reh-ar.fina;\012	sub alefMaksura-ar.medi zain-ar.fina by alefMaksura_zain-ar.fina;\012	sub alefMaksura-ar.init meem-ar.fina by alefMaksura_meem-ar;\012	sub alefMaksura-ar.medi meem-ar.fina by alefMaksura_meem-ar.fina;\012	sub alefMaksura-ar.medi meem-ar.medi by alefMaksura_meem-ar.medi;\012	sub alefMaksura-ar.init meem-ar.medi by alefMaksura_meem-ar.init;\012	sub alefMaksura-ar.medi noon-ar.fina by alefMaksura_noon-ar.fina;\012	sub yeh-ar.medi reh-ar.fina by yeh_reh-ar.fina;\012	sub yeh-ar.medi zain-ar.fina by yeh_zain-ar.fina;\012	sub yeh-ar.init meem-ar.fina by yeh_meem-ar;\012	sub yeh-ar.medi meem-ar.fina by yeh_meem-ar.fina;\012	sub yeh-ar.medi meem-ar.medi by yeh_meem-ar.medi;\012	sub yeh-ar.init meem-ar.medi by yeh_meem-ar.init;\012	sub yeh-ar.medi noon-ar.fina by yeh_noon-ar.fina;\012	sub yehHamzaabove-ar.medi reh-ar.fina by yehHamzaabove_reh-ar.fina;\012	sub yehHamzaabove-ar.medi zain-ar.fina by yehHamzaabove_zain-ar.fina;\012	sub yehHamzaabove-ar.init meem-ar.fina by yehHamzaabove_meem-ar;\012	sub yehHamzaabove-ar.medi meem-ar.fina by yehHamzaabove_meem-ar.fina;\012	sub yehHamzaabove-ar.medi meem-ar.medi by yehHamzaabove_meem-ar.medi;\012	sub yehHamzaabove-ar.init meem-ar.medi by yehHamzaabove_meem-ar.init;\012	sub yehHamzaabove-ar.medi noon-ar.fina by yehHamzaabove_noon-ar.fina;\012	sub yehHamzaabove-ar.init alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar;\012	sub yehHamzaabove-ar.medi alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar.fina;\012	sub yehHamzaabove-ar.init yeh-ar.fina by yehHamzaabove_yeh-ar;\012	sub yehHamzaabove-ar.medi yeh-ar.fina by yehHamzaabove_yeh-ar.fina;\012	sub yehHamzaabove-ar.init yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar;\012	sub yehHamzaabove-ar.medi yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar.fina;\012	sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;";
+code = "lookupflag IgnoreMarks RightToLeft;\012sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;\012	sub lam-ar.init alef-ar.fina by lam_alef-ar;\012	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;\012	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;\012	sub lam-ar.medi alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;\012	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;\012	sub lam-ar.medi alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;\012	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar;\012	sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;\012	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar;\012	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;\012	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;\012	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;\012	sub beh-ar.medi reh-ar.fina by beh_reh-ar.fina;\012	sub beh-ar.medi zain-ar.fina by beh_zain-ar.fina;\012	sub beh-ar.init meem-ar.fina by beh_meem-ar;\012	sub beh-ar.medi meem-ar.fina by beh_meem-ar.fina;\012	sub beh-ar.medi meem-ar.medi by beh_meem-ar.medi;\012	sub beh-ar.init meem-ar.medi by beh_meem-ar.init;\012	sub beh-ar.medi noon-ar.fina by beh_noon-ar.fina;\012	sub beh-ar.init alefMaksura-ar.fina by beh_alefMaksura-ar;\012	sub beh-ar.medi alefMaksura-ar.fina by beh_alefMaksura-ar.fina;\012	sub beh-ar.init yeh-ar.fina by beh_yeh-ar;\012	sub beh-ar.medi yeh-ar.fina by beh_yeh-ar.fina;\012	sub beh-ar.init yehHamzaabove-ar.fina by beh_yehHamzaabove-ar;\012	sub beh-ar.medi yehHamzaabove-ar.fina by beh_yehHamzaabove-ar.fina;\012	sub peh-ar.medi reh-ar.fina by peh_reh-ar.fina;\012	sub peh-ar.medi zain-ar.fina by peh_zain-ar.fina;\012	sub peh-ar.init meem-ar.fina by peh_meem-ar;\012	sub peh-ar.medi meem-ar.fina by peh_meem-ar.fina;\012	sub peh-ar.medi meem-ar.medi by peh_meem-ar.medi;\012	sub peh-ar.init meem-ar.medi by peh_meem-ar.init;\012	sub peh-ar.medi noon-ar.fina by peh_noon-ar.fina;\012	sub peh-ar.init alefMaksura-ar.fina by peh_alefMaksura-ar;\012	sub peh-ar.medi alefMaksura-ar.fina by peh_alefMaksura-ar.fina;\012	sub peh-ar.init yeh-ar.fina by peh_yeh-ar;\012	sub peh-ar.medi yeh-ar.fina by peh_yeh-ar.fina;\012	sub peh-ar.init yehHamzaabove-ar.fina by peh_yehHamzaabove-ar;\012	sub peh-ar.medi yehHamzaabove-ar.fina by peh_yehHamzaabove-ar.fina;\012	sub teh-ar.medi reh-ar.fina by teh_reh-ar.fina;\012	sub teh-ar.medi zain-ar.fina by teh_zain-ar.fina;\012	sub teh-ar.init meem-ar.fina by teh_meem-ar;\012	sub teh-ar.medi meem-ar.fina by teh_meem-ar.fina;\012	sub teh-ar.medi meem-ar.medi by teh_meem-ar.medi;\012	sub teh-ar.init meem-ar.medi by teh_meem-ar.init;\012	sub teh-ar.medi noon-ar.fina by teh_noon-ar.fina;\012	sub teh-ar.init alefMaksura-ar.fina by teh_alefMaksura-ar;\012	sub teh-ar.medi alefMaksura-ar.fina by teh_alefMaksura-ar.fina;\012	sub teh-ar.init yeh-ar.fina by teh_yeh-ar;\012	sub teh-ar.medi yeh-ar.fina by teh_yeh-ar.fina;\012	sub teh-ar.init yehHamzaabove-ar.fina by teh_yehHamzaabove-ar;\012	sub teh-ar.medi yehHamzaabove-ar.fina by teh_yehHamzaabove-ar.fina;\012	sub theh-ar.medi reh-ar.fina by theh_reh-ar.fina;\012	sub theh-ar.medi zain-ar.fina by theh_zain-ar.fina;\012	sub theh-ar.init meem-ar.fina by theh_meem-ar;\012	sub theh-ar.medi meem-ar.fina by theh_meem-ar.fina;\012	sub theh-ar.medi meem-ar.medi by theh_meem-ar.medi;\012	sub theh-ar.init meem-ar.medi by theh_meem-ar.init;\012	sub theh-ar.medi noon-ar.fina by theh_noon-ar.fina;\012	sub theh-ar.init alefMaksura-ar.fina by theh_alefMaksura-ar;\012	sub theh-ar.medi alefMaksura-ar.fina by theh_alefMaksura-ar.fina;\012	sub theh-ar.init yeh-ar.fina by theh_yeh-ar;\012	sub theh-ar.medi yeh-ar.fina by theh_yeh-ar.fina;\012	sub theh-ar.init yehHamzaabove-ar.fina by theh_yehHamzaabove-ar;\012	sub theh-ar.medi yehHamzaabove-ar.fina by theh_yehHamzaabove-ar.fina;\012	sub seen-ar.init reh-ar.fina by seen_reh-ar;\012	sub seen-ar.medi reh-ar.fina by seen_reh-ar.fina;\012	sub seen-ar.init meem-ar.fina by seen_meem-ar;\012	sub seen-ar.medi meem-ar.fina by seen_meem-ar.fina;\012	sub seen-ar.medi meem-ar.medi by seen_meem-ar.medi;\012	sub seen-ar.init meem-ar.medi by seen_meem-ar.init;\012	sub seen-ar.init alefMaksura-ar.fina by seen_alefMaksura-ar;\012	sub seen-ar.medi alefMaksura-ar.fina by seen_alefMaksura-ar.fina;\012	sub seen-ar.init yeh-ar.fina by seen_yeh-ar;\012	sub seen-ar.medi yeh-ar.fina by seen_yeh-ar.fina;\012	sub seen-ar.init zain-ar.fina by seen_zain-ar;\012	sub seen-ar.medi zain-ar.fina by seen_zain-ar.fina;\012	sub seen-ar.init yehHamzaabove-ar.fina by seen_yehHamzaabove-ar;\012	sub seen-ar.medi yehHamzaabove-ar.fina by seen_yehHamzaabove-ar.fina;\012	sub sheen-ar.init reh-ar.fina by sheen_reh-ar;\012	sub sheen-ar.medi reh-ar.fina by sheen_reh-ar.fina;\012	sub sheen-ar.init zain-ar.fina by sheen_zain-ar;\012	sub sheen-ar.medi zain-ar.fina by sheen_zain-ar.fina;\012	sub sheen-ar.init meem-ar.fina by sheen_meem-ar;\012	sub sheen-ar.medi meem-ar.fina by sheen_meem-ar.fina;\012	sub sheen-ar.medi meem-ar.medi by sheen_meem-ar.medi;\012	sub sheen-ar.init meem-ar.medi by sheen_meem-ar.init;\012	sub sheen-ar.init alefMaksura-ar.fina by sheen_alefMaksura-ar;\012	sub sheen-ar.medi alefMaksura-ar.fina by sheen_alefMaksura-ar.fina;\012	sub sheen-ar.init yeh-ar.fina by sheen_yeh-ar;\012	sub sheen-ar.medi yeh-ar.fina by sheen_yeh-ar.fina;\012	sub sheen-ar.init yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar;\012	sub sheen-ar.medi yehHamzaabove-ar.fina by sheen_yehHamzaabove-ar.fina;\012	sub sad-ar.init reh-ar.fina by sad_reh-ar;\012	sub sad-ar.medi reh-ar.fina by sad_reh-ar.fina;\012	sub sad-ar.init zain-ar.fina by sad_zain-ar;\012	sub sad-ar.medi zain-ar.fina by sad_zain-ar.fina;\012	sub sad-ar.init meem-ar.fina by sad_meem-ar;\012	sub sad-ar.medi meem-ar.fina by sad_meem-ar.fina;\012	sub sad-ar.medi meem-ar.medi by sad_meem-ar.medi;\012	sub sad-ar.init meem-ar.medi by sad_meem-ar.init;\012	sub sad-ar.init alefMaksura-ar.fina by sad_alefMaksura-ar;\012	sub sad-ar.medi alefMaksura-ar.fina by sad_alefMaksura-ar.fina;\012	sub sad-ar.init yeh-ar.fina by sad_yeh-ar;\012	sub sad-ar.medi yeh-ar.fina by sad_yeh-ar.fina;\012	sub sad-ar.init yehHamzaabove-ar.fina by sad_yehHamzaabove-ar;\012	sub sad-ar.medi yehHamzaabove-ar.fina by sad_yehHamzaabove-ar.fina;\012	sub dad-ar.init reh-ar.fina by dad_reh-ar;\012	sub dad-ar.medi reh-ar.fina by dad_reh-ar.fina;\012	sub dad-ar.init zain-ar.fina by dad_zain-ar;\012	sub dad-ar.medi zain-ar.fina by dad_zain-ar.fina;\012	sub dad-ar.init meem-ar.fina by dad_meem-ar;\012	sub dad-ar.medi meem-ar.fina by dad_meem-ar.fina;\012	sub dad-ar.medi meem-ar.medi by dad_meem-ar.medi;\012	sub dad-ar.init meem-ar.medi by dad_meem-ar.init;\012	sub dad-ar.init alefMaksura-ar.fina by dad_alefMaksura-ar;\012	sub dad-ar.medi alefMaksura-ar.fina by dad_alefMaksura-ar.fina;\012	sub dad-ar.init yeh-ar.fina by dad_yeh-ar;\012	sub dad-ar.medi yeh-ar.fina by dad_yeh-ar.fina;\012	sub dad-ar.init yehHamzaabove-ar.fina by dad_yehHamzaabove-ar;\012	sub dad-ar.medi yehHamzaabove-ar.fina by dad_yehHamzaabove-ar.fina;\012	sub feh-ar.init alefMaksura-ar.fina by feh_alefMaksura-ar;\012	sub feh-ar.init yeh-ar.fina by feh_yeh-ar;\012	sub feh-ar.init yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;\012	sub qaf-ar.init alefMaksura-ar.fina by qaf_alefMaksura-ar;\012	sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;\012	sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;\012	sub lam-ar.init meem-ar.medi by lam_meem-ar.init;\012	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;\012	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;\012	sub lam-ar.init yeh-ar.fina by lam_yeh-ar;\012	sub lam-ar.medi yeh-ar.fina by lam_yeh-ar.fina;\012	sub lam-ar.init yehHamzaabove-ar.fina by lam_yehHamzaabove-ar;\012	sub lam-ar.medi yehHamzaabove-ar.fina by lam_yehHamzaabove-ar.fina;\012	sub meem-ar.medi reh-ar.fina by meem_reh-ar.fina;\012	sub meem-ar.medi zain-ar.fina by meem_zain-ar.fina;\012	sub noon-ar.medi reh-ar.fina by noon_reh-ar.fina;\012	sub noon-ar.medi zain-ar.fina by noon_zain-ar.fina;\012	sub noon-ar.init meem-ar.fina by noon_meem-ar;\012	sub noon-ar.medi meem-ar.fina by noon_meem-ar.fina;\012	sub noon-ar.medi meem-ar.medi by noon_meem-ar.medi;\012	sub noon-ar.init meem-ar.medi by noon_meem-ar.init;\012	sub noon-ar.medi noon-ar.fina by noon_noon-ar.fina;\012	sub noon-ar.init alefMaksura-ar.fina by noon_alefMaksura-ar;\012	sub noon-ar.medi alefMaksura-ar.fina by noon_alefMaksura-ar.fina;\012	sub noon-ar.init yeh-ar.fina by noon_yeh-ar;\012	sub noon-ar.medi yeh-ar.fina by noon_yeh-ar.fina;\012	sub noon-ar.init yehHamzaabove-ar.fina by noon_yehHamzaabove-ar;\012	sub noon-ar.medi yehHamzaabove-ar.fina by noon_yehHamzaabove-ar.fina;\012	sub alefMaksura-ar.medi reh-ar.fina by alefMaksura_reh-ar.fina;\012	sub alefMaksura-ar.medi zain-ar.fina by alefMaksura_zain-ar.fina;\012	sub alefMaksura-ar.init meem-ar.fina by alefMaksura_meem-ar;\012	sub alefMaksura-ar.medi meem-ar.fina by alefMaksura_meem-ar.fina;\012	sub alefMaksura-ar.medi meem-ar.medi by alefMaksura_meem-ar.medi;\012	sub alefMaksura-ar.init meem-ar.medi by alefMaksura_meem-ar.init;\012	sub alefMaksura-ar.medi noon-ar.fina by alefMaksura_noon-ar.fina;\012	sub yeh-ar.medi reh-ar.fina by yeh_reh-ar.fina;\012	sub yeh-ar.medi zain-ar.fina by yeh_zain-ar.fina;\012	sub yeh-ar.init meem-ar.fina by yeh_meem-ar;\012	sub yeh-ar.medi meem-ar.fina by yeh_meem-ar.fina;\012	sub yeh-ar.medi meem-ar.medi by yeh_meem-ar.medi;\012	sub yeh-ar.init meem-ar.medi by yeh_meem-ar.init;\012	sub yeh-ar.medi noon-ar.fina by yeh_noon-ar.fina;\012	sub yehHamzaabove-ar.medi reh-ar.fina by yehHamzaabove_reh-ar.fina;\012	sub yehHamzaabove-ar.medi zain-ar.fina by yehHamzaabove_zain-ar.fina;\012	sub yehHamzaabove-ar.init meem-ar.fina by yehHamzaabove_meem-ar;\012	sub yehHamzaabove-ar.medi meem-ar.fina by yehHamzaabove_meem-ar.fina;\012	sub yehHamzaabove-ar.medi meem-ar.medi by yehHamzaabove_meem-ar.medi;\012	sub yehHamzaabove-ar.init meem-ar.medi by yehHamzaabove_meem-ar.init;\012	sub yehHamzaabove-ar.medi noon-ar.fina by yehHamzaabove_noon-ar.fina;\012	sub yehHamzaabove-ar.init alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar;\012	sub yehHamzaabove-ar.medi alefMaksura-ar.fina by yehHamzaabove_alefMaksura-ar.fina;\012	sub yehHamzaabove-ar.init yeh-ar.fina by yehHamzaabove_yeh-ar;\012	sub yehHamzaabove-ar.medi yeh-ar.fina by yehHamzaabove_yeh-ar.fina;\012	sub yehHamzaabove-ar.init yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar;\012	sub yehHamzaabove-ar.medi yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar.fina;\012	sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;";
 name = rlig;
 },
 {
@@ -19683,7 +19686,7 @@ unicode = FE8E;
 },
 {
 glyphname = "alef-ar.short";
-lastChange = "2017-04-18 23:38:37 +0000";
+lastChange = "2017-05-22 20:37:35 +0000";
 layers = (
 {
 anchors = (
@@ -20012,7 +20015,7 @@ unicode = FE84;
 },
 {
 glyphname = "alefHamzabelow-ar";
-lastChange = "2017-04-21 23:04:29 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -20164,7 +20167,7 @@ unicode = FE88;
 },
 {
 glyphname = "alefMadda-ar";
-lastChange = "2017-04-20 21:01:47 +0000";
+lastChange = "2017-05-22 20:51:28 +0000";
 layers = (
 {
 anchors = (
@@ -20174,7 +20177,7 @@ position = "{129, -60}";
 },
 {
 name = top;
-position = "{129, 810}";
+position = "{129, 840}";
 }
 );
 components = (
@@ -20182,8 +20185,9 @@ components = (
 name = "alef-ar.short";
 },
 {
+alignment = -1;
 name = "madda-ar";
-transform = "{1, 0, 0, 1, -37, -60}";
+transform = "{1, 0, 0, 1, -37, -30}";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
@@ -20197,7 +20201,7 @@ position = "{129, -60}";
 },
 {
 name = top;
-position = "{129, 810}";
+position = "{129, 830}";
 }
 );
 components = (
@@ -20205,8 +20209,9 @@ components = (
 name = "alef-ar.short";
 },
 {
+alignment = -1;
 name = "madda-ar";
-transform = "{1, 0, 0, 1, -8, -57}";
+transform = "{1, 0, 0, 1, -8, -37}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
@@ -20220,7 +20225,7 @@ position = "{152, -60}";
 },
 {
 name = top;
-position = "{152, 805}";
+position = "{152, 897}";
 }
 );
 components = (
@@ -20228,8 +20233,9 @@ components = (
 name = "alef-ar.short";
 },
 {
+alignment = -1;
 name = "madda-ar";
-transform = "{1, 0, 0, 1, -46, -103}";
+transform = "{1, 0, 0, 1, -46, -73}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
@@ -20240,7 +20246,7 @@ unicode = 0622;
 },
 {
 glyphname = "alefMadda-ar.fina";
-lastChange = "2017-04-22 23:29:35 +0000";
+lastChange = "2017-05-22 20:51:57 +0000";
 layers = (
 {
 anchors = (
@@ -20250,7 +20256,7 @@ position = "{129, -100}";
 },
 {
 name = top;
-position = "{129, 810}";
+position = "{129, 840}";
 }
 );
 components = (
@@ -20258,8 +20264,9 @@ components = (
 name = "alef-ar.fina.short";
 },
 {
+alignment = -1;
 name = "madda-ar";
-transform = "{1, 0, 0, 1, -37, -50}";
+transform = "{1, 0, 0, 1, -37, -30}";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
@@ -20273,7 +20280,7 @@ position = "{129, -100}";
 },
 {
 name = top;
-position = "{129, 810}";
+position = "{129, 830}";
 }
 );
 components = (
@@ -20281,8 +20288,9 @@ components = (
 name = "alef-ar.fina.short";
 },
 {
+alignment = -1;
 name = "madda-ar";
-transform = "{1, 0, 0, 1, -11, -58}";
+transform = "{1, 0, 0, 1, -8, -37}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
@@ -20296,7 +20304,7 @@ position = "{152, -100}";
 },
 {
 name = top;
-position = "{152, 805}";
+position = "{152, 897}";
 }
 );
 components = (
@@ -20304,8 +20312,9 @@ components = (
 name = "alef-ar.fina.short";
 },
 {
+alignment = -1;
 name = "madda-ar";
-transform = "{1, 0, 0, 1, -45, -93}";
+transform = "{1, 0, 0, 1, -46, -73}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
@@ -20316,7 +20325,7 @@ unicode = FE82;
 },
 {
 glyphname = "alefWasla-ar";
-lastChange = "2017-04-21 22:58:35 +0000";
+lastChange = "2017-05-22 20:52:22 +0000";
 layers = (
 {
 anchors = (
@@ -20326,7 +20335,7 @@ position = "{128, -60}";
 },
 {
 name = top;
-position = "{128, 899}";
+position = "{128, 919}";
 }
 );
 components = (
@@ -20334,8 +20343,9 @@ components = (
 name = "alef-ar.short";
 },
 {
+alignment = -1;
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, -2, -85}";
+transform = "{1, 0, 0, 1, -2, -65}";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
@@ -20349,7 +20359,7 @@ position = "{131, -60}";
 },
 {
 name = top;
-position = "{131, 853}";
+position = "{131, 873}";
 }
 );
 components = (
@@ -20357,8 +20367,9 @@ components = (
 name = "alef-ar.short";
 },
 {
+alignment = -1;
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, 19, -103}";
+transform = "{1, 0, 0, 1, 19, -83}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
@@ -20372,7 +20383,7 @@ position = "{147, -60}";
 },
 {
 name = top;
-position = "{147, 907}";
+position = "{147, 927}";
 }
 );
 components = (
@@ -20380,8 +20391,9 @@ components = (
 name = "alef-ar.short";
 },
 {
+alignment = -1;
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, 11, -95}";
+transform = "{1, 0, 0, 1, 11, -75}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
@@ -20392,7 +20404,7 @@ unicode = 0671;
 },
 {
 glyphname = "alefWasla-ar.fina";
-lastChange = "2017-04-22 23:29:53 +0000";
+lastChange = "2017-05-22 20:52:45 +0000";
 layers = (
 {
 anchors = (
@@ -20402,7 +20414,7 @@ position = "{128, -100}";
 },
 {
 name = top;
-position = "{128, 899}";
+position = "{128, 919}";
 }
 );
 components = (
@@ -20410,8 +20422,9 @@ components = (
 name = "alef-ar.fina.short";
 },
 {
+alignment = -1;
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, -2, -75}";
+transform = "{1, 0, 0, 1, -2, -65}";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
@@ -20425,7 +20438,7 @@ position = "{131, -100}";
 },
 {
 name = top;
-position = "{131, 853}";
+position = "{131, 873}";
 }
 );
 components = (
@@ -20433,8 +20446,9 @@ components = (
 name = "alef-ar.fina.short";
 },
 {
+alignment = -1;
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, 16, -104}";
+transform = "{1, 0, 0, 1, 19, -83}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
@@ -20448,7 +20462,7 @@ position = "{147, -100}";
 },
 {
 name = top;
-position = "{147, 907}";
+position = "{147, 927}";
 }
 );
 components = (
@@ -20456,8 +20470,9 @@ components = (
 name = "alef-ar.fina.short";
 },
 {
+alignment = -1;
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, 12, -85}";
+transform = "{1, 0, 0, 1, 11, -75}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
@@ -21150,7 +21165,7 @@ width = 353;
 },
 {
 glyphname = "beh-ar";
-lastChange = "2017-04-22 23:15:27 +0000";
+lastChange = "2017-05-22 20:38:16 +0000";
 layers = (
 {
 anchors = (
@@ -21826,7 +21841,7 @@ unicode = FBE8;
 },
 {
 glyphname = "teh-ar";
-lastChange = "2017-04-22 23:27:56 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -22738,7 +22753,7 @@ unicode = FB68;
 },
 {
 glyphname = "jeem-ar";
-lastChange = "2017-05-20 23:34:20 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -24912,7 +24927,7 @@ unicode = FEA2;
 },
 {
 glyphname = "hah-ar.medi";
-lastChange = "2017-04-28 13:12:51 +0000";
+lastChange = "2017-05-22 20:37:56 +0000";
 layers = (
 {
 anchors = (
@@ -26062,7 +26077,7 @@ unicode = FEAA;
 },
 {
 glyphname = "thal-ar";
-lastChange = "2017-04-29 22:12:35 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -26527,7 +26542,7 @@ unicode = 0631;
 },
 {
 glyphname = "reh-ar.fina";
-lastChange = "2017-05-18 22:47:08 +0000";
+lastChange = "2017-05-22 20:38:11 +0000";
 layers = (
 {
 anchors = (
@@ -27744,7 +27759,7 @@ unicode = 0633;
 },
 {
 glyphname = "seen-ar.fina";
-lastChange = "2017-04-30 22:57:06 +0000";
+lastChange = "2017-05-22 20:37:56 +0000";
 layers = (
 {
 anchors = (
@@ -28289,7 +28304,7 @@ unicode = FEB3;
 },
 {
 glyphname = "sheen-ar";
-lastChange = "2017-04-30 23:00:17 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -33053,7 +33068,7 @@ unicode = FECF;
 },
 {
 glyphname = "feh-ar";
-lastChange = "2017-05-03 16:49:33 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -35533,7 +35548,7 @@ unicode = FED6;
 },
 {
 glyphname = "qaf-ar.medi";
-lastChange = "2017-05-03 17:06:54 +0000";
+lastChange = "2017-05-22 20:37:57 +0000";
 layers = (
 {
 anchors = (
@@ -35982,7 +35997,7 @@ width = 901;
 },
 {
 glyphname = "kaf-ar";
-lastChange = "2017-05-03 17:15:48 +0000";
+lastChange = "2017-05-22 20:37:45 +0000";
 layers = (
 {
 anchors = (
@@ -36134,7 +36149,7 @@ unicode = FEDA;
 },
 {
 glyphname = "kaf-ar.medi";
-lastChange = "2017-05-04 01:08:18 +0000";
+lastChange = "2017-05-22 20:37:56 +0000";
 layers = (
 {
 anchors = (
@@ -38218,7 +38233,7 @@ unicode = 0645;
 },
 {
 glyphname = "meem-ar.fina";
-lastChange = "2017-05-17 23:02:57 +0000";
+lastChange = "2017-05-22 20:37:56 +0000";
 layers = (
 {
 anchors = (
@@ -38873,7 +38888,7 @@ unicode = FEE3;
 },
 {
 glyphname = "noon-ar";
-lastChange = "2017-05-04 01:50:20 +0000";
+lastChange = "2017-05-22 20:37:39 +0000";
 layers = (
 {
 anchors = (
@@ -43976,7 +43991,7 @@ unicode = FEF0;
 },
 {
 glyphname = "yeh-ar";
-lastChange = "2017-05-05 22:13:16 +0000";
+lastChange = "2017-05-22 20:38:05 +0000";
 layers = (
 {
 anchors = (
@@ -44052,7 +44067,7 @@ unicode = 064A;
 },
 {
 glyphname = "yeh-ar.fina";
-lastChange = "2017-05-05 22:15:34 +0000";
+lastChange = "2017-05-22 20:38:05 +0000";
 layers = (
 {
 anchors = (
@@ -44128,7 +44143,7 @@ unicode = FEF2;
 },
 {
 glyphname = "yeh-ar.medi";
-lastChange = "2017-05-18 22:47:03 +0000";
+lastChange = "2017-05-22 20:37:57 +0000";
 layers = (
 {
 anchors = (
@@ -44204,7 +44219,7 @@ unicode = FEF4;
 },
 {
 glyphname = "yeh-ar.init";
-lastChange = "2017-05-17 23:03:01 +0000";
+lastChange = "2017-05-22 20:38:16 +0000";
 layers = (
 {
 anchors = (
@@ -47490,6 +47505,121 @@ rightMetricsKey = "noon-ar.fina";
 unicode = FC6D;
 },
 {
+glyphname = "beh_alefMaksura-ar";
+lastChange = "2017-05-22 21:40:38 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{899, -210}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{738, 0}";
+},
+{
+name = top_1;
+position = "{899, 590}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "beh-ar.init";
+transform = "{1, 0, 0, 1, 721, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
+width = 1024;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{895, -240}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{738, 0}";
+},
+{
+name = top_1;
+position = "{895, 590}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "beh-ar.init";
+transform = "{1, 0, 0, 1, 707, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
+width = 1013;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{956, -300}";
+},
+{
+name = bottom_2;
+position = "{450, -300}";
+},
+{
+name = caret_1;
+position = "{774, 0}";
+},
+{
+name = top_1;
+position = "{956, 621}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "beh-ar.init";
+transform = "{1, 0, 0, 1, 740, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
+width = 1093;
+}
+);
+unicode = FC09;
+},
+{
 glyphname = "beh_alefMaksura-ar.fina";
 lastChange = "2017-05-15 21:40:34 +0000";
 layers = (
@@ -47830,6 +47960,121 @@ width = 1243;
 unicode = FC6E;
 },
 {
+glyphname = "beh_yeh-ar";
+lastChange = "2017-05-22 21:33:30 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{899, -210}";
+},
+{
+name = bottom_2;
+position = "{419, -494}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{899, 590}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
+components = (
+{
+name = "yeh-ar.fina";
+},
+{
+alignment = -1;
+name = "beh-ar.init";
+transform = "{1, 0, 0, 1, 719, 0}";
+}
+);
+layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
+width = 1023;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{895, -240}";
+},
+{
+name = bottom_2;
+position = "{424, -497}";
+},
+{
+name = caret_1;
+position = "{506.5, 0}";
+},
+{
+name = top_1;
+position = "{895, 590}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
+components = (
+{
+name = "yeh-ar.fina";
+},
+{
+alignment = -1;
+name = "beh-ar.init";
+transform = "{1, 0, 0, 1, 707, 0}";
+}
+);
+layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
+width = 1013;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{956, -300}";
+},
+{
+name = bottom_2;
+position = "{450, -562}";
+},
+{
+name = caret_1;
+position = "{547.5, 0}";
+},
+{
+name = top_1;
+position = "{956, 680}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
+components = (
+{
+name = "yeh-ar.fina";
+},
+{
+alignment = -1;
+name = "beh-ar.init";
+transform = "{1, 0, 0, 1, 742, 0}";
+}
+);
+layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
+width = 1095;
+}
+);
+unicode = FC0A;
+},
+{
 glyphname = "beh_yeh-ar.fina";
 lastChange = "2017-05-15 21:43:35 +0000";
 layers = (
@@ -47945,6 +48190,120 @@ width = 1243;
 leftMetricsKey = "dotlessbeh-yehmaksura";
 rightMetricsKey = "dotlessbeh-yehmaksura";
 unicode = FC6F;
+},
+{
+glyphname = "beh_yehHamzaabove-ar";
+lastChange = "2017-05-22 21:33:36 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{899, -210}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{899, 590}";
+},
+{
+name = top_2;
+position = "{96, 584}";
+}
+);
+components = (
+{
+name = "yehHamzaabove-ar.fina";
+},
+{
+alignment = -1;
+name = "beh-ar.init";
+transform = "{1, 0, 0, 1, 719, 0}";
+}
+);
+layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
+width = 1023;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{895, -240}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{506.5, 0}";
+},
+{
+name = top_1;
+position = "{895, 590}";
+},
+{
+name = top_2;
+position = "{96, 619}";
+}
+);
+components = (
+{
+name = "yehHamzaabove-ar.fina";
+},
+{
+alignment = -1;
+name = "beh-ar.init";
+transform = "{1, 0, 0, 1, 707, 0}";
+}
+);
+layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
+width = 1013;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{956, -300}";
+},
+{
+name = bottom_2;
+position = "{447, -297}";
+},
+{
+name = caret_1;
+position = "{547.5, 0}";
+},
+{
+name = top_1;
+position = "{956, 594}";
+},
+{
+name = top_2;
+position = "{94, 683}";
+}
+);
+components = (
+{
+name = "yehHamzaabove-ar.fina";
+},
+{
+alignment = -1;
+name = "beh-ar.init";
+transform = "{1, 0, 0, 1, 742, 0}";
+}
+);
+layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
+width = 1095;
+}
+);
 },
 {
 glyphname = "beh_yehHamzaabove-ar.fina";
@@ -48894,6 +49253,120 @@ leftMetricsKey = "peh-ar.init";
 rightMetricsKey = "noon-ar.fina";
 },
 {
+glyphname = "peh_alefMaksura-ar";
+lastChange = "2017-05-22 21:30:40 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{935, -347}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{553.5, 0}";
+},
+{
+name = top_1;
+position = "{935, 590}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "peh-ar.init";
+transform = "{1, 0, 0, 1, 757, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
+width = 1097;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{989, -364}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{609.5, 0}";
+},
+{
+name = top_1;
+position = "{989, 590}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "peh-ar.init";
+transform = "{1, 0, 0, 1, 801, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
+width = 1158;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{1038, -436}";
+},
+{
+name = bottom_2;
+position = "{450, -300}";
+},
+{
+name = caret_1;
+position = "{647.5, 0}";
+},
+{
+name = top_1;
+position = "{1038, 614}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "peh-ar.init";
+transform = "{1, 0, 0, 1, 817, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
+width = 1224;
+}
+);
+},
+{
 glyphname = "peh_alefMaksura-ar.fina";
 lastChange = "2017-05-15 21:50:30 +0000";
 layers = (
@@ -49233,6 +49706,108 @@ width = 1243;
 );
 },
 {
+glyphname = "peh_yeh-ar";
+lastChange = "2017-05-22 21:31:53 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{935, -347}";
+},
+{
+name = bottom_2;
+position = "{419, -494}";
+},
+{
+name = top_1;
+position = "{935, 590}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
+components = (
+{
+name = "yeh-ar.fina";
+},
+{
+alignment = -1;
+name = "peh-ar.init";
+transform = "{1, 0, 0, 1, 757, 0}";
+}
+);
+layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
+width = 1097;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{989, -364}";
+},
+{
+name = bottom_2;
+position = "{424, -497}";
+},
+{
+name = top_1;
+position = "{989, 590}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
+components = (
+{
+name = "yeh-ar.fina";
+},
+{
+alignment = -1;
+name = "peh-ar.init";
+transform = "{1, 0, 0, 1, 801, 0}";
+}
+);
+layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
+width = 1158;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{1038, -436}";
+},
+{
+name = bottom_2;
+position = "{450, -562}";
+},
+{
+name = top_1;
+position = "{1038, 614}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
+components = (
+{
+name = "yeh-ar.fina";
+},
+{
+alignment = -1;
+name = "peh-ar.init";
+transform = "{1, 0, 0, 1, 817, 0}";
+}
+);
+layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
+width = 1244;
+}
+);
+},
+{
 glyphname = "peh_yeh-ar.fina";
 lastChange = "2017-05-15 21:52:21 +0000";
 layers = (
@@ -49347,6 +49922,120 @@ width = 1243;
 );
 leftMetricsKey = "dotlessbeh-yehmaksura";
 rightMetricsKey = "dotlessbeh-yehmaksura";
+},
+{
+glyphname = "peh_yehHamzaabove-ar";
+lastChange = "2017-05-22 21:33:10 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{935, -347}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{548.5, 0}";
+},
+{
+name = top_1;
+position = "{935, 590}";
+},
+{
+name = top_2;
+position = "{96, 584}";
+}
+);
+components = (
+{
+name = "yehHamzaabove-ar.fina";
+},
+{
+alignment = -1;
+name = "peh-ar.init";
+transform = "{1, 0, 0, 1, 757, 0}";
+}
+);
+layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
+width = 1097;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{989, -364}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{579, 0}";
+},
+{
+name = top_1;
+position = "{989, 590}";
+},
+{
+name = top_2;
+position = "{96, 619}";
+}
+);
+components = (
+{
+name = "yehHamzaabove-ar.fina";
+},
+{
+alignment = -1;
+name = "peh-ar.init";
+transform = "{1, 0, 0, 1, 801, 0}";
+}
+);
+layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
+width = 1158;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{1038, -436}";
+},
+{
+name = bottom_2;
+position = "{447, -297}";
+},
+{
+name = caret_1;
+position = "{612, 0}";
+},
+{
+name = top_1;
+position = "{1038, 614}";
+},
+{
+name = top_2;
+position = "{94, 683}";
+}
+);
+components = (
+{
+name = "yehHamzaabove-ar.fina";
+},
+{
+alignment = -1;
+name = "peh-ar.init";
+transform = "{1, 0, 0, 1, 817, 0}";
+}
+);
+layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
+width = 1224;
+}
+);
 },
 {
 glyphname = "peh_yehHamzaabove-ar.fina";
@@ -50307,9 +50996,31 @@ unicode = FC73;
 },
 {
 glyphname = "teh_alefMaksura-ar";
-lastChange = "2017-05-20 00:29:09 +0000";
+lastChange = "2017-05-22 21:33:22 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -214}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 730}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -50324,6 +51035,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1023;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{897, -232}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{507.5, 0}";
+},
+{
+name = top_1;
+position = "{897, 750}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -50338,6 +51071,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1015;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{960, -276}";
+},
+{
+name = bottom_2;
+position = "{450, -300}";
+},
+{
+name = caret_1;
+position = "{547.5, 0}";
+},
+{
+name = top_1;
+position = "{960, 844}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -50696,9 +51451,31 @@ unicode = FC74;
 },
 {
 glyphname = "teh_yeh-ar";
-lastChange = "2017-05-20 00:29:38 +0000";
+lastChange = "2017-05-22 21:04:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -214}";
+},
+{
+name = bottom_2;
+position = "{419, -494}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 730}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -50713,6 +51490,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1023;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{897, -232}";
+},
+{
+name = bottom_2;
+position = "{424, -497}";
+},
+{
+name = caret_1;
+position = "{507.5, 0}";
+},
+{
+name = top_1;
+position = "{897, 750}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -50727,6 +51526,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1015;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{960, -276}";
+},
+{
+name = bottom_2;
+position = "{450, -562}";
+},
+{
+name = caret_1;
+position = "{543.5, 0}";
+},
+{
+name = top_1;
+position = "{960, 844}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -50862,9 +51683,31 @@ unicode = FC75;
 },
 {
 glyphname = "teh_yehHamzaabove-ar";
-lastChange = "2017-05-20 00:30:25 +0000";
+lastChange = "2017-05-22 21:33:06 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -214}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 730}";
+},
+{
+name = top_2;
+position = "{96, 584}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -50879,6 +51722,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1023;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{897, -232}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{507.5, 0}";
+},
+{
+name = top_1;
+position = "{897, 750}";
+},
+{
+name = top_2;
+position = "{96, 619}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -50893,6 +51758,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1015;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{960, -276}";
+},
+{
+name = bottom_2;
+position = "{447, -297}";
+},
+{
+name = caret_1;
+position = "{543.5, 0}";
+},
+{
+name = top_1;
+position = "{960, 844}";
+},
+{
+name = top_2;
+position = "{94, 683}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -51842,9 +52729,31 @@ unicode = FC79;
 },
 {
 glyphname = "theh_alefMaksura-ar";
-lastChange = "2017-05-20 00:35:35 +0000";
+lastChange = "2017-05-22 21:36:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -214}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 863}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -51859,6 +52768,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1023;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{897, -232}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{507.5, 0}";
+},
+{
+name = top_1;
+position = "{897, 895}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -51873,6 +52804,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1015;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{960, -276}";
+},
+{
+name = bottom_2;
+position = "{450, -300}";
+},
+{
+name = caret_1;
+position = "{548.5, 0}";
+},
+{
+name = top_1;
+position = "{960, 951}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -52231,9 +53184,31 @@ unicode = FC7A;
 },
 {
 glyphname = "theh_yeh-ar";
-lastChange = "2017-05-20 00:36:15 +0000";
+lastChange = "2017-05-22 21:36:58 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -214}";
+},
+{
+name = bottom_2;
+position = "{419, -494}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 863}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -52248,6 +53223,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1023;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{897, -232}";
+},
+{
+name = bottom_2;
+position = "{424, -497}";
+},
+{
+name = caret_1;
+position = "{507.5, 0}";
+},
+{
+name = top_1;
+position = "{897, 895}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -52262,6 +53259,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1015;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{960, -276}";
+},
+{
+name = bottom_2;
+position = "{450, -562}";
+},
+{
+name = caret_1;
+position = "{549.5, 0}";
+},
+{
+name = top_1;
+position = "{960, 951}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -52397,9 +53416,31 @@ unicode = FC7B;
 },
 {
 glyphname = "theh_yehHamzaabove-ar";
-lastChange = "2017-05-20 00:37:07 +0000";
+lastChange = "2017-05-22 21:37:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -214}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 863}";
+},
+{
+name = top_2;
+position = "{96, 584}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -52414,6 +53455,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1023;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{897, -232}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{507.5, 0}";
+},
+{
+name = top_1;
+position = "{897, 895}";
+},
+{
+name = top_2;
+position = "{96, 619}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -52428,6 +53491,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1015;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{960, -276}";
+},
+{
+name = bottom_2;
+position = "{447, -297}";
+},
+{
+name = caret_1;
+position = "{549.5, 0}";
+},
+{
+name = top_1;
+position = "{960, 951}";
+},
+{
+name = top_2;
+position = "{94, 683}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -58306,6 +59391,153 @@ width = 1516;
 unicode = FC21;
 },
 {
+glyphname = "sad_meem-ar.fina";
+lastChange = "2017-05-22 20:41:33 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{1043, -100}";
+},
+{
+name = bottom_2;
+position = "{294, -388}";
+},
+{
+name = caret_1;
+position = "{867, 0}";
+},
+{
+name = entry;
+position = "{1407, 28}";
+},
+{
+name = top_1;
+position = "{1043, 573}";
+},
+{
+name = top_2;
+position = "{294, 600}";
+}
+);
+components = (
+{
+name = "sad_meem-ar";
+}
+);
+layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
+paths = (
+{
+closed = 1;
+nodes = (
+"1249 0 LINE",
+"1417 0 LINE",
+"1427 28 LINE",
+"1417 56 LINE",
+"1249 56 LINE"
+);
+}
+);
+width = 1407;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{1057, -100}";
+},
+{
+name = bottom_2;
+position = "{349, -362}";
+},
+{
+name = caret_1;
+position = "{881, 0}";
+},
+{
+name = entry;
+position = "{1459, 35}";
+},
+{
+name = top_1;
+position = "{1057, 573}";
+},
+{
+name = top_2;
+position = "{309, 600}";
+}
+);
+components = (
+{
+name = "sad_meem-ar";
+}
+);
+layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
+paths = (
+{
+closed = 1;
+nodes = (
+"1256 0 LINE",
+"1469 0 LINE",
+"1479 35 LINE",
+"1469 69 LINE",
+"1256 69 LINE"
+);
+}
+);
+width = 1459;
+},
+{
+anchors = (
+{
+name = bottom_1;
+position = "{1146, -100}";
+},
+{
+name = bottom_2;
+position = "{376, -388}";
+},
+{
+name = caret_1;
+position = "{690, 0}";
+},
+{
+name = entry;
+position = "{1575, 61}";
+},
+{
+name = top_1;
+position = "{1146, 573}";
+},
+{
+name = top_2;
+position = "{332, 630}";
+}
+);
+components = (
+{
+name = "sad_meem-ar";
+}
+);
+layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
+paths = (
+{
+closed = 1;
+nodes = (
+"1311 0 LINE",
+"1585 0 LINE",
+"1595 61 LINE",
+"1585 122 LINE",
+"1311 122 LINE"
+);
+}
+);
+width = 1575;
+}
+);
+},
+{
 glyphname = "sad_meem-ar.medi";
 lastChange = "2017-05-18 23:30:08 +0000";
 layers = (
@@ -60554,7 +61786,7 @@ unicode = FC25;
 },
 {
 glyphname = "dad_meem-ar.fina";
-lastChange = "2017-05-18 23:33:09 +0000";
+lastChange = "2017-05-22 20:41:38 +0000";
 layers = (
 {
 anchors = (
@@ -60581,7 +61813,7 @@ position = "{304, 600}";
 );
 components = (
 {
-name = "Sad_meem-ar.fina";
+name = "sad_meem-ar.fina";
 },
 {
 anchor = top_1;
@@ -60617,7 +61849,7 @@ position = "{309, 600}";
 );
 components = (
 {
-name = "Sad_meem-ar.fina";
+name = "sad_meem-ar.fina";
 },
 {
 anchor = top_1;
@@ -60653,7 +61885,7 @@ position = "{332, 630}";
 );
 components = (
 {
-name = "Sad_meem-ar.fina";
+name = "sad_meem-ar.fina";
 },
 {
 anchor = top_1;
@@ -61661,45 +62893,111 @@ rightMetricsKey = "yehHamzaabove-ar.fina";
 },
 {
 glyphname = "feh_alefMaksura-ar";
-lastChange = "2017-05-20 00:18:11 +0000";
+lastChange = "2017-05-22 20:56:54 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1054, -100}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{657, 0}";
+},
+{
+name = top_1;
+position = "{1054, 750}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
+{
+name = "alefMaksura-ar.fina";
+},
 {
 alignment = -1;
 name = "feh-ar.init";
 transform = "{1, 0, 0, 1, 723, 0}";
-},
-{
-name = "alefMaksura-ar.fina";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1314;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1058, -100}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{654.5, 0}";
+},
+{
+name = top_1;
+position = "{1058, 767}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
+{
+name = "alefMaksura-ar.fina";
+},
 {
 alignment = -1;
 name = "feh-ar.init";
 transform = "{1, 0, 0, 1, 721, 0}";
-},
-{
-name = "alefMaksura-ar.fina";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1309;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1090, -100}";
+},
+{
+name = bottom_2;
+position = "{450, -300}";
+},
+{
+name = caret_1;
+position = "{679.5, 0}";
+},
+{
+name = top_1;
+position = "{1090, 822}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
+{
+name = "alefMaksura-ar.fina";
+},
 {
 alignment = -1;
 name = "feh-ar.init";
 transform = "{1, 0, 0, 1, 742, 0}";
-},
-{
-name = "alefMaksura-ar.fina";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
@@ -61710,9 +63008,31 @@ unicode = FC31;
 },
 {
 glyphname = "feh_yeh-ar";
-lastChange = "2017-05-20 00:18:51 +0000";
+lastChange = "2017-05-22 20:58:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1054, -100}";
+},
+{
+name = bottom_2;
+position = "{419, -494}";
+},
+{
+name = caret_1;
+position = "{657, 0}";
+},
+{
+name = top_1;
+position = "{1054, 750}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -61720,13 +63040,35 @@ name = "yeh-ar.fina";
 {
 alignment = -1;
 name = "feh-ar.init";
-transform = "{1, 0, 0, 1, 742, 0}";
+transform = "{1, 0, 0, 1, 723, 0}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-width = 1333;
+width = 1314;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1058, -100}";
+},
+{
+name = bottom_2;
+position = "{424, -497}";
+},
+{
+name = caret_1;
+position = "{654.5, 0}";
+},
+{
+name = top_1;
+position = "{1058, 767}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -61741,6 +63083,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1309;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1090, -100}";
+},
+{
+name = bottom_2;
+position = "{450, -562}";
+},
+{
+name = caret_1;
+position = "{679.5, 0}";
+},
+{
+name = top_1;
+position = "{1090, 822}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -61759,9 +63123,31 @@ unicode = FC32;
 },
 {
 glyphname = "feh_yehHamzaabove-ar";
-lastChange = "2017-05-20 00:19:26 +0000";
+lastChange = "2017-05-22 21:01:18 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1054, -100}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{657, 0}";
+},
+{
+name = top_1;
+position = "{1054, 750}";
+},
+{
+name = top_2;
+position = "{96, 584}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -61769,13 +63155,35 @@ name = "yehHamzaabove-ar.fina";
 {
 alignment = -1;
 name = "feh-ar.init";
-transform = "{1, 0, 0, 1, 742, 0}";
+transform = "{1, 0, 0, 1, 723, 0}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-width = 1333;
+width = 1314;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1058, -100}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{654.5, 0}";
+},
+{
+name = top_1;
+position = "{1058, 767}";
+},
+{
+name = top_2;
+position = "{96, 619}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -61790,6 +63198,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1309;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1087, -97}";
+},
+{
+name = bottom_2;
+position = "{447, -297}";
+},
+{
+name = caret_1;
+position = "{676, 3}";
+},
+{
+name = top_1;
+position = "{1087, 825}";
+},
+{
+name = top_2;
+position = "{94, 683}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -61807,23 +63237,67 @@ width = 1359;
 },
 {
 glyphname = "qaf_alefMaksura-ar";
-lastChange = "2017-05-20 00:20:29 +0000";
+lastChange = "2017-05-22 20:59:30 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1054, -100}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{657, 0}";
+},
+{
+name = top_1;
+position = "{1054, 750}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
 name = "qaf-ar.init";
-transform = "{1, 0, 0, 1, 742, 0}";
+transform = "{1, 0, 0, 1, 723, 0}";
 },
 {
 name = "alefMaksura-ar.fina";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-width = 1333;
+width = 1314;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1058, -100}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{654.5, 0}";
+},
+{
+name = top_1;
+position = "{1058, 767}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -61838,6 +63312,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1309;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1090, -100}";
+},
+{
+name = bottom_2;
+position = "{450, -300}";
+},
+{
+name = caret_1;
+position = "{679.5, 0}";
+},
+{
+name = top_1;
+position = "{1090, 822}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -61856,9 +63352,31 @@ unicode = FC35;
 },
 {
 glyphname = "qaf_yeh-ar";
-lastChange = "2017-05-20 00:22:01 +0000";
+lastChange = "2017-05-22 21:00:46 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1054, -100}";
+},
+{
+name = bottom_2;
+position = "{419, -494}";
+},
+{
+name = caret_1;
+position = "{657, 0}";
+},
+{
+name = top_1;
+position = "{1054, 750}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -61866,13 +63384,35 @@ name = "yeh-ar.fina";
 {
 alignment = -1;
 name = "qaf-ar.init";
-transform = "{1, 0, 0, 1, 742, 0}";
+transform = "{1, 0, 0, 1, 723, 0}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-width = 1333;
+width = 1314;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1058, -100}";
+},
+{
+name = bottom_2;
+position = "{424, -497}";
+},
+{
+name = caret_1;
+position = "{654.5, 0}";
+},
+{
+name = top_1;
+position = "{1058, 767}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -61887,6 +63427,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1309;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1090, -100}";
+},
+{
+name = bottom_2;
+position = "{450, -562}";
+},
+{
+name = caret_1;
+position = "{679.5, 0}";
+},
+{
+name = top_1;
+position = "{1090, 822}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -61905,9 +63467,31 @@ unicode = FC36;
 },
 {
 glyphname = "qaf_yehHamzaabove-ar";
-lastChange = "2017-05-20 00:24:00 +0000";
+lastChange = "2017-05-22 21:34:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1054, -100}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{657, 0}";
+},
+{
+name = top_1;
+position = "{1054, 750}";
+},
+{
+name = top_2;
+position = "{96, 584}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -61915,13 +63499,35 @@ name = "yehHamzaabove-ar.fina";
 {
 alignment = -1;
 name = "qaf-ar.init";
-transform = "{1, 0, 0, 1, 742, 0}";
+transform = "{1, 0, 0, 1, 723, 0}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-width = 1333;
+width = 1314;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1058, -100}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{654.5, 0}";
+},
+{
+name = top_1;
+position = "{1058, 767}";
+},
+{
+name = top_2;
+position = "{96, 619}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -61936,6 +63542,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1309;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1087, -97}";
+},
+{
+name = bottom_2;
+position = "{447, -297}";
+},
+{
+name = caret_1;
+position = "{676, 3}";
+},
+{
+name = top_1;
+position = "{1087, 825}";
+},
+{
+name = top_2;
+position = "{94, 683}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -63807,9 +65435,31 @@ unicode = FC8D;
 },
 {
 glyphname = "noon_alefMaksura-ar";
-lastChange = "2017-05-20 00:27:07 +0000";
+lastChange = "2017-05-22 21:38:14 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -214}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 730}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "alefMaksura-ar.fina";
@@ -63824,6 +65474,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1023;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{897, -232}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{506.5, 0}";
+},
+{
+name = top_1;
+position = "{897, 750}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "alefMaksura-ar.fina";
@@ -63838,6 +65510,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1013;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{960, -276}";
+},
+{
+name = bottom_2;
+position = "{450, -300}";
+},
+{
+name = caret_1;
+position = "{546.5, 0}";
+},
+{
+name = top_1;
+position = "{960, 844}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 name = "alefMaksura-ar.fina";
@@ -64196,9 +65890,31 @@ unicode = FC8E;
 },
 {
 glyphname = "noon_yeh-ar";
-lastChange = "2017-05-20 00:25:23 +0000";
+lastChange = "2017-05-22 21:08:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -214}";
+},
+{
+name = bottom_2;
+position = "{419, -494}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 730}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -64213,6 +65929,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1023;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{897, -232}";
+},
+{
+name = bottom_2;
+position = "{424, -497}";
+},
+{
+name = caret_1;
+position = "{507.5, 0}";
+},
+{
+name = top_1;
+position = "{897, 750}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -64227,6 +65965,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1013;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{960, -276}";
+},
+{
+name = bottom_2;
+position = "{450, -562}";
+},
+{
+name = caret_1;
+position = "{543.5, 0}";
+},
+{
+name = top_1;
+position = "{960, 844}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -64362,9 +66122,31 @@ unicode = FC8F;
 },
 {
 glyphname = "noon_yehHamzaabove-ar";
-lastChange = "2017-05-20 00:26:04 +0000";
+lastChange = "2017-05-22 21:38:22 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -214}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{511.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 730}";
+},
+{
+name = top_2;
+position = "{96, 584}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -64379,6 +66161,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1023;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{897, -232}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{506.5, 0}";
+},
+{
+name = top_1;
+position = "{897, 750}";
+},
+{
+name = top_2;
+position = "{96, 619}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -64393,6 +66197,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1013;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{960, -276}";
+},
+{
+name = bottom_2;
+position = "{447, -297}";
+},
+{
+name = caret_1;
+position = "{546.5, 0}";
+},
+{
+name = top_1;
+position = "{960, 844}";
+},
+{
+name = top_2;
+position = "{94, 683}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -66999,6 +68825,102 @@ rightMetricsKey = "noon-ar.fina";
 unicode = FC94;
 },
 {
+glyphname = "yeh_alefMaksura-ar";
+lastChange = "2017-05-22 21:45:27 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "yeh-ar.init";
+transform = "{1, 0, 0, 1, 774, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
+width = 1076;
+},
+{
+components = (
+{
+alignment = -1;
+name = "yeh-ar.init";
+transform = "{1, 0, 0, 1, 780, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
+width = 1081;
+},
+{
+components = (
+{
+name = "yeh-ar.init";
+transform = "{1, 0, 0, 1, 942, 0}";
+},
+{
+name = "alefMaksura-ar.fina";
+}
+);
+layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
+width = 1295;
+}
+);
+unicode = FC59;
+},
+{
+glyphname = "yeh_yeh-ar";
+lastChange = "2017-05-22 21:43:27 +0000";
+layers = (
+{
+components = (
+{
+name = "yeh-ar.init";
+transform = "{1, 0, 0, 1, 913, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
+width = 1215;
+},
+{
+components = (
+{
+name = "yeh-ar.init";
+transform = "{1, 0, 0, 1, 913, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
+width = 1219;
+},
+{
+components = (
+{
+name = "yeh-ar.init";
+transform = "{1, 0, 0, 1, 942, 0}";
+},
+{
+name = "yeh-ar.fina";
+}
+);
+layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
+width = 1295;
+}
+);
+leftMetricsKey = "yeh-ar.init";
+rightMetricsKey = "yeh-ar.fina";
+unicode = FC5A;
+},
+{
 glyphname = "yehHamzaabove_reh-ar.fina";
 lastChange = "2017-05-09 19:55:40 +0000";
 layers = (
@@ -67840,9 +69762,31 @@ unicode = FC67;
 },
 {
 glyphname = "yehHamzaabove_alefMaksura-ar";
-lastChange = "2017-05-20 23:22:58 +0000";
+lastChange = "2017-05-22 21:42:19 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -228}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = caret_1;
+position = "{510.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 870}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -67857,6 +69801,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1021;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{896, -300}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{506.5, 0}";
+},
+{
+name = top_1;
+position = "{896, 900}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -67871,6 +69837,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1013;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{957, -300}";
+},
+{
+name = bottom_2;
+position = "{450, -300}";
+},
+{
+name = caret_1;
+position = "{547.5, 0}";
+},
+{
+name = top_1;
+position = "{957, 976}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -68230,9 +70218,31 @@ unicode = FC68;
 },
 {
 glyphname = "yehHamzaabove_yeh-ar";
-lastChange = "2017-05-20 23:23:11 +0000";
+lastChange = "2017-05-22 21:42:11 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -228}";
+},
+{
+name = bottom_2;
+position = "{419, -494}";
+},
+{
+name = caret_1;
+position = "{510.5, 0}";
+},
+{
+name = top_1;
+position = "{901, 870}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -68247,6 +70257,28 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1021;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{896, -300}";
+},
+{
+name = bottom_2;
+position = "{424, -497}";
+},
+{
+name = caret_1;
+position = "{506.5, 0}";
+},
+{
+name = top_1;
+position = "{896, 900}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -68261,6 +70293,28 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1013;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{957, -300}";
+},
+{
+name = bottom_2;
+position = "{450, -562}";
+},
+{
+name = caret_1;
+position = "{547.5, 0}";
+},
+{
+name = top_1;
+position = "{957, 976}";
+},
+{
+name = top_2;
+position = "{97, 294}";
+}
+);
 components = (
 {
 name = "yeh-ar.fina";
@@ -68396,9 +70450,27 @@ unicode = FC69;
 },
 {
 glyphname = "yehHamzaabove_yehHamzaabove-ar";
-lastChange = "2017-05-20 23:24:15 +0000";
+lastChange = "2017-05-22 21:42:49 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{901, -228}";
+},
+{
+name = bottom_2;
+position = "{419, -300}";
+},
+{
+name = top_1;
+position = "{901, 870}";
+},
+{
+name = top_2;
+position = "{96, 584}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -68413,6 +70485,24 @@ layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
 width = 1021;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{896, -300}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = top_1;
+position = "{896, 900}";
+},
+{
+name = top_2;
+position = "{96, 619}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -68427,6 +70517,24 @@ layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
 width = 1013;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{957, -300}";
+},
+{
+name = bottom_2;
+position = "{447, -297}";
+},
+{
+name = top_1;
+position = "{957, 976}";
+},
+{
+name = top_2;
+position = "{94, 683}";
+}
+);
 components = (
 {
 name = "yehHamzaabove-ar.fina";
@@ -76225,12 +78333,13 @@ unicode = 066D;
 },
 {
 glyphname = "parenleft-ar";
-lastChange = "2017-05-07 21:40:57 +0000";
+lastChange = "2017-05-22 20:37:45 +0000";
 layers = (
 {
 components = (
 {
 name = "parenright-ar";
+transform = "{-1, 0, 0, 1, 463, 0}";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
@@ -76240,6 +78349,7 @@ width = 491;
 components = (
 {
 name = "parenright-ar";
+transform = "{-1, 0, 0, 1, 454, 0}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
@@ -76249,6 +78359,7 @@ width = 454;
 components = (
 {
 name = "parenright-ar";
+transform = "{-1, 0, 0, 1, 491, 0}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
@@ -84425,7 +86536,7 @@ unicode = FBB2;
 },
 {
 glyphname = "dotbelow-ar";
-lastChange = "2017-04-20 22:21:08 +0000";
+lastChange = "2017-05-22 20:38:16 +0000";
 layers = (
 {
 anchors = (
@@ -84492,7 +86603,7 @@ unicode = FBB3;
 },
 {
 glyphname = "dotcenter-ar";
-lastChange = "2017-04-20 22:21:50 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -84695,7 +86806,7 @@ unicode = FBBE;
 },
 {
 glyphname = "twodotshorizontalabove-ar";
-lastChange = "2017-05-18 22:47:08 +0000";
+lastChange = "2017-05-22 20:38:16 +0000";
 layers = (
 {
 anchors = (
@@ -84774,7 +86885,7 @@ unicode = FBB4;
 },
 {
 glyphname = "twodotshorizontalbelow-ar";
-lastChange = "2017-05-18 22:47:08 +0000";
+lastChange = "2017-05-22 20:38:16 +0000";
 layers = (
 {
 anchors = (
@@ -84841,7 +86952,7 @@ unicode = FBB5;
 },
 {
 glyphname = "threedotsdownabove-ar";
-lastChange = "2017-04-24 18:21:27 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -85062,7 +87173,7 @@ width = 317;
 },
 {
 glyphname = "threedotsupabove-ar";
-lastChange = "2017-05-18 22:29:08 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -85996,7 +88107,7 @@ unicode = 0654;
 },
 {
 glyphname = "hamzabelow-ar";
-lastChange = "2017-04-21 23:00:20 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -86850,7 +88961,7 @@ width = 271;
 },
 {
 glyphname = "fathatan-ar";
-lastChange = "2017-04-21 23:02:51 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -87110,7 +89221,7 @@ unicode = 064C;
 },
 {
 glyphname = "kasratan-ar";
-lastChange = "2017-04-21 23:03:07 +0000";
+lastChange = "2017-05-22 20:37:46 +0000";
 layers = (
 {
 anchors = (
@@ -87710,7 +89821,7 @@ unicode = 064F;
 },
 {
 glyphname = "kasra-ar";
-lastChange = "2017-04-21 23:03:36 +0000";
+lastChange = "2017-05-22 20:37:45 +0000";
 layers = (
 {
 anchors = (
@@ -89244,153 +91355,6 @@ width = 333;
 {
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
 width = 333;
-}
-);
-},
-{
-glyphname = "Sad_meem-ar.fina";
-lastChange = "2017-05-18 23:30:03 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom_1;
-position = "{1043, -100}";
-},
-{
-name = bottom_2;
-position = "{294, -388}";
-},
-{
-name = caret_1;
-position = "{867, 0}";
-},
-{
-name = entry;
-position = "{1407, 28}";
-},
-{
-name = top_1;
-position = "{1043, 573}";
-},
-{
-name = top_2;
-position = "{294, 600}";
-}
-);
-components = (
-{
-name = "sad_meem-ar";
-}
-);
-layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-paths = (
-{
-closed = 1;
-nodes = (
-"1249 0 LINE",
-"1417 0 LINE",
-"1427 28 LINE",
-"1417 56 LINE",
-"1249 56 LINE"
-);
-}
-);
-width = 1407;
-},
-{
-anchors = (
-{
-name = bottom_1;
-position = "{1057, -100}";
-},
-{
-name = bottom_2;
-position = "{349, -362}";
-},
-{
-name = caret_1;
-position = "{881, 0}";
-},
-{
-name = entry;
-position = "{1459, 35}";
-},
-{
-name = top_1;
-position = "{1057, 573}";
-},
-{
-name = top_2;
-position = "{309, 600}";
-}
-);
-components = (
-{
-name = "sad_meem-ar";
-}
-);
-layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
-paths = (
-{
-closed = 1;
-nodes = (
-"1256 0 LINE",
-"1469 0 LINE",
-"1479 35 LINE",
-"1469 69 LINE",
-"1256 69 LINE"
-);
-}
-);
-width = 1459;
-},
-{
-anchors = (
-{
-name = bottom_1;
-position = "{1146, -100}";
-},
-{
-name = bottom_2;
-position = "{376, -388}";
-},
-{
-name = caret_1;
-position = "{690, 0}";
-},
-{
-name = entry;
-position = "{1575, 61}";
-},
-{
-name = top_1;
-position = "{1146, 573}";
-},
-{
-name = top_2;
-position = "{332, 630}";
-}
-);
-components = (
-{
-name = "sad_meem-ar";
-}
-);
-layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
-paths = (
-{
-closed = 1;
-nodes = (
-"1311 0 LINE",
-"1585 0 LINE",
-"1595 61 LINE",
-"1585 122 LINE",
-"1311 122 LINE"
-);
-}
-);
-width = 1575;
 }
 );
 }
