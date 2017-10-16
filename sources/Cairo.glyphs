@@ -1,5 +1,8 @@
 {
-.appVersion = "1069";
+.appVersion = "1064";
+DisplayStrings = (
+/oe
+);
 classes = (
 {
 automatic = 1;
@@ -15400,12 +15403,13 @@ components = (
 name = o;
 },
 {
+alignment = -1;
 name = e;
-transform = "{1, 0, 0, 1, 527, 0}";
+transform = "{1, 0, 0, 1, 360, 0}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-width = 1031;
+width = 870;
 },
 {
 components = (
@@ -15413,12 +15417,13 @@ components = (
 name = o;
 },
 {
+alignment = -1;
 name = e;
-transform = "{1, 0, 0, 1, 528, 0}";
+transform = "{1, 0, 0, 1, 353, 0}";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
-width = 1033;
+width = 863;
 },
 {
 components = (
@@ -15426,12 +15431,13 @@ components = (
 name = o;
 },
 {
+alignment = -1;
 name = e;
-transform = "{1, 0, 0, 1, 532, 0}";
+transform = "{1, 0, 0, 1, 323, 0}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
-width = 1042;
+width = 835;
 }
 );
 unicode = 0153;
@@ -97805,8 +97811,8 @@ weightClass = Bold;
 {
 interpolationWeight = 900;
 instanceInterpolations = {
-"1FB77202-83CB-408E-8929-4AFC59A3446D" = 1.5;
-"8FFE84BD-9390-4D75-BABD-68166BF44E93" = -0.5;
+"0596A6ED-150F-4F1F-BF1E-4449A7B9DE21" = -0.66667;
+"1FB77202-83CB-408E-8929-4AFC59A3446D" = 1.66667;
 };
 name = Black;
 weightClass = Black;
