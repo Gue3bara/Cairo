@@ -1,7 +1,7 @@
 {
 .appVersion = "1064";
 DisplayStrings = (
-/oe
+/OE
 );
 classes = (
 {
@@ -6205,41 +6205,44 @@ layers = (
 {
 components = (
 {
-name = E;
+name = O;
 },
 {
-name = C;
-transform = "{1, 0, 0, 1, 552, 0}";
+alignment = -1;
+name = E;
+transform = "{1, 0, 0, 1, 454, 0}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-width = 1096;
+width = 1018;
 },
 {
 components = (
 {
-name = E;
+name = O;
 },
 {
-name = C;
-transform = "{1, 0, 0, 1, 553, 0}";
+alignment = -1;
+name = E;
+transform = "{1, 0, 0, 1, 442, 0}";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
-width = 1097;
+width = 1005;
 },
 {
 components = (
 {
-name = E;
+name = O;
 },
 {
-name = C;
-transform = "{1, 0, 0, 1, 554, 0}";
+alignment = -1;
+name = E;
+transform = "{1, 0, 0, 1, 395, 0}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
-width = 1097;
+width = 953;
 }
 );
 unicode = 0152;
