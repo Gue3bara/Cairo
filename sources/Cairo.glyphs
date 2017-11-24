@@ -1,8 +1,5 @@
 {
-.appVersion = "1064";
-DisplayStrings = (
-/OE
-);
+.appVersion = "1075";
 classes = (
 {
 automatic = 1;
@@ -595,18 +592,6 @@ ascender = 1240;
 capHeight = 692;
 customParameters = (
 {
-name = typoAscender;
-value = 1303;
-},
-{
-name = typoDescender;
-value = 571;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
 name = hheaAscender;
 value = 1303;
 },
@@ -619,20 +604,32 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 1243;
+name = typoAscender;
+value = 1303;
 },
 {
-name = winDescent;
-value = 570;
+name = typoDescender;
+value = -571;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -80;
 },
 {
 name = underlineThickness;
 value = 30;
 },
 {
-name = underlinePosition;
-value = -80;
+name = winAscent;
+value = 1309;
+},
+{
+name = winDescent;
+value = 640;
 }
 );
 descender = -520;
@@ -652,26 +649,6 @@ ascender = 1240;
 capHeight = 692;
 customParameters = (
 {
-name = underlineThickness;
-value = 30;
-},
-{
-name = underlinePosition;
-value = -80;
-},
-{
-name = typoAscender;
-value = 1303;
-},
-{
-name = typoDescender;
-value = 571;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
 name = hheaAscender;
 value = 1303;
 },
@@ -684,12 +661,32 @@ name = hheaLineGap;
 value = 0;
 },
 {
+name = typoAscender;
+value = 1303;
+},
+{
+name = typoDescender;
+value = -571;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -80;
+},
+{
+name = underlineThickness;
+value = 30;
+},
+{
 name = winAscent;
-value = 1243;
+value = 1309;
 },
 {
 name = winDescent;
-value = 570;
+value = 640;
 }
 );
 descender = -520;
@@ -721,7 +718,7 @@ value = 1303;
 },
 {
 name = typoDescender;
-value = 571;
+value = -571;
 },
 {
 name = typoLineGap;
@@ -741,11 +738,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1243;
+value = 1309;
 },
 {
 name = winDescent;
-value = 570;
+value = 640;
 }
 );
 descender = -520;
@@ -97605,23 +97602,6 @@ width = 0;
 {
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
 width = 0;
-}
-);
-},
-{
-glyphname = nonmarkingreturn;
-layers = (
-{
-layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-width = 333;
-},
-{
-layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
-width = 333;
-},
-{
-layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
-width = 333;
 }
 );
 },
