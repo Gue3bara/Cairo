@@ -49,7 +49,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2017-10-04 07:31:13 +0000";
+date = "2017-11-24 14:33:14 +0000";
 designer = "Mohamed Gaber";
 designerURL = "http://gaber.design/";
 disablesNiceNames = 1;
@@ -15625,12 +15625,13 @@ components = (
 name = p;
 },
 {
+alignment = -1;
 name = l;
-transform = "{1, 0, 0, 1, 523, 0}";
+transform = "{1, 0, 0, 1, -6, 0}";
 }
 );
 layerId = "8FFE84BD-9390-4D75-BABD-68166BF44E93";
-width = 744;
+width = 523;
 },
 {
 components = (
@@ -15638,25 +15639,28 @@ components = (
 name = p;
 },
 {
+alignment = -1;
 name = l;
-transform = "{1, 0, 0, 1, 527, 0}";
+transform = "{1, 0, 0, 1, -6, 0}";
 }
 );
 layerId = "0596A6ED-150F-4F1F-BF1E-4449A7B9DE21";
-width = 758;
+width = 527;
 },
 {
 components = (
 {
+alignment = -1;
 name = p;
 },
 {
+alignment = -1;
 name = l;
-transform = "{1, 0, 0, 1, 544, 0}";
+transform = "{1, 0, 0, 1, -6, 0}";
 }
 );
 layerId = "1FB77202-83CB-408E-8929-4AFC59A3446D";
-width = 814;
+width = 544;
 }
 );
 unicode = 00FE;
@@ -84369,10 +84373,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"95 -49 LINE",
-"124 56 LINE",
-"92 56 LINE",
-"71 -49 LINE"
+"115 -67 LINE",
+"154 74 LINE",
+"89 74 LINE",
+"60 -67 LINE"
 );
 }
 );
@@ -84384,10 +84388,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"125 -68 LINE",
-"177 85 LINE",
-"90 85 LINE",
-"61 -68 LINE"
+"126 -76 LINE",
+"183 93 LINE",
+"87 93 LINE",
+"55 -76 LINE"
 );
 }
 );
