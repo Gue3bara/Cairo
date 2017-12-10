@@ -49,7 +49,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2017-11-24 14:33:14 +0000";
+date = "2017-12-10 23:16:34 +0000";
 designer = "Mohamed Gaber";
 designerURL = "http://gaber.design/";
 disablesNiceNames = 1;
@@ -386,6 +386,7 @@ sub yehHamzaabove_yehHamzaabove-ar by yehHamzaabove_yehHamzaabove-ar.fina;
 name = fina;
 },
 {
+automatic = 1;
 code = "lookupflag IgnoreMarks RightToLeft;
 sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
 	sub lam-ar.init alef-ar.fina by lam_alef-ar;
@@ -400,6 +401,13 @@ sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
 	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;
 	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;
 	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;
+";
+name = rlig;
+},
+{
+automatic = 1;
+code = "lookup dlig_RTL {
+lookupflag IgnoreMarks RightToLeft;
 	sub beh-ar.medi reh-ar.fina by beh_reh-ar.fina;
 	sub beh-ar.medi zain-ar.fina by beh_zain-ar.fina;
 	sub beh-ar.init meem-ar.fina by beh_meem-ar;
@@ -514,6 +522,7 @@ sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
 	sub qaf-ar.init alefMaksura-ar.fina by qaf_alefMaksura-ar;
 	sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;
 	sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;
+	sub lam-ar.init meem-ar.medi by lam_meem-ar.init;
 	sub lam-ar.init alefMaksura-ar.fina by lam_alefMaksura-ar;
 	sub lam-ar.medi alefMaksura-ar.fina by lam_alefMaksura-ar.fina;
 	sub lam-ar.init yeh-ar.fina by lam_yeh-ar;
@@ -550,11 +559,11 @@ sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
 	sub yeh-ar.init meem-ar.medi by yeh_meem-ar.init;
 	sub yeh-ar.medi noon-ar.fina by yeh_noon-ar.fina;
 	sub yeh-ar.init alefMaksura-ar.fina by yeh_alefMaksura-ar;
-    sub yeh-ar.medi alefMaksura-ar.fina by yeh_alefMaksura-ar.fina;
+	sub yeh-ar.medi alefMaksura-ar.fina by yeh_alefMaksura-ar.fina;
 	sub yeh-ar.init yeh-ar.fina by yeh_yeh-ar;
-    sub yeh-ar.medi yeh-ar.fina by yeh_yeh-ar.fina;
-    sub yeh-ar.init yehHamzaabove-ar.fina by yeh_yehHamzaabove-ar;
-    sub yeh-ar.medi yehHamzaabove-ar.fina by yeh_yehHamzaabove-ar.fina;
+	sub yeh-ar.medi yeh-ar.fina by yeh_yeh-ar.fina;
+	sub yeh-ar.init yehHamzaabove-ar.fina by yeh_yehHamzaabove-ar;
+	sub yeh-ar.medi yehHamzaabove-ar.fina by yeh_yehHamzaabove-ar.fina;
 	sub yehHamzaabove-ar.medi reh-ar.fina by yehHamzaabove_reh-ar.fina;
 	sub yehHamzaabove-ar.medi zain-ar.fina by yehHamzaabove_zain-ar.fina;
 	sub yehHamzaabove-ar.init meem-ar.fina by yehHamzaabove_meem-ar;
@@ -568,14 +577,8 @@ sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
 	sub yehHamzaabove-ar.medi yeh-ar.fina by yehHamzaabove_yeh-ar.fina;
 	sub yehHamzaabove-ar.init yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar;
 	sub yehHamzaabove-ar.medi yehHamzaabove-ar.fina by yehHamzaabove_yehHamzaabove-ar.fina;
-	sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;";
-name = rlig;
-},
-{
-code = "lookup dlig_RTL {
-lookupflag IgnoreMarks RightToLeft;
+	sub alef-ar lam-ar.init lam-ar.medi heh-ar.fina by allah-ar;
 } dlig_RTL;
-	sub lam-ar.init meem-ar.medi by lam_meem-ar.init;
 ";
 name = dlig;
 },
@@ -115394,5 +115397,5 @@ arBar = "56";
 UFOFormat = 2;
 };
 versionMajor = 2;
-versionMinor = 100;
+versionMinor = 101;
 }
