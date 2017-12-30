@@ -1938,13 +1938,25 @@ sub lam_alefHamzabelow-ar by lam_alefHamzabelow-ar.fina;
 sub lam_alefMadda-ar by lam_alefMadda-ar.fina;
 sub lam_alefWasla-ar by lam_alefWasla-ar.fina;
 sub seen_reh-ar by seen_reh-ar.fina;
+sub seen_alefMaksura-ar by seen_alefMaksura-ar.fina;
+sub seen_yeh-ar by seen_yeh-ar.fina;
 sub seen_zain-ar by seen_zain-ar.fina;
+sub seen_yehHamzaabove-ar by seen_yehHamzaabove-ar.fina;
 sub sheen_reh-ar by sheen_reh-ar.fina;
 sub sheen_zain-ar by sheen_zain-ar.fina;
+sub sheen_alefMaksura-ar by sheen_alefMaksura-ar.fina;
+sub sheen_yeh-ar by sheen_yeh-ar.fina;
+sub sheen_yehHamzaabove-ar by sheen_yehHamzaabove-ar.fina;
 sub sad_reh-ar by sad_reh-ar.fina;
 sub sad_zain-ar by sad_zain-ar.fina;
+sub sad_alefMaksura-ar by sad_alefMaksura-ar.fina;
+sub sad_yeh-ar by sad_yeh-ar.fina;
+sub sad_yehHamzaabove-ar by sad_yehHamzaabove-ar.fina;
 sub dad_reh-ar by dad_reh-ar.fina;
 sub dad_zain-ar by dad_zain-ar.fina;
+sub dad_alefMaksura-ar by dad_alefMaksura-ar.fina;
+sub dad_yeh-ar by dad_yeh-ar.fina;
+sub dad_yehHamzaabove-ar by dad_yehHamzaabove-ar.fina;
 ";
 name = fina;
 },
@@ -66304,6 +66316,78 @@ width = 215;
 }
 );
 unicode = F6C3;
+},
+{
+glyphname = apostrophemod;
+layers = (
+{
+components = (
+{
+name = comma;
+transform = "{1, 0, 0, 1, 0, 608}";
+}
+);
+layerId = "F1BADE0A-D307-4A55-B1D9-DEBA981FCD10";
+width = 197;
+},
+{
+components = (
+{
+name = comma;
+transform = "{1, 0, 0, 1, 0, 586}";
+}
+);
+layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
+width = 263;
+},
+{
+components = (
+{
+name = comma;
+transform = "{1, 0, 0, 1, 0, 547}";
+}
+);
+layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
+width = 289;
+}
+);
+unicode = 02BC;
+},
+{
+glyphname = commaturnedmod;
+layers = (
+{
+components = (
+{
+name = comma;
+transform = "{-1, 0, 0, -1, 170, 621}";
+}
+);
+layerId = "F1BADE0A-D307-4A55-B1D9-DEBA981FCD10";
+width = 197;
+},
+{
+components = (
+{
+name = comma;
+transform = "{-1, 0, 0, -1, 238, 652}";
+}
+);
+layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
+width = 263;
+},
+{
+components = (
+{
+name = comma;
+transform = "{-1, 0, 0, -1, 290, 691}";
+}
+);
+layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
+width = 289;
+}
+);
+unicode = 02BB;
 },
 {
 glyphname = acute;
