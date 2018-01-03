@@ -1,7 +1,7 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-"/noonghunnaabove-ar"
+"/lam_alefMaksura-ar"
 );
 classes = (
 {
@@ -215,7 +215,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2018-01-01 22:03:46 +0000";
+date = "2018-01-03 22:42:59 +0000";
 designer = "Mohamed Gaber, Accademia di Belle Arti di Urbino and others";
 designerURL = "http://gaber.design/";
 disablesNiceNames = 1;
@@ -46483,6 +46483,28 @@ rightMetricsKey = "yehHamzaabove-ar.fina";
 glyphname = "lam_alefMaksura-ar";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+position = "{876, -300}";
+},
+{
+name = bottom_2;
+position = "{424, -300}";
+},
+{
+name = caret_1;
+position = "{486.5, 0}";
+},
+{
+name = top_1;
+position = "{876, 800}";
+},
+{
+name = top_2;
+position = "{96, 266}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -46497,6 +46519,28 @@ layerId = "F1BADE0A-D307-4A55-B1D9-DEBA981FCD10";
 width = 973;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{944, -300}";
+},
+{
+name = bottom_2;
+position = "{450, -300}";
+},
+{
+name = caret_1;
+position = "{540.5, 0}";
+},
+{
+name = top_1;
+position = "{944, 770}";
+},
+{
+name = top_2;
+position = "{127, 244}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -46511,6 +46555,28 @@ layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
 width = 1081;
 },
 {
+anchors = (
+{
+name = bottom_1;
+position = "{1084, -300}";
+},
+{
+name = bottom_2;
+position = "{514, -300}";
+},
+{
+name = caret_1;
+position = "{627, 0}";
+},
+{
+name = top_1;
+position = "{1084, 780}";
+},
+{
+name = top_2;
+position = "{169, 264}";
+}
+);
 components = (
 {
 alignment = -1;
@@ -46615,6 +46681,7 @@ components = (
 name = "lam_alefMaksura-ar";
 },
 {
+anchor = bottom_2;
 name = "twodotshorizontalbelow-ar";
 transform = "{1, 0, 0, 1, 356, -300}";
 }
@@ -78494,5 +78561,5 @@ width = 9;
 };
 };
 versionMajor = 3;
-versionMinor = 2;
+versionMinor = 3;
 }
