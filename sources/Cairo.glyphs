@@ -1,7 +1,7 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-"/meem-ar"
+"/decimalseparator-ar"
 );
 classes = (
 {
@@ -215,7 +215,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2018-01-09 20:27:26 +0000";
+date = "2018-03-02 13:52:19 +0000";
 designer = "Mohamed Gaber, Accademia di Belle Arti di Urbino and others";
 designerURL = "http://gaber.design/";
 disablesNiceNames = 1;
@@ -49552,7 +49552,6 @@ nodes = (
 width = 1492;
 }
 );
-leftMetricsKey = "yeh-ar.medi";
 rightMetricsKey = "yeh-ar.fina";
 unicode = FC96;
 },
@@ -61838,7 +61837,7 @@ layers = (
 components = (
 {
 name = comma;
-transform = "{-1, 0, 0, -1, 197, -25}";
+transform = "{-1, 0, 0, -1, 187, 87}";
 }
 );
 layerId = "F1BADE0A-D307-4A55-B1D9-DEBA981FCD10";
@@ -61848,7 +61847,7 @@ width = 193;
 components = (
 {
 name = comma;
-transform = "{-1, 0, 0, -1, 263, 25}";
+transform = "{-1, 0, 0, -1, 253, 137}";
 }
 );
 layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
@@ -61858,7 +61857,7 @@ width = 263;
 components = (
 {
 name = comma;
-transform = "{-1, 0, 0, -1, 289, 81}";
+transform = "{-1, 0, 0, -1, 289, 193}";
 }
 );
 layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
@@ -61884,7 +61883,7 @@ width = 228;
 components = (
 {
 name = semicolon;
-transform = "{-1, 0, 0, -1, 279, 434}";
+transform = "{-1, 0, 0, -1, 279, 455}";
 }
 );
 layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
@@ -61894,7 +61893,7 @@ width = 279;
 components = (
 {
 name = semicolon;
-transform = "{-1, 0, 0, -1, 294, 442}";
+transform = "{-1, 0, 0, -1, 294, 464}";
 }
 );
 layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
@@ -79959,5 +79958,5 @@ width = 9;
 };
 };
 versionMajor = 3;
-versionMinor = 5;
+versionMinor = 6;
 }

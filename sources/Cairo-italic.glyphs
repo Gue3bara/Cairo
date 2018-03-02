@@ -57568,7 +57568,7 @@ layers = (
 components = (
 {
 name = comma;
-transform = "{-1, 0, 0.6926, -1, 212, -25}";
+transform = "{-1, 0, 0.6926, -1, 217, 83}";
 }
 );
 layerId = "B420756C-160B-4E3B-8A8F-018354DD19AA";
@@ -57578,7 +57578,7 @@ width = 193;
 components = (
 {
 name = comma;
-transform = "{-1, 0, 0.6926, -1, 254, 25}";
+transform = "{-1, 0, 0.6926, -1, 221, 153}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -57605,7 +57605,7 @@ layers = (
 components = (
 {
 name = semicolon;
-transform = "{-1, 0, 0.46174, -1, 181, 424}";
+transform = "{-1, 0, 0.46174, -1, 173, 435}";
 }
 );
 layerId = "B420756C-160B-4E3B-8A8F-018354DD19AA";
@@ -57615,7 +57615,7 @@ width = 228;
 components = (
 {
 name = semicolon;
-transform = "{-1, 0, 0.45956, -1, 177, 434}";
+transform = "{-1, 0, 0.45956, -1, 177, 449}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
