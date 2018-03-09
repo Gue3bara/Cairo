@@ -1,8 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-"/decimalseparator-ar"
-);
 classes = (
 {
 automatic = 1;
@@ -215,7 +212,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2018-03-02 13:52:19 +0000";
+date = "2018-03-09 20:32:35 +0000";
 designer = "Mohamed Gaber, Accademia di Belle Arti di Urbino and others";
 designerURL = "http://gaber.design/";
 disablesNiceNames = 1;
@@ -24963,7 +24960,7 @@ position = "{269, 570}";
 components = (
 {
 name = "dotcenter-ar";
-transform = "{1, 0, 0, 1, 355, -482}";
+transform = "{1, 0, 0, 1, 355, -492}";
 }
 );
 layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
@@ -27569,7 +27566,7 @@ nodes = (
 "781 188 OFFCURVE",
 "724 188 CURVE SMOOTH",
 "693 188 LINE",
-"693 0 LINE"
+"689 0 LINE"
 );
 },
 {
@@ -28684,7 +28681,7 @@ nodes = (
 "972 38 LINE",
 "1151 188 LINE",
 "693 188 LINE",
-"693 0 LINE"
+"688 0 LINE"
 );
 }
 );
@@ -76165,7 +76162,7 @@ itilde = 38;
 nine.pnum = -25;
 one.pnum = -21;
 six.pnum = -32;
-slash = -269;
+slash = 0;
 three.pnum = -10;
 zero.pnum = -33;
 };
@@ -77903,7 +77900,7 @@ itilde = 30;
 nine.pnum = -28;
 one.pnum = -24;
 six.pnum = -36;
-slash = -300;
+slash = 0;
 three.pnum = -16;
 zero.pnum = -36;
 };
@@ -79623,7 +79620,7 @@ o = -34;
 p = -19;
 q = -34;
 s = -30;
-slash = -222;
+slash = 0;
 t = -10;
 u = -18;
 v = -13;
@@ -79958,5 +79955,5 @@ width = 9;
 };
 };
 versionMajor = 3;
-versionMinor = 6;
+versionMinor = 7;
 }
