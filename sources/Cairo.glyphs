@@ -72,51 +72,11 @@ code = "zerosuperior onesuperior twosuperior threesuperior foursuperior fivesupe
 name = frac4;
 }
 );
-copyright = "Copyright © 2017 by Mohamed Gaber, Accademia di Belle Arti di Urbino and others. All rights reserved.";
+copyright = "Copyright 2017 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)";
 customParameters = (
-{
-name = note;
-value = "";
-},
-{
-name = openTypeHeadFlags;
-value = (
-);
-},
 {
 name = description;
 value = "Copyright 2017 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)";
-},
-{
-name = openTypeNameUniqueID;
-value = "";
-},
-{
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
-);
-},
-{
-name = openTypeOS2Panose;
-value = (
-2,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
-name = openTypeOS2Selection;
-value = (
-);
 },
 {
 name = openTypeOS2StrikeoutPosition;
@@ -166,30 +126,6 @@ value = (
 {
 name = vendorID;
 value = "1KTF";
-},
-{
-name = postscriptBlueFuzz;
-value = 1;
-},
-{
-name = postscriptBlueScale;
-value = 0.051;
-},
-{
-name = postscriptBlueShift;
-value = 7;
-},
-{
-name = postscriptForceBold;
-value = 0;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = postscriptUniqueID;
-value = -1;
 },
 {
 name = license;
@@ -2093,48 +2029,29 @@ customParameters = (
 name = TTFStems;
 value = (
 {
-Name = "32";
-Width = 32;
-pixels = (
-"0",
-"110",
-"141",
-"172",
-"47",
-"79"
-);
+horizontal = 1;
+name = "32";
+width = 32;
 },
 {
-Name = "35";
-Width = 35;
-pixels = (
-"0",
-"100",
-"129",
-"158",
-"43",
-"72"
-);
+horizontal = 1;
+name = "35";
+width = 35;
 },
 {
-Name = "37";
-Width = 37;
-pixels = (
-"0",
-"122",
-"149",
-"41",
-"68",
-"95"
-);
+horizontal = 1;
+name = "37";
+width = 37;
 },
 {
-Name = Vstem;
-Width = 50;
+horizontal = 1;
+name = Vstem;
+width = 50;
 },
 {
-Name = Hstem;
-Width = 100;
+horizontal = 1;
+name = Hstem;
+width = 100;
 }
 );
 },
@@ -2179,7 +2096,7 @@ value = 1303;
 },
 {
 name = typoDescender;
-value = 571;
+value = -571;
 },
 {
 name = typoLineGap;
@@ -2199,11 +2116,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1177;
+value = 1312;
 },
 {
 name = winDescent;
-value = 532;
+value = 571;
 },
 {
 name = underlineThickness;
@@ -2254,48 +2171,29 @@ customParameters = (
 name = TTFStems;
 value = (
 {
-Name = "32";
-Width = 32;
-pixels = (
-"0",
-"110",
-"141",
-"172",
-"47",
-"79"
-);
+horizontal = 1;
+name = "32";
+width = 32;
 },
 {
-Name = "35";
-Width = 35;
-pixels = (
-"0",
-"100",
-"129",
-"158",
-"43",
-"72"
-);
+horizontal = 1;
+name = "35";
+width = 35;
 },
 {
-Name = "37";
-Width = 37;
-pixels = (
-"0",
-"122",
-"149",
-"41",
-"68",
-"95"
-);
+horizontal = 1;
+name = "37";
+width = 37;
 },
 {
-Name = Vstem;
-Width = 50;
+horizontal = 1;
+name = Vstem;
+width = 50;
 },
 {
-Name = Hstem;
-Width = 100;
+horizontal = 1;
+name = Hstem;
+width = 100;
 }
 );
 },
@@ -2335,12 +2233,20 @@ size = -20;
 );
 },
 {
+name = underlineThickness;
+value = 30;
+},
+{
+name = underlinePosition;
+value = -95;
+},
+{
 name = typoAscender;
 value = 1303;
 },
 {
 name = typoDescender;
-value = 571;
+value = -571;
 },
 {
 name = typoLineGap;
@@ -2360,19 +2266,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1177;
+value = 1312;
 },
 {
 name = winDescent;
-value = 532;
-},
-{
-name = underlineThickness;
-value = 30;
-},
-{
-name = underlinePosition;
-value = -95;
+value = 571;
 }
 );
 descender = -520;
@@ -2413,48 +2311,29 @@ customParameters = (
 name = TTFStems;
 value = (
 {
-Name = Vstem;
-Width = 50;
+horizontal = 1;
+name = Vstem;
+width = 50;
 },
 {
-Name = Hstem;
-Width = 100;
+horizontal = 1;
+name = Hstem;
+width = 100;
 },
 {
-Name = "183";
-Width = 183;
-pixels = (
-"0",
-"14",
-"20",
-"25",
-"31",
-"9"
-);
+horizontal = 1;
+name = "183";
+width = 183;
 },
 {
-Name = "195";
-Width = 195;
-pixels = (
-"0",
-"13",
-"18",
-"24",
-"29",
-"8"
-);
+horizontal = 1;
+name = "195";
+width = 195;
 },
 {
-Name = "224";
-Width = 224;
-pixels = (
-"0",
-"12",
-"16",
-"21",
-"25",
-"7"
-);
+horizontal = 1;
+name = "224";
+width = 224;
 }
 );
 },
@@ -2489,12 +2368,20 @@ size = -25;
 );
 },
 {
+name = underlineThickness;
+value = 127;
+},
+{
+name = underlinePosition;
+value = -63.5;
+},
+{
 name = typoAscender;
 value = 1303;
 },
 {
 name = typoDescender;
-value = 571;
+value = -571;
 },
 {
 name = typoLineGap;
@@ -2514,19 +2401,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1177;
+value = 1312;
 },
 {
 name = winDescent;
-value = 532;
-},
-{
-name = underlineThickness;
-value = 127;
-},
-{
-name = underlinePosition;
-value = -63.5;
+value = 571;
 }
 );
 descender = -520;
@@ -3311,7 +3190,7 @@ transform = "{1, 0, 0, 1, 364, 0}";
 }
 );
 layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
-width = 872;
+width = 871;
 },
 {
 components = (
@@ -9843,7 +9722,7 @@ transform = "{1, 0, 0, 1, 123, 0}";
 }
 );
 layerId = "F1BADE0A-D307-4A55-B1D9-DEBA981FCD10";
-width = 637;
+width = 638;
 },
 {
 components = (
@@ -9856,7 +9735,7 @@ transform = "{1, 0, 0, 1, 23, 0}";
 }
 );
 layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
-width = 656;
+width = 654;
 },
 {
 components = (
@@ -11734,7 +11613,7 @@ transform = "{1, 0, 0, 1, 174, 0}";
 }
 );
 layerId = "F1BADE0A-D307-4A55-B1D9-DEBA981FCD10";
-width = 494;
+width = 495;
 },
 {
 components = (
@@ -11747,7 +11626,7 @@ transform = "{1, 0, 0, 1, 48, 0}";
 }
 );
 layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
-width = 510;
+width = 511;
 },
 {
 components = (
@@ -12723,7 +12602,7 @@ transform = "{1, 0, 0, 1, -195, 0}";
 }
 );
 layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
-width = 466;
+width = 465;
 }
 );
 leftKerningGroup = o;
@@ -13845,7 +13724,7 @@ transform = "{1, 0, 0, 1, 5, 6}";
 }
 );
 layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
-width = 511;
+width = 510;
 },
 {
 components = (
@@ -15409,7 +15288,7 @@ transform = "{1, 0, 0, 1, -28, 0}";
 }
 );
 layerId = "F1BADE0A-D307-4A55-B1D9-DEBA981FCD10";
-width = 193;
+width = 192;
 },
 {
 components = (
