@@ -153,7 +153,7 @@ name = description;
 value = "Copyright 2017 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)";
 }
 );
-date = "2018-03-09 20:32:35 +0000";
+date = "2018-03-20 22:18:53 +0000";
 designer = "Mohamed Gaber, Accademia di Belle Arti di Urbino and others";
 designerURL = "http://gaber.design/";
 disablesNiceNames = 1;
@@ -58794,18 +58794,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"337 228 LINE",
-"512 52 LINE",
 "536 76 LINE",
 "360 251 LINE",
 "536 426 LINE",
-"512 450 LINE",
+"512 450 LINE {\nname = hr00;\n}",
 "337 274 LINE",
-"162 450 LINE {\nname = hr00;\n}",
+"162 450 LINE",
 "138 426 LINE",
 "314 251 LINE",
 "138 76 LINE",
-"162 52 LINE"
+"162 52 LINE",
+"337 228 LINE",
+"512 52 LINE"
 );
 }
 );
@@ -60014,27 +60014,43 @@ layers = (
 components = (
 {
 name = u;
-},
-{
-name = dotlessi;
-transform = "{1, 0, 0, 1, 488, 0}";
+transform = "{1, 0, 0, 1, 124, 0}";
 }
 );
 layerId = "B420756C-160B-4E3B-8A8F-018354DD19AA";
-width = 670;
+paths = (
+{
+closed = 1;
+nodes = (
+"193 -145 LINE",
+"309 355 LINE",
+"275 355 LINE",
+"159 -145 LINE {\nname = hr00;\n}"
+);
+}
+);
+width = 612;
 },
 {
 components = (
 {
 name = u;
-},
-{
-name = dotlessi;
-transform = "{1, 0, 0, 1, 513, 0}";
+transform = "{1, 0, 0, 1, 136, 0}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
-width = 757;
+paths = (
+{
+closed = 1;
+nodes = (
+"281 -162 LINE",
+"396 338 LINE",
+"263 338 LINE",
+"148 -162 LINE {\nname = hr00;\n}"
+);
+}
+);
+width = 649;
 }
 );
 unicode = 00B5;
@@ -61908,19 +61924,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"291 -210 LINE",
-"291 170 LINE",
-"157 170 LINE",
-"157 -210 LINE"
+"291 328 LINE",
+"291 700 LINE",
+"157 700 LINE {\nname = hr00;\n}",
+"157 328 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"291 328 LINE",
-"291 700 LINE",
-"157 700 LINE {\nname = hr00;\n}",
-"157 328 LINE"
+"291 -210 LINE",
+"291 170 LINE",
+"157 170 LINE",
+"157 -210 LINE"
 );
 }
 );
@@ -64227,7 +64243,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{22, 515}";
+position = "{31, 475}";
 },
 {
 name = top;
@@ -64247,7 +64263,7 @@ width = 166;
 anchors = (
 {
 name = _top;
-position = "{144, 411}";
+position = "{144, 401}";
 },
 {
 name = top;
@@ -64361,7 +64377,7 @@ layers = (
 anchors = (
 {
 name = _center;
-position = "{4, 277}";
+position = "{4, 257}";
 }
 );
 components = (
@@ -64377,7 +64393,7 @@ width = 166;
 anchors = (
 {
 name = _center;
-position = "{93, 266}";
+position = "{93, 261}";
 }
 );
 components = (
@@ -64419,13 +64435,13 @@ position = "{-4, 625}";
 },
 {
 name = top;
-position = "{-52, 835}";
+position = "{-61, 875}";
 }
 );
 components = (
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 17, 0}";
+transform = "{1, 0, 0, 1, 16, 0}";
 }
 );
 layerId = "B420756C-160B-4E3B-8A8F-018354DD19AA";
@@ -64433,10 +64449,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"2 680 LINE",
-"-11 735 LINE",
-"-46 735 LINE",
-"-33 680 LINE"
+"-8 720 LINE",
+"-20 775 LINE",
+"-55 775 LINE",
+"-43 720 LINE"
 );
 }
 );
@@ -64450,7 +64466,7 @@ position = "{114, 544}";
 },
 {
 name = top;
-position = "{23, 939}";
+position = "{21, 949}";
 }
 );
 components = (
@@ -64464,10 +64480,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"136 715 LINE",
-"107 839 LINE",
-"-15 839 LINE",
-"14 715 LINE"
+"133 725 LINE",
+"105 849 LINE",
+"-17 849 LINE",
+"11 725 LINE"
 );
 }
 );
@@ -64514,7 +64530,7 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{142, 0}";
+position = "{132, 40}";
 },
 {
 name = bottom;
@@ -64534,7 +64550,7 @@ width = 166;
 anchors = (
 {
 name = _bottom;
-position = "{240, 0}";
+position = "{236, 10}";
 },
 {
 name = bottom;
@@ -72037,5 +72053,5 @@ width = 9;
 };
 };
 versionMajor = 3;
-versionMinor = 7;
+versionMinor = 8;
 }
