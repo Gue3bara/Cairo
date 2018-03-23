@@ -1,8 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-"/threedotsupabove-ar"
-);
 classes = (
 {
 automatic = 1;
@@ -77,10 +74,6 @@ name = frac4;
 );
 copyright = "Copyright 2017 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)";
 customParameters = (
-{
-name = description;
-value = "Copyright 2017 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)";
-},
 {
 name = openTypeOS2StrikeoutPosition;
 value = 250;
@@ -2124,14 +2117,6 @@ value = 1312;
 {
 name = winDescent;
 value = 571;
-},
-{
-name = underlineThickness;
-value = 30;
-},
-{
-name = underlinePosition;
-value = -95;
 }
 );
 descender = -520;
@@ -2234,14 +2219,6 @@ position = -210;
 size = -20;
 }
 );
-},
-{
-name = underlineThickness;
-value = 30;
-},
-{
-name = underlinePosition;
-value = -95;
 },
 {
 name = typoAscender;
@@ -2369,14 +2346,6 @@ position = -195;
 size = -25;
 }
 );
-},
-{
-name = underlineThickness;
-value = 127;
-},
-{
-name = underlinePosition;
-value = -63.5;
 },
 {
 name = typoAscender;
