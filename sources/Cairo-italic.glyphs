@@ -147,10 +147,6 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
-},
-{
-name = description;
-value = "Copyright 2017 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)";
 }
 );
 date = "2018-03-20 22:18:53 +0000";
@@ -2058,14 +2054,6 @@ size = -9;
 );
 },
 {
-name = underlineThickness;
-value = 30;
-},
-{
-name = underlinePosition;
-value = -85;
-},
-{
 name = typoAscender;
 value = 1303;
 },
@@ -2106,7 +2094,7 @@ horizontalStems = (
 34
 );
 id = "B420756C-160B-4E3B-8A8F-018354DD19AA";
-italicAngle = -13;
+italicAngle = 13;
 verticalStems = (
 35,
 37,
@@ -2185,14 +2173,6 @@ size = -9;
 );
 },
 {
-name = underlineThickness;
-value = 30;
-},
-{
-name = underlinePosition;
-value = -85;
-},
-{
 name = typoAscender;
 value = 1303;
 },
@@ -2233,7 +2213,7 @@ horizontalStems = (
 120
 );
 id = "7271F2A9-EB19-499E-973E-7497F9144823";
-italicAngle = -13;
+italicAngle = 13;
 verticalStems = (
 136,
 136,
