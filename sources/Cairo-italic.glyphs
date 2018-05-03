@@ -1,5 +1,8 @@
 {
-.appVersion = "1075";
+.appVersion = "1139";
+DisplayStrings = (
+"/dal-ar/ddal-ar"
+);
 classes = (
 {
 automatic = 1;
@@ -149,7 +152,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2018-03-20 22:18:53 +0000";
+date = "2018-05-03 22:27:51 +0000";
 designer = "Mohamed Gaber, Accademia di Belle Arti di Urbino and others";
 designerURL = "http://gaber.design/";
 disablesNiceNames = 1;
@@ -181,14 +184,12 @@ feature ordn;
 feature init;
 feature medi;
 feature fina;
-feature rlig;
 ";
 name = aalt;
 },
 {
 automatic = 1;
 code = "lookup ccmp_arab_1 {
-	script arab;
 	sub hamzaabove-ar damma-ar by hamzaaboveDamma-ar;
 	sub damma-ar hamzaabove-ar by hamzaaboveDamma-ar;
 	sub hamzaabove-ar dammatan-ar by hamzaaboveDammatan-ar;
@@ -218,6 +219,8 @@ code = "lookup ccmp_arab_1 {
 	sub shadda-ar kasratan-ar by shaddaKasratan-ar;
 	sub kasratan-ar shadda-ar by shaddaKasratan-ar;
 } ccmp_arab_1;
+
+script arab;
 ";
 name = ccmp;
 },
@@ -2242,7 +2245,7 @@ nodes = (
 "530 0 LINE",
 "492 700 LINE",
 "403 700 LINE",
-"32 0 LINE {\nname = hr00;\n}"
+"32 0 LINE {name = hr00;}"
 );
 },
 {
@@ -2270,7 +2273,7 @@ nodes = (
 "536 0 LINE",
 "557 680 LINE",
 "319 680 LINE",
-"13 0 LINE {\nname = hr00;\n}"
+"13 0 LINE {name = hr00;}"
 );
 },
 {
@@ -2683,7 +2686,7 @@ nodes = (
 "67 0 LINE",
 "181 215 LINE",
 "421 215 LINE",
-"372 0 LINE {\nname = hr00;\n}",
+"372 0 LINE {name = hr00;}",
 "749 0 LINE",
 "755 33 LINE",
 "414 33 LINE",
@@ -2719,7 +2722,7 @@ nodes = (
 "145 0 LINE",
 "198 119 LINE",
 "341 119 LINE",
-"313 0 LINE {\nname = hr00;\n}",
+"313 0 LINE {name = hr00;}",
 "719 0 LINE",
 "748 130 LINE",
 "472 130 LINE",
@@ -2807,7 +2810,7 @@ nodes = (
 "620 668 OFFCURVE",
 "567 700 OFFCURVE",
 "462 700 CURVE SMOOTH",
-"247 700 LINE {\nname = hr00;\n}",
+"247 700 LINE {name = hr00;}",
 "86 0 LINE"
 );
 },
@@ -2861,7 +2864,7 @@ nodes = (
 "636 634 OFFCURVE",
 "569 680 OFFCURVE",
 "458 680 CURVE SMOOTH",
-"222 680 LINE {\nname = hr00;\n}",
+"222 680 LINE {name = hr00;}",
 "65 0 LINE"
 );
 },
@@ -2900,7 +2903,7 @@ width = 573;
 leftKerningGroup = I;
 unicode = 0042;
 userData = {
-"[MP] 22 06 2011\\012Wt0 Sl1\\012rettifica curva inferiore\\012Wt1 Sl1\\012spostamento punto\\012di congiunzione curve\\012\\012[NM] 030211\\012Wt0 SI0\\012- regolazione manipolatori, altezza\\012- curva vert. +1 pt, asta vert. +2 pt, asta orizz. + 2 pt.\\012Wt1 SI0\\012- regolazione manipolatori, altez  com.typemytype.robofont.guides" = (
+"[MP] 22 06 2011\012Wt0 Sl1\012rettifica curva inferiore\012Wt1 Sl1\012spostamento punto\012di congiunzione curve\012\012[NM] 030211\012Wt0 SI0\012- regolazione manipolatori, altezza\012- curva vert. +1 pt, asta vert. +2 pt, asta orizz. + 2 pt.\012Wt1 SI0\012- regolazione manipolatori, altez  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -2951,7 +2954,7 @@ nodes = (
 "364 -9 OFFCURVE",
 "436 2 OFFCURVE",
 "473 11 CURVE",
-"474 44 LINE {\nname = hr00;\n}",
+"474 44 LINE {name = hr00;}",
 "438 36 OFFCURVE",
 "369 25 OFFCURVE",
 "311 25 CURVE SMOOTH",
@@ -2988,7 +2991,7 @@ nodes = (
 "359 -12 OFFCURVE",
 "433 3 OFFCURVE",
 "473 14 CURVE",
-"484 121 LINE {\nname = hr00;\n}",
+"484 121 LINE {name = hr00;}",
 "448 115 OFFCURVE",
 "379 108 OFFCURVE",
 "322 108 CURVE SMOOTH",
@@ -3021,7 +3024,7 @@ leftKerningGroup = O;
 rightKerningGroup = C;
 unicode = 0043;
 userData = {
-"[MP] 22 06 2011\\012Wt0 Sl1\\012- rettifica taglio termin. inferiore\\012- rettifica curva in basso a sn\\012\\012[MN]280111\\012Wt0 SI0:\\012controllo e sistemazione stems, regolazione over shooting, regolazione manipolatori.\\012Wt1 SI0:\\012regolazione stems, aumento over shooting, sistemazione manipolatori.\\012Wt0 SI1:\\012regolazione over shooting, sistemazione stems.\\012Wt1 SI1:\\012control  com.typemytype.robofont.guides" = (
+"[MP] 22 06 2011\012Wt0 Sl1\012- rettifica taglio termin. inferiore\012- rettifica curva in basso a sn\012\012[MN]280111\012Wt0 SI0:\012controllo e sistemazione stems, regolazione over shooting, regolazione manipolatori.\012Wt1 SI0:\012regolazione stems, aumento over shooting, sistemazione manipolatori.\012Wt0 SI1:\012regolazione over shooting, sistemazione stems.\012Wt1 SI1:\012control  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -3251,7 +3254,7 @@ nodes = (
 "600 700 OFFCURVE",
 "476 700 CURVE",
 "248 700 LINE",
-"86 0 LINE {\nname = hr00;\n}"
+"86 0 LINE {name = hr00;}"
 );
 },
 {
@@ -3285,7 +3288,7 @@ nodes = (
 "554 680 OFFCURVE",
 "436 680 CURVE",
 "222 680 LINE",
-"65 0 LINE {\nname = hr00;\n}"
+"65 0 LINE {name = hr00;}"
 );
 },
 {
@@ -3310,7 +3313,7 @@ leftKerningGroup = I;
 rightKerningGroup = D;
 unicode = 0044;
 userData = {
-"[MP] 22 06 2011\\012Wt0/Wt1 Sl1\\012- rettifica curva\\012\\012[NM] 24/01/11\\012Wt0 SI0:\\012modifica V stems e H stems\\012regolazione manipolatori.\\012Wt1 SI0:\\012modifica v stems e h stems. \\012Wt0 SI1:\\012modifica spessori stems.regolazione inclinazione e altezza\\012Wt1 SI1:\\012modifica spessori  com.typemytype.robofont.guides" = (
+"[MP] 22 06 2011\012Wt0/Wt1 Sl1\012- rettifica curva\012\012[NM] 24/01/11\012Wt0 SI0:\012modifica V stems e H stems\012regolazione manipolatori.\012Wt1 SI0:\012modifica v stems e h stems. \012Wt0 SI1:\012modifica spessori stems.regolazione inclinazione e altezza\012Wt1 SI1:\012modifica spessori  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -3437,7 +3440,7 @@ nodes = (
 "363 332 LINE",
 "372 370 LINE",
 "96 370 LINE",
-"89 332 LINE {\nname = hr00;\n}"
+"89 332 LINE {name = hr00;}"
 );
 }
 );
@@ -3458,7 +3461,7 @@ nodes = (
 "384 275 LINE",
 "414 411 LINE",
 "111 411 LINE",
-"82 275 LINE {\nname = hr00;\n}"
+"82 275 LINE {name = hr00;}"
 );
 }
 );
@@ -3489,7 +3492,7 @@ nodes = (
 "617 667 LINE",
 "625 700 LINE",
 "248 700 LINE",
-"86 0 LINE {\nname = hr00;\n}"
+"86 0 LINE {name = hr00;}"
 );
 }
 );
@@ -3512,7 +3515,7 @@ nodes = (
 "592 560 LINE",
 "620 680 LINE",
 "221 680 LINE",
-"65 0 LINE {\nname = hr00;\n}"
+"65 0 LINE {name = hr00;}"
 );
 }
 );
@@ -3858,7 +3861,7 @@ nodes = (
 "607 667 LINE",
 "615 700 LINE",
 "248 700 LINE",
-"86 0 LINE {\nname = hr00;\n}"
+"86 0 LINE {name = hr00;}"
 );
 }
 );
@@ -3879,7 +3882,7 @@ nodes = (
 "586 560 LINE",
 "614 680 LINE",
 "222 680 LINE",
-"65 0 LINE {\nname = hr00;\n}"
+"65 0 LINE {name = hr00;}"
 );
 }
 );
@@ -3903,7 +3906,7 @@ nodes = (
 "511 19 CURVE",
 "587 346 LINE",
 "419 346 LINE",
-"411 313 LINE {\nname = hr00;\n}",
+"411 313 LINE {name = hr00;}",
 "543 313 LINE",
 "481 46 LINE",
 "443 37 OFFCURVE",
@@ -3944,7 +3947,7 @@ nodes = (
 "521 14 CURVE",
 "606 378 LINE",
 "405 378 LINE",
-"378 264 LINE {\nname = hr00;\n}",
+"378 264 LINE {name = hr00;}",
 "442 264 LINE",
 "407 113 LINE",
 "395 111 OFFCURVE",
@@ -3979,7 +3982,7 @@ leftKerningGroup = O;
 rightKerningGroup = G;
 unicode = 0047;
 userData = {
-"[MP] 15 07 2011\\012Wt1 Sl1\\012manip. sn nodo curva superiore\\012a sn. di 5 pt\\012\\012\\012[MN] 040211\\012Wt0 SI0:\\012regolazione v stems e h stems, regolazione over shooting\\012Wt1 SI0:\\012regolazione stems, aumento over shooting sup.\\012Wt0 SI1:\\012regolazione stems, aumento over shooting sup.\\012Wt1 SI1:\\012regolazione stems, dim. over shootig sup.  com.typemytype.robofont.guides" = (
+"[MP] 15 07 2011\012Wt1 Sl1\012manip. sn nodo curva superiore\012a sn. di 5 pt\012\012\012[MN] 040211\012Wt0 SI0:\012regolazione v stems e h stems, regolazione over shooting\012Wt1 SI0:\012regolazione stems, aumento over shooting sup.\012Wt0 SI1:\012regolazione stems, aumento over shooting sup.\012Wt1 SI1:\012regolazione stems, dim. over shootig sup.  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -4031,7 +4034,7 @@ nodes = (
 "430 904 OFFCURVE",
 "431 913 OFFCURVE",
 "433 921 CURVE",
-"400 921 LINE {\nname = hr00;\n}",
+"400 921 LINE {name = hr00;}",
 "397 910 OFFCURVE",
 "396 899 OFFCURVE",
 "396 888 CURVE SMOOTH",
@@ -4067,7 +4070,7 @@ nodes = (
 "469 917 OFFCURVE",
 "468 921 OFFCURVE",
 "469 926 CURVE",
-"338 926 LINE {\nname = hr00;\n}",
+"338 926 LINE {name = hr00;}",
 "336 911 OFFCURVE",
 "335 896 OFFCURVE",
 "336 882 CURVE SMOOTH",
@@ -4232,7 +4235,7 @@ nodes = (
 "122 0 LINE",
 "199 334 LINE",
 "581 334 LINE",
-"504 0 LINE {\nname = hr00;\n}",
+"504 0 LINE {name = hr00;}",
 "540 0 LINE",
 "702 700 LINE",
 "666 700 LINE",
@@ -4255,7 +4258,7 @@ nodes = (
 "203 0 LINE",
 "269 288 LINE",
 "483 288 LINE",
-"417 0 LINE {\nname = hr00;\n}",
+"417 0 LINE {name = hr00;}",
 "555 0 LINE",
 "712 680 LINE",
 "574 680 LINE",
@@ -4286,7 +4289,7 @@ nodes = (
 "130 0 LINE",
 "207 334 LINE",
 "593 334 LINE",
-"516 0 LINE {\nname = hr00;\n}",
+"516 0 LINE {name = hr00;}",
 "550 0 LINE",
 "711 700 LINE",
 "677 700 LINE",
@@ -4303,7 +4306,7 @@ nodes = (
 "756 517 LINE",
 "766 553 LINE",
 "133 553 LINE",
-"126 517 LINE {\nname = hr01;\n}"
+"126 517 LINE {name = hr01;}"
 );
 }
 );
@@ -4318,7 +4321,7 @@ nodes = (
 "201 0 LINE",
 "265 278 LINE",
 "491 278 LINE",
-"427 0 LINE {\nname = hr00;\n}",
+"427 0 LINE {name = hr00;}",
 "559 0 LINE",
 "716 680 LINE",
 "584 680 LINE",
@@ -4392,7 +4395,7 @@ nodes = (
 "122 0 LINE",
 "284 700 LINE",
 "248 700 LINE",
-"86 0 LINE {\nname = hr00;\n}"
+"86 0 LINE {name = hr00;}"
 );
 }
 );
@@ -4407,7 +4410,7 @@ nodes = (
 "203 0 LINE",
 "360 680 LINE",
 "222 680 LINE",
-"65 0 LINE {\nname = hr00;\n}"
+"65 0 LINE {name = hr00;}"
 );
 }
 );
@@ -4690,7 +4693,7 @@ nodes = (
 "122 0 LINE",
 "284 700 LINE",
 "248 700 LINE",
-"86 0 LINE {\nname = hr00;\n}"
+"86 0 LINE {name = hr00;}"
 );
 },
 {
@@ -4699,7 +4702,7 @@ nodes = (
 "56 -198 OFFCURVE",
 "84 -193 OFFCURVE",
 "99 -190 CURVE",
-"103 -158 LINE {\nname = hr01;\n}",
+"103 -158 LINE {name = hr01;}",
 "87 -161 OFFCURVE",
 "61 -165 OFFCURVE",
 "47 -165 CURVE SMOOTH",
@@ -4730,7 +4733,7 @@ nodes = (
 "203 0 LINE",
 "360 680 LINE",
 "222 680 LINE",
-"65 0 LINE {\nname = hr00;\n}"
+"65 0 LINE {name = hr00;}"
 );
 },
 {
@@ -4739,7 +4742,7 @@ nodes = (
 "94 -214 OFFCURVE",
 "137 -208 OFFCURVE",
 "162 -203 CURVE",
-"175 -93 LINE {\nname = hr01;\n}",
+"175 -93 LINE {name = hr01;}",
 "162 -94 OFFCURVE",
 "143 -96 OFFCURVE",
 "138 -96 CURVE SMOOTH",
@@ -4812,7 +4815,7 @@ nodes = (
 "145 -71 OFFCURVE",
 "161.526 -37.891 OFFCURVE",
 "195 107 CURVE SMOOTH",
-"332 700 LINE {\nname = hr00;\n}",
+"332 700 LINE {name = hr00;}",
 "296 700 LINE",
 "161 116 LINE",
 "131 -15 OFFCURVE",
@@ -4833,7 +4836,7 @@ nodes = (
 "181 -69 OFFCURVE",
 "209.927 -46.983 OFFCURVE",
 "252 135 CURVE SMOOTH",
-"378 680 LINE {\nname = hr00;\n}",
+"378 680 LINE {name = hr00;}",
 "240 680 LINE",
 "114 135 LINE",
 "96 57 OFFCURVE",
@@ -4850,7 +4853,7 @@ leftKerningGroup = J;
 rightKerningGroup = J;
 unicode = 004A;
 userData = {
-"[MP] 18 07 2011\\012Wt0 Sl1\\012rettifica spessore asta vert.\\012\\012[MP] 15 07 2011\\012Wt1 Sl1\\012- segmento inferiore a sn di 4 pt\\012- punto 1/6 a sn 1 pt\\012\\012\\012[MN] 280111\\012Wt0 SI0: \\012correzione altezza, stems, sist. manipolatori.\\012Wt1 SI0:\\012correzione altezza, stems. sist.mnipolat  com.typemytype.robofont.guides" = (
+"[MP] 18 07 2011\012Wt0 Sl1\012rettifica spessore asta vert.\012\012[MP] 15 07 2011\012Wt1 Sl1\012- segmento inferiore a sn di 4 pt\012- punto 1/6 a sn 1 pt\012\012\012[MN] 280111\012Wt0 SI0: \012correzione altezza, stems, sist. manipolatori.\012Wt1 SI0:\012correzione altezza, stems. sist.mnipolat  com.typemytype.robofont.guides" = (
 {
 angle = 90;
 isGlobal = 0;
@@ -4907,7 +4910,7 @@ nodes = (
 "122 0 LINE",
 "198 329 LINE",
 "314 329 LINE",
-"448 0 LINE {\nname = hr00;\n}",
+"448 0 LINE {name = hr00;}",
 "486 0 LINE",
 "344 346 LINE",
 "648 700 LINE",
@@ -4931,7 +4934,7 @@ nodes = (
 "203 0 LINE",
 "264 266 LINE",
 "340 273 LINE",
-"384 0 LINE {\nname = hr00;\n}",
+"384 0 LINE {name = hr00;}",
 "529 0 LINE",
 "466 339 LINE",
 "683 680 LINE",
@@ -4994,7 +4997,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"432 0 LINE {\nname = hr00;\n}",
+"432 0 LINE {name = hr00;}",
 "440 33 LINE",
 "130 33 LINE",
 "284 700 LINE",
@@ -5011,7 +5014,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"419 0 LINE {\nname = hr00;\n}",
+"419 0 LINE {name = hr00;}",
 "446 120 LINE",
 "231 120 LINE",
 "360 680 LINE",
@@ -5076,7 +5079,7 @@ paths = (
 closed = 1;
 nodes = (
 "479 480 LINE",
-"530 700 LINE {\nname = hr00;\n}",
+"530 700 LINE {name = hr00;}",
 "498 700 LINE",
 "447 480 LINE"
 );
@@ -5096,7 +5099,7 @@ paths = (
 closed = 1;
 nodes = (
 "530 429 LINE",
-"590 680 LINE {\nname = hr00;\n}",
+"590 680 LINE {name = hr00;}",
 "468 680 LINE",
 "407 429 LINE"
 );
@@ -5159,7 +5162,7 @@ paths = (
 closed = 1;
 nodes = (
 "405 463 LINE",
-"394 493 LINE {\nname = hr00;\n}",
+"394 493 LINE {name = hr00;}",
 "75 293 LINE",
 "88 265 LINE"
 );
@@ -5180,7 +5183,7 @@ paths = (
 closed = 1;
 nodes = (
 "445 414 LINE",
-"404 506 LINE {\nname = hr00;\n}",
+"404 506 LINE {name = hr00;}",
 "46 284 LINE",
 "87 191 LINE"
 );
@@ -5216,7 +5219,7 @@ nodes = (
 "393 54 LINE",
 "321 700 LINE",
 "248 700 LINE",
-"86 0 LINE {\nname = hr00;\n}"
+"86 0 LINE {name = hr00;}"
 );
 }
 );
@@ -5242,7 +5245,7 @@ nodes = (
 "437 185 LINE",
 "436 680 LINE",
 "222 680 LINE",
-"65 0 LINE {\nname = hr00;\n}"
+"65 0 LINE {name = hr00;}"
 );
 }
 );
@@ -5273,7 +5276,7 @@ nodes = (
 "479 33 LINE",
 "329 700 LINE",
 "248 700 LINE",
-"86 0 LINE {\nname = hr00;\n}"
+"86 0 LINE {name = hr00;}"
 );
 }
 );
@@ -5296,7 +5299,7 @@ nodes = (
 "477 147 LINE",
 "441 680 LINE",
 "222 680 LINE",
-"65 0 LINE {\nname = hr00;\n}"
+"65 0 LINE {name = hr00;}"
 );
 }
 );
@@ -5576,7 +5579,7 @@ nodes = (
 "469 69 CURVE SMOOTH",
 "431 41 OFFCURVE",
 "386 24 OFFCURVE",
-"333 24 CURVE SMOOTH {\nname = hr00;\n}"
+"333 24 CURVE SMOOTH {name = hr00;}"
 );
 }
 );
@@ -5628,7 +5631,7 @@ nodes = (
 "423 142 CURVE SMOOTH",
 "400 119 OFFCURVE",
 "370 108 OFFCURVE",
-"339 108 CURVE SMOOTH {\nname = hr00;\n}"
+"339 108 CURVE SMOOTH {name = hr00;}"
 );
 }
 );
@@ -5639,7 +5642,7 @@ leftKerningGroup = O;
 rightKerningGroup = O;
 unicode = 004F;
 userData = {
-"[MP] 15 07 2011\\012Wt1 Sl1\\012aggiunto due punti \\012nelle curve S/E e N/W\\012\\012\\012[MN] 280111\\012Wt0 SI0:\\012regolazione stems, altezza e over shooting.\\012Wt1 SI1:\\012regolazione stens,altezza, over shooting\\012sistemazione manipolatori punti.\\012Wt0: sistemazione stems,altezza. over s  com.typemytype.robofont.guides" = (
+"[MP] 15 07 2011\012Wt1 Sl1\012aggiunto due punti \012nelle curve S/E e N/W\012\012\012[MN] 280111\012Wt0 SI0:\012regolazione stems, altezza e over shooting.\012Wt1 SI1:\012regolazione stens,altezza, over shooting\012sistemazione manipolatori punti.\012Wt0: sistemazione stems,altezza. over s  com.typemytype.robofont.guides" = (
 {
 angle = 90;
 isGlobal = 0;
@@ -5979,7 +5982,7 @@ nodes = (
 "682 791 LINE",
 "380 348 LINE",
 "79 -94 LINE",
-"106 -110 LINE {\nname = hr00;\n}"
+"106 -110 LINE {name = hr00;}"
 );
 }
 );
@@ -6001,7 +6004,7 @@ nodes = (
 "654 805 LINE",
 "353 363 LINE",
 "53 -81 LINE",
-"119 -121 LINE {\nname = hr00;\n}"
+"119 -121 LINE {name = hr00;}"
 );
 }
 );
@@ -6252,7 +6255,7 @@ paths = (
 closed = 1;
 nodes = (
 "122 0 LINE",
-"181 256 LINE {\nname = hr00;\n}",
+"181 256 LINE {name = hr00;}",
 "377 256 LINE SMOOTH",
 "546 256 OFFCURVE",
 "626 397 OFFCURVE",
@@ -6288,7 +6291,7 @@ paths = (
 closed = 1;
 nodes = (
 "203 0 LINE",
-"248 196 LINE {\nname = hr00;\n}",
+"248 196 LINE {name = hr00;}",
 "333 196 LINE SMOOTH",
 "512 196 OFFCURVE",
 "628 293 OFFCURVE",
@@ -6355,7 +6358,7 @@ nodes = (
 "560 367 CURVE SMOOTH",
 "532 257 OFFCURVE",
 "475 166 OFFCURVE",
-"361 166 CURVE {\nname = hr00;\n}",
+"361 166 CURVE {name = hr00;}",
 "160 166 LINE"
 );
 }
@@ -6393,7 +6396,7 @@ nodes = (
 "467 348 CURVE SMOOTH",
 "449 277 OFFCURVE",
 "408 236 OFFCURVE",
-"343 236 CURVE {\nname = hr00;\n}",
+"343 236 CURVE {name = hr00;}",
 "248 236 LINE"
 );
 }
@@ -6463,7 +6466,7 @@ closed = 1;
 nodes = (
 "122 0 LINE",
 "189 288 LINE",
-"400 288 LINE {\nname = hr00;\n}",
+"400 288 LINE {name = hr00;}",
 "488 0 LINE",
 "524 0 LINE",
 "435 292 LINE",
@@ -6502,7 +6505,7 @@ closed = 1;
 nodes = (
 "203 0 LINE",
 "253 216 LINE",
-"348 216 LINE {\nname = hr00;\n}",
+"348 216 LINE {name = hr00;}",
 "393 0 LINE",
 "531 0 LINE",
 "476 235 LINE",
@@ -6664,7 +6667,7 @@ nodes = (
 "466 676 OFFCURVE",
 "543 666 OFFCURVE",
 "587 658 CURVE",
-"593 688 LINE {\nname = hr00;\n}",
+"593 688 LINE {name = hr00;}",
 "554 697 OFFCURVE",
 "480 709 OFFCURVE",
 "422 709 CURVE SMOOTH",
@@ -6713,7 +6716,7 @@ nodes = (
 "432 574 OFFCURVE",
 "514 564 OFFCURVE",
 "561 556 CURVE",
-"586 654 LINE {\nname = hr00;\n}",
+"586 654 LINE {name = hr00;}",
 "543 670 OFFCURVE",
 "457 692 OFFCURVE",
 "377 692 CURVE SMOOTH",
@@ -6930,7 +6933,7 @@ nodes = (
 "618 667 LINE",
 "626 700 LINE",
 "172 700 LINE",
-"164 667 LINE {\nname = hr00;\n}",
+"164 667 LINE {name = hr00;}",
 "373 667 LINE",
 "219 0 LINE"
 );
@@ -6949,7 +6952,7 @@ nodes = (
 "576 560 LINE",
 "604 680 LINE",
 "166 680 LINE",
-"138 560 LINE {\nname = hr00;\n}",
+"138 560 LINE {name = hr00;}",
 "287 560 LINE",
 "158 0 LINE"
 );
@@ -7136,7 +7139,7 @@ nodes = (
 "155 151 OFFCURVE",
 "159.208 181.951 OFFCURVE",
 "165 207 CURVE SMOOTH",
-"279 700 LINE {\nname = hr00;\n}",
+"279 700 LINE {name = hr00;}",
 "243 700 LINE",
 "129 207 LINE",
 "123 183 OFFCURVE",
@@ -7171,7 +7174,7 @@ nodes = (
 "240 189 OFFCURVE",
 "244.129 209.97 OFFCURVE",
 "249 231 CURVE SMOOTH",
-"353 680 LINE {\nname = hr00;\n}",
+"353 680 LINE {name = hr00;}",
 "215 680 LINE",
 "116 253 LINE",
 "109 221 OFFCURVE",
@@ -7190,7 +7193,7 @@ leftKerningGroup = U;
 rightKerningGroup = U;
 unicode = 0055;
 userData = {
-"[MP] 18 07 2011\\012Wt0 Sl1\\012rettifica spessore aste vert.\\012\\012[MN] 210211 \\012Wt0 Sl0: corr. stems, manipolatori e overshooting. \\012Wt1 Sl0: corr. stems, overshooting, manipolatori, controllo altezza.\\012Wt0 Sl1: corr. stems,manipolatori,  ang. inclinazione.\\012Wt1 Sl: corr.stems,manipolatori,overshooting, ang. inclinazione.  com.typemytype.robofont.guides" = (
+"[MP] 18 07 2011\012Wt0 Sl1\012rettifica spessore aste vert.\012\012[MN] 210211 \012Wt0 Sl0: corr. stems, manipolatori e overshooting. \012Wt1 Sl0: corr. stems, overshooting, manipolatori, controllo altezza.\012Wt0 Sl1: corr. stems,manipolatori,  ang. inclinazione.\012Wt1 Sl: corr.stems,manipolatori,overshooting, ang. inclinazione.  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -7634,7 +7637,7 @@ paths = (
 closed = 1;
 nodes = (
 "320 0 LINE",
-"664 700 LINE {\nname = hr00;\n}",
+"664 700 LINE {name = hr00;}",
 "628 700 LINE",
 "299 33 LINE",
 "245 33 LINE",
@@ -7653,7 +7656,7 @@ paths = (
 closed = 1;
 nodes = (
 "391 0 LINE",
-"699 680 LINE {\nname = hr00;\n}",
+"699 680 LINE {name = hr00;}",
 "561 680 LINE",
 "317 120 LINE",
 "284 120 LINE",
@@ -7690,7 +7693,7 @@ nodes = (
 "241 33 LINE",
 "206 33 LINE",
 "231 700 LINE",
-"195 700 LINE {\nname = hr00;\n}",
+"195 700 LINE {name = hr00;}",
 "171 0 LINE"
 );
 }
@@ -7716,7 +7719,7 @@ nodes = (
 "284 127 LINE",
 "270 127 LINE",
 "312 680 LINE",
-"174 680 LINE {\nname = hr00;\n}",
+"174 680 LINE {name = hr00;}",
 "143 0 LINE"
 );
 }
@@ -7728,7 +7731,7 @@ leftKerningGroup = W;
 rightKerningGroup = W;
 unicode = 0057;
 userData = {
-"[MP] 18 07 2011\\012Wt0 Sl1\\012rettifica spessori aste\\012\\012\\012[LA] thin restringimento\\012[LA] bold restringimento\\012\\01227.03.11  com.typemytype.robofont.guides" = (
+"[MP] 18 07 2011\012Wt0 Sl1\012rettifica spessori aste\012\012\012[LA] thin restringimento\012[LA] bold restringimento\012\01227.03.11  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -7892,7 +7895,7 @@ nodes = (
 "651 700 LINE",
 "607 700 LINE",
 "343 379 LINE",
-"227 700 LINE {\nname = hr00;\n}",
+"227 700 LINE {name = hr00;}",
 "191 700 LINE",
 "315 350 LINE",
 "20 0 LINE"
@@ -7915,7 +7918,7 @@ nodes = (
 "671 680 LINE",
 "526 680 LINE",
 "362 441 LINE",
-"313 680 LINE {\nname = hr00;\n}",
+"313 680 LINE {name = hr00;}",
 "167 680 LINE",
 "257 343 LINE",
 "1 0 LINE"
@@ -7938,7 +7941,7 @@ closed = 1;
 nodes = (
 "256 0 LINE",
 "326 301 LINE",
-"627 700 LINE {\nname = hr00;\n}",
+"627 700 LINE {name = hr00;}",
 "587 700 LINE",
 "317 339 LINE",
 "214 700 LINE",
@@ -7958,7 +7961,7 @@ closed = 1;
 nodes = (
 "313 0 LINE",
 "381 288 LINE",
-"661 680 LINE {\nname = hr00;\n}",
+"661 680 LINE {name = hr00;}",
 "515 680 LINE",
 "346 415 LINE",
 "298 680 LINE",
@@ -8138,7 +8141,7 @@ nodes = (
 "601 622 LINE",
 "619 700 LINE",
 "204 700 LINE",
-"196 667 LINE {\nname = hr00;\n}",
+"196 667 LINE {name = hr00;}",
 "575 667 LINE",
 "568 638 LINE",
 "56 74 LINE",
@@ -8161,7 +8164,7 @@ nodes = (
 "579 541 LINE",
 "611 680 LINE",
 "193 680 LINE",
-"165 560 LINE {\nname = hr00;\n}",
+"165 560 LINE {name = hr00;}",
 "423 560 LINE",
 "418 536 LINE",
 "67 137 LINE",
@@ -8393,7 +8396,7 @@ nodes = (
 "95 118 CURVE SMOOTH",
 "95 35 OFFCURVE",
 "134 -9 OFFCURVE",
-"215 -9 CURVE SMOOTH {\nname = hr00;\n}"
+"215 -9 CURVE SMOOTH {name = hr00;}"
 );
 },
 {
@@ -8442,7 +8445,7 @@ nodes = (
 "80 170 CURVE SMOOTH",
 "80 66 OFFCURVE",
 "119 -12 OFFCURVE",
-"221 -12 CURVE SMOOTH {\nname = hr00;\n}"
+"221 -12 CURVE SMOOTH {name = hr00;}"
 );
 },
 {
@@ -8471,7 +8474,7 @@ leftKerningGroup = a;
 rightKerningGroup = a;
 unicode = 0061;
 userData = {
-"-(D) ristretto\\012-(D) contrasto 3  com.typemytype.robofont.guides" = (
+"-(D) ristretto\012-(D) contrasto 3  com.typemytype.robofont.guides" = (
 {
 angle = 90;
 isGlobal = 0;
@@ -8827,7 +8830,7 @@ nodes = (
 "536 865 LINE",
 "529 900 LINE",
 "326 805 LINE",
-"332 775 LINE {\nname = hr00;\n}"
+"332 775 LINE {name = hr00;}"
 );
 }
 );
@@ -8851,7 +8854,7 @@ nodes = (
 "629 836 LINE",
 "618 966 LINE",
 "354 875 LINE",
-"365 758 LINE {\nname = hr00;\n}"
+"365 758 LINE {name = hr00;}"
 );
 }
 );
@@ -9148,7 +9151,7 @@ nodes = (
 "501 363 CURVE SMOOTH",
 "501 451 OFFCURVE",
 "480 509 OFFCURVE",
-"378 509 CURVE SMOOTH {\nname = hr00;\n}",
+"378 509 CURVE SMOOTH {name = hr00;}",
 "313 509 OFFCURVE",
 "241 456 OFFCURVE",
 "204 416 CURVE",
@@ -9192,7 +9195,7 @@ nodes = (
 "562 349 CURVE SMOOTH",
 "562 430 OFFCURVE",
 "529 512 OFFCURVE",
-"412 512 CURVE SMOOTH {\nname = hr00;\n}",
+"412 512 CURVE SMOOTH {name = hr00;}",
 "368 512 OFFCURVE",
 "318 483 OFFCURVE",
 "293 461 CURVE",
@@ -9258,7 +9261,7 @@ nodes = (
 "472 498 LINE",
 "446 503 OFFCURVE",
 "399 509 OFFCURVE",
-"363 509 CURVE SMOOTH {\nname = hr00;\n}",
+"363 509 CURVE SMOOTH {name = hr00;}",
 "182 509 OFFCURVE",
 "99 319 OFFCURVE",
 "99 129 CURVE SMOOTH",
@@ -9295,7 +9298,7 @@ nodes = (
 "492 481 LINE",
 "458 494 OFFCURVE",
 "394 512 OFFCURVE",
-"343 512 CURVE SMOOTH {\nname = hr00;\n}",
+"343 512 CURVE SMOOTH {name = hr00;}",
 "168 512 OFFCURVE",
 "82 356 OFFCURVE",
 "82 162 CURVE SMOOTH",
@@ -9497,7 +9500,7 @@ nodes = (
 "399 114 CURVE",
 "373 0 LINE",
 "407 0 LINE",
-"576 730 LINE {\nname = hr00;\n}",
+"576 730 LINE {name = hr00;}",
 "541 730 LINE",
 "486 493 LINE",
 "455 500 OFFCURVE",
@@ -9543,7 +9546,7 @@ nodes = (
 "352 52 CURVE",
 "343 0 LINE",
 "473 0 LINE",
-"635 700 LINE {\nname = hr00;\n}",
+"635 700 LINE {name = hr00;}",
 "501 700 LINE",
 "452 490 LINE",
 "418 499 OFFCURVE",
@@ -9597,7 +9600,7 @@ nodes = (
 "538 360 CURVE SMOOTH",
 "579 538 OFFCURVE",
 "491 667 OFFCURVE",
-"289 736 CURVE {\nname = hr00;\n}",
+"289 736 CURVE {name = hr00;}",
 "270 702 LINE",
 "423 650 OFFCURVE",
 "535 556 OFFCURVE",
@@ -9653,7 +9656,7 @@ nodes = (
 "575 353 CURVE SMOOTH",
 "629 570 OFFCURVE",
 "519 687 OFFCURVE",
-"253 698 CURVE {\nname = hr00;\n}",
+"253 698 CURVE {name = hr00;}",
 "209 582 LINE",
 "306 568 OFFCURVE",
 "478 556 OFFCURVE",
@@ -9701,7 +9704,7 @@ width = 527;
 );
 unicode = 00F0;
 userData = {
-"- fatto thin\\012- fatto bold\\012- aggiunti hint  com.typemytype.robofont.guides" = (
+"- fatto thin\012- fatto bold\012- aggiunti hint  com.typemytype.robofont.guides" = (
 {
 angle = 90;
 isGlobal = 0;
@@ -9734,7 +9737,7 @@ paths = (
 closed = 1;
 nodes = (
 "615 480 LINE",
-"666 700 LINE {\nname = hr00;\n}",
+"666 700 LINE {name = hr00;}",
 "634 700 LINE",
 "583 480 LINE"
 );
@@ -9754,7 +9757,7 @@ paths = (
 closed = 1;
 nodes = (
 "744 429 LINE",
-"804 680 LINE {\nname = hr00;\n}",
+"804 680 LINE {name = hr00;}",
 "682 680 LINE",
 "621 429 LINE"
 );
@@ -9830,7 +9833,7 @@ nodes = (
 "409 54 LINE",
 "372 42 OFFCURVE",
 "301 25 OFFCURVE",
-"245 25 CURVE SMOOTH {\nname = hr00;\n}",
+"245 25 CURVE SMOOTH {name = hr00;}",
 "177 25 OFFCURVE",
 "134 65 OFFCURVE",
 "134 138 CURVE SMOOTH",
@@ -9882,7 +9885,7 @@ nodes = (
 "454 115 LINE",
 "412 109 OFFCURVE",
 "338 102 OFFCURVE",
-"288 102 CURVE SMOOTH {\nname = hr00;\n}",
+"288 102 CURVE SMOOTH {name = hr00;}",
 "248 102 OFFCURVE",
 "215 121 OFFCURVE",
 "215 161 CURVE SMOOTH",
@@ -10296,7 +10299,7 @@ closed = 1;
 nodes = (
 "66 -230 LINE",
 "125 0 LINE",
-"234 468 LINE {\nname = hr00;\n}",
+"234 468 LINE {name = hr00;}",
 "385 468 LINE",
 "394 500 LINE",
 "240 500 LINE",
@@ -10332,7 +10335,7 @@ closed = 1;
 nodes = (
 "147 -211 LINE",
 "210 0 LINE",
-"300 386 LINE {\nname = hr00;\n}",
+"300 386 LINE {name = hr00;}",
 "402 386 LINE",
 "430 500 LINE",
 "325 500 LINE",
@@ -10416,7 +10419,7 @@ nodes = (
 "24 -112 CURVE SMOOTH",
 "24 -184 OFFCURVE",
 "81 -239 OFFCURVE",
-"177 -239 CURVE SMOOTH {\nname = hr00;\n}"
+"177 -239 CURVE SMOOTH {name = hr00;}"
 );
 },
 {
@@ -10509,7 +10512,7 @@ nodes = (
 "9 -93 CURVE SMOOTH",
 "9 -193 OFFCURVE",
 "97 -230 OFFCURVE",
-"226 -230 CURVE SMOOTH {\nname = hr00;\n}"
+"226 -230 CURVE SMOOTH {name = hr00;}"
 );
 },
 {
@@ -10716,7 +10719,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"109 0 LINE {\nname = hr00;\n}",
+"109 0 LINE {name = hr00;}",
 "185 328 LINE",
 "230 392 OFFCURVE",
 "314 476 OFFCURVE",
@@ -10753,7 +10756,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"189 0 LINE {\nname = hr00;\n}",
+"189 0 LINE {name = hr00;}",
 "266 336 LINE",
 "294 362 OFFCURVE",
 "339 396 OFFCURVE",
@@ -10806,7 +10809,7 @@ nodes = (
 "410 611 LINE",
 "418 643 LINE",
 "165 643 LINE",
-"158 611 LINE {\nname = hr00;\n}"
+"158 611 LINE {name = hr00;}"
 );
 }
 );
@@ -10826,7 +10829,7 @@ nodes = (
 "433 530 LINE",
 "461 646 LINE",
 "152 646 LINE",
-"125 530 LINE {\nname = hr00;\n}"
+"125 530 LINE {name = hr00;}"
 );
 }
 );
@@ -10883,7 +10886,7 @@ nodes = (
 "108 0 LINE",
 "224 500 LINE",
 "189 500 LINE",
-"73 0 LINE {\nname = hr00;\n}"
+"73 0 LINE {name = hr00;}"
 );
 },
 {
@@ -10907,7 +10910,7 @@ nodes = (
 "189 0 LINE",
 "304 500 LINE",
 "170 500 LINE",
-"55 0 LINE {\nname = hr00;\n}"
+"55 0 LINE {name = hr00;}"
 );
 },
 {
@@ -10939,7 +10942,7 @@ nodes = (
 "108 0 LINE",
 "224 500 LINE",
 "189 500 LINE",
-"73 0 LINE {\nname = hr00;\n}"
+"73 0 LINE {name = hr00;}"
 );
 }
 );
@@ -10954,7 +10957,7 @@ nodes = (
 "189 0 LINE",
 "304 500 LINE",
 "170 500 LINE",
-"55 0 LINE {\nname = hr00;\n}"
+"55 0 LINE {name = hr00;}"
 );
 }
 );
@@ -11242,7 +11245,7 @@ nodes = (
 "46 -198 OFFCURVE",
 "74 -193 OFFCURVE",
 "89 -190 CURVE",
-"93 -158 LINE {\nname = hr01;\n}",
+"93 -158 LINE {name = hr01;}",
 "77 -161 OFFCURVE",
 "51 -165 OFFCURVE",
 "37 -165 CURVE SMOOTH",
@@ -11291,7 +11294,7 @@ nodes = (
 "76 -214 OFFCURVE",
 "119 -208 OFFCURVE",
 "144 -203 CURVE",
-"157 -93 LINE {\nname = hr01;\n}",
+"157 -93 LINE {name = hr01;}",
 "144 -94 OFFCURVE",
 "125 -96 OFFCURVE",
 "120 -96 CURVE SMOOTH",
@@ -11375,7 +11378,7 @@ nodes = (
 "108 0 CURVE SMOOTH",
 "224 500 LINE",
 "189 500 LINE",
-"73 0 LINE SMOOTH {\nname = hr00;\n}",
+"73 0 LINE SMOOTH {name = hr00;}",
 "42.848 -129.965 OFFCURVE",
 "31 -144 OFFCURVE",
 "-99 -209 CURVE",
@@ -11405,7 +11408,7 @@ nodes = (
 "189 0 CURVE SMOOTH",
 "304 500 LINE",
 "170 500 LINE",
-"55 0 LINE SMOOTH {\nname = hr00;\n}",
+"55 0 LINE SMOOTH {name = hr00;}",
 "40.972 -60.993 OFFCURVE",
 "34 -69 OFFCURVE",
 "-70 -123 CURVE",
@@ -11532,7 +11535,7 @@ nodes = (
 "177 293 LINE",
 "278 730 LINE",
 "243 730 LINE",
-"74 0 LINE {\nname = hr00;\n}"
+"74 0 LINE {name = hr00;}"
 );
 }
 );
@@ -11556,7 +11559,7 @@ nodes = (
 "260 311 LINE",
 "350 700 LINE",
 "216 700 LINE",
-"55 0 LINE {\nname = hr00;\n}"
+"55 0 LINE {name = hr00;}"
 );
 }
 );
@@ -11613,7 +11616,7 @@ nodes = (
 "115 0 LINE",
 "284 730 LINE",
 "249 730 LINE",
-"80 0 LINE {\nname = hr00;\n}"
+"80 0 LINE {name = hr00;}"
 );
 }
 );
@@ -11628,7 +11631,7 @@ nodes = (
 "189 0 LINE",
 "350 700 LINE",
 "216 700 LINE",
-"55 0 LINE {\nname = hr00;\n}"
+"55 0 LINE {name = hr00;}"
 );
 }
 );
@@ -11688,7 +11691,7 @@ paths = (
 closed = 1;
 nodes = (
 "322 480 LINE",
-"373 700 LINE {\nname = hr00;\n}",
+"373 700 LINE {name = hr00;}",
 "341 700 LINE",
 "290 480 LINE"
 );
@@ -11708,7 +11711,7 @@ paths = (
 closed = 1;
 nodes = (
 "460 429 LINE",
-"520 680 LINE {\nname = hr00;\n}",
+"520 680 LINE {name = hr00;}",
 "398 680 LINE",
 "337 429 LINE"
 );
@@ -11771,7 +11774,7 @@ paths = (
 closed = 1;
 nodes = (
 "332 411 LINE",
-"319 440 LINE {\nname = hr00;\n}",
+"319 440 LINE {name = hr00;}",
 "81 292 LINE",
 "96 265 LINE"
 );
@@ -11792,7 +11795,7 @@ paths = (
 closed = 1;
 nodes = (
 "397 389 LINE",
-"356 481 LINE {\nname = hr00;\n}",
+"356 481 LINE {name = hr00;}",
 "49 290 LINE",
 "90 197 LINE"
 );
@@ -11826,7 +11829,7 @@ nodes = (
 "452 295 OFFCURVE",
 "443 258 CURVE SMOOTH",
 "383 0 LINE",
-"418 0 LINE {\nname = hr00;\n}",
+"418 0 LINE {name = hr00;}",
 "478 257 LINE",
 "490 308 OFFCURVE",
 "496 349 OFFCURVE",
@@ -11884,7 +11887,7 @@ nodes = (
 "389 260 OFFCURVE",
 "383 235 CURVE SMOOTH",
 "329 0 LINE",
-"463 0 LINE {\nname = hr00;\n}",
+"463 0 LINE {name = hr00;}",
 "519 245 LINE",
 "525 269 OFFCURVE",
 "531 312 OFFCURVE",
@@ -11929,7 +11932,7 @@ leftKerningGroup = n;
 rightKerningGroup = n;
 unicode = 006D;
 userData = {
-"-(D) ristretto\\012-(D) contrasto 3\\012correzione disegno wt1si1\\012aste verticali wt1si1 134-132\\012curve orizzontali 120  com.typemytype.robofont.guides" = (
+"-(D) ristretto\012-(D) contrasto 3\012correzione disegno wt1si1\012aste verticali wt1si1 134-132\012curve orizzontali 120  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -11974,7 +11977,7 @@ nodes = (
 "198 387 CURVE",
 "224 500 LINE",
 "189 500 LINE",
-"73 0 LINE {\nname = hr00;\n}"
+"73 0 LINE {name = hr00;}"
 );
 }
 );
@@ -12011,7 +12014,7 @@ nodes = (
 "292 451 CURVE",
 "298 500 LINE",
 "170 500 LINE",
-"55 0 LINE {\nname = hr00;\n}"
+"55 0 LINE {name = hr00;}"
 );
 }
 );
@@ -12266,7 +12269,7 @@ nodes = (
 "507 352 CURVE SMOOTH",
 "507 454 OFFCURVE",
 "454 509 OFFCURVE",
-"349 509 CURVE SMOOTH {\nname = hr00;\n}",
+"349 509 CURVE SMOOTH {name = hr00;}",
 "207 509 OFFCURVE",
 "99 346 OFFCURVE",
 "99 139 CURVE SMOOTH",
@@ -12306,7 +12309,7 @@ nodes = (
 "530 322 CURVE SMOOTH",
 "530 456 OFFCURVE",
 "457 511 OFFCURVE",
-"333 511 CURVE SMOOTH {\nname = hr00;\n}",
+"333 511 CURVE SMOOTH {name = hr00;}",
 "173 511 OFFCURVE",
 "80 331 OFFCURVE",
 "80 177 CURVE SMOOTH",
@@ -12767,7 +12770,7 @@ nodes = (
 "763 36 LINE",
 "717 32 OFFCURVE",
 "637 27 OFFCURVE",
-"589 27 CURVE SMOOTH {\nname = hr00;\n}",
+"589 27 CURVE SMOOTH {name = hr00;}",
 "512 27 OFFCURVE",
 "481 62 OFFCURVE",
 "481 132 CURVE SMOOTH",
@@ -12858,7 +12861,7 @@ nodes = (
 "741 118 LINE",
 "696 114 OFFCURVE",
 "618 109 OFFCURVE",
-"568 109 CURVE SMOOTH {\nname = hr00;\n}",
+"568 109 CURVE SMOOTH {name = hr00;}",
 "525 109 OFFCURVE",
 "503 124 OFFCURVE",
 "497 149 CURVE SMOOTH",
@@ -12961,7 +12964,7 @@ nodes = (
 "197 386 CURVE",
 "223 500 LINE",
 "189 500 LINE",
-"20 -230 LINE {\nname = hr00;\n}"
+"20 -230 LINE {name = hr00;}"
 );
 },
 {
@@ -13007,7 +13010,7 @@ nodes = (
 "291 448 CURVE",
 "301 500 LINE",
 "170 500 LINE",
-"7 -210 LINE {\nname = hr00;\n}"
+"7 -210 LINE {name = hr00;}"
 );
 },
 {
@@ -13068,7 +13071,7 @@ nodes = (
 closed = 1;
 nodes = (
 "114 39 LINE",
-"198 395 LINE {\nname = hr00;\n}",
+"198 395 LINE {name = hr00;}",
 "198 393 OFFCURVE",
 "287 473 OFFCURVE",
 "371 473 CURVE SMOOTH",
@@ -13112,7 +13115,7 @@ nodes = (
 closed = 1;
 nodes = (
 "206 113 LINE",
-"262 350 LINE {\nname = hr00;\n}",
+"262 350 LINE {name = hr00;}",
 "262 348 OFFCURVE",
 "317 388 OFFCURVE",
 "349 388 CURVE SMOOTH",
@@ -13151,7 +13154,7 @@ nodes = (
 "94 120 CURVE SMOOTH",
 "94 39 OFFCURVE",
 "132 -9 OFFCURVE",
-"213 -9 CURVE SMOOTH {\nname = hr00;\n}",
+"213 -9 CURVE SMOOTH {name = hr00;}",
 "283 -9 OFFCURVE",
 "359 61 OFFCURVE",
 "397 113 CURVE",
@@ -13195,7 +13198,7 @@ nodes = (
 "80 162 CURVE SMOOTH",
 "80 54 OFFCURVE",
 "129 -12 OFFCURVE",
-"224 -12 CURVE SMOOTH {\nname = hr00;\n}",
+"224 -12 CURVE SMOOTH {name = hr00;}",
 "277 -12 OFFCURVE",
 "328 25 OFFCURVE",
 "352 53 CURVE",
@@ -13248,7 +13251,7 @@ nodes = (
 "207 424 CURVE",
 "224 500 LINE",
 "190 500 LINE",
-"73 0 LINE {\nname = hr00;\n}"
+"73 0 LINE {name = hr00;}"
 );
 }
 );
@@ -13271,7 +13274,7 @@ nodes = (
 "285 428 CURVE",
 "303 500 LINE",
 "170 500 LINE",
-"55 0 LINE {\nname = hr00;\n}"
+"55 0 LINE {name = hr00;}"
 );
 }
 );
@@ -13408,7 +13411,7 @@ nodes = (
 "364 477 OFFCURVE",
 "432 470 OFFCURVE",
 "470 464 CURVE",
-"479 495 LINE {\nname = hr00;\n}",
+"479 495 LINE {name = hr00;}",
 "439 501 OFFCURVE",
 "370 509 OFFCURVE",
 "324 509 CURVE SMOOTH",
@@ -13457,7 +13460,7 @@ nodes = (
 "349 397 OFFCURVE",
 "426 388 OFFCURVE",
 "470 381 CURVE",
-"494 480 LINE {\nname = hr00;\n}",
+"494 480 LINE {name = hr00;}",
 "462 493 OFFCURVE",
 "391 511 OFFCURVE",
 "314 511 CURVE SMOOTH",
@@ -13690,7 +13693,7 @@ nodes = (
 "288 739 OFFCURVE",
 "233 684 OFFCURVE",
 "198 535 CURVE",
-"73 0 LINE {\nname = hr00;\n}",
+"73 0 LINE {name = hr00;}",
 "107 0 LINE",
 "231 532 LINE SMOOTH",
 "260 657 OFFCURVE",
@@ -13753,7 +13756,7 @@ nodes = (
 "288 712 OFFCURVE",
 "213 670 OFFCURVE",
 "177 520 CURVE",
-"54 0 LINE {\nname = hr00;\n}",
+"54 0 LINE {name = hr00;}",
 "180 0 LINE",
 "298 502 LINE SMOOTH",
 "314 571 OFFCURVE",
@@ -13816,7 +13819,7 @@ nodes = (
 "166 148 OFFCURVE",
 "174 182 CURVE SMOOTH",
 "241 468 LINE",
-"404 468 LINE {\nname = hr00;\n}",
+"404 468 LINE {name = hr00;}",
 "412 500 LINE",
 "249 500 LINE",
 "289 662 LINE",
@@ -13857,7 +13860,7 @@ nodes = (
 "242 169 OFFCURVE",
 "246 186 CURVE SMOOTH",
 "292 386 LINE",
-"396 386 LINE {\nname = hr00;\n}",
+"396 386 LINE {name = hr00;}",
 "424 500 LINE",
 "319 500 LINE",
 "348 628 LINE",
@@ -13901,7 +13904,7 @@ nodes = (
 "363 291 LINE",
 "372 323 LINE",
 "119 323 LINE",
-"111 291 LINE {\nname = hr00;\n}"
+"111 291 LINE {name = hr00;}"
 );
 }
 );
@@ -13922,7 +13925,7 @@ nodes = (
 "344 200 LINE",
 "369 316 LINE",
 "91 316 LINE",
-"66 200 LINE {\nname = hr00;\n}"
+"66 200 LINE {name = hr00;}"
 );
 }
 );
@@ -13948,7 +13951,7 @@ paths = (
 closed = 1;
 nodes = (
 "476 480 LINE",
-"527 700 LINE {\nname = hr00;\n}",
+"527 700 LINE {name = hr00;}",
 "495 700 LINE",
 "444 480 LINE"
 );
@@ -13968,7 +13971,7 @@ paths = (
 closed = 1;
 nodes = (
 "571 429 LINE",
-"631 680 LINE {\nname = hr00;\n}",
+"631 680 LINE {name = hr00;}",
 "509 680 LINE",
 "448 429 LINE"
 );
@@ -14061,7 +14064,7 @@ nodes = (
 "379 0 LINE",
 "414 0 LINE",
 "530 500 LINE",
-"495 500 LINE {\nname = hr00;\n}",
+"495 500 LINE {name = hr00;}",
 "418 170 LINE",
 "374 107 OFFCURVE",
 "291 24 OFFCURVE",
@@ -14098,7 +14101,7 @@ nodes = (
 "330 0 LINE",
 "458 0 LINE",
 "573 500 LINE",
-"439 500 LINE {\nname = hr00;\n}",
+"439 500 LINE {name = hr00;}",
 "362 164 LINE",
 "335 138 OFFCURVE",
 "290 104 OFFCURVE",
@@ -14593,7 +14596,7 @@ nodes = (
 "379 0 LINE",
 "414 0 LINE",
 "530 500 LINE",
-"495 500 LINE {\nname = hr01;\n}",
+"495 500 LINE {name = hr01;}",
 "418 170 LINE",
 "374 107 OFFCURVE",
 "291 24 OFFCURVE",
@@ -14655,7 +14658,7 @@ nodes = (
 "330 0 LINE",
 "458 0 LINE",
 "573 500 LINE",
-"439 500 LINE {\nname = hr01;\n}",
+"439 500 LINE {name = hr01;}",
 "362 164 LINE",
 "335 138 OFFCURVE",
 "290 104 OFFCURVE",
@@ -14793,7 +14796,7 @@ nodes = (
 "246 32 LINE",
 "206 32 LINE",
 "183 500 LINE",
-"147 500 LINE {\nname = hr00;\n}",
+"147 500 LINE {name = hr00;}",
 "172 0 LINE"
 );
 }
@@ -14812,7 +14815,7 @@ nodes = (
 "261 111 LINE",
 "243 111 LINE",
 "257 500 LINE",
-"126 500 LINE {\nname = hr00;\n}",
+"126 500 LINE {name = hr00;}",
 "122 0 LINE"
 );
 }
@@ -14844,7 +14847,7 @@ nodes = (
 "207 32 LINE",
 "191 32 LINE",
 "185 500 LINE",
-"150 500 LINE {\nname = hr00;\n}",
+"150 500 LINE {name = hr00;}",
 "157 0 LINE"
 );
 }
@@ -14870,7 +14873,7 @@ nodes = (
 "261 114 LINE",
 "238 114 LINE",
 "270 500 LINE",
-"135 500 LINE {\nname = hr00;\n}",
+"135 500 LINE {name = hr00;}",
 "106 0 LINE"
 );
 }
@@ -15085,7 +15088,7 @@ nodes = (
 "246 32 LINE",
 "206 32 LINE",
 "183 500 LINE",
-"147 500 LINE {\nname = hr00;\n}",
+"147 500 LINE {name = hr00;}",
 "172 0 LINE",
 "230 0 LINE",
 "107 -228 LINE"
@@ -15106,7 +15109,7 @@ nodes = (
 "258 111 LINE",
 "243 111 LINE",
 "257 500 LINE",
-"126 500 LINE {\nname = hr00;\n}",
+"126 500 LINE {name = hr00;}",
 "122 0 LINE",
 "205 0 LINE",
 "102 -210 LINE"
@@ -15302,7 +15305,7 @@ nodes = (
 "90 32 LINE",
 "490 468 LINE",
 "495 500 LINE",
-"156 500 LINE {\nname = hr00;\n}",
+"156 500 LINE {name = hr00;}",
 "148 468 LINE",
 "444 468 LINE",
 "44 32 LINE",
@@ -15323,7 +15326,7 @@ nodes = (
 "216 114 LINE",
 "468 389 LINE",
 "496 500 LINE",
-"151 500 LINE {\nname = hr00;\n}",
+"151 500 LINE {name = hr00;}",
 "122 386 LINE",
 "310 386 LINE",
 "59 112 LINE",
@@ -15452,7 +15455,7 @@ nodes = (
 "398 415 LINE",
 "384 418 OFFCURVE",
 "371 424 OFFCURVE",
-"366 437 CURVE {\nname = hr00;\n}",
+"366 437 CURVE {name = hr00;}",
 "398 570 LINE SMOOTH",
 "413 633 OFFCURVE",
 "391 660 OFFCURVE",
@@ -15720,7 +15723,7 @@ nodes = (
 "484 154 CURVE SMOOTH",
 "484 475 LINE",
 "449 476 LINE",
-"449 154 LINE SMOOTH {\nname = hr00;\n}",
+"449 154 LINE SMOOTH {name = hr00;}",
 "449 30 OFFCURVE",
 "482 0 OFFCURVE",
 "583 0 CURVE"
@@ -15773,7 +15776,7 @@ nodes = (
 "518 154 CURVE SMOOTH",
 "518 420 LINE",
 "384 415 LINE",
-"384 154 LINE SMOOTH {\nname = hr00;\n}",
+"384 154 LINE SMOOTH {name = hr00;}",
 "384 20 OFFCURVE",
 "406 -10 OFFCURVE",
 "587 -10 CURVE"
@@ -15825,7 +15828,7 @@ nodes = (
 "216 0 LINE",
 "245 468 LINE",
 "449 468 LINE",
-"449 154 LINE {\nname = hr00;\n}",
+"449 154 LINE {name = hr00;}",
 "449 30 OFFCURVE",
 "482 0 OFFCURVE",
 "583 0 CURVE",
@@ -15887,7 +15890,7 @@ nodes = (
 "273 0 LINE",
 "299 386 LINE",
 "384 386 LINE",
-"384 154 LINE {\nname = hr00;\n}",
+"384 154 LINE {name = hr00;}",
 "384 20 OFFCURVE",
 "406 -10 OFFCURVE",
 "587 -10 CURVE"
@@ -16419,7 +16422,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"193 0 LINE {\nname = hr00;\n}",
+"193 0 LINE {name = hr00;}",
 "24 730 LINE",
 "-11 730 LINE",
 "158 0 LINE"
@@ -16444,7 +16447,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"282 0 LINE {\nname = hr00;\n}",
+"282 0 LINE {name = hr00;}",
 "120 700 LINE",
 "-14 700 LINE",
 "148 0 LINE"
@@ -16473,7 +16476,7 @@ nodes = (
 "304 0 LINE",
 "304 690 LINE",
 "80 690 LINE",
-"80 0 LINE {\nname = hr00;\n}"
+"80 0 LINE {name = hr00;}"
 );
 }
 );
@@ -16580,7 +16583,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"193 0 LINE {\nname = hr00;\n}",
+"193 0 LINE {name = hr00;}",
 "46 635 LINE",
 "11 635 LINE",
 "158 0 LINE"
@@ -16605,7 +16608,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"282 0 LINE {\nname = hr00;\n}",
+"282 0 LINE {name = hr00;}",
 "144 595 LINE",
 "10 595 LINE",
 "148 0 LINE"
@@ -16634,7 +16637,7 @@ nodes = (
 "304 0 LINE",
 "304 583 LINE",
 "80 583 LINE",
-"80 0 LINE {\nname = hr00;\n}"
+"80 0 LINE {name = hr00;}"
 );
 }
 );
@@ -17079,7 +17082,7 @@ name = "alef-ar";
 },
 {
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, -102, 276}";
+transform = "{1, 0, 0, 1, -127, 380}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -17125,7 +17128,7 @@ name = "alef-ar.fina";
 },
 {
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, -102, 276}";
+transform = "{1, 0, 0, 1, -127, 380}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -18674,7 +18677,7 @@ name = "behDotless-ar";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 167, 164}";
+transform = "{1, 0, 0, 1, 168, 151}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -18720,7 +18723,7 @@ name = "behDotless-ar.fina";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, 167, 164}";
+transform = "{1, 0, 0, 1, 168, 151}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -18766,7 +18769,7 @@ name = "behDotless-ar.medi";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, -61, 227}";
+transform = "{1, 0, 0, 1, -60, 214}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -18812,7 +18815,7 @@ name = "behDotless-ar.init";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, -61, 227}";
+transform = "{1, 0, 0, 1, -60, 214}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -18878,7 +18881,7 @@ name = "hah-ar";
 },
 {
 name = "dotcenter-ar";
-transform = "{1, 0, 0, 1, 375, -448}";
+transform = "{0.75131, 0, 0, 0.75131, 391, -362}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -19083,7 +19086,7 @@ name = "hah-ar.fina";
 },
 {
 name = "dotcenter-ar";
-transform = "{1, 0, 0, 1, 375, -448}";
+transform = "{0.75131, 0, 0, 0.75131, 391, -362}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -19215,11 +19218,13 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "hah-ar";
 },
 {
+alignment = -1;
 name = "threedotsdowncenter-ar";
-transform = "{1, 0, 0, 1, 434, -414}";
+transform = "{1, 0, 0, 1, 434, -392}";
 }
 );
 layerId = "B420756C-160B-4E3B-8A8F-018354DD19AA";
@@ -19233,7 +19238,7 @@ name = "hah-ar";
 {
 alignment = -1;
 name = "threedotsdowncenter-ar";
-transform = "{0.54439, 0, 0, 0.54439, 402, -258}";
+transform = "{0.41973, 0, 0, 0.41973, 414, -215}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -19320,10 +19325,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"609 0 LINE",
-"609 34 LINE",
-"509 34 LINE",
-"509 0 LINE"
+"667 0 LINE",
+"659 34 LINE",
+"559 34 LINE",
+"567 0 LINE"
 );
 }
 );
@@ -21231,7 +21236,7 @@ name = "dal-ar";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, -89, 227}";
+transform = "{1, 0, 0, 1, -88, 214}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -21277,7 +21282,7 @@ name = "dal-ar.fina";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, -89, 227}";
+transform = "{1, 0, 0, 1, -88, 214}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -21706,7 +21711,7 @@ name = "reh-ar";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, -105, 227}";
+transform = "{1, 0, 0, 1, -104, 214}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -21752,7 +21757,7 @@ name = "reh-ar.fina";
 },
 {
 name = "tahabove-ar";
-transform = "{1, 0, 0, 1, -105, 227}";
+transform = "{1, 0, 0, 1, -104, 214}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -30792,7 +30797,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"193 0 LINE {\nname = hr00;\n}",
+"193 0 LINE {name = hr00;}",
 "24 730 LINE",
 "-11 730 LINE",
 "158 0 LINE"
@@ -30831,7 +30836,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"341 0 LINE {\nname = hr00;\n}",
+"341 0 LINE {name = hr00;}",
 "179 700 LINE",
 "45 700 LINE",
 "207 0 LINE"
@@ -30874,13 +30879,13 @@ nodes = (
 "325 0 LINE",
 "325 690 LINE",
 "101 690 LINE",
-"101 0 LINE {\nname = hr00;\n}"
+"101 0 LINE {name = hr00;}"
 );
 },
 {
 closed = 1;
 nodes = (
-"101 0 LINE {\nname = hr00;\n}",
+"101 0 LINE {name = hr00;}",
 "101 188 LINE",
 "0 188 LINE",
 "0 0 LINE"
@@ -35177,7 +35182,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"98 -248 LINE {\nname = hr00;\n}",
+"98 -248 LINE {name = hr00;}",
 "135 -59 LINE",
 "107 -59 LINE",
 "61 -248 LINE"
@@ -35197,7 +35202,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"207 -293 LINE {\nname = hr00;\n}",
+"207 -293 LINE {name = hr00;}",
 "253 -59 LINE",
 "132 -59 LINE",
 "77 -293 LINE"
@@ -38617,7 +38622,7 @@ name = "lam_alef-ar";
 {
 anchor = top_2;
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, 23, 152}";
+transform = "{1, 0, 0, 1, -2, 256}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -38667,7 +38672,7 @@ name = "lam_alef-ar.fina";
 {
 anchor = top_2;
 name = "wasla-ar";
-transform = "{1, 0, 0, 1, 23, 152}";
+transform = "{1, 0, 0, 1, -2, 256}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -45339,21 +45344,6 @@ name = "alefMaksura-ar.fina";
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
 width = 1081;
-},
-{
-associatedMasterId = "B420756C-160B-4E3B-8A8F-018354DD19AA";
-components = (
-{
-alignment = -1;
-name = "lam-ar.init";
-transform = "{1, 0, 0, 1, 869, 0}";
-},
-{
-name = "alefMaksura-ar.fina";
-}
-);
-layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
-width = 1254;
 }
 );
 unicode = FC43;
@@ -46240,23 +46230,23 @@ layers = (
 anchors = (
 {
 name = bottom_1;
-position = "{397, -60}";
+position = "{469, -60}";
 },
 {
 name = bottom_2;
-position = "{109, -350}";
+position = "{248, -350}";
 },
 {
 name = caret_1;
-position = "{257, 0}";
+position = "{315, 0}";
 },
 {
 name = top_1;
-position = "{397, 573}";
+position = "{322, 573}";
 },
 {
 name = top_2;
-position = "{162, 573}";
+position = "{87, 573}";
 }
 );
 components = (
@@ -46273,22 +46263,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"514 0 LINE",
-"514 34 LINE",
-"399 34 LINE",
-"414 20 LINE",
-"414 500 LINE",
-"379 500 LINE",
-"379 0 LINE"
+"572 0 LINE",
+"564 34 LINE",
+"448 34 LINE",
+"467 20 LINE",
+"356 500 LINE",
+"321 500 LINE",
+"437 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"379 397 LINE",
-"379 431 LINE",
-"179 431 LINE",
-"179 397 LINE"
+"346 397 LINE",
+"338 431 LINE",
+"135 431 LINE",
+"143 397 LINE"
 );
 }
 );
@@ -46298,23 +46288,23 @@ width = 514;
 anchors = (
 {
 name = bottom_1;
-position = "{514, -60}";
+position = "{586, -60}";
 },
 {
 name = bottom_2;
-position = "{90, -350}";
+position = "{229, -350}";
 },
 {
 name = caret_1;
-position = "{350, 0}";
+position = "{408, 0}";
 },
 {
 name = top_1;
-position = "{514, 573}";
+position = "{439, 573}";
 },
 {
 name = top_2;
-position = "{142, 573}";
+position = "{67, 573}";
 }
 );
 components = (
@@ -46332,22 +46322,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"700 0 LINE",
-"700 120 LINE",
-"517 120 LINE",
-"581 70 LINE",
-"581 500 LINE",
-"447 500 LINE",
-"447 0 LINE"
+"758 0 LINE",
+"730 120 LINE",
+"545 120 LINE",
+"621 70 LINE",
+"523 500 LINE",
+"389 500 LINE",
+"505 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"447 279 LINE",
-"447 399 LINE",
-"209 399 LINE",
-"209 279 LINE"
+"441 279 LINE",
+"414 399 LINE",
+"174 399 LINE",
+"201 279 LINE"
 );
 }
 );
@@ -47548,7 +47538,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"716 0 LINE {\nname = hr00;\n}",
+"716 0 LINE {name = hr00;}",
 "581 585 LINE",
 "546 585 LINE",
 "681 0 LINE"
@@ -47569,7 +47559,7 @@ nodes = (
 "816 0 LINE",
 "808 34 LINE",
 "708 34 LINE",
-"716 0 LINE {\nname = hr00;\n}"
+"716 0 LINE {name = hr00;}"
 );
 }
 );
@@ -47636,7 +47626,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"904 0 LINE {\nname = hr00;\n}",
+"904 0 LINE {name = hr00;}",
 "742 700 LINE",
 "608 700 LINE",
 "770 0 LINE"
@@ -47657,7 +47647,7 @@ nodes = (
 "1023 0 LINE",
 "995 120 LINE",
 "876 120 LINE",
-"904 0 LINE {\nname = hr00;\n}"
+"904 0 LINE {name = hr00;}"
 );
 }
 );
@@ -47728,7 +47718,7 @@ nodes = (
 "981 0 LINE",
 "981 690 LINE",
 "757 690 LINE",
-"757 0 LINE {\nname = hr00;\n}"
+"757 0 LINE {name = hr00;}"
 );
 },
 {
@@ -47769,7 +47759,7 @@ nodes = (
 "606 485 CURVE SMOOTH",
 "606 607 OFFCURVE",
 "538 670 OFFCURVE",
-"416 670 CURVE SMOOTH {\nname = hr00;\n}",
+"416 670 CURVE SMOOTH {name = hr00;}",
 "204 670 OFFCURVE",
 "106 378 OFFCURVE",
 "106 170 CURVE SMOOTH",
@@ -47809,7 +47799,7 @@ nodes = (
 "617 460 CURVE SMOOTH",
 "617 594 OFFCURVE",
 "555 672 OFFCURVE",
-"401 672 CURVE SMOOTH {\nname = hr00;\n}",
+"401 672 CURVE SMOOTH {name = hr00;}",
 "227 672 OFFCURVE",
 "95 487 OFFCURVE",
 "95 200 CURVE SMOOTH",
@@ -47853,7 +47843,7 @@ nodes = (
 "366 0 LINE",
 "517 661 LINE",
 "485 661 LINE",
-"256 533 LINE {\nname = hr00;\n}",
+"256 533 LINE {name = hr00;}",
 "264 501 LINE",
 "470 614 LINE",
 "330 0 LINE"
@@ -47871,7 +47861,7 @@ nodes = (
 "416 0 LINE",
 "568 660 LINE",
 "449 660 LINE",
-"194 516 LINE {\nname = hr00;\n}",
+"194 516 LINE {name = hr00;}",
 "231 408 LINE",
 "394 498 LINE",
 "279 0 LINE"
@@ -47892,7 +47882,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"491 0 LINE {\nname = hr00;\n}",
+"491 0 LINE {name = hr00;}",
 "499 33 LINE",
 "128 33 LINE",
 "408 261 LINE",
@@ -47928,7 +47918,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"488 0 LINE {\nname = hr00;\n}",
+"488 0 LINE {name = hr00;}",
 "517 118 LINE",
 "250 118 LINE",
 "432 256 LINE",
@@ -47985,7 +47975,7 @@ nodes = (
 "353 670 OFFCURVE",
 "270 657 OFFCURVE",
 "227 647 CURVE",
-"224 615 LINE {\nname = hr00;\n}",
+"224 615 LINE {name = hr00;}",
 "268 624 OFFCURVE",
 "352 637 OFFCURVE",
 "421 637 CURVE SMOOTH",
@@ -48037,7 +48027,7 @@ nodes = (
 "328 672 OFFCURVE",
 "250 649 OFFCURVE",
 "212 631 CURVE",
-"198 541 LINE {\nname = hr00;\n}",
+"198 541 LINE {name = hr00;}",
 "238 547 OFFCURVE",
 "312 554 OFFCURVE",
 "369 554 CURVE SMOOTH",
@@ -48094,7 +48084,7 @@ nodes = (
 "89 161 LINE",
 "82 132 LINE",
 "414 132 LINE",
-"384 0 LINE {\nname = hr00;\n}"
+"384 0 LINE {name = hr00;}"
 );
 }
 );
@@ -48120,7 +48110,7 @@ nodes = (
 "93 212 LINE",
 "70 112 LINE",
 "349 112 LINE",
-"322 -5 LINE {\nname = hr00;\n}"
+"322 -5 LINE {name = hr00;}"
 );
 }
 );
@@ -48149,7 +48139,7 @@ nodes = (
 "198 361 CURVE",
 "281 627 LINE",
 "615 627 LINE",
-"623 660 LINE {\nname = hr00;\n}",
+"623 660 LINE {name = hr00;}",
 "257 660 LINE",
 "155 327 LINE",
 "188 323 LINE",
@@ -48191,7 +48181,7 @@ nodes = (
 "271 387 CURVE",
 "330 543 LINE",
 "614 543 LINE",
-"641 661 LINE {\nname = hr00;\n}",
+"641 661 LINE {name = hr00;}",
 "248 661 LINE",
 "137 302 LINE",
 "237 279 LINE",
@@ -48243,7 +48233,7 @@ nodes = (
 "516 637 OFFCURVE",
 "584 627 OFFCURVE",
 "619 620 CURVE",
-"628 651 LINE {\nname = hr00;\n}",
+"628 651 LINE {name = hr00;}",
 "594 659 OFFCURVE",
 "527 670 OFFCURVE",
 "469 670 CURVE SMOOTH",
@@ -48299,7 +48289,7 @@ nodes = (
 "498 554 OFFCURVE",
 "563 545 OFFCURVE",
 "597 539 CURVE",
-"640 650 LINE {\nname = hr00;\n}",
+"640 650 LINE {name = hr00;}",
 "600 659 OFFCURVE",
 "526 672 OFFCURVE",
 "472 672 CURVE SMOOTH",
@@ -48349,7 +48339,7 @@ nodes = (
 "608 585 LINE",
 "626 660 LINE",
 "237 660 LINE",
-"229 626 LINE {\nname = hr00;\n}",
+"229 626 LINE {name = hr00;}",
 "580 626 LINE",
 "572 592 LINE",
 "166 5 LINE",
@@ -48368,7 +48358,7 @@ nodes = (
 "596 487 LINE",
 "636 660 LINE",
 "224 660 LINE",
-"197 542 LINE {\nname = hr00;\n}",
+"197 542 LINE {name = hr00;}",
 "472 542 LINE",
 "464 501 LINE",
 "117 18 LINE",
@@ -48401,7 +48391,7 @@ nodes = (
 "639 537 CURVE SMOOTH",
 "639 621 OFFCURVE",
 "582 670 OFFCURVE",
-"440 670 CURVE SMOOTH {\nname = hr00;\n}",
+"440 670 CURVE SMOOTH {name = hr00;}",
 "229 670 OFFCURVE",
 "162 559 OFFCURVE",
 "162 469 CURVE SMOOTH",
@@ -48472,7 +48462,7 @@ nodes = (
 "638 540 CURVE SMOOTH",
 "638 610 OFFCURVE",
 "573 673 OFFCURVE",
-"441 673 CURVE SMOOTH {\nname = hr00;\n}",
+"441 673 CURVE SMOOTH {name = hr00;}",
 "258 673 OFFCURVE",
 "153 556 OFFCURVE",
 "153 439 CURVE SMOOTH",
@@ -48559,7 +48549,7 @@ nodes = (
 "195 25 OFFCURVE",
 "127 36 OFFCURVE",
 "92 44 CURVE",
-"78 12 LINE {\nname = hr00;\n}",
+"78 12 LINE {name = hr00;}",
 "117 3 OFFCURVE",
 "188 -9 OFFCURVE",
 "242 -9 CURVE SMOOTH"
@@ -48612,7 +48602,7 @@ nodes = (
 "200 114 OFFCURVE",
 "146 123 OFFCURVE",
 "121 129 CURVE",
-"79 10 LINE {\nname = hr00;\n}",
+"79 10 LINE {name = hr00;}",
 "111 1 OFFCURVE",
 "173 -12 OFFCURVE",
 "227 -12 CURVE SMOOTH"
@@ -48658,7 +48648,7 @@ nodes = (
 "536 351 CURVE SMOOTH",
 "536 447 OFFCURVE",
 "501 509 OFFCURVE",
-"381 509 CURVE SMOOTH {\nname = hr00;\n}",
+"381 509 CURVE SMOOTH {name = hr00;}",
 "328 509 OFFCURVE",
 "281 494 OFFCURVE",
 "241 465 CURVE SMOOTH",
@@ -48704,7 +48694,7 @@ nodes = (
 "568 328 CURVE SMOOTH",
 "568 456 OFFCURVE",
 "501 509 OFFCURVE",
-"371 509 CURVE SMOOTH {\nname = hr00;\n}",
+"371 509 CURVE SMOOTH {name = hr00;}",
 "306 509 OFFCURVE",
 "249 494 OFFCURVE",
 "203 465 CURVE SMOOTH",
@@ -48750,7 +48740,7 @@ nodes = (
 "229 0 LINE",
 "353 500 LINE",
 "318 500 LINE",
-"121 391 LINE {\nname = hr00;\n}",
+"121 391 LINE {name = hr00;}",
 "132 360 LINE",
 "308 458 LINE",
 "194 0 LINE"
@@ -48768,7 +48758,7 @@ nodes = (
 "326 0 LINE",
 "450 500 LINE",
 "312 500 LINE",
-"80 372 LINE {\nname = hr00;\n}",
+"80 372 LINE {name = hr00;}",
 "118 257 LINE",
 "261 334 LINE",
 "178 0 LINE"
@@ -48788,7 +48778,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"407 0 LINE {\nname = hr00;\n}",
+"407 0 LINE {name = hr00;}",
 "407 32 LINE",
 "107 32 LINE",
 "334 192 LINE",
@@ -48824,7 +48814,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"417 0 LINE {\nname = hr00;\n}",
+"417 0 LINE {name = hr00;}",
 "449 129 LINE",
 "260 129 LINE",
 "360 198 LINE",
@@ -48878,7 +48868,7 @@ nodes = (
 "455 509 OFFCURVE",
 "360 509 CURVE SMOOTH",
 "284 509 OFFCURVE",
-"183 491 CURVE {\nname = hr00;\n}",
+"183 491 CURVE {name = hr00;}",
 "179 459 LINE",
 "221 467 OFFCURVE",
 "298 477 OFFCURVE",
@@ -48929,7 +48919,7 @@ nodes = (
 "473 510 OFFCURVE",
 "322 510 CURVE SMOOTH",
 "242 510 OFFCURVE",
-"127 485 CURVE {\nname = hr00;\n}",
+"127 485 CURVE {name = hr00;}",
 "111 369 LINE",
 "155 374 OFFCURVE",
 "234 381 OFFCURVE",
@@ -48986,7 +48976,7 @@ nodes = (
 "73 142 LINE",
 "66 111 LINE",
 "347 111 LINE",
-"320 0 LINE {\nname = hr00;\n}"
+"320 0 LINE {name = hr00;}"
 );
 }
 );
@@ -49012,7 +49002,7 @@ nodes = (
 "47 187 LINE",
 "20 84 LINE",
 "283 84 LINE",
-"262 0 LINE {\nname = hr00;\n}"
+"262 0 LINE {name = hr00;}"
 );
 }
 );
@@ -49040,7 +49030,7 @@ nodes = (
 "166 276 CURVE",
 "228 469 LINE",
 "491 469 LINE",
-"499 501 LINE {\nname = hr00;\n}",
+"499 501 LINE {name = hr00;}",
 "203 501 LINE",
 "123 244 LINE",
 "146 238 LINE",
@@ -49082,7 +49072,7 @@ nodes = (
 "221 306 CURVE",
 "251 368 LINE",
 "522 368 LINE",
-"555 500 LINE {\nname = hr00;\n}",
+"555 500 LINE {name = hr00;}",
 "160 500 LINE",
 "66 209 LINE",
 "166 186 LINE",
@@ -49133,7 +49123,7 @@ nodes = (
 "420 477 OFFCURVE",
 "477 469 OFFCURVE",
 "508 463 CURVE",
-"519 494 LINE {\nname = hr00;\n}",
+"519 494 LINE {name = hr00;}",
 "487 500 OFFCURVE",
 "428 509 OFFCURVE",
 "381 509 CURVE SMOOTH",
@@ -49189,7 +49179,7 @@ nodes = (
 "414 390 OFFCURVE",
 "479 381 OFFCURVE",
 "512 375 CURVE",
-"551 482 LINE {\nname = hr00;\n}",
+"551 482 LINE {name = hr00;}",
 "504 494 OFFCURVE",
 "422 511 OFFCURVE",
 "368 511 CURVE SMOOTH",
@@ -49238,7 +49228,7 @@ nodes = (
 "455 448 LINE",
 "468 501 LINE",
 "151 501 LINE",
-"143 469 LINE {\nname = hr00;\n}",
+"143 469 LINE {name = hr00;}",
 "424 469 LINE",
 "419 451 LINE",
 "98 7 LINE",
@@ -49257,7 +49247,7 @@ nodes = (
 "483 334 LINE",
 "524 501 LINE",
 "120 501 LINE",
-"88 377 LINE {\nname = hr00;\n}",
+"88 377 LINE {name = hr00;}",
 "343 377 LINE",
 "334 344 LINE",
 "73 38 LINE",
@@ -49289,7 +49279,7 @@ nodes = (
 "526 415 CURVE SMOOTH",
 "526 473 OFFCURVE",
 "475 509 OFFCURVE",
-"369 509 CURVE SMOOTH {\nname = hr00;\n}",
+"369 509 CURVE SMOOTH {name = hr00;}",
 "218 509 OFFCURVE",
 "154 432 OFFCURVE",
 "154 353 CURVE SMOOTH",
@@ -49360,7 +49350,7 @@ nodes = (
 "557 394 CURVE SMOOTH",
 "557 454 OFFCURVE",
 "493 509 OFFCURVE",
-"361 509 CURVE SMOOTH {\nname = hr00;\n}",
+"361 509 CURVE SMOOTH {name = hr00;}",
 "185 509 OFFCURVE",
 "99 428 OFFCURVE",
 "99 346 CURVE SMOOTH",
@@ -49446,7 +49436,7 @@ nodes = (
 "174 22 OFFCURVE",
 "117 30 OFFCURVE",
 "86 36 CURVE",
-"75 5 LINE {\nname = hr00;\n}",
+"75 5 LINE {name = hr00;}",
 "107 -1 OFFCURVE",
 "166 -10 OFFCURVE",
 "213 -10 CURVE SMOOTH"
@@ -49502,7 +49492,7 @@ nodes = (
 "161 111 OFFCURVE",
 "96 120 OFFCURVE",
 "63 126 CURVE",
-"24 19 LINE {\nname = hr00;\n}",
+"24 19 LINE {name = hr00;}",
 "71 7 OFFCURVE",
 "153 -10 OFFCURVE",
 "207 -10 CURVE SMOOTH"
@@ -49556,7 +49546,7 @@ nodes = (
 "606 475 CURVE SMOOTH",
 "606 601 OFFCURVE",
 "541 670 OFFCURVE",
-"416 670 CURVE SMOOTH {\nname = hr01;\n}",
+"416 670 CURVE SMOOTH {name = hr01;}",
 "201 670 OFFCURVE",
 "106 388 OFFCURVE",
 "106 180 CURVE SMOOTH",
@@ -49605,7 +49595,7 @@ nodes = (
 "626 458 CURVE SMOOTH",
 "626 603 OFFCURVE",
 "545 672 OFFCURVE",
-"411 672 CURVE SMOOTH {\nname = hr01;\n}",
+"411 672 CURVE SMOOTH {name = hr01;}",
 "237 672 OFFCURVE",
 "87 505 OFFCURVE",
 "87 208 CURVE SMOOTH",
@@ -49642,6 +49632,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = zerosuperior;
 transform = "{1, 0, 0, 1, 110, -478}";
 }
@@ -49652,6 +49643,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = zerosuperior;
 transform = "{1, 0, 0, 1, 110, -478}";
 }
@@ -49662,7 +49654,7 @@ width = 280;
 );
 unicode = 2080;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -49714,6 +49706,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = onesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49724,6 +49717,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = onesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49734,7 +49728,7 @@ width = 280;
 );
 unicode = 2081;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -49751,6 +49745,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = twosuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49761,6 +49756,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = twosuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49771,7 +49767,7 @@ width = 280;
 );
 unicode = 2082;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -49788,6 +49784,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = threesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49798,6 +49795,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = threesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49808,7 +49806,7 @@ width = 280;
 );
 unicode = 2083;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -49825,6 +49823,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = foursuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49835,6 +49834,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = foursuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49862,6 +49862,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = fivesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49872,6 +49873,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = fivesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49882,7 +49884,7 @@ width = 280;
 );
 unicode = 2085;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -49899,6 +49901,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = sixsuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49909,6 +49912,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = sixsuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49919,7 +49923,7 @@ width = 280;
 );
 unicode = 2086;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -49936,6 +49940,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = sevensuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49946,6 +49951,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = sevensuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49956,7 +49962,7 @@ width = 280;
 );
 unicode = 2087;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -49973,6 +49979,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = eightsuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49983,6 +49990,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = eightsuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -49993,7 +50001,7 @@ width = 280;
 );
 unicode = 2088;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50010,6 +50018,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = ninesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50020,6 +50029,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = ninesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50030,7 +50040,7 @@ width = 280;
 );
 unicode = 2089;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50047,6 +50057,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = zerosuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50057,6 +50068,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = zerosuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50066,7 +50078,7 @@ width = 280;
 }
 );
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50118,6 +50130,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = onesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50128,6 +50141,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = onesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50137,7 +50151,7 @@ width = 280;
 }
 );
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50154,6 +50168,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = twosuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50164,6 +50179,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = twosuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50173,7 +50189,7 @@ width = 280;
 }
 );
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50190,6 +50206,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = threesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50200,6 +50217,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = threesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50209,7 +50227,7 @@ width = 280;
 }
 );
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50226,6 +50244,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = foursuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50236,6 +50255,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = foursuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50262,6 +50282,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = fivesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50272,6 +50293,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = fivesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50281,7 +50303,7 @@ width = 280;
 }
 );
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50298,6 +50320,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = sixsuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50308,6 +50331,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = sixsuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50317,7 +50341,7 @@ width = 280;
 }
 );
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50334,6 +50358,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = sevensuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50344,6 +50369,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = sevensuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50353,7 +50379,7 @@ width = 280;
 }
 );
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50370,6 +50396,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = eightsuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50380,6 +50407,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = eightsuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50389,7 +50417,7 @@ width = 280;
 }
 );
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50406,6 +50434,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = ninesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50416,6 +50445,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = ninesuperior;
 transform = "{1, 0, 0, 1, 133, -578}";
 }
@@ -50425,7 +50455,7 @@ width = 280;
 }
 );
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50442,6 +50472,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = zerosuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50452,6 +50483,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = zerosuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50467,6 +50499,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = onesuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50477,6 +50510,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = onesuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50492,6 +50526,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = twosuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50502,6 +50537,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = twosuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50517,6 +50553,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = threesuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50527,6 +50564,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = threesuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50542,6 +50580,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = foursuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50552,6 +50591,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = foursuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50567,6 +50607,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = fivesuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50577,6 +50618,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = fivesuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50592,6 +50634,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = sixsuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50602,6 +50645,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = sixsuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50617,6 +50661,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = sevensuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50627,6 +50672,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = sevensuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50642,6 +50688,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = eightsuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50652,6 +50699,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = eightsuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50667,6 +50715,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = ninesuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50677,6 +50726,7 @@ width = 280;
 {
 components = (
 {
+alignment = -1;
 name = ninesuperior;
 transform = "{1, 0, 0, 1, 23, -100}";
 }
@@ -50703,7 +50753,7 @@ nodes = (
 "398 635 CURVE SMOOTH",
 "428.408 757.9 OFFCURVE",
 "393 799 OFFCURVE",
-"326 799 CURVE SMOOTH {\nname = hr00;\n}",
+"326 799 CURVE SMOOTH {name = hr00;}",
 "297 799 OFFCURVE",
 "270 793 OFFCURVE",
 "247 775 CURVE SMOOTH",
@@ -50749,7 +50799,7 @@ nodes = (
 "415 632 CURVE SMOOTH",
 "446.85 760.037 OFFCURVE",
 "410 801 OFFCURVE",
-"328 801 CURVE SMOOTH {\nname = hr00;\n}",
+"328 801 CURVE SMOOTH {name = hr00;}",
 "292 801 OFFCURVE",
 "260 796 OFFCURVE",
 "234 777 CURVE SMOOTH",
@@ -50784,7 +50834,7 @@ width = 280;
 );
 unicode = 2070;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50842,7 +50892,7 @@ nodes = (
 "285 478 LINE",
 "362 790 LINE",
 "326 790 LINE",
-"211 723 LINE {\nname = hr00;\n}",
+"211 723 LINE {name = hr00;}",
 "221 695 LINE",
 "317 751 LINE",
 "249 478 LINE"
@@ -50860,7 +50910,7 @@ nodes = (
 "332 478 LINE",
 "409 790 LINE",
 "313 790 LINE",
-"189 715 LINE {\nname = hr00;\n}",
+"189 715 LINE {name = hr00;}",
 "219 641 LINE",
 "274 673 LINE",
 "226 478 LINE"
@@ -50872,7 +50922,7 @@ width = 280;
 );
 unicode = 00B9;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50892,7 +50942,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"342 478 LINE {\nname = hr00;\n}",
+"342 478 LINE {name = hr00;}",
 "350 512 LINE",
 "202 512 LINE",
 "298 593 LINE",
@@ -50928,7 +50978,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"364 478 LINE {\nname = hr00;\n}",
+"364 478 LINE {name = hr00;}",
 "387 573 LINE",
 "293 573 LINE",
 "338 601 LINE",
@@ -50961,7 +51011,7 @@ width = 280;
 );
 unicode = 00B2;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -50994,7 +51044,7 @@ nodes = (
 "392 799 OFFCURVE",
 "327 799 CURVE SMOOTH",
 "282 799 OFFCURVE",
-"226 788 CURVE {\nname = hr00;\n}",
+"226 788 CURVE {name = hr00;}",
 "221 756 LINE",
 "243 760 OFFCURVE",
 "285 765 OFFCURVE",
@@ -51045,7 +51095,7 @@ nodes = (
 "401 801 OFFCURVE",
 "321 801 CURVE SMOOTH",
 "281 801 OFFCURVE",
-"211 792 CURVE {\nname = hr00;\n}",
+"211 792 CURVE {name = hr00;}",
 "194 701 LINE",
 "215 703 OFFCURVE",
 "253 706 OFFCURVE",
@@ -51080,7 +51130,7 @@ width = 280;
 );
 unicode = 00B3;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -51114,7 +51164,7 @@ nodes = (
 "162 567 LINE",
 "154 535 LINE",
 "300 535 LINE",
-"286 478 LINE {\nname = hr00;\n}"
+"286 478 LINE {name = hr00;}"
 );
 }
 );
@@ -51140,7 +51190,7 @@ nodes = (
 "153 601 LINE",
 "131 513 LINE",
 "266 513 LINE",
-"258 478 LINE {\nname = hr00;\n}"
+"258 478 LINE {name = hr00;}"
 );
 }
 );
@@ -51180,7 +51230,7 @@ nodes = (
 "236 653 CURVE",
 "269 755 LINE",
 "409 755 LINE",
-"417 790 LINE {\nname = hr00;\n}",
+"417 790 LINE {name = hr00;}",
 "243 790 LINE",
 "192 620 LINE",
 "223 618 LINE",
@@ -51222,7 +51272,7 @@ nodes = (
 "279 675 CURVE",
 "288 700 LINE",
 "412 700 LINE",
-"434 790 LINE {\nname = hr00;\n}",
+"434 790 LINE {name = hr00;}",
 "227 790 LINE",
 "169 599 LINE",
 "244 588 LINE",
@@ -51250,7 +51300,7 @@ width = 280;
 );
 unicode = 2075;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -51285,7 +51335,7 @@ nodes = (
 "360 765 OFFCURVE",
 "392 761 OFFCURVE",
 "408 758 CURVE",
-"418 790 LINE {\nname = hr00;\n}",
+"418 790 LINE {name = hr00;}",
 "401 794 OFFCURVE",
 "368 799 OFFCURVE",
 "341 799 CURVE SMOOTH",
@@ -51338,7 +51388,7 @@ nodes = (
 "342 708 OFFCURVE",
 "387 705 OFFCURVE",
 "415 702 CURVE",
-"442 789 LINE {\nname = hr00;\n}",
+"442 789 LINE {name = hr00;}",
 "414 794 OFFCURVE",
 "367 801 OFFCURVE",
 "341 801 CURVE SMOOTH",
@@ -51373,7 +51423,7 @@ width = 280;
 );
 unicode = 2076;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -51396,7 +51446,7 @@ nodes = (
 "397 729 LINE",
 "412 790 LINE",
 "218 790 LINE",
-"210 756 LINE {\nname = hr00;\n}",
+"210 756 LINE {name = hr00;}",
 "364 756 LINE",
 "358 731 LINE",
 "182 481 LINE",
@@ -51415,7 +51465,7 @@ nodes = (
 "411 689 LINE",
 "436 790 LINE",
 "209 790 LINE",
-"183 685 LINE {\nname = hr00;\n}",
+"183 685 LINE {name = hr00;}",
 "282 685 LINE",
 "279 672 LINE",
 "140 489 LINE",
@@ -51428,7 +51478,7 @@ width = 280;
 );
 unicode = 2077;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -51459,7 +51509,7 @@ nodes = (
 "414 717 CURVE SMOOTH",
 "428 772 OFFCURVE",
 "397 799 OFFCURVE",
-"327 799 CURVE SMOOTH {\nname = hr00;\n}",
+"327 799 CURVE SMOOTH {name = hr00;}",
 "256 799 OFFCURVE",
 "213 777 OFFCURVE",
 "198 717 CURVE SMOOTH",
@@ -51530,7 +51580,7 @@ nodes = (
 "431 711 CURVE SMOOTH",
 "445 769 OFFCURVE",
 "413 801 OFFCURVE",
-"329 801 CURVE SMOOTH {\nname = hr00;\n}",
+"329 801 CURVE SMOOTH {name = hr00;}",
 "244 801 OFFCURVE",
 "198 769 OFFCURVE",
 "184 712 CURVE SMOOTH",
@@ -51587,7 +51637,7 @@ width = 280;
 );
 unicode = 2078;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -51628,7 +51678,7 @@ nodes = (
 "214 503 OFFCURVE",
 "181 507 OFFCURVE",
 "164 510 CURVE",
-"153 479 LINE {\nname = hr00;\n}",
+"153 479 LINE {name = hr00;}",
 "171 475 OFFCURVE",
 "205 469 OFFCURVE",
 "232 469 CURVE SMOOTH"
@@ -51681,7 +51731,7 @@ nodes = (
 "218 562 OFFCURVE",
 "181 565 OFFCURVE",
 "160 568 CURVE",
-"132 481 LINE {\nname = hr00;\n}",
+"132 481 LINE {name = hr00;}",
 "157 475 OFFCURVE",
 "202 467 OFFCURVE",
 "237 467 CURVE SMOOTH"
@@ -51710,7 +51760,7 @@ width = 280;
 );
 unicode = 2079;
 userData = {
-"- fatto in thin\\012- fatto in bold  com.typemytype.robofont.guides" = (
+"- fatto in thin\012- fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -51733,7 +51783,7 @@ nodes = (
 "306 666 LINE",
 "273 680 LINE",
 "-152 -8 LINE",
-"-119 -21 LINE {\nname = hr00;\n}"
+"-119 -21 LINE {name = hr00;}"
 );
 }
 );
@@ -51748,7 +51798,7 @@ nodes = (
 "399 666 LINE",
 "273 710 LINE",
 "-158 12 LINE",
-"-32 -32 LINE {\nname = hr00;\n}"
+"-32 -32 LINE {name = hr00;}"
 );
 }
 );
@@ -55503,7 +55553,7 @@ closed = 1;
 nodes = (
 "385 390 LINE",
 "343 519 LINE",
-"480 519 LINE {\nname = hr00;\n}",
+"480 519 LINE {name = hr00;}",
 "480 553 LINE",
 "345 553 LINE",
 "387 683 LINE",
@@ -55529,7 +55579,7 @@ closed = 1;
 nodes = (
 "426 379 LINE",
 "388 499 LINE",
-"511 499 LINE {\nname = hr00;\n}",
+"511 499 LINE {name = hr00;}",
 "511 573 LINE",
 "388 573 LINE",
 "426 695 LINE",
@@ -55562,7 +55612,7 @@ nodes = (
 "358 14 LINE",
 "228 701 LINE",
 "190 687 LINE",
-"320 0 LINE {\nname = hr00;\n}"
+"320 0 LINE {name = hr00;}"
 );
 }
 );
@@ -55577,7 +55627,7 @@ nodes = (
 "458 0 LINE",
 "326 702 LINE",
 "186 702 LINE",
-"319 0 LINE {\nname = hr00;\n}"
+"319 0 LINE {name = hr00;}"
 );
 }
 );
@@ -55598,7 +55648,7 @@ nodes = (
 "172 270 LINE",
 "190 353 LINE",
 "152 353 LINE",
-"134 270 LINE {\nname = hr00;\n}"
+"134 270 LINE {name = hr00;}"
 );
 }
 );
@@ -55613,7 +55663,7 @@ nodes = (
 "191 207 LINE",
 "229 376 LINE",
 "94 376 LINE",
-"56 207 LINE {\nname = hr00;\n}"
+"56 207 LINE {name = hr00;}"
 );
 }
 );
@@ -55634,7 +55684,7 @@ nodes = (
 "435 110 LINE",
 "435 400 LINE",
 "185 400 LINE",
-"185 110 LINE {\nname = hr00;\n}"
+"185 110 LINE {name = hr00;}"
 );
 }
 );
@@ -55649,7 +55699,7 @@ nodes = (
 "410 100 LINE",
 "410 380 LINE",
 "160 380 LINE",
-"160 100 LINE {\nname = hr00;\n}"
+"160 100 LINE {name = hr00;}"
 );
 }
 );
@@ -55705,7 +55755,7 @@ nodes = (
 "43 -129 LINE",
 "141 83 LINE",
 "101 83 LINE",
-"15 -129 LINE {\nname = hr00;\n}"
+"15 -129 LINE {name = hr00;}"
 );
 }
 );
@@ -55720,7 +55770,7 @@ nodes = (
 "58 -130 LINE",
 "211 153 LINE",
 "64 153 LINE",
-"-53 -130 LINE {\nname = hr00;\n}"
+"-53 -130 LINE {name = hr00;}"
 );
 }
 );
@@ -55785,7 +55835,7 @@ nodes = (
 "163 211 LINE",
 "281 700 LINE",
 "248 700 LINE",
-"135 211 LINE {\nname = hr00;\n}"
+"135 211 LINE {name = hr00;}"
 );
 },
 {
@@ -55809,7 +55859,7 @@ nodes = (
 "203 258 LINE",
 "315 700 LINE",
 "172 700 LINE",
-"77 258 LINE {\nname = hr00;\n}"
+"77 258 LINE {name = hr00;}"
 );
 },
 {
@@ -55868,7 +55918,7 @@ nodes = (
 "369 0 LINE",
 "405 0 LINE",
 "451 190 LINE",
-"571 190 LINE {\nname = hr00;\n}",
+"571 190 LINE {name = hr00;}",
 "579 222 LINE",
 "459 222 LINE",
 "515 448 LINE",
@@ -55916,7 +55966,7 @@ nodes = (
 "326 0 LINE",
 "442 0 LINE",
 "483 165 LINE",
-"579 165 LINE {\nname = hr00;\n}",
+"579 165 LINE {name = hr00;}",
 "607 277 LINE",
 "511 277 LINE",
 "537 383 LINE",
@@ -55967,7 +56017,7 @@ nodes = (
 "108 0 LINE",
 "127 83 LINE",
 "91 83 LINE",
-"72 0 LINE {\nname = hr00;\n}"
+"72 0 LINE {name = hr00;}"
 );
 }
 );
@@ -55982,7 +56032,7 @@ nodes = (
 "144 0 LINE",
 "179 153 LINE",
 "43 153 LINE",
-"8 0 LINE {\nname = hr00;\n}"
+"8 0 LINE {name = hr00;}"
 );
 }
 );
@@ -56009,7 +56059,7 @@ nodes = (
 "319 346 CURVE SMOOTH",
 "454.962 457.047 OFFCURVE",
 "492 492 OFFCURVE",
-"492 595 CURVE SMOOTH {\nname = hr00;\n}",
+"492 595 CURVE SMOOTH {name = hr00;}",
 "492 678 OFFCURVE",
 "425 709 OFFCURVE",
 "340 709 CURVE SMOOTH",
@@ -56037,7 +56087,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"191 1 LINE {\nname = hr01;\n}",
+"191 1 LINE {name = hr01;}",
 "209 83 LINE",
 "172 83 LINE",
 "155 1 LINE"
@@ -56059,7 +56109,7 @@ nodes = (
 "371 321 CURVE SMOOTH",
 "480.955 397.065 OFFCURVE",
 "522 441 OFFCURVE",
-"522 536 CURVE SMOOTH {\nname = hr00;\n}",
+"522 536 CURVE SMOOTH {name = hr00;}",
 "522 648 OFFCURVE",
 "451 692 OFFCURVE",
 "338 692 CURVE SMOOTH",
@@ -56087,7 +56137,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"256 0 LINE {\nname = hr01;\n}",
+"256 0 LINE {name = hr01;}",
 "294 168 LINE",
 "158 168 LINE",
 "120 0 LINE"
@@ -56099,7 +56149,7 @@ width = 431;
 );
 unicode = 003F;
 userData = {
-"NM 20/05/2011\\012Wt0 SL0: sist. stems, altezza e overshhoting, reg. manipolatori\\012Wt1 Sl0: sist.stems, altezza e overshooting, reg.manipolatori.\\012Wt0 SI1: sist.stems, altezza e overshooting, reg.manipolatori, correzzione ottica punto.\\012Wt1 Sl1:sist.stems, altez  com.typemytype.robofont.guides" = (
+"NM 20/05/2011\012Wt0 SL0: sist. stems, altezza e overshhoting, reg. manipolatori\012Wt1 Sl0: sist.stems, altezza e overshooting, reg.manipolatori.\012Wt0 SI1: sist.stems, altezza e overshooting, reg.manipolatori, correzzione ottica punto.\012Wt1 Sl1:sist.stems, altez  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -56210,7 +56260,7 @@ nodes = (
 "217 486 LINE",
 "267 698 LINE",
 "232 698 LINE",
-"184 486 LINE {\nname = hr00;\n}"
+"184 486 LINE {name = hr00;}"
 );
 }
 );
@@ -56225,7 +56275,7 @@ nodes = (
 "224 437 LINE",
 "292 688 LINE",
 "167 688 LINE",
-"109 437 LINE {\nname = hr00;\n}"
+"109 437 LINE {name = hr00;}"
 );
 }
 );
@@ -56284,7 +56334,7 @@ nodes = (
 "503 686 LINE",
 "470 700 LINE",
 "45 12 LINE",
-"78 -1 LINE {\nname = hr00;\n}"
+"78 -1 LINE {name = hr00;}"
 );
 }
 );
@@ -56299,7 +56349,7 @@ nodes = (
 "594 674 LINE",
 "468 718 LINE",
 "37 20 LINE",
-"163 -24 LINE {\nname = hr00;\n}"
+"163 -24 LINE {name = hr00;}"
 );
 }
 );
@@ -56319,7 +56369,7 @@ closed = 1;
 nodes = (
 "518 -117 LINE",
 "528 -79 LINE",
-"79 -79 LINE {\nname = hr00;\n}",
+"79 -79 LINE {name = hr00;}",
 "71 -117 LINE"
 );
 }
@@ -56334,7 +56384,7 @@ closed = 1;
 nodes = (
 "416 -205 LINE",
 "444 -80 LINE",
-"-4 -80 LINE {\nname = hr00;\n}",
+"-4 -80 LINE {name = hr00;}",
 "-32 -205 LINE"
 );
 }
@@ -56356,7 +56406,7 @@ nodes = (
 "179 300 LINE",
 "197 383 LINE",
 "159 383 LINE",
-"141 300 LINE {\nname = hr00;\n}"
+"141 300 LINE {name = hr00;}"
 );
 }
 );
@@ -56371,7 +56421,7 @@ nodes = (
 "201 247 LINE",
 "239 416 LINE",
 "104 416 LINE",
-"66 247 LINE {\nname = hr00;\n}"
+"66 247 LINE {name = hr00;}"
 );
 }
 );
@@ -56444,7 +56494,7 @@ nodes = (
 "157 -4 CURVE SMOOTH",
 "157 60 OFFCURVE",
 "207 183 OFFCURVE",
-"207 224 CURVE SMOOTH {\nname = hr00;\n}",
+"207 224 CURVE SMOOTH {name = hr00;}",
 "207 276 OFFCURVE",
 "177 299 OFFCURVE",
 "143 311 CURVE",
@@ -56494,7 +56544,7 @@ nodes = (
 "220 30 CURVE SMOOTH",
 "220 66 OFFCURVE",
 "265 181 OFFCURVE",
-"265 219 CURVE SMOOTH {\nname = hr00;\n}",
+"265 219 CURVE SMOOTH {name = hr00;}",
 "265 267 OFFCURVE",
 "245 290 OFFCURVE",
 "204 313 CURVE",
@@ -56575,7 +56625,7 @@ nodes = (
 "93 -89 LINE",
 "282 714 LINE",
 "421 714 LINE",
-"428 747 LINE {\nname = hr00;\n}",
+"428 747 LINE {name = hr00;}",
 "255 747 LINE",
 "51 -122 LINE"
 );
@@ -56594,7 +56644,7 @@ nodes = (
 "151 -8 LINE",
 "300 633 LINE",
 "388 633 LINE",
-"416 747 LINE {\nname = hr00;\n}",
+"416 747 LINE {name = hr00;}",
 "187 747 LINE",
 "-15 -122 LINE"
 );
@@ -56646,7 +56696,7 @@ nodes = (
 "136 101 CURVE SMOOTH",
 "136 329 OFFCURVE",
 "261 604 OFFCURVE",
-"356 748 CURVE {\nname = hr00;\n}",
+"356 748 CURVE {name = hr00;}",
 "321 748 LINE",
 "226 612 OFFCURVE",
 "101 342 OFFCURVE",
@@ -56671,7 +56721,7 @@ nodes = (
 "192 132 CURVE SMOOTH",
 "192 342 OFFCURVE",
 "317 607 OFFCURVE",
-"412 748 CURVE {\nname = hr00;\n}",
+"412 748 CURVE {name = hr00;}",
 "287 748 LINE",
 "186 619 OFFCURVE",
 "51 363 OFFCURVE",
@@ -56874,7 +56924,7 @@ closed = 1;
 nodes = (
 "1132 252 LINE",
 "1132 286 LINE",
-"132 286 LINE {\nname = hr00;\n}",
+"132 286 LINE {name = hr00;}",
 "132 252 LINE"
 );
 }
@@ -56889,7 +56939,7 @@ closed = 1;
 nodes = (
 "1075 209 LINE",
 "1075 323 LINE",
-"75 323 LINE {\nname = hr00;\n}",
+"75 323 LINE {name = hr00;}",
 "75 209 LINE"
 );
 }
@@ -56912,7 +56962,7 @@ closed = 1;
 nodes = (
 "632 252 LINE",
 "632 286 LINE",
-"132 286 LINE {\nname = hr00;\n}",
+"132 286 LINE {name = hr00;}",
 "132 252 LINE"
 );
 }
@@ -56927,7 +56977,7 @@ closed = 1;
 nodes = (
 "575 209 LINE",
 "575 323 LINE",
-"75 323 LINE {\nname = hr00;\n}",
+"75 323 LINE {name = hr00;}",
 "75 209 LINE"
 );
 }
@@ -57033,7 +57083,7 @@ nodes = (
 "377 282 LINE",
 "386 317 LINE",
 "142 317 LINE",
-"134 282 LINE {\nname = hr00;\n}"
+"134 282 LINE {name = hr00;}"
 );
 }
 );
@@ -57048,7 +57098,7 @@ nodes = (
 "313 235 LINE",
 "343 355 LINE",
 "90 355 LINE",
-"60 235 LINE {\nname = hr00;\n}"
+"60 235 LINE {name = hr00;}"
 );
 }
 );
@@ -57140,7 +57190,7 @@ nodes = (
 "233 139 LINE",
 "139 249 LINE",
 "283 350 LINE",
-"295 391 LINE {\nname = hr00;\n}",
+"295 391 LINE {name = hr00;}",
 "106 263 LINE",
 "98 241 LINE",
 "222 104 LINE"
@@ -57158,7 +57208,7 @@ nodes = (
 "256 163 LINE",
 "176 240 LINE",
 "289 305 LINE",
-"326 436 LINE {\nname = hr00;\n}",
+"326 436 LINE {name = hr00;}",
 "76 273 LINE",
 "53 212 LINE",
 "223 43 LINE"
@@ -57317,7 +57367,7 @@ paths = (
 closed = 1;
 nodes = (
 "209 498 LINE",
-"291 700 LINE {\nname = hr01;\n}",
+"291 700 LINE {name = hr01;}",
 "264 700 LINE",
 "171 498 LINE"
 );
@@ -57332,7 +57382,7 @@ paths = (
 closed = 1;
 nodes = (
 "228 424 LINE",
-"333 679 LINE {\nname = hr01;\n}",
+"333 679 LINE {name = hr01;}",
 "233 679 LINE",
 "96 424 LINE"
 );
@@ -58051,7 +58101,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"534 389 LINE {\nname = hr00;\n}",
+"534 389 LINE {name = hr00;}",
 "541 421 LINE",
 "151 421 LINE",
 "143 389 LINE"
@@ -58081,7 +58131,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"531 357 LINE {\nname = hr00;\n}",
+"531 357 LINE {name = hr00;}",
 "555 462 LINE",
 "155 462 LINE",
 "130 357 LINE"
@@ -58153,7 +58203,7 @@ nodes = (
 "148 143 OFFCURVE",
 "153 41 OFFCURVE",
 "291 41 CURVE",
-"261 -84 LINE {\nname = hr00;\n}"
+"261 -84 LINE {name = hr00;}"
 );
 }
 );
@@ -58196,7 +58246,7 @@ nodes = (
 "131 149 OFFCURVE",
 "151 37 OFFCURVE",
 "274 29 CURVE",
-"251 -74 LINE {\nname = hr00;\n}"
+"251 -74 LINE {name = hr00;}"
 );
 }
 );
@@ -58423,7 +58473,7 @@ nodes = (
 "164 -243 OFFCURVE",
 "218 -197 OFFCURVE",
 "248 -70 CURVE SMOOTH",
-"348 349 LINE {\nname = hr00;\n}",
+"348 349 LINE {name = hr00;}",
 "520 349 LINE",
 "529 385 LINE",
 "356 385 LINE",
@@ -58470,7 +58520,7 @@ nodes = (
 "216 -243 OFFCURVE",
 "273 -206 OFFCURVE",
 "307 -63 CURVE SMOOTH",
-"412 375 LINE {\nname = hr00;\n}",
+"412 375 LINE {name = hr00;}",
 "545 375 LINE",
 "574 499 LINE",
 "441 499 LINE",
@@ -58625,7 +58675,7 @@ nodes = (
 "195 661 LINE",
 "313 365 LINE",
 "151 365 LINE",
-"143 332 LINE {\nname = hr00;\n}",
+"143 332 LINE {name = hr00;}",
 "326 332 LINE",
 "331 314 LINE",
 "308 216 LINE",
@@ -58661,7 +58711,7 @@ nodes = (
 "127 660 LINE",
 "235 394 LINE",
 "165 394 LINE",
-"139 276 LINE {\nname = hr00;\n}",
+"139 276 LINE {name = hr00;}",
 "278 276 LINE",
 "281 265 LINE",
 "276 243 LINE",
@@ -58688,15 +58738,15 @@ closed = 1;
 nodes = (
 "355 20 LINE",
 "355 234 LINE",
-"559 234 LINE {\nname = hr02;\n}",
+"559 234 LINE {name = hr02;}",
 "559 268 LINE",
-"355 268 LINE {\nname = hr03;\n}",
+"355 268 LINE {name = hr03;}",
 "355 480 LINE",
 "319 480 LINE",
 "319 268 LINE",
-"117 268 LINE {\nname = hr04;\n}",
+"117 268 LINE {name = hr04;}",
 "117 234 LINE",
-"319 234 LINE {\nname = hr01;\n}",
+"319 234 LINE {name = hr01;}",
 "319 20 LINE"
 );
 }
@@ -58711,15 +58761,15 @@ closed = 1;
 nodes = (
 "396 21 LINE",
 "396 191 LINE",
-"567 191 LINE {\nname = hr02;\n}",
+"567 191 LINE {name = hr02;}",
 "567 311 LINE",
-"396 311 LINE {\nname = hr03;\n}",
+"396 311 LINE {name = hr03;}",
 "396 479 LINE",
 "276 479 LINE",
 "276 311 LINE",
-"107 311 LINE {\nname = hr04;\n}",
+"107 311 LINE {name = hr04;}",
 "107 191 LINE",
-"276 191 LINE {\nname = hr01;\n}",
+"276 191 LINE {name = hr01;}",
 "276 21 LINE"
 );
 }
@@ -58741,7 +58791,7 @@ nodes = (
 "549 234 LINE",
 "549 268 LINE",
 "127 268 LINE",
-"127 234 LINE {\nname = hr00;\n}"
+"127 234 LINE {name = hr00;}"
 );
 }
 );
@@ -58756,7 +58806,7 @@ nodes = (
 "555 191 LINE",
 "555 311 LINE",
 "119 311 LINE",
-"119 191 LINE {\nname = hr00;\n}"
+"119 191 LINE {name = hr00;}"
 );
 }
 );
@@ -58777,7 +58827,7 @@ nodes = (
 "536 76 LINE",
 "360 251 LINE",
 "536 426 LINE",
-"512 450 LINE {\nname = hr00;\n}",
+"512 450 LINE {name = hr00;}",
 "337 274 LINE",
 "162 450 LINE",
 "138 426 LINE",
@@ -58802,7 +58852,7 @@ nodes = (
 "562 390 LINE",
 "478 475 LINE",
 "338 332 LINE",
-"200 473 LINE {\nname = hr00;\n}",
+"200 473 LINE {name = hr00;}",
 "115 388 LINE",
 "256 250 LINE",
 "114 111 LINE",
@@ -58829,7 +58879,7 @@ nodes = (
 "560 234 LINE",
 "560 268 LINE",
 "116 268 LINE",
-"116 234 LINE {\nname = hr00;\n}"
+"116 234 LINE {name = hr00;}"
 );
 },
 {
@@ -58880,7 +58930,7 @@ nodes = (
 "403 352 LINE",
 "403 484 LINE",
 "271 484 LINE",
-"271 352 LINE {\nname = hr00;\n}"
+"271 352 LINE {name = hr00;}"
 );
 }
 );
@@ -58901,7 +58951,7 @@ nodes = (
 "550 318 LINE",
 "550 352 LINE",
 "126 352 LINE",
-"126 318 LINE {\nname = hr00;\n}"
+"126 318 LINE {name = hr00;}"
 );
 },
 {
@@ -58925,7 +58975,7 @@ nodes = (
 "560 295 LINE",
 "560 416 LINE",
 "116 416 LINE",
-"116 295 LINE {\nname = hr00;\n}"
+"116 295 LINE {name = hr00;}"
 );
 },
 {
@@ -59027,7 +59077,7 @@ closed = 1;
 nodes = (
 "525 56 LINE",
 "134 251 LINE",
-"525 446 LINE {\nname = hr00;\n}",
+"525 446 LINE {name = hr00;}",
 "525 485 LINE",
 "101 269 LINE",
 "101 233 LINE",
@@ -59045,7 +59095,7 @@ closed = 1;
 nodes = (
 "520 146 LINE",
 "259 254 LINE",
-"520 353 LINE {\nname = hr00;\n}",
+"520 353 LINE {name = hr00;}",
 "520 489 LINE",
 "114 306 LINE",
 "114 196 LINE",
@@ -59095,7 +59145,7 @@ closed = 1;
 nodes = (
 "533 161 LINE",
 "155 309 LINE",
-"533 446 LINE {\nname = hr00;\n}",
+"533 446 LINE {name = hr00;}",
 "533 485 LINE",
 "109 326 LINE",
 "109 290 LINE",
@@ -59122,7 +59172,7 @@ closed = 1;
 nodes = (
 "539 283 LINE",
 "267 337 LINE",
-"539 386 LINE {\nname = hr00;\n}",
+"539 386 LINE {name = hr00;}",
 "539 516 LINE",
 "118 390 LINE",
 "118 274 LINE",
@@ -59162,7 +59212,7 @@ nodes = (
 "307 480 LINE",
 "307 342 LINE",
 "105 342 LINE",
-"105 308 LINE {\nname = hr00;\n}",
+"105 308 LINE {name = hr00;}",
 "307 308 LINE",
 "307 164 LINE"
 );
@@ -59194,7 +59244,7 @@ nodes = (
 "268 498 LINE",
 "268 390 LINE",
 "99 390 LINE",
-"99 270 LINE {\nname = hr00;\n}",
+"99 270 LINE {name = hr00;}",
 "268 270 LINE",
 "268 170 LINE"
 );
@@ -59260,7 +59310,7 @@ nodes = (
 "478 212 OFFCURVE",
 "526 243 OFFCURVE",
 "553 267 CURVE",
-"542 298 LINE {\nname = hr00;\n}",
+"542 298 LINE {name = hr00;}",
 "514 276 OFFCURVE",
 "466 246 OFFCURVE",
 "440 246 CURVE SMOOTH",
@@ -59291,7 +59341,7 @@ nodes = (
 "487 170 OFFCURVE",
 "533 199 OFFCURVE",
 "556 221 CURVE",
-"548 328 LINE {\nname = hr00;\n}",
+"548 328 LINE {name = hr00;}",
 "521 312 OFFCURVE",
 "474 290 OFFCURVE",
 "446 290 CURVE SMOOTH",
@@ -59327,7 +59377,7 @@ closed = 1;
 nodes = (
 "552 126 LINE",
 "552 332 LINE",
-"130 332 LINE {\nname = hr00;\n}",
+"130 332 LINE {name = hr00;}",
 "130 298 LINE",
 "516 298 LINE",
 "516 126 LINE"
@@ -59344,7 +59394,7 @@ closed = 1;
 nodes = (
 "549 104 LINE",
 "549 358 LINE",
-"113 358 LINE {\nname = hr00;\n}",
+"113 358 LINE {name = hr00;}",
 "113 238 LINE",
 "429 238 LINE",
 "429 104 LINE"
@@ -59384,7 +59434,7 @@ closed = 1;
 nodes = (
 "301 121 OFFCURVE",
 "319 158 OFFCURVE",
-"362 292 CURVE {\nname = hr00;\n}",
+"362 292 CURVE {name = hr00;}",
 "329 390 OFFCURVE",
 "301 463 OFFCURVE",
 "213 463 CURVE SMOOTH",
@@ -59458,7 +59508,7 @@ closed = 1;
 nodes = (
 "299 121 OFFCURVE",
 "344 158 OFFCURVE",
-"382 292 CURVE {\nname = hr00;\n}",
+"382 292 CURVE {name = hr00;}",
 "344 426 OFFCURVE",
 "299 463 OFFCURVE",
 "231 463 CURVE SMOOTH",
@@ -59510,7 +59560,7 @@ width = 560;
 );
 unicode = 221E;
 userData = {
-"- Fatto in thin\\012- Fatto in bold  com.typemytype.robofont.guides" = (
+"- Fatto in thin\012- Fatto in bold  com.typemytype.robofont.guides" = (
 {
 angle = 0;
 isGlobal = 0;
@@ -59532,7 +59582,7 @@ closed = 1;
 nodes = (
 "329 -179 OFFCURVE",
 "365 -134 OFFCURVE",
-"365 0 CURVE {\nname = hr00;\n}",
+"365 0 CURVE {name = hr00;}",
 "365 564 LINE",
 "365 704 OFFCURVE",
 "400 746 OFFCURVE",
@@ -59571,7 +59621,7 @@ closed = 1;
 nodes = (
 "349 -199 OFFCURVE",
 "416 -158 OFFCURVE",
-"416 -16 CURVE {\nname = hr00;\n}",
+"416 -16 CURVE {name = hr00;}",
 "416 592 LINE",
 "416 642 OFFCURVE",
 "426 661 OFFCURVE",
@@ -59644,7 +59694,7 @@ nodes = (
 "118 282 OFFCURVE",
 "186 122 OFFCURVE",
 "237 25 CURVE",
-"88 25 LINE {\nname = hr00;\n}",
+"88 25 LINE {name = hr00;}",
 "88 -9 LINE"
 );
 }
@@ -59687,7 +59737,7 @@ nodes = (
 "103 259 OFFCURVE",
 "155 151 OFFCURVE",
 "195 105 CURVE",
-"115 105 LINE {\nname = hr00;\n}",
+"115 105 LINE {name = hr00;}",
 "115 -9 LINE"
 );
 }
@@ -59770,7 +59820,7 @@ nodes = (
 "527 26 LINE",
 "345 660 LINE",
 "269 660 LINE",
-"87 26 LINE {\nname = hr00;\n}",
+"87 26 LINE {name = hr00;}",
 "87 0 LINE"
 );
 },
@@ -59796,7 +59846,7 @@ nodes = (
 "554 102 LINE",
 "431 660 LINE",
 "206 660 LINE",
-"82 104 LINE {\nname = hr00;\n}",
+"82 104 LINE {name = hr00;}",
 "82 0 LINE"
 );
 },
@@ -59827,7 +59877,7 @@ nodes = (
 "253 -151 LINE",
 "253 716 LINE",
 "521 716 LINE",
-"521 -151 LINE {\nname = hr00;\n}",
+"521 -151 LINE {name = hr00;}",
 "557 -151 LINE",
 "557 716 LINE",
 "637 716 LINE",
@@ -59850,7 +59900,7 @@ nodes = (
 "316 -180 LINE",
 "316 640 LINE",
 "429 640 LINE",
-"429 -180 LINE {\nname = hr00;\n}",
+"429 -180 LINE {name = hr00;}",
 "567 -180 LINE",
 "567 640 LINE",
 "624 640 LINE",
@@ -59888,7 +59938,7 @@ nodes = (
 "573 749 LINE",
 "123 749 LINE",
 "123 676 LINE",
-"409 314 LINE {\nname = hr00;\n}",
+"409 314 LINE {name = hr00;}",
 "123 -76 LINE",
 "123 -151 LINE"
 );
@@ -59914,7 +59964,7 @@ nodes = (
 "596 760 LINE",
 "96 760 LINE",
 "96 620 LINE",
-"334 298 LINE {\nname = hr00;\n}",
+"334 298 LINE {name = hr00;}",
 "96 -41 LINE",
 "96 -180 LINE"
 );
@@ -59940,7 +59990,7 @@ nodes = (
 "376 -108 LINE",
 "368 -108 LINE",
 "216 450 LINE",
-"175 450 LINE {\nname = hr00;\n}",
+"175 450 LINE {name = hr00;}",
 "341 -140 LINE"
 );
 },
@@ -59968,7 +60018,7 @@ nodes = (
 "372 -16 LINE",
 "359 -16 LINE",
 "267 440 LINE",
-"128 440 LINE {\nname = hr00;\n}",
+"128 440 LINE {name = hr00;}",
 "257 -130 LINE"
 );
 },
@@ -60005,7 +60055,7 @@ nodes = (
 "193 -145 LINE",
 "309 355 LINE",
 "275 355 LINE",
-"159 -145 LINE {\nname = hr00;\n}"
+"159 -145 LINE {name = hr00;}"
 );
 }
 );
@@ -60026,7 +60076,7 @@ nodes = (
 "281 -162 LINE",
 "396 338 LINE",
 "263 338 LINE",
-"148 -162 LINE {\nname = hr00;\n}"
+"148 -162 LINE {name = hr00;}"
 );
 }
 );
@@ -60052,7 +60102,7 @@ nodes = (
 "352 739 CURVE SMOOTH",
 "290 739 OFFCURVE",
 "219 708 OFFCURVE",
-"182 685 CURVE {\nname = hr00;\n}",
+"182 685 CURVE {name = hr00;}",
 "186 653 LINE",
 "224 675 OFFCURVE",
 "293 705 OFFCURVE",
@@ -60105,7 +60155,7 @@ nodes = (
 "343 712 CURVE SMOOTH",
 "273 712 OFFCURVE",
 "199 686 OFFCURVE",
-"162 667 CURVE {\nname = hr00;\n}",
+"162 667 CURVE {name = hr00;}",
 "166 564 LINE",
 "201 579 OFFCURVE",
 "267 598 OFFCURVE",
@@ -60221,7 +60271,7 @@ nodes = (
 "207 569 CURVE SMOOTH",
 "224 636 OFFCURVE",
 "252 670 OFFCURVE",
-"301 670 CURVE SMOOTH {\nname = hr00;\n}",
+"301 670 CURVE SMOOTH {name = hr00;}",
 "351 670 OFFCURVE",
 "360 636 OFFCURVE",
 "343 568 CURVE SMOOTH",
@@ -60304,7 +60354,7 @@ nodes = (
 "249 556 CURVE SMOOTH",
 "261 602 OFFCURVE",
 "269 621 OFFCURVE",
-"287 621 CURVE SMOOTH {\nname = hr00;\n}",
+"287 621 CURVE SMOOTH {name = hr00;}",
 "305 621 OFFCURVE",
 "305 602 OFFCURVE",
 "293 556 CURVE SMOOTH",
@@ -60572,7 +60622,7 @@ nodes = (
 "575 332 LINE",
 "393 660 LINE",
 "317 660 LINE",
-"135 332 LINE {\nname = hr00;\n}",
+"135 332 LINE {name = hr00;}",
 "317 0 LINE"
 );
 },
@@ -60600,7 +60650,7 @@ nodes = (
 "591 336 LINE",
 "443 660 LINE",
 "268 660 LINE",
-"119 336 LINE {\nname = hr00;\n}",
+"119 336 LINE {name = hr00;}",
 "268 0 LINE"
 );
 },
@@ -60675,7 +60725,7 @@ nodes = (
 "938 298 CURVE SMOOTH",
 "990.291 525.934 OFFCURVE",
 "951 717 OFFCURVE",
-"641 717 CURVE SMOOTH {\nname = hr00;\n}",
+"641 717 CURVE SMOOTH {name = hr00;}",
 "347 717 OFFCURVE",
 "193.967 598.008 OFFCURVE",
 "115 261 CURVE SMOOTH",
@@ -60758,7 +60808,7 @@ nodes = (
 "1000 295 CURVE SMOOTH",
 "1061.09 527.976 OFFCURVE",
 "985 727 OFFCURVE",
-"635 727 CURVE SMOOTH {\nname = hr00;\n}",
+"635 727 CURVE SMOOTH {name = hr00;}",
 "345 727 OFFCURVE",
 "169.906 601.023 OFFCURVE",
 "91 271 CURVE SMOOTH",
@@ -60824,7 +60874,7 @@ nodes = (
 "539 591 CURVE SMOOTH",
 "539 653 OFFCURVE",
 "501 694 OFFCURVE",
-"412 694 CURVE SMOOTH {\nname = hr00;\n}",
+"412 694 CURVE SMOOTH {name = hr00;}",
 "310 694 OFFCURVE",
 "248 636 OFFCURVE",
 "229 553 CURVE SMOOTH",
@@ -60913,7 +60963,7 @@ nodes = (
 "539 591 CURVE SMOOTH",
 "539 653 OFFCURVE",
 "501 694 OFFCURVE",
-"412 694 CURVE SMOOTH {\nname = hr00;\n}",
+"412 694 CURVE SMOOTH {name = hr00;}",
 "272 694 OFFCURVE",
 "220 584 OFFCURVE",
 "220 492 CURVE SMOOTH",
@@ -60992,7 +61042,7 @@ nodes = (
 "592 584 CURVE SMOOTH",
 "592 666 OFFCURVE",
 "528 712 OFFCURVE",
-"412 712 CURVE SMOOTH {\nname = hr00;\n}",
+"412 712 CURVE SMOOTH {name = hr00;}",
 "294 712 OFFCURVE",
 "206 661 OFFCURVE",
 "186 573 CURVE SMOOTH",
@@ -61081,7 +61131,7 @@ nodes = (
 "592 584 CURVE SMOOTH",
 "592 666 OFFCURVE",
 "528 712 OFFCURVE",
-"412 712 CURVE SMOOTH {\nname = hr00;\n}",
+"412 712 CURVE SMOOTH {name = hr00;}",
 "254 712 OFFCURVE",
 "177 627 OFFCURVE",
 "177 510 CURVE SMOOTH",
@@ -61147,7 +61197,7 @@ nodes = (
 "244 0 LINE",
 "403 664 LINE",
 "546 664 LINE",
-"388 0 LINE {\nname = hr00;\n}",
+"388 0 LINE {name = hr00;}",
 "422 0 LINE",
 "580 664 LINE",
 "672 664 LINE",
@@ -61174,7 +61224,7 @@ nodes = (
 "314 0 LINE",
 "456 594 LINE",
 "513 594 LINE",
-"372 0 LINE {\nname = hr00;\n}",
+"372 0 LINE {name = hr00;}",
 "479 0 LINE",
 "621 594 LINE",
 "655 594 LINE",
@@ -61225,7 +61275,7 @@ nodes = (
 "413 623 OFFCURVE",
 "480 616 OFFCURVE",
 "522 610 CURVE",
-"532 646 LINE {\nname = hr00;\n}",
+"532 646 LINE {name = hr00;}",
 "495 652 OFFCURVE",
 "430 659 OFFCURVE",
 "388 659 CURVE",
@@ -61309,7 +61359,7 @@ nodes = (
 "422 518 OFFCURVE",
 "493 509 OFFCURVE",
 "538 502 CURVE",
-"568 613 LINE {\nname = hr00;\n}",
+"568 613 LINE {name = hr00;}",
 "528 623 OFFCURVE",
 "457 637 OFFCURVE",
 "409 637 CURVE",
@@ -61386,7 +61436,7 @@ nodes = (
 "423 700 CURVE SMOOTH",
 "276 700 OFFCURVE",
 "168 581 OFFCURVE",
-"168 434 CURVE SMOOTH {\nname = hr00;\n}",
+"168 434 CURVE SMOOTH {name = hr00;}",
 "168 287 OFFCURVE",
 "276 169 OFFCURVE",
 "423 169 CURVE SMOOTH"
@@ -61457,7 +61507,7 @@ nodes = (
 "421 718 CURVE SMOOTH",
 "261 718 OFFCURVE",
 "145 598 OFFCURVE",
-"145 434 CURVE SMOOTH {\nname = hr00;\n}",
+"145 434 CURVE SMOOTH {name = hr00;}",
 "145 274 OFFCURVE",
 "262 150 OFFCURVE",
 "419 150 CURVE SMOOTH"
@@ -61534,7 +61584,7 @@ nodes = (
 "423 700 CURVE SMOOTH",
 "276 700 OFFCURVE",
 "168 581 OFFCURVE",
-"168 434 CURVE SMOOTH {\nname = hr00;\n}",
+"168 434 CURVE SMOOTH {name = hr00;}",
 "168 287 OFFCURVE",
 "276 169 OFFCURVE",
 "423 169 CURVE SMOOTH"
@@ -61607,7 +61657,7 @@ nodes = (
 "420 718 CURVE SMOOTH",
 "261 718 OFFCURVE",
 "145 598 OFFCURVE",
-"145 434 CURVE SMOOTH {\nname = hr00;\n}",
+"145 434 CURVE SMOOTH {name = hr00;}",
 "145 274 OFFCURVE",
 "262 150 OFFCURVE",
 "420 150 CURVE SMOOTH"
@@ -61690,7 +61740,7 @@ nodes = (
 "591 379 LINE",
 "507 621 LINE",
 "457 621 LINE",
-"457 331 LINE {\nname = hr01;\n}"
+"457 331 LINE {name = hr01;}"
 );
 },
 {
@@ -61727,7 +61777,7 @@ nodes = (
 "583 486 LINE",
 "542 644 LINE",
 "439 644 LINE",
-"439 331 LINE {\nname = hr01;\n}"
+"439 331 LINE {name = hr01;}"
 );
 },
 {
@@ -61766,7 +61816,7 @@ nodes = (
 "411 709 CURVE SMOOTH",
 "330 709 OFFCURVE",
 "275 654 OFFCURVE",
-"275 573 CURVE SMOOTH {\nname = hr00;\n}",
+"275 573 CURVE SMOOTH {name = hr00;}",
 "275 492 OFFCURVE",
 "330 438 OFFCURVE",
 "411 438 CURVE SMOOTH"
@@ -61806,7 +61856,7 @@ nodes = (
 "405 692 CURVE SMOOTH",
 "316 692 OFFCURVE",
 "255 631 OFFCURVE",
-"255 542 CURVE SMOOTH {\nname = hr00;\n}",
+"255 542 CURVE SMOOTH {name = hr00;}",
 "255 453 OFFCURVE",
 "316 393 OFFCURVE",
 "405 393 CURVE SMOOTH"
@@ -61847,7 +61897,7 @@ nodes = (
 "223 -230 LINE",
 "223 730 LINE",
 "188 730 LINE",
-"188 -230 LINE {\nname = hr00;\n}"
+"188 -230 LINE {name = hr00;}"
 );
 }
 );
@@ -61862,7 +61912,7 @@ nodes = (
 "291 -210 LINE",
 "291 700 LINE",
 "157 700 LINE",
-"157 -210 LINE {\nname = hr00;\n}"
+"157 -210 LINE {name = hr00;}"
 );
 }
 );
@@ -61882,7 +61932,7 @@ closed = 1;
 nodes = (
 "228 354 LINE",
 "228 730 LINE",
-"193 730 LINE {\nname = hr00;\n}",
+"193 730 LINE {name = hr00;}",
 "193 354 LINE"
 );
 },
@@ -61906,7 +61956,7 @@ closed = 1;
 nodes = (
 "291 328 LINE",
 "291 700 LINE",
-"157 700 LINE {\nname = hr00;\n}",
+"157 700 LINE {name = hr00;}",
 "157 328 LINE"
 );
 },
@@ -61943,7 +61993,7 @@ nodes = (
 "363 698 LINE",
 "315 496 LINE",
 "144 498 LINE",
-"135 460 LINE {\nname = hr00;\n}",
+"135 460 LINE {name = hr00;}",
 "306 460 LINE",
 "180 -78 LINE"
 );
@@ -61966,7 +62016,7 @@ nodes = (
 "320 668 LINE",
 "280 497 LINE",
 "142 497 LINE",
-"112 362 LINE {\nname = hr00;\n}",
+"112 362 LINE {name = hr00;}",
 "248 362 LINE",
 "147 -70 LINE"
 );
@@ -62005,7 +62055,7 @@ nodes = (
 "89 158 LINE",
 "81 122 LINE",
 "254 122 LINE",
-"207 -78 LINE {\nname = hr00;\n}"
+"207 -78 LINE {name = hr00;}"
 );
 }
 );
@@ -62036,7 +62086,7 @@ nodes = (
 "90 235 LINE",
 "59 100 LINE",
 "196 100 LINE",
-"157 -70 LINE {\nname = hr00;\n}"
+"157 -70 LINE {name = hr00;}"
 );
 }
 );
@@ -62229,7 +62279,7 @@ closed = 1;
 nodes = (
 "3 -265 LINE",
 "91 -73 LINE",
-"57 -73 LINE {\nname = hr00;\n}",
+"57 -73 LINE {name = hr00;}",
 "-23 -265 LINE"
 );
 }
@@ -62244,7 +62294,7 @@ closed = 1;
 nodes = (
 "36 -309 LINE",
 "143 -72 LINE",
-"20 -72 LINE {\nname = hr00;\n}",
+"20 -72 LINE {name = hr00;}",
 "-77 -309 LINE"
 );
 }
@@ -62316,7 +62366,7 @@ nodes = (
 "500 700 LINE",
 "494 730 LINE",
 "291 635 LINE",
-"296 610 LINE {\nname = hr00;\n}"
+"296 610 LINE {name = hr00;}"
 );
 }
 );
@@ -62331,7 +62381,7 @@ nodes = (
 "518 654 LINE",
 "508 774 LINE",
 "244 683 LINE",
-"254 576 LINE {\nname = hr00;\n}"
+"254 576 LINE {name = hr00;}"
 );
 }
 );
@@ -62359,7 +62409,7 @@ nodes = (
 "292 623 OFFCURVE",
 "268 665 OFFCURVE",
 "283 721 CURVE",
-"255 721 LINE {\nname = hr00;\n}",
+"255 721 LINE {name = hr00;}",
 "238 652 OFFCURVE",
 "271 595 OFFCURVE",
 "349 595 CURVE SMOOTH"
@@ -62384,7 +62434,7 @@ nodes = (
 "336 702 OFFCURVE",
 "329 723 OFFCURVE",
 "331 746 CURVE",
-"210 746 LINE {\nname = hr00;\n}",
+"210 746 LINE {name = hr00;}",
 "196 643 OFFCURVE",
 "237 590 OFFCURVE",
 "339 590 CURVE SMOOTH"
@@ -62411,7 +62461,7 @@ nodes = (
 "532 625 LINE",
 "466 730 LINE",
 "434 730 LINE",
-"520 595 LINE {\nname = hr00;\n}"
+"520 595 LINE {name = hr00;}"
 );
 }
 );
@@ -62429,7 +62479,7 @@ nodes = (
 "547 684 LINE",
 "518 750 LINE",
 "395 750 LINE",
-"477 575 LINE {\nname = hr00;\n}"
+"477 575 LINE {name = hr00;}"
 );
 }
 );
@@ -62449,7 +62499,7 @@ closed = 1;
 nodes = (
 "454 -199 OFFCURVE",
 "484.893 -177.976 OFFCURVE",
-"497 -124 CURVE SMOOTH {\nname = hr00;\n}",
+"497 -124 CURVE SMOOTH {name = hr00;}",
 "508.893 -70.976 OFFCURVE",
 "471 -53 OFFCURVE",
 "420 -53 CURVE SMOOTH",
@@ -62484,7 +62534,7 @@ closed = 1;
 nodes = (
 "445 -229 OFFCURVE",
 "489.081 -192.019 OFFCURVE",
-"505 -124 CURVE SMOOTH {\nname = hr00;\n}",
+"505 -124 CURVE SMOOTH {name = hr00;}",
 "522.081 -51.019 OFFCURVE",
 "477 -33 OFFCURVE",
 "416 -33 CURVE SMOOTH",
@@ -62529,7 +62579,7 @@ nodes = (
 "652 595 LINE",
 "565 730 LINE",
 "551 730 LINE",
-"405 595 LINE {\nname = hr00;\n}"
+"405 595 LINE {name = hr00;}"
 );
 }
 );
@@ -62547,7 +62597,7 @@ nodes = (
 "687 575 LINE",
 "601 750 LINE",
 "521 750 LINE",
-"353 575 LINE {\nname = hr00;\n}"
+"353 575 LINE {name = hr00;}"
 );
 }
 );
@@ -62568,7 +62618,7 @@ nodes = (
 "289 633 LINE",
 "304 698 LINE",
 "275 698 LINE",
-"260 633 LINE {\nname = hr00;\n}"
+"260 633 LINE {name = hr00;}"
 );
 },
 {
@@ -62601,7 +62651,7 @@ nodes = (
 "325 601 LINE",
 "357 736 LINE",
 "246 736 LINE",
-"215 601 LINE {\nname = hr00;\n}"
+"215 601 LINE {name = hr00;}"
 );
 }
 );
@@ -62748,7 +62798,7 @@ nodes = (
 "489 647 LINE",
 "496 673 LINE",
 "243 673 LINE",
-"237 647 LINE {\nname = hr00;\n}"
+"237 647 LINE {name = hr00;}"
 );
 }
 );
@@ -62763,7 +62813,7 @@ nodes = (
 "525 627 LINE",
 "551 736 LINE",
 "242 736 LINE",
-"217 627 LINE {\nname = hr00;\n}"
+"217 627 LINE {name = hr00;}"
 );
 }
 );
@@ -62784,7 +62834,7 @@ nodes = (
 "206 -198 OFFCURVE",
 "234 -193 OFFCURVE",
 "249 -190 CURVE",
-"253 -158 LINE {\nname = hr00;\n}",
+"253 -158 LINE {name = hr00;}",
 "237 -161 OFFCURVE",
 "211 -165 OFFCURVE",
 "197 -165 CURVE SMOOTH",
@@ -62815,7 +62865,7 @@ nodes = (
 "288 -214 OFFCURVE",
 "331 -208 OFFCURVE",
 "356 -203 CURVE",
-"369 -93 LINE {\nname = hr00;\n}",
+"369 -93 LINE {name = hr00;}",
 "356 -94 OFFCURVE",
 "337 -96 OFFCURVE",
 "332 -96 CURVE SMOOTH",
@@ -62857,7 +62907,7 @@ nodes = (
 "428 738 CURVE SMOOTH",
 "369 738 OFFCURVE",
 "327.98 693.003 OFFCURVE",
-"320 647 CURVE SMOOTH {\nname = hr00;\n}",
+"320 647 CURVE SMOOTH {name = hr00;}",
 "310.98 595.003 OFFCURVE",
 "327 556 OFFCURVE",
 "384 556 CURVE SMOOTH"
@@ -62897,7 +62947,7 @@ nodes = (
 "430 743 CURVE SMOOTH",
 "366 743 OFFCURVE",
 "317.47 696.882 OFFCURVE",
-"302 636 CURVE SMOOTH {\nname = hr00;\n}",
+"302 636 CURVE SMOOTH {name = hr00;}",
 "286.469 574.879 OFFCURVE",
 "309 527 OFFCURVE",
 "374 527 CURVE SMOOTH"
@@ -62938,7 +62988,7 @@ nodes = (
 "460 630 OFFCURVE",
 "497 655 OFFCURVE",
 "518 673 CURVE",
-"513 703 LINE {\nname = hr00;\n}",
+"513 703 LINE {name = hr00;}",
 "491 685 OFFCURVE",
 "457 662 OFFCURVE",
 "445 662 CURVE SMOOTH",
@@ -62969,7 +63019,7 @@ nodes = (
 "452 590 OFFCURVE",
 "503 626 OFFCURVE",
 "532 654 CURVE",
-"528 747 LINE {\nname = hr00;\n}",
+"528 747 LINE {name = hr00;}",
 "501 730 OFFCURVE",
 "460 708 OFFCURVE",
 "442 708 CURVE SMOOTH",
@@ -63089,7 +63139,7 @@ nodes = (
 "352 834 OFFCURVE",
 "320 853 OFFCURVE",
 "332 921 CURVE",
-"302 921 LINE {\nname = hr00;\n}",
+"302 921 LINE {name = hr00;}",
 "287 840 OFFCURVE",
 "325 804 OFFCURVE",
 "399 804 CURVE SMOOTH"
@@ -63114,7 +63164,7 @@ nodes = (
 "392 888 OFFCURVE",
 "379 899 OFFCURVE",
 "383 927 CURVE",
-"261 927 LINE {\nname = hr00;\n}",
+"261 927 LINE {name = hr00;}",
 "249 835 OFFCURVE",
 "297 783 OFFCURVE",
 "396 783 CURVE SMOOTH"
@@ -63135,7 +63185,7 @@ paths = (
 closed = 1;
 nodes = (
 "409 803 LINE",
-"564 931 LINE {\nname = hr00;\n}",
+"564 931 LINE {name = hr00;}",
 "524 931 LINE",
 "404 832 LINE",
 "327 931 LINE",
@@ -63153,7 +63203,7 @@ paths = (
 closed = 1;
 nodes = (
 "433 776 LINE",
-"593 927 LINE {\nname = hr00;\n}",
+"593 927 LINE {name = hr00;}",
 "462 927 LINE",
 "409 870 LINE",
 "380 927 LINE",
@@ -63242,7 +63292,7 @@ nodes = (
 "300 807 LINE",
 "311 865 LINE",
 "283 865 LINE",
-"271 807 LINE {\nname = hr00;\n}"
+"271 807 LINE {name = hr00;}"
 );
 }
 );
@@ -63257,7 +63307,7 @@ nodes = (
 "366 771 LINE",
 "400 909 LINE",
 "282 909 LINE",
-"250 771 LINE {\nname = hr00;\n}"
+"250 771 LINE {name = hr00;}"
 );
 }
 );
@@ -63547,7 +63597,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{48, 517}";
+position = "{48, 515}";
 },
 {
 name = top;
@@ -63560,11 +63610,8 @@ paths = (
 closed = 1;
 nodes = (
 "13 551 LINE",
-"12 554 OFFCURVE",
-"12 558 OFFCURVE",
-"12 561 CURVE SMOOTH",
-"12 577 OFFCURVE",
-"23 588 OFFCURVE",
+"8 573 OFFCURVE",
+"20 588 OFFCURVE",
 "41 588 CURVE SMOOTH",
 "66 588 OFFCURVE",
 "88 569 OFFCURVE",
@@ -63573,21 +63620,18 @@ nodes = (
 "117 595 OFFCURVE",
 "77 622 OFFCURVE",
 "39 622 CURVE SMOOTH",
-"4 622 OFFCURVE",
-"-24 598 OFFCURVE",
-"-24 563 CURVE SMOOTH",
-"-24 558 OFFCURVE",
-"-23 553 OFFCURVE",
+"-1 622 OFFCURVE",
+"-32 591 OFFCURVE",
 "-22 547 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"136 517 LINE",
-"128 551 LINE",
-"-49 551 LINE",
-"-41 517 LINE"
+"136 515 LINE",
+"128 549 LINE",
+"-49 549 LINE",
+"-41 515 LINE"
 );
 },
 {
@@ -63606,6 +63650,59 @@ width = 217;
 anchors = (
 {
 name = _top;
+position = "{171, 359}";
+},
+{
+name = top;
+position = "{108, 626}";
+}
+);
+layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
+paths = (
+{
+closed = 1;
+nodes = (
+"106 432 LINE",
+"98 465 OFFCURVE",
+"119 485 OFFCURVE",
+"148 485 CURVE SMOOTH",
+"190 485 OFFCURVE",
+"226 453 OFFCURVE",
+"234 420 CURVE",
+"311 432 LINE",
+"294 507 OFFCURVE",
+"224 559 OFFCURVE",
+"149 559 CURVE SMOOTH",
+"64 559 OFFCURVE",
+"11 495 OFFCURVE",
+"29 420 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"328 359 LINE",
+"311 432 LINE",
+"-6 432 LINE",
+"11 359 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"107 426 LINE",
+"65 608 LINE",
+"-15 608 LINE",
+"27 426 LINE"
+);
+}
+);
+width = 389;
+},
+{
+anchors = (
+{
+name = _top;
 position = "{172, 346}";
 },
 {
@@ -63613,7 +63710,9 @@ name = top;
 position = "{105, 641}";
 }
 );
-layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
+associatedMasterId = "7271F2A9-EB19-499E-973E-7497F9144823";
+layerId = "C8A7ED3B-AF82-4DD3-8058-CA09F2BFF491";
+name = "May 4 18, 00:12";
 paths = (
 {
 closed = 1;
@@ -63660,60 +63759,6 @@ nodes = (
 }
 );
 width = 389;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{215, 302}";
-},
-{
-name = top;
-position = "{215, 645}";
-}
-);
-associatedMasterId = "B420756C-160B-4E3B-8A8F-018354DD19AA";
-layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
-paths = (
-{
-closed = 1;
-nodes = (
-"182 405 LINE",
-"182 426 OFFCURVE",
-"200 443 OFFCURVE",
-"229 443 CURVE SMOOTH",
-"258 443 OFFCURVE",
-"276 426 OFFCURVE",
-"276 405 CURVE",
-"410 405 LINE",
-"410 494 OFFCURVE",
-"329 565 OFFCURVE",
-"229 565 CURVE SMOOTH",
-"129 565 OFFCURVE",
-"48 494 OFFCURVE",
-"48 405 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"410 302 LINE",
-"410 405 LINE",
-"20 405 LINE",
-"20 302 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"182 405 LINE",
-"182 625 LINE",
-"48 625 LINE",
-"48 405 LINE"
-);
-}
-);
-width = 430;
 }
 );
 unicode = 0615;
@@ -64581,7 +64626,7 @@ position = "{48, 515}";
 },
 {
 name = top;
-position = "{0, 722}";
+position = "{11, 676}";
 }
 );
 background = {
@@ -64638,11 +64683,8 @@ paths = (
 closed = 1;
 nodes = (
 "13 551 LINE",
-"12 554 OFFCURVE",
-"12 558 OFFCURVE",
-"12 561 CURVE SMOOTH",
-"12 577 OFFCURVE",
-"23 588 OFFCURVE",
+"8 573 OFFCURVE",
+"20 588 OFFCURVE",
 "41 588 CURVE SMOOTH",
 "66 588 OFFCURVE",
 "88 569 OFFCURVE",
@@ -64651,21 +64693,18 @@ nodes = (
 "117 595 OFFCURVE",
 "77 622 OFFCURVE",
 "39 622 CURVE SMOOTH",
-"4 622 OFFCURVE",
-"-24 598 OFFCURVE",
-"-24 563 CURVE SMOOTH",
-"-24 558 OFFCURVE",
-"-23 553 OFFCURVE",
+"-1 622 OFFCURVE",
+"-32 591 OFFCURVE",
 "-22 547 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"136 517 LINE",
-"128 551 LINE",
-"-49 551 LINE",
-"-41 517 LINE"
+"136 515 LINE",
+"128 549 LINE",
+"-49 549 LINE",
+"-41 515 LINE"
 );
 }
 );
@@ -64675,11 +64714,11 @@ width = 217;
 anchors = (
 {
 name = _top;
-position = "{146, 463}";
+position = "{171, 359}";
 },
 {
 name = top;
-position = "{83, 735}";
+position = "{108, 626}";
 }
 );
 background = {
@@ -64735,84 +64774,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"115 537 LINE",
-"113 544 OFFCURVE",
-"112 550 OFFCURVE",
-"112 555 CURVE SMOOTH",
-"112 565 OFFCURVE",
-"117 568 OFFCURVE",
-"125 568 CURVE SMOOTH",
-"147 568 OFFCURVE",
-"169 549 OFFCURVE",
-"175 525 CURVE",
-"276 537 LINE",
-"260 607 OFFCURVE",
-"196 655 OFFCURVE",
-"126 655 CURVE SMOOTH",
-"57 655 OFFCURVE",
-"10 610 OFFCURVE",
-"10 552 CURVE SMOOTH",
-"10 543 OFFCURVE",
-"11 534 OFFCURVE",
-"13 525 CURVE"
+"106 432 LINE",
+"98 465 OFFCURVE",
+"116 485 OFFCURVE",
+"145 485 CURVE SMOOTH",
+"187 485 OFFCURVE",
+"226 453 OFFCURVE",
+"234 420 CURVE",
+"311 432 LINE",
+"294 507 OFFCURVE",
+"224 559 OFFCURVE",
+"149 559 CURVE SMOOTH",
+"64 559 OFFCURVE",
+"11 495 OFFCURVE",
+"29 420 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"292 469 LINE",
-"276 537 LINE",
-"-19 537 LINE",
-"-3 469 LINE"
+"328 359 LINE",
+"311 432 LINE",
+"-6 432 LINE",
+"11 359 LINE"
 );
 }
 );
 width = 389;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{215, 434}";
-},
-{
-name = top;
-position = "{215, 752}";
-}
-);
-associatedMasterId = "B420756C-160B-4E3B-8A8F-018354DD19AA";
-layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
-paths = (
-{
-closed = 1;
-nodes = (
-"185 526 LINE",
-"185 545 OFFCURVE",
-"202 561 OFFCURVE",
-"228 561 CURVE SMOOTH",
-"254 561 OFFCURVE",
-"270 545 OFFCURVE",
-"270 526 CURVE",
-"390 526 LINE",
-"390 606 OFFCURVE",
-"317 670 OFFCURVE",
-"228 670 CURVE SMOOTH",
-"138 670 OFFCURVE",
-"65 606 OFFCURVE",
-"65 526 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"390 434 LINE",
-"390 526 LINE",
-"40 526 LINE",
-"40 434 LINE"
-);
-}
-);
-width = 430;
 }
 );
 },
@@ -65503,7 +65491,7 @@ transform = "{1, 0, 0, 1, 4, 0}";
 },
 {
 name = "damma-ar";
-transform = "{1, 0, 0, 1, -60, 240}";
+transform = "{1, 0, 0, 1, -57, 246}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -65911,19 +65899,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"71 555 LINE",
-"11 673 LINE",
-"-72 652 LINE",
-"-13 534 LINE"
+"76 553 LINE",
+"21 661 LINE",
+"-55 642 LINE",
+"-1 534 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"111 534 LINE",
-"92 614 LINE",
-"-30 614 LINE",
-"-11 534 LINE"
+"113 534 LINE",
+"95 607 LINE",
+"-16 607 LINE",
+"1 534 LINE"
 );
 }
 );
@@ -66122,7 +66110,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{24, 555}";
+position = "{26, 553}";
 },
 {
 name = top;
@@ -66182,26 +66170,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"95 621 OFFCURVE",
-"74 664 OFFCURVE",
-"23 664 CURVE SMOOTH",
-"-9 664 OFFCURVE",
-"-23 647 OFFCURVE",
-"-23 619 CURVE SMOOTH",
-"-23 602 OFFCURVE",
-"-18 581 OFFCURVE",
-"-8 557 CURVE",
 "27 562 LINE",
-"16 588 OFFCURVE",
-"10 605 OFFCURVE",
-"10 616 CURVE SMOOTH",
-"10 626 OFFCURVE",
-"16 630 OFFCURVE",
+"4 614 OFFCURVE",
+"6 630 OFFCURVE",
 "25 630 CURVE SMOOTH",
 "48 630 OFFCURVE",
 "61 610 OFFCURVE",
 "62 558 CURVE",
-"96 555 LINE"
+"96 555 LINE",
+"95 621 OFFCURVE",
+"74 664 OFFCURVE",
+"23 664 CURVE SMOOTH",
+"-28 664 OFFCURVE",
+"-34 621 OFFCURVE",
+"-8 559 CURVE"
 );
 },
 {
@@ -66220,7 +66202,7 @@ width = 192;
 anchors = (
 {
 name = _top;
-position = "{94, 534}";
+position = "{91, 528}";
 },
 {
 name = top;
@@ -66280,84 +66262,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"213 660 OFFCURVE",
-"168 726 OFFCURVE",
-"82 726 CURVE SMOOTH",
-"20 726 OFFCURVE",
-"-12 694 OFFCURVE",
-"-12 637 CURVE SMOOTH",
-"-12 610 OFFCURVE",
-"-4 577 OFFCURVE",
-"10 539 CURVE",
-"102 550 LINE",
-"81 599 OFFCURVE",
-"72 625 OFFCURVE",
-"72 637 CURVE SMOOTH",
-"72 644 OFFCURVE",
-"75 646 OFFCURVE",
-"80 646 CURVE SMOOTH",
-"104 646 OFFCURVE",
-"127 616 OFFCURVE",
-"129 538 CURVE",
-"215 534 LINE"
+"64 607 LINE",
+"58 630 OFFCURVE",
+"70 643 OFFCURVE",
+"82 643 CURVE SMOOTH",
+"105 643 OFFCURVE",
+"124 618 OFFCURVE",
+"129 595 CURVE",
+"200 607 LINE",
+"185 670 OFFCURVE",
+"134 714 OFFCURVE",
+"80 714 CURVE SMOOTH",
+"17 714 OFFCURVE",
+"-20 658 OFFCURVE",
+"-6 595 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"215 534 LINE",
-"196 614 LINE",
-"-66 614 LINE",
-"-47 534 LINE"
+"217 534 LINE",
+"200 607 LINE",
+"-63 607 LINE",
+"-46 534 LINE"
 );
 }
 );
 width = 311;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{182, 516}";
-},
-{
-name = top;
-position = "{182, 785}";
-}
-);
-associatedMasterId = "B420756C-160B-4E3B-8A8F-018354DD19AA";
-layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
-paths = (
-{
-closed = 1;
-nodes = (
-"366 660 OFFCURVE",
-"318 745 OFFCURVE",
-"205 745 CURVE SMOOTH",
-"92 745 OFFCURVE",
-"45 661 OFFCURVE",
-"74 517 CURVE",
-"194 537 LINE",
-"178 614 OFFCURVE",
-"187 643 OFFCURVE",
-"205 643 CURVE SMOOTH",
-"222 643 OFFCURVE",
-"232 614 OFFCURVE",
-"215 538 CURVE",
-"335 516 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"335 516 LINE",
-"335 619 LINE",
-"20 619 LINE",
-"20 516 LINE"
-);
-}
-);
-width = 364;
 }
 );
 unicode = 064F;
@@ -66578,7 +66509,7 @@ position = "{156, 413}";
 },
 {
 name = top;
-position = "{106, 631}";
+position = "{99, 651}";
 }
 );
 background = {
@@ -67511,7 +67442,7 @@ name = "shadda-ar";
 },
 {
 name = "alefabove-ar";
-transform = "{1, 0, 0, 1, 86, 184}";
+transform = "{1, 0, 0, 1, 79, 204}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -67586,7 +67517,7 @@ name = "shadda-ar";
 },
 {
 name = "damma-ar";
-transform = "{1, 0, 0, 1, 12, 97}";
+transform = "{1, 0, 0, 1, 8, 123}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -67661,7 +67592,7 @@ name = "shadda-ar";
 },
 {
 name = "dammatan-ar";
-transform = "{1, 0, 0, 1, -45, 97}";
+transform = "{1, 0, 0, 1, -52, 117}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -67736,7 +67667,7 @@ name = "shadda-ar";
 },
 {
 name = "fatha-ar";
-transform = "{1, 0, 0, 1, 19, 103}";
+transform = "{1, 0, 0, 1, 12, 123}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -67811,7 +67742,7 @@ name = "shadda-ar";
 },
 {
 name = "fathatan-ar";
-transform = "{1, 0, 0, 1, 19, 103}";
+transform = "{1, 0, 0, 1, 12, 123}";
 }
 );
 layerId = "7271F2A9-EB19-499E-973E-7497F9144823";
@@ -72033,5 +71964,5 @@ width = 9;
 };
 };
 versionMajor = 3;
-versionMinor = 8;
+versionMinor = 9;
 }
