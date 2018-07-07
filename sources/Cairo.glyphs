@@ -1,5 +1,5 @@
 {
-.appVersion = "1147";
+.appVersion = "1153";
 classes = (
 {
 automatic = 1;
@@ -153,7 +153,7 @@ Tag = wght;
 );
 }
 );
-date = "2018-05-02 17:32:48 +0000";
+date = "2018-07-07 21:43:37 +0000";
 designer = "Mohamed Gaber, Accademia di Belle Arti di Urbino and others";
 designerURL = "http://gaber.design/";
 disablesNiceNames = 1;
@@ -24657,6 +24657,72 @@ width = 435;
 }
 );
 unicode = FB58;
+},
+{
+glyphname = "alefMaksura-ar.medi";
+layers = (
+{
+components = (
+{
+name = "behDotless-ar.medi";
+}
+);
+layerId = "F1BADE0A-D307-4A55-B1D9-DEBA981FCD10";
+width = 235;
+},
+{
+components = (
+{
+name = "behDotless-ar.medi";
+}
+);
+layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
+width = 372;
+},
+{
+components = (
+{
+name = "behDotless-ar.medi";
+}
+);
+layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
+width = 426;
+}
+);
+unicode = FBE9;
+},
+{
+glyphname = "alefMaksura-ar.init";
+layers = (
+{
+components = (
+{
+name = "behDotless-ar.init";
+}
+);
+layerId = "F1BADE0A-D307-4A55-B1D9-DEBA981FCD10";
+width = 225;
+},
+{
+components = (
+{
+name = "behDotless-ar.init";
+}
+);
+layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
+width = 323;
+},
+{
+components = (
+{
+name = "behDotless-ar.init";
+}
+);
+layerId = "2D07D9D6-DD7A-4EF1-82E8-8B18836F0AAC";
+width = 385;
+}
+);
+unicode = FBE8;
 },
 {
 glyphname = "teh-ar";
