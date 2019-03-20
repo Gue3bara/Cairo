@@ -1,5 +1,10 @@
 {
-.appVersion = "1153";
+.appVersion = "1192";
+DisplayStrings = (
+"/yeh-ar.fina",
+"\"testing\"",
+"/quotedblleft"
+);
 classes = (
 {
 automatic = 1;
@@ -63778,10 +63783,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"271 490 LINE",
-"274 700 LINE",
-"235 700 LINE",
-"238 490 LINE {name = hr00;}"
+"211 490 LINE",
+"214 700 LINE",
+"175 700 LINE",
+"178 490 LINE {name = hr00;}"
 );
 },
 {
@@ -63794,7 +63799,7 @@ nodes = (
 );
 }
 );
-width = 348;
+width = 288;
 },
 {
 layerId = "D02A7F20-5372-446E-84B7-8F4B885083B2";
