@@ -13,3 +13,4 @@ Mohamed Gaber <gaber@gaberism.net>
 Khaled Hosny <khaledhosny@eglug.org>
 Dave Crossland <dcrossland@google.com>
 Marc Foley <m.foley.88@gmail.com>
+Eli Heuer <elih@protonmail.com>
