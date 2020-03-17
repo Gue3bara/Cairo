@@ -1,8 +1,5 @@
 {
 .appVersion = "1303";
-DisplayStrings = (
-$
-);
 classes = (
 {
 automatic = 1;
@@ -85,7 +82,7 @@ Tag = wght;
 );
 }
 );
-date = "2020-03-16 21:54:49 +0000";
+date = "2020-03-17 15:49:59 +0000";
 designer = "Mohamed Gaber, Accademia di Belle Arti di Urbino";
 designerURL = "https://gaber.design";
 disablesNiceNames = 1;
@@ -70764,6 +70761,10 @@ value = (
 "alefMaksura_alefMaksuraar.fina.alt=aamksr.fina.alt",
 "yehHamzaabove_yehHamzaabovear.fina=yha_yha.fina"
 );
+},
+{
+name = weightClass;
+value = 1000;
 }
 );
 interpolationWeight = 232;
