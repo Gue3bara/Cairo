@@ -1,5 +1,8 @@
 {
 .appVersion = "1303";
+DisplayStrings = (
+$
+);
 classes = (
 {
 automatic = 1;
@@ -5862,38 +5865,6 @@ components = (
 name = O;
 }
 );
-layerId = "C07F6584-2E6B-4760-8B47-4DF2494D7DFD";
-name = "Mar 16 20, 17:31";
-paths = (
-{
-closed = 1;
-nodes = (
-"359 92 LINE",
-"131 105 LINE",
-"83 -10 LINE",
-"300 -54 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"560 586 LINE",
-"598 680 LINE",
-"381 724 LINE",
-"324 585 LINE"
-);
-}
-);
-visible = 1;
-width = 670;
-},
-{
-associatedMasterId = "EA657207-4E15-4023-BA2A-6FA5407A60CD";
-components = (
-{
-name = O;
-}
-);
 layerId = "42FC38BA-93B3-492F-AA5B-1495AD959623";
 name = "Black[80]";
 paths = (
@@ -5932,19 +5903,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"571 774 LINE",
-"511 800 LINE",
-"427 621 LINE",
-"486 593 LINE"
+"234 55 LINE",
+"174 81 LINE",
+"95 -89 LINE",
+"154 -117 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"234 55 LINE",
-"174 81 LINE",
-"95 -89 LINE",
-"154 -117 LINE"
+"571 774 LINE",
+"511 800 LINE",
+"427 621 LINE",
+"486 593 LINE"
 );
 }
 );
@@ -15079,37 +15050,6 @@ nodes = (
 width = 564;
 },
 {
-associatedMasterId = "EA657207-4E15-4023-BA2A-6FA5407A60CD";
-components = (
-{
-name = o;
-}
-);
-layerId = "1927194B-9769-465B-94E4-BB2B58F0FBE9";
-name = "Mar 16 20, 23:07";
-paths = (
-{
-closed = 1;
-nodes = (
-"527 528 LINE",
-"307 571 LINE",
-"277 431 LINE",
-"482 431 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"328 68 LINE",
-"119 79 LINE",
-"62 -36 LINE",
-"277 -77 LINE"
-);
-}
-);
-width = 564;
-},
-{
 associatedMasterId = "5E4DD32C-6BC9-4010-93B4-D8C61BED16DC";
 components = (
 {
@@ -15140,37 +15080,6 @@ nodes = (
 }
 );
 width = 528.58824;
-},
-{
-associatedMasterId = "EA657207-4E15-4023-BA2A-6FA5407A60CD";
-components = (
-{
-name = o;
-}
-);
-layerId = "A77E316E-70E1-475B-8F6F-5A83DE5659DB";
-name = "Black[80] Mar 16 20, 23:09";
-paths = (
-{
-closed = 1;
-nodes = (
-"566 546 LINE",
-"349 589 LINE",
-"271 454 LINE",
-"482 398 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"259 8 LINE",
-"63 89 LINE",
-"-5 -30 LINE",
-"212 -74 LINE"
-);
-}
-);
-width = 564;
 }
 );
 leftKerningGroup = o;
@@ -59263,40 +59172,6 @@ nodes = (
 );
 }
 );
-width = 560;
-},
-{
-associatedMasterId = "5E4DD32C-6BC9-4010-93B4-D8C61BED16DC";
-components = (
-{
-alignment = -1;
-name = S;
-transform = "{0.95394, 0, 0, 0.95394, 22, 0}";
-}
-);
-layerId = "2324D328-E673-490D-9BD9-F5008CBDF983";
-name = "Regular [80] Mar 16 20, 22:56";
-paths = (
-{
-closed = 1;
-nodes = (
-"254 -124 LINE",
-"274 32 LINE",
-"223 41 LINE",
-"202 -124 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"372 799 LINE",
-"321 799 LINE",
-"301 647 LINE",
-"352 639 LINE"
-);
-}
-);
-visible = 1;
 width = 560;
 }
 );
