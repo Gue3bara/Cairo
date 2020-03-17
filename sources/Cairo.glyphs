@@ -82,7 +82,7 @@ Tag = wght;
 );
 }
 );
-date = "2020-03-17 16:49:38 +0000";
+date = "2020-03-17 22:12:29 +0000";
 designer = "Mohamed Gaber, Accademia di Belle Arti di Urbino";
 designerURL = "https://gaber.design";
 disablesNiceNames = 1;
@@ -5917,6 +5917,37 @@ nodes = (
 }
 );
 width = 659.96078;
+},
+{
+associatedMasterId = "459CA063-FA7D-4205-A795-7B6CE244EAAB";
+components = (
+{
+name = O;
+}
+);
+layerId = "A57BFCFC-4998-4875-84F3-D7BAF89DB90F";
+name = "ExtraLight[80]";
+paths = (
+{
+closed = 1;
+nodes = (
+"209 35 LINE",
+"180 49 LINE",
+"111 -98 LINE",
+"141 -109 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"558 780 LINE",
+"528 792 LINE",
+"465 658 LINE",
+"496 647 LINE"
+);
+}
+);
+width = 666;
 }
 );
 leftKerningGroup = O;
@@ -15077,6 +15108,37 @@ nodes = (
 }
 );
 width = 528.58824;
+},
+{
+associatedMasterId = "459CA063-FA7D-4205-A795-7B6CE244EAAB";
+components = (
+{
+name = o;
+}
+);
+layerId = "C53AFEE3-A49A-4A94-9CB3-B37AC9DAAC18";
+name = "ExtraLight[80]";
+paths = (
+{
+closed = 1;
+nodes = (
+"423 594 LINE",
+"393 605 LINE",
+"339 473 LINE",
+"368 460 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"187 18 LINE",
+"158 32 LINE",
+"103 -104 LINE",
+"132 -115 LINE"
+);
+}
+);
+width = 526;
 }
 );
 leftKerningGroup = o;
@@ -59166,6 +59228,38 @@ nodes = (
 "321 799 LINE",
 "301 647 LINE",
 "352 639 LINE"
+);
+}
+);
+width = 560;
+},
+{
+associatedMasterId = "459CA063-FA7D-4205-A795-7B6CE244EAAB";
+components = (
+{
+name = S;
+transform = "{0.941, 0, 0, 0.941, 27, 0}";
+}
+);
+layerId = "D5AAEE69-3A08-4FC0-A9E2-AA10A2039552";
+name = "ExtraLight[80]";
+paths = (
+{
+closed = 1;
+nodes = (
+"247 -120 LINE",
+"264 14 LINE",
+"230 21 LINE",
+"211 -120 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"365 790 LINE",
+"330 790 LINE",
+"313 659 LINE",
+"347 653 LINE"
 );
 }
 );
