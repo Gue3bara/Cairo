@@ -1,6 +1,7 @@
 # Cairo
 
 ![Sample](documentation/sample.png)
+![Sample](documentation/Cairovf.gif)
 
 Cairo is a contemporary Arabic and Latin typeface family. 
 Mohamed Gaber extended the famous Latin typeface family [Titillum Web](https://www.google.com/fonts/specimen/Titillium+Web) to support the Arabic script, with a design that is based on the Kufi calligraphic style. 
