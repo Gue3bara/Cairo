@@ -735,7 +735,7 @@ alignmentZones = (
 );
 ascender = 1240;
 capHeight = 700;
-custom = Heavy;
+custom = ExtraBlack;
 customParameters = (
 {
 name = hheaAscender;
@@ -963,7 +963,7 @@ alignmentZones = (
 );
 ascender = 1240;
 capHeight = 700;
-custom = HeavySlantRight;
+custom = ExtraBlackSlantRight;
 customParameters = (
 {
 name = hheaAscender;
@@ -1191,7 +1191,7 @@ alignmentZones = (
 );
 ascender = 1240;
 capHeight = 700;
-custom = HeavySlantLeft;
+custom = ExtraBlackSlantLeft;
 customParameters = (
 {
 name = hheaAscender;
@@ -14401,7 +14401,7 @@ name = O;
 }
 );
 layerId = "42FC38BA-93B3-492F-AA5B-1495AD959623";
-name = "Heavy [80]";
+name = "ExtraBlack [80]";
 paths = (
 {
 closed = 1;
@@ -14524,7 +14524,7 @@ name = O;
 }
 );
 layerId = "4576EB96-2613-484C-984B-F90947CFF07F";
-name = "HeavySlantRight [80]";
+name = "ExtraBlackSlantRight [80]";
 paths = (
 {
 closed = 1;
@@ -14706,7 +14706,7 @@ name = O;
 }
 );
 layerId = "4824C584-78FD-4877-963D-3E4EE8C89C64";
-name = "HeavySlantLeft [80]";
+name = "ExtraBlackSlantLeft [80]";
 paths = (
 {
 closed = 1;
@@ -39373,7 +39373,7 @@ name = o;
 }
 );
 layerId = "F0510FDC-C05A-4B80-B21E-18CC5694D357";
-name = "Heavy [80]";
+name = "ExtraBlack [80]";
 paths = (
 {
 closed = 1;
@@ -39496,7 +39496,7 @@ name = o;
 }
 );
 layerId = "A27908E9-7E99-46D4-9C85-E1799354E6CE";
-name = "HeavySlantRight [80]";
+name = "ExtraBlackSlantRight [80]";
 paths = (
 {
 closed = 1;
@@ -39678,7 +39678,7 @@ name = o;
 }
 );
 layerId = "D00EFA7A-F7A7-4143-80E4-644229B87ABE";
-name = "HeavySlantLeft [80]";
+name = "ExtraBlackSlantLeft [80]";
 paths = (
 {
 closed = 1;
@@ -163165,7 +163165,7 @@ transform = "{0.97985, 0, 0, 0.97991, -9, 0}";
 }
 );
 layerId = "D49CC797-467A-4451-A23A-39DC03E9BABE";
-name = "Heavy [80]";
+name = "ExtraBlack [80]";
 paths = (
 {
 closed = 1;
@@ -163292,7 +163292,7 @@ transform = "{0.97985, 0, 0, 0.97991, -9, 0}";
 }
 );
 layerId = "4E5A33D9-8570-4EAC-81FC-F2F37FD459E3";
-name = "HeavySlantRight [80]";
+name = "ExtraBlackSlantRight [80]";
 paths = (
 {
 closed = 1;
@@ -163480,7 +163480,7 @@ transform = "{0.97985, 0, 0, 0.97991, -9, 0}";
 }
 );
 layerId = "CB0B8872-7C24-42A4-8D7B-9B3C1952E8A4";
-name = "HeavySlantLeft [80]";
+name = "ExtraBlackSlantLeft [80]";
 paths = (
 {
 closed = 1;
@@ -195912,7 +195912,7 @@ interpolationWidth = 0;
 instanceInterpolations = {
 "EA657207-4E15-4023-BA2A-6FA5407A60CD" = 1;
 };
-name = Heavy;
+name = ExtraBlack;
 weightClass = Heavy;
 },
 {
@@ -196086,8 +196086,8 @@ instanceInterpolations = {
 "0DA49D7F-B466-4A74-9166-6D7870CD51D2" = 1;
 };
 isItalic = 1;
-linkStyle = Heavy;
-name = "Heavy Slant Right";
+linkStyle = ExtraBlack;
+name = "ExtraBlack Slant Right";
 weightClass = Heavy;
 },
 {
@@ -196261,8 +196261,8 @@ instanceInterpolations = {
 "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45" = 1;
 };
 isItalic = 1;
-linkStyle = Heavy;
-name = "Heavy Slant Left";
+linkStyle = ExtraBlack;
+name = "ExtraBlack Slant Left";
 weightClass = Heavy;
 }
 );
