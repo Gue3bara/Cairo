@@ -37,7 +37,7 @@ if [ "$build_static_fonts" = true ]; then
   fontmake -g sources/Cairo.glyphs -i "Cairo SemiBold" --verbose ERROR
   fontmake -g sources/Cairo.glyphs -i "Cairo Bold" --verbose ERROR
   fontmake -g sources/Cairo.glyphs -i "Cairo Black" --verbose ERROR
-  fontmake -g sources/Cairo.glyphs -i "Cairo Heavy" --verbose ERROR
+  fontmake -g sources/Cairo.glyphs -i "Cairo ExtraBlack" --verbose ERROR
   #fontmake -g sources/Cairo-Italic.glyphs -i "Cairo ExtraLight Italic" --verbose INFO
   #fontmake -g sources/Cairo-Italic.glyphs -i "Cairo Light Italic" --verbose INFO
   #fontmake -g sources/Cairo-Italic.glyphs -i "Cairo Italic" --verbose INFO
