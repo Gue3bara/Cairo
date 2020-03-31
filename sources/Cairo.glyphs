@@ -1,5 +1,9 @@
 {
-.appVersion = "1306";
+.appVersion = "1308";
+DisplayStrings = (
+"/alefbelow-ar",
+"/allah-ar.tashkeel"
+);
 classes = (
 {
 automatic = 1;
@@ -103806,11 +103810,11 @@ name = "alefMaksura_noon-ar.fina.alt";
 {
 anchor = bottom_1;
 name = "threedotsdownbelow-ar";
-transform = "{1, 0, 0, 1, 703, -205}";
+transform = "{1, 0, 0, 1, 751, -205}";
 }
 );
 layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
-width = 1222;
+width = 1270;
 },
 {
 components = (
@@ -104738,11 +104742,11 @@ name = "alefMaksura_noon-ar.fina.alt";
 {
 anchor = top_1;
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 646, 83}";
+transform = "{1, 0, 0, 1, 694, 83}";
 }
 );
 layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
-width = 1222;
+width = 1270;
 },
 {
 components = (
@@ -105676,11 +105680,11 @@ name = "alefMaksura_noon-ar.fina.alt";
 {
 anchor = top_1;
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 647, 83}";
+transform = "{1, 0, 0, 1, 695, 83}";
 }
 );
 layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
-width = 1222;
+width = 1270;
 },
 {
 components = (
@@ -122989,33 +122993,32 @@ width = 890;
 anchors = (
 {
 name = bottom_1;
-position = "{1029, -113}";
+position = "{1077, -113}";
 },
 {
 name = bottom_2;
-position = "{431, -330}";
+position = "{479, -330}";
 },
 {
 name = caret_1;
-position = "{377, 0}";
+position = "{425, 0}";
 },
 {
 name = top_1;
-position = "{891, 600}";
+position = "{939, 600}";
 },
 {
 name = top_2;
-position = "{210, 811}";
+position = "{258, 811}";
 }
 );
 components = (
 {
 name = "noon-ar";
-transform = "{1, 0, 0, 1, -48, 0}";
 },
 {
 name = connection_r;
-transform = "{1, 0, 0, 1, 1172, 0}";
+transform = "{1, 0, 0, 1, 1220, 0}";
 }
 );
 layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
@@ -123023,26 +123026,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1270 0 LINE",
-"1234 188 LINE",
-"934 188 LINE",
-"1104 66 LINE",
-"1021 505 LINE",
-"797 505 LINE",
-"895 0 LINE"
+"1318 0 LINE",
+"1282 188 LINE",
+"982 188 LINE",
+"1152 66 LINE",
+"1069 505 LINE",
+"845 505 LINE",
+"943 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"855 216 LINE",
-"819 404 LINE",
-"613 404 LINE",
-"649 216 LINE"
+"903 216 LINE",
+"867 404 LINE",
+"661 404 LINE",
+"697 216 LINE"
 );
 }
 );
-width = 1222;
+width = 1270;
 },
 {
 anchors = (
@@ -125391,11 +125394,11 @@ name = "alefMaksura_noon-ar.fina.alt";
 {
 anchor = bottom_1;
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 687, -123}";
+transform = "{1, 0, 0, 1, 735, -123}";
 }
 );
 layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
-width = 1222;
+width = 1270;
 },
 {
 components = (
@@ -127299,6 +127302,15 @@ paths = (
 {
 closed = 1;
 nodes = (
+"728 0 LINE",
+"614 586 LINE",
+"579 586 LINE",
+"693 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "703 0 LINE",
 "697 34 LINE",
 "587 34 LINE",
@@ -127312,15 +127324,6 @@ nodes = (
 "822 34 LINE",
 "712 34 LINE",
 "718 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"728 0 LINE",
-"614 586 LINE",
-"579 586 LINE",
-"693 0 LINE"
 );
 }
 );
