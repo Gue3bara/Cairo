@@ -1,7 +1,7 @@
 {
 .appVersion = "1286";
 DisplayStrings = (
-"/_hungarumlaut/hungarumlaut.cap"
+"/hungarumlaut.cap"
 );
 classes = (
 {
@@ -73177,7 +73177,7 @@ components = (
 {
 alignment = -1;
 name = "tah-ar";
-transform = "{1, 0, 0, 1, -20, 0}";
+transform = "{1, 0, 0, 1, -22, 0}";
 },
 {
 name = connection_l;
@@ -73554,7 +73554,7 @@ name = "tah-ar.medi";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 308, 63}";
+transform = "{1, 0, 0, 1, 306, 63}";
 }
 );
 layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
@@ -73678,7 +73678,7 @@ name = "tah-ar.init";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 308, 63}";
+transform = "{1, 0, 0, 1, 306, 63}";
 }
 );
 layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
@@ -184703,141 +184703,31 @@ color = 5;
 glyphname = hungarumlaut.cap;
 layers = (
 {
-components = (
-{
-name = _hungarumlaut;
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -190, 0}";
-}
-);
 layerId = "459CA063-FA7D-4205-A795-7B6CE244EAAB";
-width = 430;
+paths = (
+{
+closed = 1;
+nodes = (
+"345 849 LINE",
+"330 878 LINE",
+"139 791 LINE",
+"153 761 LINE"
+);
 },
 {
-components = (
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -2, 0}";
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -216, 0}";
+closed = 1;
+nodes = (
+"154 849 LINE",
+"140 879 LINE",
+"-52 791 LINE",
+"-37 762 LINE"
+);
 }
 );
+width = 215;
+},
+{
 layerId = "EA657207-4E15-4023-BA2A-6FA5407A60CD";
-width = 461;
-},
-{
-components = (
-{
-name = _hungarumlaut;
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -197, 0}";
-}
-);
-layerId = "5E4DD32C-6BC9-4010-93B4-D8C61BED16DC";
-width = 476;
-},
-{
-components = (
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -2, 0}";
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -216, 0}";
-}
-);
-layerId = "0DA49D7F-B466-4A74-9166-6D7870CD51D2";
-width = 462;
-},
-{
-components = (
-{
-name = _hungarumlaut;
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -197, 0}";
-}
-);
-layerId = "3B241295-E7D1-482F-A49F-5B690F967CBA";
-width = 238;
-},
-{
-components = (
-{
-name = _hungarumlaut;
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -190, 0}";
-}
-);
-layerId = "0474999B-FB68-4D9A-82B1-2286F2372C1D";
-width = 243;
-},
-{
-components = (
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -2, 0}";
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -216, 0}";
-}
-);
-layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
-width = 622;
-},
-{
-components = (
-{
-name = _hungarumlaut;
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -197, 0}";
-}
-);
-layerId = "FB927515-0B4B-4E0F-9AFE-1C9AB9ADFFED";
-width = 174;
-},
-{
-components = (
-{
-name = _hungarumlaut;
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -190, 0}";
-}
-);
-layerId = "9F9B1D74-FF57-4B2A-AEB5-D743B154EFB7";
-width = 150;
-},
-{
-associatedMasterId = "EA657207-4E15-4023-BA2A-6FA5407A60CD";
-layerId = "069E85CC-76F6-4DEB-AEE1-6D032F062B52";
-name = "May 16 20, 16:15";
 paths = (
 {
 closed = 1;
@@ -184859,6 +184749,174 @@ nodes = (
 }
 );
 width = 463;
+},
+{
+layerId = "5E4DD32C-6BC9-4010-93B4-D8C61BED16DC";
+paths = (
+{
+closed = 1;
+nodes = (
+"355 884 LINE",
+"296 919 LINE",
+"159 784 LINE",
+"212 752 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"157 884 LINE",
+"99 920 LINE",
+"-39 785 LINE",
+"14 753 LINE"
+);
+}
+);
+width = 472;
+},
+{
+layerId = "0DA49D7F-B466-4A74-9166-6D7870CD51D2";
+paths = (
+{
+closed = 1;
+nodes = (
+"360 713 LINE",
+"449 849 LINE",
+"262 849 LINE",
+"229 713 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"145 713 LINE",
+"234 849 LINE",
+"47 849 LINE",
+"14 713 LINE"
+);
+}
+);
+width = 463;
+},
+{
+layerId = "3B241295-E7D1-482F-A49F-5B690F967CBA";
+paths = (
+{
+closed = 1;
+nodes = (
+"355 884 LINE",
+"296 919 LINE",
+"159 784 LINE",
+"212 752 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"157 884 LINE",
+"99 920 LINE",
+"-39 785 LINE",
+"14 753 LINE"
+);
+}
+);
+width = 238;
+},
+{
+layerId = "0474999B-FB68-4D9A-82B1-2286F2372C1D";
+paths = (
+{
+closed = 1;
+nodes = (
+"345 849 LINE",
+"330 878 LINE",
+"139 791 LINE",
+"153 761 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"154 849 LINE",
+"140 879 LINE",
+"-52 791 LINE",
+"-37 762 LINE"
+);
+}
+);
+width = 215;
+},
+{
+layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
+paths = (
+{
+closed = 1;
+nodes = (
+"316 713 LINE",
+"379 849 LINE",
+"196 849 LINE",
+"189 713 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"101 713 LINE",
+"164 849 LINE",
+"-19 849 LINE",
+"-26 713 LINE"
+);
+}
+);
+width = 463;
+},
+{
+layerId = "FB927515-0B4B-4E0F-9AFE-1C9AB9ADFFED";
+paths = (
+{
+closed = 1;
+nodes = (
+"280 884 LINE",
+"216 919 LINE",
+"104 784 LINE",
+"162 752 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"82 884 LINE",
+"19 920 LINE",
+"-94 785 LINE",
+"-37 753 LINE"
+);
+}
+);
+width = 238;
+},
+{
+layerId = "9F9B1D74-FF57-4B2A-AEB5-D743B154EFB7";
+paths = (
+{
+closed = 1;
+nodes = (
+"277 849 LINE",
+"257 878 LINE",
+"82 791 LINE",
+"102 761 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"86 849 LINE",
+"67 879 LINE",
+"-109 791 LINE",
+"-89 762 LINE"
+);
+}
+);
+width = 215;
 },
 {
 associatedMasterId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
@@ -184885,274 +184943,6 @@ nodes = (
 }
 );
 width = 463;
-},
-{
-associatedMasterId = "0DA49D7F-B466-4A74-9166-6D7870CD51D2";
-layerId = "1290A0AD-6488-4870-8727-EF0F4AC56C65";
-name = "May 16 20, 16:18";
-paths = (
-{
-closed = 1;
-nodes = (
-"360 713 LINE",
-"449 849 LINE",
-"262 849 LINE",
-"229 713 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"145 713 LINE",
-"234 849 LINE",
-"47 849 LINE",
-"14 713 LINE"
-);
-}
-);
-width = 463;
-},
-{
-associatedMasterId = "FB927515-0B4B-4E0F-9AFE-1C9AB9ADFFED";
-layerId = "A998F06C-2FAF-4058-BAC4-24B5E4F47088";
-name = "May 16 20, 16:23";
-paths = (
-{
-closed = 1;
-nodes = (
-"280 884 LINE",
-"216 919 LINE",
-"104 784 LINE",
-"162 752 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"82 884 LINE",
-"19 920 LINE",
-"-94 785 LINE",
-"-37 753 LINE"
-);
-}
-);
-width = 238;
-},
-{
-associatedMasterId = "0474999B-FB68-4D9A-82B1-2286F2372C1D";
-components = (
-{
-name = _hungarumlaut;
-}
-);
-layerId = "826CC4A0-8AF0-4237-B013-7845EEE64505";
-name = "May 16 20, 16:54";
-paths = (
-{
-closed = 1;
-nodes = (
-"154 849 LINE",
-"140 879 LINE",
-"-52 791 LINE",
-"-37 762 LINE"
-);
-}
-);
-width = 215;
-},
-{
-associatedMasterId = "3B241295-E7D1-482F-A49F-5B690F967CBA";
-components = (
-{
-name = _hungarumlaut;
-}
-);
-layerId = "BD7FFDF8-4DB9-4C4C-B368-72B7E4BAD50B";
-name = "May 16 20, 16:55";
-paths = (
-{
-closed = 1;
-nodes = (
-"157 884 LINE",
-"99 920 LINE",
-"-39 785 LINE",
-"14 753 LINE"
-);
-}
-);
-width = 237.86275;
-},
-{
-associatedMasterId = "9F9B1D74-FF57-4B2A-AEB5-D743B154EFB7";
-components = (
-{
-name = _hungarumlaut;
-}
-);
-layerId = "4481383F-5E0C-4822-AE9B-B0C05E17A745";
-name = "May 16 20, 16:56";
-paths = (
-{
-closed = 1;
-nodes = (
-"86 849 LINE",
-"67 879 LINE",
-"-109 791 LINE",
-"-89 762 LINE"
-);
-}
-);
-width = 215;
-},
-{
-associatedMasterId = "FB927515-0B4B-4E0F-9AFE-1C9AB9ADFFED";
-components = (
-{
-name = _hungarumlaut;
-}
-);
-layerId = "19CBA876-4514-43AF-8343-FEF710B18561";
-name = "May 16 20, 16:58";
-paths = (
-{
-closed = 1;
-nodes = (
-"82 884 LINE",
-"19 920 LINE",
-"-94 785 LINE",
-"-37 753 LINE"
-);
-}
-);
-width = 238;
-},
-{
-associatedMasterId = "FB927515-0B4B-4E0F-9AFE-1C9AB9ADFFED";
-components = (
-{
-name = _hungarumlaut;
-},
-{
-name = _hungarumlaut;
-}
-);
-layerId = "70C7755D-7817-45EB-BD87-4E7BC26013EA";
-name = "May 16 20, 16:58";
-paths = (
-{
-closed = 1;
-nodes = (
-"82 884 LINE",
-"19 920 LINE",
-"-94 785 LINE",
-"-37 753 LINE"
-);
-}
-);
-width = 238;
-},
-{
-associatedMasterId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
-components = (
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, 10, 0}";
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -204, 0}";
-}
-);
-layerId = "5746761D-D1E8-4EE6-8DA8-83606790850C";
-name = "May 16 20, 17:01";
-width = 622;
-},
-{
-associatedMasterId = "FB927515-0B4B-4E0F-9AFE-1C9AB9ADFFED";
-components = (
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -32, 0}";
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -230, 0}";
-}
-);
-layerId = "B439C53B-D658-4891-9C5A-53240FE2CA77";
-name = "May 16 20, 17:01";
-width = 174;
-},
-{
-associatedMasterId = "9F9B1D74-FF57-4B2A-AEB5-D743B154EFB7";
-components = (
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -33, 0}";
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -224, 0}";
-}
-);
-layerId = "AAAFEC95-C9DE-464B-AF0C-E75C4AA9A15E";
-name = "May 16 20, 17:01";
-width = 150;
-},
-{
-associatedMasterId = "0DA49D7F-B466-4A74-9166-6D7870CD51D2";
-components = (
-{
-alignment = -1;
-name = _hungarumlaut;
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -216, 0}";
-}
-);
-layerId = "3702D4BD-EF25-40EA-8EF0-00B103474074";
-name = "May 16 20, 17:01";
-width = 462;
-},
-{
-associatedMasterId = "3B241295-E7D1-482F-A49F-5B690F967CBA";
-components = (
-{
-name = _hungarumlaut;
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -197, 0}";
-}
-);
-layerId = "0DE3AA1F-90D4-42BF-B7BD-A310344DD9F9";
-name = "May 16 20, 17:01";
-width = 238;
-},
-{
-associatedMasterId = "0474999B-FB68-4D9A-82B1-2286F2372C1D";
-components = (
-{
-name = _hungarumlaut;
-},
-{
-alignment = -1;
-name = _hungarumlaut;
-transform = "{1, 0, 0, 1, -190, 0}";
-}
-);
-layerId = "B1EE380B-D4DF-4ED9-B18B-B31B9FD8E3C1";
-name = "May 16 20, 17:01";
-width = 243;
 }
 );
 },
@@ -198120,165 +197910,6 @@ nodes = (
 }
 );
 width = 50;
-}
-);
-},
-{
-export = 0;
-glyphname = _hungarumlaut;
-layers = (
-{
-layerId = "459CA063-FA7D-4205-A795-7B6CE244EAAB";
-paths = (
-{
-closed = 1;
-nodes = (
-"345 849 LINE",
-"330 878 LINE",
-"139 791 LINE",
-"153 761 LINE"
-);
-}
-);
-width = 215;
-},
-{
-layerId = "5E4DD32C-6BC9-4010-93B4-D8C61BED16DC";
-paths = (
-{
-closed = 1;
-nodes = (
-"355 884 LINE",
-"296 919 LINE",
-"159 784 LINE",
-"212 752 LINE"
-);
-}
-);
-width = 237.86275;
-},
-{
-layerId = "0474999B-FB68-4D9A-82B1-2286F2372C1D";
-paths = (
-{
-closed = 1;
-nodes = (
-"345 849 LINE",
-"330 878 LINE",
-"139 791 LINE",
-"153 761 LINE"
-);
-}
-);
-width = 215;
-},
-{
-layerId = "3B241295-E7D1-482F-A49F-5B690F967CBA";
-paths = (
-{
-closed = 1;
-nodes = (
-"355 884 LINE",
-"296 919 LINE",
-"159 784 LINE",
-"212 752 LINE"
-);
-}
-);
-width = 237.86275;
-},
-{
-layerId = "9F9B1D74-FF57-4B2A-AEB5-D743B154EFB7";
-paths = (
-{
-closed = 1;
-nodes = (
-"277 849 LINE",
-"257 878 LINE",
-"82 791 LINE",
-"102 761 LINE"
-);
-}
-);
-width = 215;
-},
-{
-layerId = "FB927515-0B4B-4E0F-9AFE-1C9AB9ADFFED";
-paths = (
-{
-closed = 1;
-nodes = (
-"280 884 LINE",
-"216 919 LINE",
-"104 784 LINE",
-"162 752 LINE"
-);
-}
-);
-width = 238;
-},
-{
-layerId = "EA657207-4E15-4023-BA2A-6FA5407A60CD";
-paths = (
-{
-closed = 1;
-nodes = (
-"449 850 LINE",
-"262 850 LINE",
-"230 712 LINE",
-"359 712 LINE"
-);
-}
-);
-width = 600;
-},
-{
-layerId = "0DA49D7F-B466-4A74-9166-6D7870CD51D2";
-paths = (
-{
-closed = 1;
-nodes = (
-"449 850 LINE",
-"262 850 LINE",
-"230 712 LINE",
-"359 712 LINE"
-);
-}
-);
-width = 600;
-},
-{
-layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
-paths = (
-{
-closed = 1;
-nodes = (
-"449 850 LINE",
-"262 850 LINE",
-"230 712 LINE",
-"359 712 LINE"
-);
-}
-);
-width = 600;
-},
-{
-associatedMasterId = "EA657207-4E15-4023-BA2A-6FA5407A60CD";
-layerId = "B0EF9D9C-8B09-4D0A-A2ED-0C5E7068E6DE";
-name = "May 16 20, 16:49";
-paths = (
-{
-closed = 1;
-nodes = (
-"360 713 LINE",
-"449 849 LINE",
-"262 849 LINE",
-"229 713 LINE"
-);
-}
-);
-visible = 1;
-width = 600;
 }
 );
 }
