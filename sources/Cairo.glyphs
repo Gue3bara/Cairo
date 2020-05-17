@@ -1,8 +1,5 @@
 {
 .appVersion = "1286";
-DisplayStrings = (
-"/hungarumlaut.cap"
-);
 classes = (
 {
 automatic = 1;
@@ -89,7 +86,7 @@ Tag = slnt;
 );
 }
 );
-date = "2020-05-07 17:14:51 +0000";
+date = "2020-05-17 19:56:01 +0000";
 designer = "Mohamed Gaber, Accademia di Belle Arti di Urbino";
 designerURL = "https://gaber.design";
 disablesNiceNames = 1;
@@ -14244,7 +14241,7 @@ name = O;
 },
 {
 name = hungarumlaut.cap;
-transform = "{1, 0, 0, 1, 78, 0}";
+transform = "{1, 0, 0, 1, 5, 0}";
 }
 );
 layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
@@ -14257,7 +14254,7 @@ name = O;
 },
 {
 name = hungarumlaut.cap;
-transform = "{1, 0, 0, 1, 147, 0}";
+transform = "{1, 0, 0, 1, 72, 0}";
 }
 );
 layerId = "FB927515-0B4B-4E0F-9AFE-1C9AB9ADFFED";
@@ -14270,7 +14267,7 @@ name = O;
 },
 {
 name = hungarumlaut.cap;
-transform = "{1, 0, 0, 1, 161, 0}";
+transform = "{1, 0, 0, 1, 80, 0}";
 }
 );
 layerId = "9F9B1D74-FF57-4B2A-AEB5-D743B154EFB7";
@@ -20975,7 +20972,7 @@ name = U;
 },
 {
 name = hungarumlaut.cap;
-transform = "{1, 0, 0, 1, 208, 0}";
+transform = "{1, 0, 0, 1, 185, 0}";
 }
 );
 layerId = "459CA063-FA7D-4205-A795-7B6CE244EAAB";
@@ -21053,7 +21050,7 @@ name = U;
 },
 {
 name = hungarumlaut.cap;
-transform = "{1, 0, 0, 1, 81, 0}";
+transform = "{1, 0, 0, 1, 14, 0}";
 }
 );
 layerId = "0E0E1207-0B3B-41BA-8E0C-9BB926F33A45";
@@ -21066,7 +21063,7 @@ name = U;
 },
 {
 name = hungarumlaut.cap;
-transform = "{1, 0, 0, 1, 174, 0}";
+transform = "{1, 0, 0, 1, 74, 0}";
 }
 );
 layerId = "FB927515-0B4B-4E0F-9AFE-1C9AB9ADFFED";
@@ -21079,7 +21076,7 @@ name = U;
 },
 {
 name = hungarumlaut.cap;
-transform = "{1, 0, 0, 1, 195, 0}";
+transform = "{1, 0, 0, 1, 78, 0}";
 }
 );
 layerId = "9F9B1D74-FF57-4B2A-AEB5-D743B154EFB7";
@@ -184732,19 +184729,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"360 713 LINE",
 "449 849 LINE",
 "262 849 LINE",
-"229 713 LINE"
+"229 713 LINE",
+"360 713 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"145 713 LINE",
 "234 849 LINE",
 "47 849 LINE",
-"14 713 LINE"
+"14 713 LINE",
+"145 713 LINE"
 );
 }
 );
@@ -184780,19 +184777,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"360 713 LINE",
 "449 849 LINE",
 "262 849 LINE",
-"229 713 LINE"
+"229 713 LINE",
+"360 713 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"145 713 LINE",
 "234 849 LINE",
 "47 849 LINE",
-"14 713 LINE"
+"14 713 LINE",
+"145 713 LINE"
 );
 }
 );
@@ -184852,19 +184849,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"316 713 LINE",
-"379 849 LINE",
-"196 849 LINE",
-"189 713 LINE"
+"449 849 LINE",
+"262 849 LINE",
+"229 713 LINE",
+"360 713 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"101 713 LINE",
-"164 849 LINE",
-"-19 849 LINE",
-"-26 713 LINE"
+"234 849 LINE",
+"47 849 LINE",
+"14 713 LINE",
+"145 713 LINE"
 );
 }
 );
@@ -184876,19 +184873,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"280 884 LINE",
-"216 919 LINE",
-"104 784 LINE",
-"162 752 LINE"
+"355 884 LINE",
+"296 919 LINE",
+"159 784 LINE",
+"212 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"82 884 LINE",
-"19 920 LINE",
-"-94 785 LINE",
-"-37 753 LINE"
+"157 884 LINE",
+"99 920 LINE",
+"-39 785 LINE",
+"14 753 LINE"
 );
 }
 );
@@ -184900,19 +184897,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"277 849 LINE",
-"257 878 LINE",
-"82 791 LINE",
-"102 761 LINE"
+"345 849 LINE",
+"330 878 LINE",
+"139 791 LINE",
+"153 761 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"86 849 LINE",
-"67 879 LINE",
-"-109 791 LINE",
-"-89 762 LINE"
+"154 849 LINE",
+"140 879 LINE",
+"-52 791 LINE",
+"-37 762 LINE"
 );
 }
 );
@@ -227121,5 +227118,5 @@ arBar = "188";
 };
 };
 versionMajor = 3;
-versionMinor = 115;
+versionMinor = 116;
 }
