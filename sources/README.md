@@ -1,15 +1,17 @@
 ## Building New Fonts from Source
-A Bash build script is located in the [scripts](../scripts) directory.
-To build new font files, open a Unix(macOS, Linux, WSL, etc) terminal and activate a
-[Python3 virtual environment](https://docs.python.org/3/library/venv.html)
-with the packages from [requirements.txt](../requirements.txt) installed.
-Then, navigate to the root(first level within the directory) of this repository, and run the following:
+
+`../scripts/build.sh` is a script that builds Cairo's variable and static fonts. It contains all the steps needed to build new fonts, so font builds are repeatable and documented.
+
+To build new fonts, open a Unix-like terminal, navigate to the Cairo source root directory, and run the script:
 ```
 sh scripts/build.sh
 ```
-If you want to make a new pull request to [Google Fonts](https://github.com/google/fonts),
- clone the [git repository](https://github.com/google/fonts)
- to `~/Google/`, and run the following:
+Also, if you are updating the font for Google Fonts, you can run an additional pull-request-helper script as well. Just remember to change the "prDir" file path variable if you aren't building to `~/Google/fonts/ofl/.../`:
 ```
 sh scripts/build.sh && scripts/google-fonts-pr.sh
 ```
+The default settings should produce output that will conform to the [Google Fonts Spec](https://github.com/googlefonts/gf-docs/tree/master/Spec) and pass all [FontBakery QA Tests](https://pypi.org/project/fontbakery/). However, the Build Script Settings are designed to be easily modified for other platforms and use cases.
+
+This script requires [Python3](https://www.python.org/) and a Unix-like environment(Mac, Linux, WSL), with a BASH-like shell. All Python dependencies will be installed in a temporary virtual environment by the script.
+
+Please see the [Google Fonts Spec](https://github.com/googlefonts/gf-docs/tree/master/Spec) and the [FontBakery QA Tests](https://pypi.org/project/fontbakery/) for more info.
