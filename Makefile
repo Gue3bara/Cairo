@@ -16,7 +16,7 @@ build: build.stamp sources/cairo.yaml $(SOURCES)
 venv: venv/touchfile
 
 build.stamp: venv
-	. venv/bin/activate; sh build-normal.sh && touch build.stamp
+	. venv/bin/activate; sh build.sh && touch build.stamp
 
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
