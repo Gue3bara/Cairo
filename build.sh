@@ -15,8 +15,8 @@ mv "fonts/Cairo/variable/CairoNormal[slnt,wght].ttf" "fonts/Cairo/variable/Cairo
 echo "Slice"
 fonttools varLib.instancer -o "fonts/Cairo/variable/Cairo[slnt,wght].ttf" "fonts/Cairo/variable/Cairo[slnt,wght].ttf" wght=200:900
 
-# echo "Reduce instances"
-# python3 scripts/shrinkinstances.py "fonts/Cairo/variable/Cairo[slnt,wght].ttf"
+echo "Purge instances"
+python3 scripts/shrinkinstances.py "fonts/Cairo/variable/Cairo[slnt,wght].ttf"
 
 echo "Delete files"
 rm sources/CairoNormal.glyphs
@@ -34,7 +34,7 @@ gftools builder sources/cairocolor.yaml
 echo "Slice"
 fonttools varLib.instancer -o "fonts/CairoColor/variable/CairoColor[slnt,wght].ttf" "fonts/CairoColor/variable/CairoColor[slnt,wght].ttf" wght=200:900
 
-echo "Reduce instances"
+echo "Purge instances"
 python3 scripts/shrinkinstances.py "fonts/CairoColor/variable/CairoColor[slnt,wght].ttf"
 
 echo "Delete files"
