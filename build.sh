@@ -23,20 +23,20 @@ rm sources/CairoNormal.glyphs
 
 
 
-# Build Color Font
+# Build Play Font
 
-echo "Make Color version of plain Cairo.glyphs"
-python3 scripts/makecolor.py sources/Cairo.glyphs sources/CairoColor.glyphs
+echo "Make Play version of plain Cairo.glyphs"
+python3 scripts/makeplay.py sources/Cairo.glyphs sources/CairoPlay.glyphs
 
-echo "Build Color Font"
-gftools builder sources/cairocolor.yaml
+echo "Build Play Font"
+gftools builder sources/cairoplay.yaml
 
 echo "Slice"
-fonttools varLib.instancer -o "fonts/CairoColor/variable/CairoColor[slnt,wght].ttf" "fonts/CairoColor/variable/CairoColor[slnt,wght].ttf" wght=200:900
+fonttools varLib.instancer -o "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf" "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf" wght=200:900
 
 echo "Purge instances"
-python3 scripts/shrinkinstances.py "fonts/CairoColor/variable/CairoColor[slnt,wght].ttf"
+python3 scripts/shrinkinstances.py "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf"
 
 echo "Delete files"
-rm sources/CairoColor.glyphs
+rm sources/CairoPlay.glyphs
 

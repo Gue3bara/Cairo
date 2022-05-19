@@ -7,6 +7,6 @@ for instance in font.instances:
         if parameter.name == "Export COLR Table":
             parameter.value = 1
 
-font.familyName += " Color"
+font.familyName += " Play"
 
 font.save(sys.argv[-1])

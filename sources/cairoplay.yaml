@@ -3,9 +3,9 @@ buildVariable: true
 buildTTF: true
 buildOTF: false
 buildWebfont: false
-outputDir: ../fonts/CairoColor
+outputDir: ../fonts/CairoPlay
 sources:
-  - CairoColor.glyphs
+  - CairoPlay.glyphs
 # axisOrder:
 #   - slnt
 #   - wght
