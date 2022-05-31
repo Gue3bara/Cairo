@@ -3,3 +3,4 @@ ufo2ft
 fontmake
 fontbakery
 gftools
+protobuf==3.20.1
