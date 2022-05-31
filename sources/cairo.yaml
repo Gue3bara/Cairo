@@ -4,15 +4,15 @@ buildTTF: true
 buildOTF: false
 buildWebfont: false
 outputDir: ../fonts/Cairo
-includeSourceFixes: true
+# includeSourceFixes: true
 sources:
-  - Cairo.glyphs
+  - CairoNormal.glyphs
 axisOrder:
   - slnt
   - wght
 familyName: "Cairo"
 stat:
-    Cairo[slnt,wght].ttf:
+    CairoNormal[slnt,wght].ttf:
     - name: Slant
       tag: slnt
       values:
@@ -44,5 +44,5 @@ stat:
         value: 800
       - name: Black
         value: 900
-      # - name: ExtraBlack
-      #   value: 1000
+      - name: ExtraBlack
+        value: 1000

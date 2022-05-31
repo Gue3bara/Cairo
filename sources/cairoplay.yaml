@@ -11,7 +11,7 @@ axisOrder:
   - wght
 familyName: "Cairo Play"
 stat:
-    CairoColor[slnt,wght].ttf:
+    CairoPlay[slnt,wght].ttf:
     - name: Slant
       tag: slnt
       values:
@@ -43,5 +43,5 @@ stat:
         value: 800
       - name: Black
         value: 900
-      # - name: ExtraBlack
-      #   value: 1000
+      - name: ExtraBlack
+        value: 1000
