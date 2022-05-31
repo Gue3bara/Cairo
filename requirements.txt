@@ -1,5 +1,5 @@
-git+https://github.com/googlefonts/glyphsLib.git
-git+https://github.com/googlefonts/ufo2ft.git
-git+https://github.com/googlefonts/fontmake.git
+glyphsLib
+ufo2ft
+fontmake
 fontbakery
-git+https://github.com/googlefonts/gftools
+gftools
