@@ -1,3 +1,6 @@
-fontmake>=2.4
-fontbakery>=0.7
-gftools>=0.7
+glyphsLib
+ufo2ft
+fontmake
+fontbakery
+gftools
+protobuf==3.20.1
