@@ -4,6 +4,8 @@ buildTTF: true
 buildOTF: false
 buildWebfont: false
 outputDir: ../fonts/Cairo
+decomposeTransformedComponents: false
+flattenComponents: false
 # includeSourceFixes: true
 sources:
   - CairoNormal.glyphs

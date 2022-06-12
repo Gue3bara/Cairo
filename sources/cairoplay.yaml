@@ -4,6 +4,8 @@ buildTTF: true
 buildOTF: false
 buildWebfont: false
 outputDir: ../fonts/CairoPlay
+decomposeTransformedComponents: false
+flattenComponents: false
 sources:
   - CairoPlay.glyphs
 axisOrder:
