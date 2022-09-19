@@ -4,7 +4,6 @@ buildTTF: true
 buildOTF: false
 buildWebfont: false
 outputDir: ../fonts/Cairo
-# includeSourceFixes: true
 sources:
   - CairoNormal.glyphs
 axisOrder:
