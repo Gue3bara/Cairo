@@ -34,3 +34,8 @@ python3 scripts/purgeinstances.py "fonts/CairoPlay/variable/CairoPlay[slnt,wght]
 echo "Delete files"
 rm sources/CairoPlay.glyphs
 
+echo "Add SVG table"
+maximum_color "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf"
+
+echo "Move file"
+cp "build/CairoPlay[slnt,wght].keep_glyph_names.added_picosvg.ttf" "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf"
