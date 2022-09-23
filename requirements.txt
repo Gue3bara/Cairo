@@ -96,3 +96,4 @@ urllib3==1.26.9
 vharfbuzz==0.1.3
 vttLib==0.11.0
 wrapt==1.14.1
+nanoemoji==0.15.0

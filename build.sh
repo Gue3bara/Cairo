@@ -6,9 +6,6 @@ set -e
 echo "Make Normal version of Cairo.glyphs"
 python3 scripts/makenormal.py sources/Cairo.glyphs sources/CairoNormal.glyphs
 
-echo "Set transformed components"
-python3 scripts/settransformedcomponents.py sources/CairoNormal.glyphs
-
 echo "Build Normal Font"
 gftools builder sources/cairo.yaml
 
@@ -28,9 +25,6 @@ rm sources/CairoNormal.glyphs
 echo "Make Play version of plain Cairo.glyphs"
 python3 scripts/makeplay.py sources/Cairo.glyphs sources/CairoPlay.glyphs
 
-echo "Set transformed components"
-python3 scripts/settransformedcomponents.py sources/CairoPlay.glyphs
-
 echo "Build Play Font"
 gftools builder sources/cairoplay.yaml
 
@@ -40,3 +34,10 @@ python3 scripts/purgeinstances.py "fonts/CairoPlay/variable/CairoPlay[slnt,wght]
 echo "Delete files"
 rm sources/CairoPlay.glyphs
 
+# TODO:
+# maximum_color is currently being integrated info gftools builder.
+# Once it is, we can remove the following lines.
+echo "Add SVG table"
+maximum_color "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf"
+echo "Move file"
+cp "build/Font.ttf" "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf"
