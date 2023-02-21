@@ -43,5 +43,5 @@ stat:
         value: 800
       - name: Black
         value: 900
-      - name: ExtraBlack
-        value: 1000
+      # - name: ExtraBlack
+      #   value: 1000
