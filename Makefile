@@ -11,7 +11,7 @@ help:
 	@echo "  make proof: Creates HTML proof documents in the proof/ directory"
 	@echo
 
-build: build.stamp# sources/cairo.yaml $(SOURCES)
+build: build.stamp
 
 venv: venv/touchfile
 
