@@ -33,11 +33,3 @@ python3 scripts/purgeinstances.py "fonts/CairoPlay/variable/CairoPlay[slnt,wght]
 
 echo "Delete files"
 rm sources/CairoPlay.glyphs
-
-# TODO:
-# maximum_color is currently being integrated info gftools builder.
-# Once it is, we can remove the following lines.
-echo "Add SVG table"
-maximum_color "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf"
-echo "Move file"
-cp "build/Font.ttf" "fonts/CairoPlay/variable/CairoPlay[slnt,wght].ttf"
