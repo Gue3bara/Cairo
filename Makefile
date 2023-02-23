@@ -11,7 +11,7 @@ help:
 	@echo "  make proof: Creates HTML proof documents in the proof/ directory"
 	@echo
 
-build: build.stamp# sources/cairo.yaml $(SOURCES)
+build: build.stamp
 
 venv: venv/touchfile
 
@@ -30,6 +30,5 @@ proof: venv build.stamp
 	. venv/bin/activate; gftools gen-html proof $(shell find fonts/Cairo*/variable -type f) -o proof
 
 clean:
-	rm -rf venv
-	find -iname "*.pyc" -delete
+	rm venv/touchfile
 

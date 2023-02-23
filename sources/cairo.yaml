@@ -16,12 +16,12 @@ stat:
       tag: slnt
       values:
       # - name: Left
-      #   value: -11
+      #   value: 11
       - name: Default
         value: 0
         flags: 2
       # - name: Right
-      #   value: 11
+      #   value: -11
     - name: Weight
       tag: wght
       values:
@@ -43,5 +43,5 @@ stat:
         value: 800
       - name: Black
         value: 900
-      - name: ExtraBlack
-        value: 1000
+      # - name: ExtraBlack
+      #   value: 1000
